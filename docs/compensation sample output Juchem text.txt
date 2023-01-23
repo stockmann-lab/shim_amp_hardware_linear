@@ -1,0 +1,20 @@
+Rin total value: 108.5 ohms
+Rin value to install: 8.5 ohms (closest E24 is 8.2 ohms, error of 0.3%)
+Cfbk total value: 1313 pF
+Cfbk value to install: 1293 pF (closest E12 is 1200 pF, error of 7.1%)
+Max. load capacitance across coil: 265 pF
+------------
+Phase margin: 67.1 degrees @ 36360 Hz crossover
+Gain margin: 19.1 dB @ 213732 Hz
+------------
+Min. Rin value, constrained by error amplifier BW: 108.5 ohms
+Load pole: 2245.34 Hz
+Error amplifier zero: 6062.42 Hz
+Error amplifier GBP pole: 238797 Hz
+Predicted parasitic PCB-feedback-capacitance pole: 3.97887e+06 Hz
+Vout_cmd filter pole: 4.97359e+06 Hz
+------------
+1% settling time: 6.51e-05 s
+0.1% settling time: 1.18e-04 s
+1% settling time with LPF: 7.69e-05 s
+0.1% settling time with LPF: 9.87e-05 s

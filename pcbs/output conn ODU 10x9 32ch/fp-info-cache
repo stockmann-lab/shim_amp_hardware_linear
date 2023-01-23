@@ -1,0 +1,295 @@
+67521325263660
+Martinos_std
+D_SMA
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+Martinos_std
+D_SMB
+Diode SMB (DO-214AA)
+Diode SMB (DO-214AA)
+0
+2
+2
+Martinos_std
+D_SMC
+Diode SMC (DO-214AB)
+Diode SMC (DO-214AB)
+0
+2
+2
+Martinos_std
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+Martinos_std
+D_SOD-123F
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
+Martinos_std
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+Martinos_std
+D_SOD-323F
+SOD-323F http://www.nxp.com/documents/outline_drawing/SOD323F.pdf
+SOD-323F
+0
+2
+2
+Martinos_std
+LED_0805_2012Metric
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode
+0
+2
+2
+Martinos_std
+MSOP-8_3x3mm_P0.65mm
+MSOP, 8 Pin (https://www.jedec.org/system/files/docs/mo-187F.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MSOP SO
+0
+8
+8
+Martinos_std
+PinHeader_1x02_P2.54mm_Horizontal
+Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x02 2.54mm single row
+0
+2
+2
+Martinos_std
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+Martinos_std
+PinHeader_1x05_P2.54mm_Vertical
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+Martinos_std
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+Martinos_std
+PinHeader_2x05_P1.27mm_Vertical_Shrouded
+Through hole straight pin header, 2x05, 1.27mm pitch, double rows, with keyed shroud
+Through hole pin header THT 2x05 1.27mm double row
+0
+10
+10
+Martinos_std
+PinHeader_2x25_P2.54mm_Vertical_SMD_Shrouded
+surface-mounted straight pin header, 2x25, 2.54mm pitch, double rows, shrouded and keyed: footprint according to 3M D2500 series w/narrower pad
+Surface mounted pin header SMD 2x25 2.54mm double row
+0
+50
+50
+Martinos_std
+PinHeader_2x25_P2.54mm_Vertical_Shrouded
+Through hole straight pin header, 2x25, 2.54mm pitch, with shroud
+Through hole pin header THT 2x25 2.54mm double row shroud
+0
+50
+50
+Martinos_std
+R_Array_Concave_2x0603
+Thick Film Chip Resistor Array, Wave soldering, Vishay CRA06P (see cra06p.pdf)
+resistor array
+0
+4
+4
+Martinos_std
+R_Array_Concave_4x0603
+Thick Film Chip Resistor Array, Wave soldering, Vishay CRA06P (see cra06p.pdf)
+resistor array
+0
+8
+8
+Martinos_std
+R_Array_Convex_4x0603
+Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)
+resistor array
+0
+8
+8
+Martinos_std
+R_MELF_MMB-0207
+Resistor, MELF, MMB-0207, http://www.vishay.com/docs/28713/melfprof.pdf
+MELF Resistor
+0
+2
+2
+Martinos_std
+SO-5_4.4x3.6mm_P1.27mm
+5-Lead Plastic Small Outline (SO), see https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true
+SO SOIC 1.27
+0
+5
+5
+Martinos_std
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Martinos_std
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+Martinos_std
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+Martinos_std
+SOT-23-6
+6-pin SOT-23 package
+SOT-23-6
+0
+6
+6
+Martinos_std
+SOT-143
+SOT-143
+SOT-143
+0
+4
+4
+Martinos_std
+SOT-223
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+4
+Martinos_std
+SOT-323_SC-70
+SOT-323, SC-70
+SOT-323 SC-70
+0
+3
+3
+Martinos_std
+SOT-353_SC-70-5
+SOT-353, SC-70-5
+SOT-353 SC-70-5
+0
+5
+5
+Martinos_std
+SOT-363_SC-70-6
+SOT-363, SC-70-6
+SOT-363 SC-70-6
+0
+6
+6
+Martinos_std
+SSOP-8_2.95x2.8mm_P0.65mm
+SSOP-8 2.9 x2.8mm Pitch 0.65mm
+SSOP-8 2.95x2.8mm Pitch 0.65mm
+0
+8
+8
+Martinos_std
+SSOP-16_3.9x4.9mm_P0.635mm
+SSOP16: plastic shrink small outline package; 16 leads; body width 3.9 mm; lead pitch 0.635; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot519-1_po.pdf)
+SSOP 0.635
+0
+16
+16
+Martinos_std
+TSOT-23-6
+6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
+TSOT-23-6 MK06A TSOT-6
+0
+6
+6
+Martinos_std
+TSSOP-14-1EP_4.4x5mm_P0.65mm
+14-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] with exposed pad (http://cds.linear.com/docs/en/datasheet/34301fa.pdf)
+SSOP 0.65 exposed pad
+0
+18
+15
+Martinos_std
+TSSOP-14_4.4x5mm_P0.65mm
+14-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+14
+14
+Martinos_std
+TSSOP-16-1EP_4.4x5mm_P0.65mm
+FE Package; 16-Lead Plastic TSSOP (4.4mm); Exposed Pad Variation BB; (see Linear Technology 1956f.pdf)
+SSOP 0.65
+0
+24
+17
+Martinos_std
+TSSOP-16_4.4x5mm_P0.65mm
+16-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+16
+16
+Martinos_std
+TSSOP-20_4.4x6.5mm_P0.65mm
+TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+20
+20
+Martinos_std
+Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm
+Texas Instruments HSOP 9, 1.27mm pitch, 3.9x4.9mm body, exposed pad, DDA0008J (http://www.ti.com/lit/ds/symlink/tps5430.pdf)
+HSOP 1.27
+0
+11
+9
+Martinos_std
+Texas_S-PVQFN-N48_EP5.15x5.15mm
+QFN, 48 Pin (http://www.ti.com/lit/ds/symlink/msp430f5232.pdf#page=111), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+65
+49
+Martinos_std
+VSSOP-8_2.3x2mm_P0.5mm
+VSSOP-8 2.3x2mm Pitch 0.5mm
+VSSOP-8 2.3x2mm Pitch 0.5mm
+0
+8
+8
+Martinos_std
+VSSOP-8_3.0x3.0mm_P0.65mm
+VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf
+VSSOP-8 3.0 x 3.0
+0
+8
+8

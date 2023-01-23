@@ -1,0 +1,8 @@
+07-28 22:08:48 place_footprints.action_place_footprints 414:Plugin executed on: 'win32'
+07-28 22:08:48 place_footprints.action_place_footprints 415:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
+07-28 22:08:48 place_footprints.action_place_footprints 416:KiCad build version: (5.1.9)-1
+07-28 22:08:48 place_footprints.action_place_footprints 417:Place footprints plugin version: 54 started
+07-28 22:08:53 place_footprints.place_footprints 213:getting project hierarchy from schematics
+07-28 22:08:53 place_footprints.place_footprints 228:getting a list of all footprints on board
+07-28 22:08:55 place_footprints.place_footprints 254:construcing a list of sheets suitable for replication on level:u'Shutdown Logic (Per-Channel)', file:u'shutdown_logic_per-chan.sch'
+07-28 22:08:55 place_footprints.place_footprints 287:suitable sheets are:[[u'Channel 1', u'Shutdown Logic (Per-Channel)'], [u'Channel 3', u'Shutdown Logic (Per-Channel)'], [u'Channel 4', u'Shutdown Logic (Per-Channel)'], [u'Channel 5', u'Shutdown Logic (Per-Channel)'], [u'Channel 6', u'Shutdown Logic (Per-Channel)'], [u'Channel 7', u'Shutdown Logic (Per-Channel)'], [u'Channel 8', u'Shutdown Logic (Per-Channel)']]

@@ -1,0 +1,4468 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 16
+Title "64-channel shim amplifier: backplane"
+Date ""
+Rev "D2"
+Comp "Martinos Center @ MGH"
+Comment1 "Don Straney"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0114
+U 1 1 5F64EBDB
+P 6900 1350
+F 0 "#PWR0114" H 6900 1100 50  0001 C CNN
+F 1 "GND" H 6905 1177 50  0000 C CNN
+F 2 "" H 6900 1350 50  0001 C CNN
+F 3 "" H 6900 1350 50  0001 C CNN
+	1    6900 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR?
+U 1 1 5F6B65B3
+P 4500 2450
+AR Path="/5F1EE734/5F6B65B3" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/5F6B65B3" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/5F6B65B3" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/5F6B65B3" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/5F6B65B3" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/5F6B65B3" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/5F6B65B3" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/5F6B65B3" Ref="#PWR?"  Part="1" 
+AR Path="/5F6B65B3" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 4500 2350 50  0001 C CNN
+F 1 "+VDC" H 4500 2725 50  0000 C CNN
+F 2 "" H 4500 2450 50  0001 C CNN
+F 3 "" H 4500 2450 50  0001 C CNN
+	1    4500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F1
+U 1 1 5F6CA6FC
+P 6600 1050
+F 0 "F1" V 6375 1050 50  0000 C CNN
+F 1 "TBD" V 6466 1050 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 6650 850 50  0001 L CNN
+F 3 "~" H 6600 1050 50  0001 C CNN
+F 4 "DNP" H 6600 1050 50  0001 C CNN "DNP"
+F 5 "SMT" H 6600 1050 50  0001 C CNN "Type"
+	1    6600 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 1050 6900 1050
+$Comp
+L Connector:TestPoint_Flag TP?
+U 1 1 5F034489
+P 1300 10000
+AR Path="/5F1EE734/5F034489" Ref="TP?"  Part="1" 
+AR Path="/5F034489" Ref="TP1"  Part="1" 
+F 0 "TP1" H 1560 10048 50  0000 L CNN
+F 1 "TestPoint_Flag" H 1560 10003 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1500 10000 50  0001 C CNN
+F 3 "~" H 1500 10000 50  0001 C CNN
+F 4 "Keystone" H 1300 10000 50  0001 C CNN "Manufacturer"
+F 5 "5019" H 1300 10000 50  0001 C CNN "Part Number"
+F 6 "SMT" H 1300 10000 50  0001 C CNN "Type"
+	1    1300 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5F03448F
+P 1300 10000
+AR Path="/5F03448F" Ref="#PWR0117"  Part="1" 
+AR Path="/5EC68138/5F03448F" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/5F03448F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/5F03448F" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/5F03448F" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/5F03448F" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/5F03448F" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/5F03448F" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/5F03448F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/5F03448F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0117" H 1300 9750 50  0001 C CNN
+F 1 "GND" H 1305 9827 50  0000 C CNN
+F 2 "" H 1300 10000 50  0001 C CNN
+F 3 "" H 1300 10000 50  0001 C CNN
+	1    1300 10000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Flag TP?
+U 1 1 5F04819B
+P 1100 2200
+AR Path="/5F1EE734/5F04819B" Ref="TP?"  Part="1" 
+AR Path="/5F04819B" Ref="TP2"  Part="1" 
+F 0 "TP2" H 1360 2248 50  0000 L CNN
+F 1 "TestPoint_Flag" H 1360 2203 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1300 2200 50  0001 C CNN
+F 3 "~" H 1300 2200 50  0001 C CNN
+F 4 "Keystone" H 1100 2200 50  0001 C CNN "Manufacturer"
+F 5 "5019" H 1100 2200 50  0001 C CNN "Part Number"
+F 6 "SMT" H 1100 2200 50  0001 C CNN "Type"
+	1    1100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5F0041BB
+P 8650 1450
+F 0 "D3" V 8689 1333 50  0000 R CNN
+F 1 "Green" V 8598 1333 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8650 1450 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-118/LTST-C171KGKT.pdf" H 8650 1450 50  0001 C CNN
+F 4 "Lite-On" V 8650 1450 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C171KGKT" V 8650 1450 50  0001 C CNN "Part Number"
+F 6 "SMT" H 8650 1450 50  0001 C CNN "Type"
+	1    8650 1450
+	0    -1   -1   0   
+$EndComp
+Text Notes 8050 1500 0    50   ~ 0
+1.95V @ 1mA
+$Comp
+L power:GND #PWR?
+U 1 1 5F0041C2
+P 8650 1600
+AR Path="/5D5B46F6/5F0041C2" Ref="#PWR?"  Part="1" 
+AR Path="/5D5B472C/5F0041C2" Ref="#PWR?"  Part="1" 
+AR Path="/5D5B478D/5F0041C2" Ref="#PWR?"  Part="1" 
+AR Path="/5F0041C2" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 8650 1350 50  0001 C CNN
+F 1 "GND" H 8655 1427 50  0000 C CNN
+F 2 "" H 8650 1600 50  0001 C CNN
+F 3 "" H 8650 1600 50  0001 C CNN
+	1    8650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1FD90F
+P 8650 1150
+AR Path="/5EC68138/5F1FD90F" Ref="R?"  Part="1" 
+AR Path="/5F1FD90F" Ref="R9"  Part="1" 
+F 0 "R9" H 8450 1200 50  0000 L CNN
+F 1 "1K" H 8450 1100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8580 1150 50  0001 C CNN
+F 3 "~" H 8650 1150 50  0001 C CNN
+F 4 "KOA Speer" H 8650 1150 50  0001 C CNN "Manufacturer"
+F 5 "RK73H2ATTD1001F" H 8650 1150 50  0001 C CNN "Part Number"
+F 6 "Can substitute generic resistor with same package, value, 1% tolerance" H 8650 1150 50  0001 C CNN "Notes"
+F 7 "SMT" H 8650 1150 50  0001 C CNN "Type"
+	1    8650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F568F9D
+P 1150 1400
+F 0 "H1" H 1250 1500 50  0000 L CNN
+F 1 "1/4\", M6" H 1250 1400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6.5mm_Pad_Via" H 1150 1400 50  0001 C CNN
+F 3 "~" H 1150 1400 50  0001 C CNN
+F 4 "DNP" H 1150 1400 50  0001 C CNN "DNP"
+	1    1150 1400
+	1    0    0    -1  
+$EndComp
+Text Notes 1150 900  0    79   ~ 16
+Power input
+Text Notes 1150 1100 0    50   ~ 0
+Ring or spade terminals\nattach with screw
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F58DCD7
+P 1750 1400
+F 0 "H2" H 1850 1500 50  0000 L CNN
+F 1 "1/4\", M6" H 1850 1400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6.5mm_Pad_Via" H 1750 1400 50  0001 C CNN
+F 3 "~" H 1750 1400 50  0001 C CNN
+F 4 "DNP" H 1750 1400 50  0001 C CNN "DNP"
+	1    1750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR?
+U 1 1 5F58E39F
+P 900 1500
+AR Path="/5F1EE734/5F58E39F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/5F58E39F" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/5F58E39F" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/5F58E39F" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/5F58E39F" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/5F58E39F" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/5F58E39F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/5F58E39F" Ref="#PWR?"  Part="1" 
+AR Path="/5F58E39F" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 900 1400 50  0001 C CNN
+F 1 "+VDC" H 900 1775 50  0000 C CNN
+F 2 "" H 900 1500 50  0001 C CNN
+F 3 "" H 900 1500 50  0001 C CNN
+	1    900  1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1500 1150 1500
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5F5AFCAC
+P 1750 1500
+AR Path="/5F1EE734/5F5AFCAC" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/5F5AFCAC" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/5F5AFCAC" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/5F5AFCAC" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/5F5AFCAC" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/5F5AFCAC" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/5F5AFCAC" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/5F5AFCAC" Ref="#PWR?"  Part="1" 
+AR Path="/5F5AFCAC" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 1750 1300 50  0001 C CNN
+F 1 "GNDPWR" H 1754 1346 50  0000 C CNN
+F 2 "" H 1750 1450 50  0001 C CNN
+F 3 "" H 1750 1450 50  0001 C CNN
+	1    1750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5F5FFD8E
+P 2950 1500
+F 0 "D2" V 2989 1383 50  0000 R CNN
+F 1 "Green" V 2898 1383 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2950 1500 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-118/LTST-C171KGKT.pdf" H 2950 1500 50  0001 C CNN
+F 4 "Lite-On" V 2950 1500 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C171KGKT" V 2950 1500 50  0001 C CNN "Part Number"
+F 6 "SMT" H 2950 1500 50  0001 C CNN "Type"
+	1    2950 1500
+	0    -1   -1   0   
+$EndComp
+Text Notes 2350 1550 0    50   ~ 0
+1.95V @ 1mA
+$Comp
+L Device:R R?
+U 1 1 5F5FFD9B
+P 2950 1200
+AR Path="/5EC68138/5F5FFD9B" Ref="R?"  Part="1" 
+AR Path="/5F5FFD9B" Ref="R8"  Part="1" 
+F 0 "R8" H 2750 1250 50  0000 L CNN
+F 1 "15K" H 2700 1150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2880 1200 50  0001 C CNN
+F 3 "~" H 2950 1200 50  0001 C CNN
+F 4 "KOA Speer" H 2950 1200 50  0001 C CNN "Manufacturer"
+F 5 "RK73H2ATTD1502F" H 2950 1200 50  0001 C CNN "Part Number"
+F 6 "Can substitute generic resistor with same package, value, 1% tolerance" H 2950 1200 50  0001 C CNN "Notes"
+F 7 "SMT" H 2950 1200 50  0001 C CNN "Type"
+	1    2950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F63B655
+P 4900 2450
+AR Path="/5EC68138/5F63B655" Ref="R?"  Part="1" 
+AR Path="/5F63B655" Ref="R5"  Part="1" 
+F 0 "R5" V 4800 2400 50  0000 L CNN
+F 1 "10 0.25W" V 4700 2250 50  0000 L CNN
+F 2 "Resistor_SMD:R_2010_5025Metric" V 4830 2450 50  0001 C CNN
+F 3 "~" H 4900 2450 50  0001 C CNN
+F 4 "KOA Speer" H 4900 2450 50  0001 C CNN "Manufacturer"
+F 5 "RK73H2HTTE10R0F" H 4900 2450 50  0001 C CNN "Part Number"
+F 6 "" V 4900 2450 50  0000 C CNN "DNP"
+F 7 "SMT" H 4900 2450 50  0001 C CNN "Type"
+	1    4900 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 2450 4500 2450
+$Comp
+L power:+VDC #PWR?
+U 1 1 5F659799
+P 2950 1050
+AR Path="/5F1EE734/5F659799" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/5F659799" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/5F659799" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/5F659799" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/5F659799" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/5F659799" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/5F659799" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/5F659799" Ref="#PWR?"  Part="1" 
+AR Path="/5F659799" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 2950 950 50  0001 C CNN
+F 1 "+VDC" H 2950 1325 50  0000 C CNN
+F 2 "" H 2950 1050 50  0001 C CNN
+F 3 "" H 2950 1050 50  0001 C CNN
+	1    2950 1050
+	1    0    0    -1  
+$EndComp
+Text Notes 3000 1250 0    50   ~ 0
+50 mW max.
+Text Notes 4200 2050 0    50   ~ 0
+Digital power regulated from amp. power
+Text Notes 4050 750  0    50   ~ 0
+Digital power regulated from\nseparate low-voltage control power
+Wire Wire Line
+	5050 2450 5800 2450
+Wire Wire Line
+	5800 1050 5950 1050
+$Comp
+L Device:R R?
+U 1 1 5F7CD4E3
+P 5050 1050
+AR Path="/5EC68138/5F7CD4E3" Ref="R?"  Part="1" 
+AR Path="/5F7CD4E3" Ref="R6"  Part="1" 
+F 0 "R6" V 4950 1000 50  0000 L CNN
+F 1 "1" V 4850 1050 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4980 1050 50  0001 C CNN
+F 3 "~" H 5050 1050 50  0001 C CNN
+F 4 "KOA Speer" H 5050 1050 50  0001 C CNN "Manufacturer"
+F 5 "RK73H2BTTD1R00F" H 5050 1050 50  0001 C CNN "Part Number"
+F 6 "DNP" V 5050 1050 50  0000 C CNN "DNP"
+F 7 "SMT" H 5050 1050 50  0001 C CNN "Type"
+	1    5050 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 1050 5800 2450
+$Comp
+L Device:R R?
+U 1 1 5F85BAEA
+P 5050 1400
+AR Path="/5EC68138/5F85BAEA" Ref="R?"  Part="1" 
+AR Path="/5F85BAEA" Ref="R7"  Part="1" 
+F 0 "R7" V 4950 1350 50  0000 L CNN
+F 1 "1" V 4850 1400 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4980 1400 50  0001 C CNN
+F 3 "~" H 5050 1400 50  0001 C CNN
+F 4 "KOA Speer" H 5050 1400 50  0001 C CNN "Manufacturer"
+F 5 "RK73H2BTTD1R00F" H 5050 1400 50  0001 C CNN "Part Number"
+F 6 "DNP" V 5050 1400 50  0000 C CNN "DNP"
+F 7 "SMT" H 5050 1400 50  0001 C CNN "Type"
+	1    5050 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5F85CAA7
+P 5400 1400
+F 0 "#PWR0127" H 5400 1150 50  0001 C CNN
+F 1 "GND" H 5405 1227 50  0000 C CNN
+F 2 "" H 5400 1400 50  0001 C CNN
+F 3 "" H 5400 1400 50  0001 C CNN
+	1    5400 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1400 5400 1400
+Wire Wire Line
+	5200 1050 5800 1050
+Connection ~ 5800 1050
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5F895489
+P 4150 1150
+F 0 "J1" H 4150 1250 50  0000 C CNN
+F 1 "Conn_01x02" H 4068 1276 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal" H 4150 1150 50  0001 C CNN
+F 3 "~" H 4150 1150 50  0001 C CNN
+F 4 "DNP" H 4150 950 50  0000 C CNN "DNP"
+F 5 "Through-hole" H 4150 1150 50  0001 C CNN "Type"
+	1    4150 1150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_ALT D1
+U 1 1 5F896DD9
+P 6100 1050
+F 0 "D1" H 6100 834 50  0000 C CNN
+F 1 "PMEG6010" H 6100 925 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 6100 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" H 6100 1050 50  0001 C CNN
+F 4 "Nexperia" H 6100 1050 50  0001 C CNN "Manufacturer"
+F 5 "PMEG6010CEH,115" H 6100 1050 50  0001 C CNN "Part Number"
+F 6 "" H 6100 1150 50  0001 C CNN "DNP"
+F 7 "SMT" H 6100 1050 50  0001 C CNN "Type"
+	1    6100 1050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 1050 4350 1150
+Wire Wire Line
+	4350 1250 4350 1400
+Wire Wire Line
+	4350 1400 4900 1400
+$Comp
+L Device:CP1 C4
+U 1 1 5F26FA84
+P 6900 1200
+F 0 "C4" H 6650 1200 50  0000 L CNN
+F 1 "100uF 35V alum." H 6100 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x9.9" H 6900 1200 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/865080545012.pdf" H 6900 1200 50  0001 C CNN
+F 4 "Würth" H 6900 1200 50  0001 C CNN "Manufacturer"
+F 5 "865080545012" H 6900 1200 50  0001 C CNN "Part Number"
+F 6 "SMT" H 6900 1200 50  0001 C CNN "Type"
+	1    6900 1200
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6900 1050
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F7C79B2
+P 7950 10100
+F 0 "H3" H 8050 10149 50  0000 L CNN
+F 1 "#4/M3" H 8050 10058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7950 10100 50  0001 C CNN
+F 3 "~" H 7950 10100 50  0001 C CNN
+F 4 "DNP" H 7950 10100 50  0001 C CNN "DNP"
+	1    7950 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5F7D3909
+P 6450 9600
+F 0 "H6" H 6550 9649 50  0000 L CNN
+F 1 "#4/M3" H 6550 9558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6450 9600 50  0001 C CNN
+F 3 "~" H 6450 9600 50  0001 C CNN
+F 4 "DNP" H 6450 9600 50  0001 C CNN "DNP"
+	1    6450 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 5F7E109D
+P 6950 9600
+F 0 "H8" H 7050 9649 50  0000 L CNN
+F 1 "#4/M3" H 7050 9558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6950 9600 50  0001 C CNN
+F 3 "~" H 6950 9600 50  0001 C CNN
+F 4 "DNP" H 6950 9600 50  0001 C CNN "DNP"
+	1    6950 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 5F7EE6BB
+P 7450 9600
+F 0 "H10" H 7550 9649 50  0000 L CNN
+F 1 "#4/M3" H 7550 9558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7450 9600 50  0001 C CNN
+F 3 "~" H 7450 9600 50  0001 C CNN
+F 4 "DNP" H 7450 9600 50  0001 C CNN "DNP"
+	1    7450 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 5F7FBE51
+P 7950 9600
+F 0 "H12" H 8050 9649 50  0000 L CNN
+F 1 "#4/M3" H 8050 9558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7950 9600 50  0001 C CNN
+F 3 "~" H 7950 9600 50  0001 C CNN
+F 4 "DNP" H 7950 9600 50  0001 C CNN "DNP"
+	1    7950 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H14
+U 1 1 5F809371
+P 10350 9650
+F 0 "H14" H 10450 9699 50  0000 L CNN
+F 1 "#4/M3" H 10450 9608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10350 9650 50  0001 C CNN
+F 3 "~" H 10350 9650 50  0001 C CNN
+F 4 "DNP" H 10350 9650 50  0001 C CNN "DNP"
+	1    10350 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F816D29
+P 6450 10100
+F 0 "H4" H 6550 10149 50  0000 L CNN
+F 1 "#4/M3" H 6550 10058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6450 10100 50  0001 C CNN
+F 3 "~" H 6450 10100 50  0001 C CNN
+F 4 "DNP" H 6450 10100 50  0001 C CNN "DNP"
+	1    6450 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5F82444D
+P 10850 9650
+F 0 "H7" H 10950 9699 50  0000 L CNN
+F 1 "#4/M3" H 10950 9608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10850 9650 50  0001 C CNN
+F 3 "~" H 10850 9650 50  0001 C CNN
+F 4 "DNP" H 10850 9650 50  0001 C CNN "DNP"
+	1    10850 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 5F831C47
+P 9850 10150
+F 0 "H9" H 9950 10199 50  0000 L CNN
+F 1 "#4/M3" H 9950 10108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9850 10150 50  0001 C CNN
+F 3 "~" H 9850 10150 50  0001 C CNN
+F 4 "DNP" H 9850 10150 50  0001 C CNN "DNP"
+	1    9850 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 5F83F283
+P 10350 10150
+F 0 "H11" H 10450 10199 50  0000 L CNN
+F 1 "#4/M3" H 10450 10108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10350 10150 50  0001 C CNN
+F 3 "~" H 10350 10150 50  0001 C CNN
+F 4 "DNP" H 10350 10150 50  0001 C CNN "DNP"
+	1    10350 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H13
+U 1 1 5F84C9AB
+P 6950 10100
+F 0 "H13" H 7050 10149 50  0000 L CNN
+F 1 "#4/M3" H 7050 10058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6950 10100 50  0001 C CNN
+F 3 "~" H 6950 10100 50  0001 C CNN
+F 4 "DNP" H 6950 10100 50  0001 C CNN "DNP"
+	1    6950 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H15
+U 1 1 5F85AD61
+P 7450 10100
+F 0 "H15" H 7550 10149 50  0000 L CNN
+F 1 "#4/M3" H 7550 10058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7450 10100 50  0001 C CNN
+F 3 "~" H 7450 10100 50  0001 C CNN
+F 4 "DNP" H 7450 10100 50  0001 C CNN "DNP"
+	1    7450 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5F8686FF
+P 9850 9650
+F 0 "H5" H 9950 9699 50  0000 L CNN
+F 1 "#4/M3" H 9950 9608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9850 9650 50  0001 C CNN
+F 3 "~" H 9850 9650 50  0001 C CNN
+F 4 "DNP" H 9850 9650 50  0001 C CNN "DNP"
+	1    9850 9650
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 4100 4500 1500 4000
+U 60AF9C81
+F0 "FPGA Board, Signal Distribution" 50
+F1 "fpga.sch" 50
+F2 "SCKI+[0..7]" O R 5600 6450 50 
+F3 "SCKI-[0..7]" O R 5600 6550 50 
+F4 "~ADC_CS+[0..7]" O R 5600 4850 50 
+F5 "~ADC_CS-[0..7]" O R 5600 4950 50 
+F6 "ADC_MOSI+[0..7]" O R 5600 5050 50 
+F7 "ADC_MOSI-[0..7]" O R 5600 5150 50 
+F8 "ADC_MISO+[0..7]" I R 5600 5250 50 
+F9 "ADC_MISO-[0..7]" I R 5600 5350 50 
+F10 "SCKO+[0..7]" I R 5600 5450 50 
+F11 "SCKO-[0..7]" I R 5600 5550 50 
+F12 "DAC_MISO+[0..7]" I R 5600 5650 50 
+F13 "DAC_MISO-[0..7]" I R 5600 5750 50 
+F14 "~LDAC+[0..7]" O R 5600 5850 50 
+F15 "~LDAC-[0..7]" O R 5600 5950 50 
+F16 "~DAC_CS+[0..7]" O R 5600 6050 50 
+F17 "~DAC_CS-[0..7]" O R 5600 6150 50 
+F18 "DAC_MOSI+[0..7]" O R 5600 6250 50 
+F19 "DAC_MOSI-[0..7]" O R 5600 6350 50 
+F20 "Shutdown_Sense[0..7]" I R 5600 6800 50 
+F21 "Shutdown_Reset" O R 5600 6900 50 
+F22 "Shutdown_Force" O R 5600 7000 50 
+F23 "SDA[0..7]" B R 5600 7250 50 
+F24 "SCL[0..7]" O R 5600 7350 50 
+F25 "Eth_Clk" O R 5600 7550 50 
+F26 "RGMII_TX_CLK" O R 5600 7650 50 
+F27 "RGMII_TX_CTL" O R 5600 7750 50 
+F28 "RGMII_RX_CLK" I R 5600 7950 50 
+F29 "RGMII_RX_CTL" I R 5600 8050 50 
+F30 "~FPGA_Rst" O R 5600 8250 50 
+F31 "RGMII_TXD[0..3]" O R 5600 7850 50 
+F32 "RGMII_RXD[0..3]" I R 5600 8150 50 
+F33 "Trigger" I L 4100 6750 50 
+F34 "10Mhz" I L 4100 8150 50 
+F35 "UART_Tx_FPGA" O R 5600 4600 50 
+F36 "UART_Rx_FPGA" I L 4100 5450 50 
+$EndSheet
+$Comp
+L power:VD #PWR0101
+U 1 1 60E7EA2C
+P 6900 1050
+F 0 "#PWR0101" H 6900 900 50  0001 C CNN
+F 1 "VD" H 6915 1223 50  0000 C CNN
+F 2 "" H 6900 1050 50  0001 C CNN
+F 3 "" H 6900 1050 50  0001 C CNN
+	1    6900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 60E92E65
+P 8650 1000
+F 0 "#PWR0102" H 8650 850 50  0001 C CNN
+F 1 "+3.3V" H 8665 1173 50  0000 C CNN
+F 2 "" H 8650 1000 50  0001 C CNN
+F 3 "" H 8650 1000 50  0001 C CNN
+	1    8650 1000
+	1    0    0    -1  
+$EndComp
+Text Label 10200 950  0    50   ~ 0
+Shutdown_Force
+Wire Wire Line
+	10200 950  10900 950 
+Wire Wire Line
+	10900 1250 10200 1250
+Text Label 10200 1250 0    50   ~ 0
+SDA0
+Wire Wire Line
+	10900 1350 10200 1350
+Text Label 10200 1350 0    50   ~ 0
+SCL0
+Wire Wire Line
+	10900 1500 10200 1500
+Text Label 10200 1500 0    50   ~ 0
+~ADC_CS+0
+Wire Wire Line
+	10900 1600 10200 1600
+Wire Wire Line
+	10900 1700 10200 1700
+Wire Wire Line
+	10900 1800 10200 1800
+Wire Wire Line
+	10900 1900 10200 1900
+Wire Wire Line
+	10900 2000 10200 2000
+Wire Wire Line
+	10900 2100 10200 2100
+Wire Wire Line
+	10900 2200 10200 2200
+Wire Wire Line
+	10900 2300 10200 2300
+Wire Wire Line
+	10900 2400 10200 2400
+Wire Wire Line
+	10900 2500 10200 2500
+Wire Wire Line
+	10900 2600 10200 2600
+Wire Wire Line
+	10900 2700 10200 2700
+Wire Wire Line
+	10900 2800 10200 2800
+Wire Wire Line
+	10900 2900 10200 2900
+Wire Wire Line
+	10900 3000 10200 3000
+Wire Wire Line
+	10900 3100 10200 3100
+Wire Wire Line
+	10900 3200 10200 3200
+Text Label 10200 1600 0    50   ~ 0
+~ADC_CS-0
+Text Label 10200 1700 0    50   ~ 0
+ADC_MOSI+0
+Text Label 10200 1800 0    50   ~ 0
+ADC_MOSI-0
+Text Label 10200 1900 0    50   ~ 0
+ADC_MISO+0
+Text Label 10200 2000 0    50   ~ 0
+ADC_MISO-0
+Text Label 10200 2100 0    50   ~ 0
+SCKO+0
+Text Label 10200 2200 0    50   ~ 0
+SCKO-0
+Text Label 10200 2300 0    50   ~ 0
+DAC_MISO+0
+Text Label 10200 2400 0    50   ~ 0
+DAC_MISO-0
+Text Label 10200 2500 0    50   ~ 0
+~LDAC+0
+Text Label 10200 2600 0    50   ~ 0
+~LDAC-0
+Text Label 10200 2700 0    50   ~ 0
+~DAC_CS+0
+Text Label 10200 2800 0    50   ~ 0
+~DAC_CS-0
+Text Label 10200 2900 0    50   ~ 0
+DAC_MOSI+0
+Text Label 10200 3000 0    50   ~ 0
+DAC_MOSI-0
+Text Label 10200 3100 0    50   ~ 0
+SCKI+0
+Text Label 10200 3200 0    50   ~ 0
+SCKI-0
+Text Label 10200 3650 0    50   ~ 0
+Shutdown_Force
+Wire Wire Line
+	10200 3650 10900 3650
+Wire Wire Line
+	10900 3950 10200 3950
+Text Label 10200 3950 0    50   ~ 0
+SDA1
+Wire Wire Line
+	10900 4050 10200 4050
+Text Label 10200 4050 0    50   ~ 0
+SCL1
+Wire Wire Line
+	10900 4200 10200 4200
+Text Label 10200 4200 0    50   ~ 0
+~ADC_CS+1
+Wire Wire Line
+	10900 4300 10200 4300
+Wire Wire Line
+	10900 4400 10200 4400
+Wire Wire Line
+	10900 4500 10200 4500
+Wire Wire Line
+	10900 4600 10200 4600
+Wire Wire Line
+	10900 4700 10200 4700
+Wire Wire Line
+	10900 4800 10200 4800
+Wire Wire Line
+	10900 4900 10200 4900
+Wire Wire Line
+	10900 5000 10200 5000
+Wire Wire Line
+	10900 5100 10200 5100
+Wire Wire Line
+	10900 5200 10200 5200
+Wire Wire Line
+	10900 5300 10200 5300
+Wire Wire Line
+	10900 5400 10200 5400
+Wire Wire Line
+	10900 5500 10200 5500
+Wire Wire Line
+	10900 5600 10200 5600
+Wire Wire Line
+	10900 5700 10200 5700
+Wire Wire Line
+	10900 5800 10200 5800
+Wire Wire Line
+	10900 5900 10200 5900
+Text Label 10200 4300 0    50   ~ 0
+~ADC_CS-1
+Text Label 10200 4400 0    50   ~ 0
+ADC_MOSI+1
+Text Label 10200 4500 0    50   ~ 0
+ADC_MOSI-1
+Text Label 10200 4600 0    50   ~ 0
+ADC_MISO+1
+Text Label 10200 4700 0    50   ~ 0
+ADC_MISO-1
+Text Label 10200 4800 0    50   ~ 0
+SCKO+1
+Text Label 10200 4900 0    50   ~ 0
+SCKO-1
+Text Label 10200 5000 0    50   ~ 0
+DAC_MISO+1
+Text Label 10200 5100 0    50   ~ 0
+DAC_MISO-1
+Text Label 10200 5200 0    50   ~ 0
+~LDAC+1
+Text Label 10200 5300 0    50   ~ 0
+~LDAC-1
+Text Label 10200 5400 0    50   ~ 0
+~DAC_CS+1
+Text Label 10200 5500 0    50   ~ 0
+~DAC_CS-1
+Text Label 10200 5600 0    50   ~ 0
+DAC_MOSI+1
+Text Label 10200 5700 0    50   ~ 0
+DAC_MOSI-1
+Text Label 10200 5800 0    50   ~ 0
+SCKI+1
+Text Label 10200 5900 0    50   ~ 0
+SCKI-1
+Text Label 10200 6350 0    50   ~ 0
+Shutdown_Force
+Wire Wire Line
+	10200 6350 10900 6350
+Wire Wire Line
+	10900 6650 10200 6650
+Text Label 10200 6650 0    50   ~ 0
+SDA2
+Wire Wire Line
+	10900 6750 10200 6750
+Text Label 10200 6750 0    50   ~ 0
+SCL2
+Wire Wire Line
+	10900 6900 10200 6900
+Text Label 10200 6900 0    50   ~ 0
+~ADC_CS+2
+Wire Wire Line
+	10900 7000 10200 7000
+Wire Wire Line
+	10900 7100 10200 7100
+Wire Wire Line
+	10900 7200 10200 7200
+Wire Wire Line
+	10900 7300 10200 7300
+Wire Wire Line
+	10900 7400 10200 7400
+Wire Wire Line
+	10900 7500 10200 7500
+Wire Wire Line
+	10900 7600 10200 7600
+Wire Wire Line
+	10900 7700 10200 7700
+Wire Wire Line
+	10900 7800 10200 7800
+Wire Wire Line
+	10900 7900 10200 7900
+Wire Wire Line
+	10900 8000 10200 8000
+Wire Wire Line
+	10900 8100 10200 8100
+Wire Wire Line
+	10900 8200 10200 8200
+Wire Wire Line
+	10900 8300 10200 8300
+Wire Wire Line
+	10900 8400 10200 8400
+Wire Wire Line
+	10900 8500 10200 8500
+Wire Wire Line
+	10900 8600 10200 8600
+Text Label 10200 7000 0    50   ~ 0
+~ADC_CS-2
+Text Label 10200 7100 0    50   ~ 0
+ADC_MOSI+2
+Text Label 10200 7200 0    50   ~ 0
+ADC_MOSI-2
+Text Label 10200 7300 0    50   ~ 0
+ADC_MISO+2
+Text Label 10200 7400 0    50   ~ 0
+ADC_MISO-2
+Text Label 10200 7500 0    50   ~ 0
+SCKO+2
+Text Label 10200 7600 0    50   ~ 0
+SCKO-2
+Text Label 10200 7700 0    50   ~ 0
+DAC_MISO+2
+Text Label 10200 7800 0    50   ~ 0
+DAC_MISO-2
+Text Label 10200 7900 0    50   ~ 0
+~LDAC+2
+Text Label 10200 8000 0    50   ~ 0
+~LDAC-2
+Text Label 10200 8100 0    50   ~ 0
+~DAC_CS+2
+Text Label 10200 8200 0    50   ~ 0
+~DAC_CS-2
+Text Label 10200 8300 0    50   ~ 0
+DAC_MOSI+2
+Text Label 10200 8400 0    50   ~ 0
+DAC_MOSI-2
+Text Label 10200 8500 0    50   ~ 0
+SCKI+2
+Text Label 10200 8600 0    50   ~ 0
+SCKI-2
+Text Label 12250 950  0    50   ~ 0
+Shutdown_Force
+Wire Wire Line
+	12250 950  12950 950 
+Wire Wire Line
+	12950 1250 12250 1250
+Text Label 12250 1250 0    50   ~ 0
+SDA3
+Wire Wire Line
+	12950 1350 12250 1350
+Text Label 12250 1350 0    50   ~ 0
+SCL3
+Wire Wire Line
+	12950 1500 12250 1500
+Text Label 12250 1500 0    50   ~ 0
+~ADC_CS+3
+Wire Wire Line
+	12950 1600 12250 1600
+Wire Wire Line
+	12950 1700 12250 1700
+Wire Wire Line
+	12950 1800 12250 1800
+Wire Wire Line
+	12950 1900 12250 1900
+Wire Wire Line
+	12950 2000 12250 2000
+Wire Wire Line
+	12950 2100 12250 2100
+Wire Wire Line
+	12950 2200 12250 2200
+Wire Wire Line
+	12950 2300 12250 2300
+Wire Wire Line
+	12950 2400 12250 2400
+Wire Wire Line
+	12950 2500 12250 2500
+Wire Wire Line
+	12950 2600 12250 2600
+Wire Wire Line
+	12950 2700 12250 2700
+Wire Wire Line
+	12950 2800 12250 2800
+Wire Wire Line
+	12950 2900 12250 2900
+Wire Wire Line
+	12950 3000 12250 3000
+Wire Wire Line
+	12950 3100 12250 3100
+Wire Wire Line
+	12950 3200 12250 3200
+Text Label 12250 1600 0    50   ~ 0
+~ADC_CS-3
+Text Label 12250 1700 0    50   ~ 0
+ADC_MOSI+3
+Text Label 12250 1800 0    50   ~ 0
+ADC_MOSI-3
+Text Label 12250 1900 0    50   ~ 0
+ADC_MISO+3
+Text Label 12250 2000 0    50   ~ 0
+ADC_MISO-3
+Text Label 12250 2100 0    50   ~ 0
+SCKO+3
+Text Label 12250 2200 0    50   ~ 0
+SCKO-3
+Text Label 12250 2300 0    50   ~ 0
+DAC_MISO+3
+Text Label 12250 2400 0    50   ~ 0
+DAC_MISO-3
+Text Label 12250 2500 0    50   ~ 0
+~LDAC+3
+Text Label 12250 2600 0    50   ~ 0
+~LDAC-3
+Text Label 12250 2700 0    50   ~ 0
+~DAC_CS+3
+Text Label 12250 2800 0    50   ~ 0
+~DAC_CS-3
+Text Label 12250 2900 0    50   ~ 0
+DAC_MOSI+3
+Text Label 12250 3000 0    50   ~ 0
+DAC_MOSI-3
+Text Label 12250 3100 0    50   ~ 0
+SCKI+3
+Text Label 12250 3200 0    50   ~ 0
+SCKI-3
+Text Label 12250 3650 0    50   ~ 0
+Shutdown_Force
+Wire Wire Line
+	12250 3650 12950 3650
+Wire Wire Line
+	12950 3950 12250 3950
+Text Label 12250 3950 0    50   ~ 0
+SDA4
+Wire Wire Line
+	12950 4050 12250 4050
+Text Label 12250 4050 0    50   ~ 0
+SCL4
+Wire Wire Line
+	12950 4200 12250 4200
+Text Label 12250 4200 0    50   ~ 0
+~ADC_CS+4
+Wire Wire Line
+	12950 4300 12250 4300
+Wire Wire Line
+	12950 4400 12250 4400
+Wire Wire Line
+	12950 4500 12250 4500
+Wire Wire Line
+	12950 4600 12250 4600
+Wire Wire Line
+	12950 4700 12250 4700
+Wire Wire Line
+	12950 4800 12250 4800
+Wire Wire Line
+	12950 4900 12250 4900
+Wire Wire Line
+	12950 5000 12250 5000
+Wire Wire Line
+	12950 5100 12250 5100
+Wire Wire Line
+	12950 5200 12250 5200
+Wire Wire Line
+	12950 5300 12250 5300
+Wire Wire Line
+	12950 5400 12250 5400
+Wire Wire Line
+	12950 5500 12250 5500
+Wire Wire Line
+	12950 5600 12250 5600
+Wire Wire Line
+	12950 5700 12250 5700
+Wire Wire Line
+	12950 5800 12250 5800
+Wire Wire Line
+	12950 5900 12250 5900
+Text Label 12250 4300 0    50   ~ 0
+~ADC_CS-4
+Text Label 12250 4400 0    50   ~ 0
+ADC_MOSI+4
+Text Label 12250 4500 0    50   ~ 0
+ADC_MOSI-4
+Text Label 12250 4600 0    50   ~ 0
+ADC_MISO+4
+Text Label 12250 4700 0    50   ~ 0
+ADC_MISO-4
+Text Label 12250 4800 0    50   ~ 0
+SCKO+4
+Text Label 12250 4900 0    50   ~ 0
+SCKO-4
+Text Label 12250 5000 0    50   ~ 0
+DAC_MISO+4
+Text Label 12250 5100 0    50   ~ 0
+DAC_MISO-4
+Text Label 12250 5200 0    50   ~ 0
+~LDAC+4
+Text Label 12250 5300 0    50   ~ 0
+~LDAC-4
+Text Label 12250 5400 0    50   ~ 0
+~DAC_CS+4
+Text Label 12250 5500 0    50   ~ 0
+~DAC_CS-4
+Text Label 12250 5600 0    50   ~ 0
+DAC_MOSI+4
+Text Label 12250 5700 0    50   ~ 0
+DAC_MOSI-4
+Text Label 12250 5800 0    50   ~ 0
+SCKI+4
+Text Label 12250 5900 0    50   ~ 0
+SCKI-4
+Text Label 12250 6350 0    50   ~ 0
+Shutdown_Force
+Wire Wire Line
+	12250 6350 12950 6350
+Wire Wire Line
+	12950 6650 12250 6650
+Text Label 12250 6650 0    50   ~ 0
+SDA5
+Wire Wire Line
+	12950 6750 12250 6750
+Text Label 12250 6750 0    50   ~ 0
+SCL5
+Wire Wire Line
+	12950 6900 12250 6900
+Text Label 12250 6900 0    50   ~ 0
+~ADC_CS+5
+Wire Wire Line
+	12950 7000 12250 7000
+Wire Wire Line
+	12950 7100 12250 7100
+Wire Wire Line
+	12950 7200 12250 7200
+Wire Wire Line
+	12950 7300 12250 7300
+Wire Wire Line
+	12950 7400 12250 7400
+Wire Wire Line
+	12950 7500 12250 7500
+Wire Wire Line
+	12950 7600 12250 7600
+Wire Wire Line
+	12950 7700 12250 7700
+Wire Wire Line
+	12950 7800 12250 7800
+Wire Wire Line
+	12950 7900 12250 7900
+Wire Wire Line
+	12950 8000 12250 8000
+Wire Wire Line
+	12950 8100 12250 8100
+Wire Wire Line
+	12950 8200 12250 8200
+Wire Wire Line
+	12950 8300 12250 8300
+Wire Wire Line
+	12950 8400 12250 8400
+Wire Wire Line
+	12950 8500 12250 8500
+Wire Wire Line
+	12950 8600 12250 8600
+Text Label 12250 7000 0    50   ~ 0
+~ADC_CS-5
+Text Label 12250 7100 0    50   ~ 0
+ADC_MOSI+5
+Text Label 12250 7200 0    50   ~ 0
+ADC_MOSI-5
+Text Label 12250 7300 0    50   ~ 0
+ADC_MISO+5
+Text Label 12250 7400 0    50   ~ 0
+ADC_MISO-5
+Text Label 12250 7500 0    50   ~ 0
+SCKO+5
+Text Label 12250 7600 0    50   ~ 0
+SCKO-5
+Text Label 12250 7700 0    50   ~ 0
+DAC_MISO+5
+Text Label 12250 7800 0    50   ~ 0
+DAC_MISO-5
+Text Label 12250 7900 0    50   ~ 0
+~LDAC+5
+Text Label 12250 8000 0    50   ~ 0
+~LDAC-5
+Text Label 12250 8100 0    50   ~ 0
+~DAC_CS+5
+Text Label 12250 8200 0    50   ~ 0
+~DAC_CS-5
+Text Label 12250 8300 0    50   ~ 0
+DAC_MOSI+5
+Text Label 12250 8400 0    50   ~ 0
+DAC_MOSI-5
+Text Label 12250 8500 0    50   ~ 0
+SCKI+5
+Text Label 12250 8600 0    50   ~ 0
+SCKI-5
+Text Label 14200 950  0    50   ~ 0
+Shutdown_Force
+Wire Wire Line
+	14200 950  14900 950 
+Wire Wire Line
+	14900 1250 14200 1250
+Text Label 14200 1250 0    50   ~ 0
+SDA6
+Wire Wire Line
+	14900 1350 14200 1350
+Text Label 14200 1350 0    50   ~ 0
+SCL6
+Wire Wire Line
+	14900 1500 14200 1500
+Text Label 14200 1500 0    50   ~ 0
+~ADC_CS+6
+Wire Wire Line
+	14900 1600 14200 1600
+Wire Wire Line
+	14900 1700 14200 1700
+Wire Wire Line
+	14900 1800 14200 1800
+Wire Wire Line
+	14900 1900 14200 1900
+Wire Wire Line
+	14900 2000 14200 2000
+Wire Wire Line
+	14900 2100 14200 2100
+Wire Wire Line
+	14900 2200 14200 2200
+Wire Wire Line
+	14900 2300 14200 2300
+Wire Wire Line
+	14900 2400 14200 2400
+Wire Wire Line
+	14900 2500 14200 2500
+Wire Wire Line
+	14900 2600 14200 2600
+Wire Wire Line
+	14900 2700 14200 2700
+Wire Wire Line
+	14900 2800 14200 2800
+Wire Wire Line
+	14900 2900 14200 2900
+Wire Wire Line
+	14900 3000 14200 3000
+Wire Wire Line
+	14900 3100 14200 3100
+Wire Wire Line
+	14900 3200 14200 3200
+Text Label 14200 1600 0    50   ~ 0
+~ADC_CS-6
+Text Label 14200 1700 0    50   ~ 0
+ADC_MOSI+6
+Text Label 14200 1800 0    50   ~ 0
+ADC_MOSI-6
+Text Label 14200 1900 0    50   ~ 0
+ADC_MISO+6
+Text Label 14200 2000 0    50   ~ 0
+ADC_MISO-6
+Text Label 14200 2100 0    50   ~ 0
+SCKO+6
+Text Label 14200 2200 0    50   ~ 0
+SCKO-6
+Text Label 14200 2300 0    50   ~ 0
+DAC_MISO+6
+Text Label 14200 2400 0    50   ~ 0
+DAC_MISO-6
+Text Label 14200 2500 0    50   ~ 0
+~LDAC+6
+Text Label 14200 2600 0    50   ~ 0
+~LDAC-6
+Text Label 14200 2700 0    50   ~ 0
+~DAC_CS+6
+Text Label 14200 2800 0    50   ~ 0
+~DAC_CS-6
+Text Label 14200 2900 0    50   ~ 0
+DAC_MOSI+6
+Text Label 14200 3000 0    50   ~ 0
+DAC_MOSI-6
+Text Label 14200 3100 0    50   ~ 0
+SCKI+6
+Text Label 14200 3200 0    50   ~ 0
+SCKI-6
+Text Label 14200 3650 0    50   ~ 0
+Shutdown_Force
+Wire Wire Line
+	14200 3650 14900 3650
+Wire Wire Line
+	14900 3950 14200 3950
+Text Label 14200 3950 0    50   ~ 0
+SDA7
+Wire Wire Line
+	14900 4050 14200 4050
+Text Label 14200 4050 0    50   ~ 0
+SCL7
+Wire Wire Line
+	14900 4200 14200 4200
+Text Label 14200 4200 0    50   ~ 0
+~ADC_CS+7
+Wire Wire Line
+	14900 4300 14200 4300
+Wire Wire Line
+	14900 4400 14200 4400
+Wire Wire Line
+	14900 4500 14200 4500
+Wire Wire Line
+	14900 4600 14200 4600
+Wire Wire Line
+	14900 4700 14200 4700
+Wire Wire Line
+	14900 4800 14200 4800
+Wire Wire Line
+	14900 4900 14200 4900
+Wire Wire Line
+	14900 5000 14200 5000
+Wire Wire Line
+	14900 5100 14200 5100
+Wire Wire Line
+	14900 5200 14200 5200
+Wire Wire Line
+	14900 5300 14200 5300
+Wire Wire Line
+	14900 5400 14200 5400
+Wire Wire Line
+	14900 5500 14200 5500
+Wire Wire Line
+	14900 5600 14200 5600
+Wire Wire Line
+	14900 5700 14200 5700
+Wire Wire Line
+	14900 5800 14200 5800
+Wire Wire Line
+	14900 5900 14200 5900
+Text Label 14200 4300 0    50   ~ 0
+~ADC_CS-7
+Text Label 14200 4400 0    50   ~ 0
+ADC_MOSI+7
+Text Label 14200 4500 0    50   ~ 0
+ADC_MOSI-7
+Text Label 14200 4600 0    50   ~ 0
+ADC_MISO+7
+Text Label 14200 4700 0    50   ~ 0
+ADC_MISO-7
+Text Label 14200 4800 0    50   ~ 0
+SCKO+7
+Text Label 14200 4900 0    50   ~ 0
+SCKO-7
+Text Label 14200 5000 0    50   ~ 0
+DAC_MISO+7
+Text Label 14200 5100 0    50   ~ 0
+DAC_MISO-7
+Text Label 14200 5200 0    50   ~ 0
+~LDAC+7
+Text Label 14200 5300 0    50   ~ 0
+~LDAC-7
+Text Label 14200 5400 0    50   ~ 0
+~DAC_CS+7
+Text Label 14200 5500 0    50   ~ 0
+~DAC_CS-7
+Text Label 14200 5600 0    50   ~ 0
+DAC_MOSI+7
+Text Label 14200 5700 0    50   ~ 0
+DAC_MOSI-7
+Text Label 14200 5800 0    50   ~ 0
+SCKI+7
+Text Label 14200 5900 0    50   ~ 0
+SCKI-7
+Wire Wire Line
+	10900 1050 10200 1050
+Text Label 10200 1050 0    50   ~ 0
+Shutdown_Sense0
+Wire Wire Line
+	10900 3750 10200 3750
+Text Label 10200 3750 0    50   ~ 0
+Shutdown_Sense1
+Wire Wire Line
+	10900 6450 10200 6450
+Text Label 10200 6450 0    50   ~ 0
+Shutdown_Sense2
+Wire Wire Line
+	12950 1050 12250 1050
+Text Label 12250 1050 0    50   ~ 0
+Shutdown_Sense3
+Wire Wire Line
+	12950 3750 12250 3750
+Text Label 12250 3750 0    50   ~ 0
+Shutdown_Sense4
+Wire Wire Line
+	12950 6450 12250 6450
+Text Label 12250 6450 0    50   ~ 0
+Shutdown_Sense5
+Wire Wire Line
+	14900 1050 14200 1050
+Text Label 14200 1050 0    50   ~ 0
+Shutdown_Sense6
+Wire Wire Line
+	14900 3750 14200 3750
+Text Label 14200 3750 0    50   ~ 0
+Shutdown_Sense7
+Text Label 6300 6550 2    50   ~ 0
+SCKI+[0..7]
+$Comp
+L power:GND #PWR0158
+U 1 1 60C73A33
+P 6450 10200
+AR Path="/60C73A33" Ref="#PWR0158"  Part="1" 
+AR Path="/5EC68138/60C73A33" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/60C73A33" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/60C73A33" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/60C73A33" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/60C73A33" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/60C73A33" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/60C73A33" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/60C73A33" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/60C73A33" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0158" H 6450 9950 50  0001 C CNN
+F 1 "GND" H 6455 10027 50  0000 C CNN
+F 2 "" H 6450 10200 50  0001 C CNN
+F 3 "" H 6450 10200 50  0001 C CNN
+	1    6450 10200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0162
+U 1 1 60C74B54
+P 6950 10200
+AR Path="/60C74B54" Ref="#PWR0162"  Part="1" 
+AR Path="/5EC68138/60C74B54" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/60C74B54" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/60C74B54" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/60C74B54" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/60C74B54" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/60C74B54" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/60C74B54" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/60C74B54" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/60C74B54" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0162" H 6950 9950 50  0001 C CNN
+F 1 "GND" H 6955 10027 50  0000 C CNN
+F 2 "" H 6950 10200 50  0001 C CNN
+F 3 "" H 6950 10200 50  0001 C CNN
+	1    6950 10200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0163
+U 1 1 60C74FA7
+P 7450 10200
+AR Path="/60C74FA7" Ref="#PWR0163"  Part="1" 
+AR Path="/5EC68138/60C74FA7" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/60C74FA7" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/60C74FA7" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/60C74FA7" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/60C74FA7" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/60C74FA7" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/60C74FA7" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/60C74FA7" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/60C74FA7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0163" H 7450 9950 50  0001 C CNN
+F 1 "GND" H 7455 10027 50  0000 C CNN
+F 2 "" H 7450 10200 50  0001 C CNN
+F 3 "" H 7450 10200 50  0001 C CNN
+	1    7450 10200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0165
+U 1 1 60C75A2D
+P 7950 9700
+AR Path="/60C75A2D" Ref="#PWR0165"  Part="1" 
+AR Path="/5EC68138/60C75A2D" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/60C75A2D" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/60C75A2D" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/60C75A2D" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/60C75A2D" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/60C75A2D" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/60C75A2D" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/60C75A2D" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/60C75A2D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0165" H 7950 9450 50  0001 C CNN
+F 1 "GND" H 7955 9527 50  0000 C CNN
+F 2 "" H 7950 9700 50  0001 C CNN
+F 3 "" H 7950 9700 50  0001 C CNN
+	1    7950 9700
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 10900 850  1100 2450
+U 5F1EE734
+F0 "Amp board 0 interface" 50
+F1 "amp_board_interface.sch" 50
+F2 "Shutdown_Force" I L 10900 950 50 
+F3 "SDA" B L 10900 1250 50 
+F4 "Shutdown_Sense_Latched" O L 10900 1050 50 
+F5 "SCL" I L 10900 1350 50 
+F6 "~ADC_CS-" I L 10900 1600 50 
+F7 "~ADC_CS+" I L 10900 1500 50 
+F8 "ADC_MOSI-" I L 10900 1800 50 
+F9 "ADC_MOSI+" I L 10900 1700 50 
+F10 "ADC_MISO+" O L 10900 1900 50 
+F11 "ADC_MISO-" O L 10900 2000 50 
+F12 "SCKO+" O L 10900 2100 50 
+F13 "SCKO-" O L 10900 2200 50 
+F14 "DAC_MISO+" O L 10900 2300 50 
+F15 "DAC_MISO-" O L 10900 2400 50 
+F16 "~LDAC+" I L 10900 2500 50 
+F17 "~LDAC-" I L 10900 2600 50 
+F18 "~DAC_CS+" I L 10900 2700 50 
+F19 "DAC_MOSI-" I L 10900 3000 50 
+F20 "~DAC_CS-" I L 10900 2800 50 
+F21 "SCKI+" I L 10900 3100 50 
+F22 "SCKI-" I L 10900 3200 50 
+F23 "DAC_MOSI+" I L 10900 2900 50 
+F24 "Shutdown_Reset" I L 10900 1150 50 
+$EndSheet
+Wire Wire Line
+	10900 1150 10200 1150
+Text Label 10200 1150 0    50   ~ 0
+Shutdown_Reset
+Wire Wire Line
+	10900 3850 10200 3850
+Text Label 10200 3850 0    50   ~ 0
+Shutdown_Reset
+Wire Wire Line
+	10900 6550 10200 6550
+Text Label 10200 6550 0    50   ~ 0
+Shutdown_Reset
+Wire Wire Line
+	12950 6550 12250 6550
+Text Label 12250 6550 0    50   ~ 0
+Shutdown_Reset
+Wire Wire Line
+	12950 3850 12250 3850
+Text Label 12250 3850 0    50   ~ 0
+Shutdown_Reset
+Wire Wire Line
+	12950 1150 12250 1150
+Text Label 12250 1150 0    50   ~ 0
+Shutdown_Reset
+Wire Wire Line
+	14900 1150 14200 1150
+Text Label 14200 1150 0    50   ~ 0
+Shutdown_Reset
+Wire Wire Line
+	14900 3850 14200 3850
+Text Label 14200 3850 0    50   ~ 0
+Shutdown_Reset
+$Sheet
+S 10900 3550 1100 2450
+U 60DC7482
+F0 "Amp board 1 interface" 50
+F1 "amp_board_interface.sch" 50
+F2 "Shutdown_Force" I L 10900 3650 50 
+F3 "SDA" B L 10900 3950 50 
+F4 "Shutdown_Sense_Latched" O L 10900 3750 50 
+F5 "SCL" I L 10900 4050 50 
+F6 "~ADC_CS-" I L 10900 4300 50 
+F7 "~ADC_CS+" I L 10900 4200 50 
+F8 "ADC_MOSI-" I L 10900 4500 50 
+F9 "ADC_MOSI+" I L 10900 4400 50 
+F10 "ADC_MISO+" O L 10900 4600 50 
+F11 "ADC_MISO-" O L 10900 4700 50 
+F12 "SCKO+" O L 10900 4800 50 
+F13 "SCKO-" O L 10900 4900 50 
+F14 "DAC_MISO+" O L 10900 5000 50 
+F15 "DAC_MISO-" O L 10900 5100 50 
+F16 "~LDAC+" I L 10900 5200 50 
+F17 "~LDAC-" I L 10900 5300 50 
+F18 "~DAC_CS+" I L 10900 5400 50 
+F19 "DAC_MOSI-" I L 10900 5700 50 
+F20 "~DAC_CS-" I L 10900 5500 50 
+F21 "SCKI+" I L 10900 5800 50 
+F22 "SCKI-" I L 10900 5900 50 
+F23 "DAC_MOSI+" I L 10900 5600 50 
+F24 "Shutdown_Reset" I L 10900 3850 50 
+$EndSheet
+$Sheet
+S 10900 6250 1100 2450
+U 60DD6A20
+F0 "Amp board 2 interface" 50
+F1 "amp_board_interface.sch" 50
+F2 "Shutdown_Force" I L 10900 6350 50 
+F3 "SDA" B L 10900 6650 50 
+F4 "Shutdown_Sense_Latched" O L 10900 6450 50 
+F5 "SCL" I L 10900 6750 50 
+F6 "~ADC_CS-" I L 10900 7000 50 
+F7 "~ADC_CS+" I L 10900 6900 50 
+F8 "ADC_MOSI-" I L 10900 7200 50 
+F9 "ADC_MOSI+" I L 10900 7100 50 
+F10 "ADC_MISO+" O L 10900 7300 50 
+F11 "ADC_MISO-" O L 10900 7400 50 
+F12 "SCKO+" O L 10900 7500 50 
+F13 "SCKO-" O L 10900 7600 50 
+F14 "DAC_MISO+" O L 10900 7700 50 
+F15 "DAC_MISO-" O L 10900 7800 50 
+F16 "~LDAC+" I L 10900 7900 50 
+F17 "~LDAC-" I L 10900 8000 50 
+F18 "~DAC_CS+" I L 10900 8100 50 
+F19 "DAC_MOSI-" I L 10900 8400 50 
+F20 "~DAC_CS-" I L 10900 8200 50 
+F21 "SCKI+" I L 10900 8500 50 
+F22 "SCKI-" I L 10900 8600 50 
+F23 "DAC_MOSI+" I L 10900 8300 50 
+F24 "Shutdown_Reset" I L 10900 6550 50 
+$EndSheet
+$Sheet
+S 12950 6250 1100 2450
+U 60DE6274
+F0 "Amp board 5 interface" 50
+F1 "amp_board_interface.sch" 50
+F2 "Shutdown_Force" I L 12950 6350 50 
+F3 "SDA" B L 12950 6650 50 
+F4 "Shutdown_Sense_Latched" O L 12950 6450 50 
+F5 "SCL" I L 12950 6750 50 
+F6 "~ADC_CS-" I L 12950 7000 50 
+F7 "~ADC_CS+" I L 12950 6900 50 
+F8 "ADC_MOSI-" I L 12950 7200 50 
+F9 "ADC_MOSI+" I L 12950 7100 50 
+F10 "ADC_MISO+" O L 12950 7300 50 
+F11 "ADC_MISO-" O L 12950 7400 50 
+F12 "SCKO+" O L 12950 7500 50 
+F13 "SCKO-" O L 12950 7600 50 
+F14 "DAC_MISO+" O L 12950 7700 50 
+F15 "DAC_MISO-" O L 12950 7800 50 
+F16 "~LDAC+" I L 12950 7900 50 
+F17 "~LDAC-" I L 12950 8000 50 
+F18 "~DAC_CS+" I L 12950 8100 50 
+F19 "DAC_MOSI-" I L 12950 8400 50 
+F20 "~DAC_CS-" I L 12950 8200 50 
+F21 "SCKI+" I L 12950 8500 50 
+F22 "SCKI-" I L 12950 8600 50 
+F23 "DAC_MOSI+" I L 12950 8300 50 
+F24 "Shutdown_Reset" I L 12950 6550 50 
+$EndSheet
+$Sheet
+S 12950 3550 1100 2450
+U 60DF5646
+F0 "Amp board 4 interface" 50
+F1 "amp_board_interface.sch" 50
+F2 "Shutdown_Force" I L 12950 3650 50 
+F3 "SDA" B L 12950 3950 50 
+F4 "Shutdown_Sense_Latched" O L 12950 3750 50 
+F5 "SCL" I L 12950 4050 50 
+F6 "~ADC_CS-" I L 12950 4300 50 
+F7 "~ADC_CS+" I L 12950 4200 50 
+F8 "ADC_MOSI-" I L 12950 4500 50 
+F9 "ADC_MOSI+" I L 12950 4400 50 
+F10 "ADC_MISO+" O L 12950 4600 50 
+F11 "ADC_MISO-" O L 12950 4700 50 
+F12 "SCKO+" O L 12950 4800 50 
+F13 "SCKO-" O L 12950 4900 50 
+F14 "DAC_MISO+" O L 12950 5000 50 
+F15 "DAC_MISO-" O L 12950 5100 50 
+F16 "~LDAC+" I L 12950 5200 50 
+F17 "~LDAC-" I L 12950 5300 50 
+F18 "~DAC_CS+" I L 12950 5400 50 
+F19 "DAC_MOSI-" I L 12950 5700 50 
+F20 "~DAC_CS-" I L 12950 5500 50 
+F21 "SCKI+" I L 12950 5800 50 
+F22 "SCKI-" I L 12950 5900 50 
+F23 "DAC_MOSI+" I L 12950 5600 50 
+F24 "Shutdown_Reset" I L 12950 3850 50 
+$EndSheet
+$Sheet
+S 12950 850  1100 2450
+U 60E04686
+F0 "Amp board 3 interface" 50
+F1 "amp_board_interface.sch" 50
+F2 "Shutdown_Force" I L 12950 950 50 
+F3 "SDA" B L 12950 1250 50 
+F4 "Shutdown_Sense_Latched" O L 12950 1050 50 
+F5 "SCL" I L 12950 1350 50 
+F6 "~ADC_CS-" I L 12950 1600 50 
+F7 "~ADC_CS+" I L 12950 1500 50 
+F8 "ADC_MOSI-" I L 12950 1800 50 
+F9 "ADC_MOSI+" I L 12950 1700 50 
+F10 "ADC_MISO+" O L 12950 1900 50 
+F11 "ADC_MISO-" O L 12950 2000 50 
+F12 "SCKO+" O L 12950 2100 50 
+F13 "SCKO-" O L 12950 2200 50 
+F14 "DAC_MISO+" O L 12950 2300 50 
+F15 "DAC_MISO-" O L 12950 2400 50 
+F16 "~LDAC+" I L 12950 2500 50 
+F17 "~LDAC-" I L 12950 2600 50 
+F18 "~DAC_CS+" I L 12950 2700 50 
+F19 "DAC_MOSI-" I L 12950 3000 50 
+F20 "~DAC_CS-" I L 12950 2800 50 
+F21 "SCKI+" I L 12950 3100 50 
+F22 "SCKI-" I L 12950 3200 50 
+F23 "DAC_MOSI+" I L 12950 2900 50 
+F24 "Shutdown_Reset" I L 12950 1150 50 
+$EndSheet
+$Sheet
+S 14900 850  1100 2450
+U 60E22C5C
+F0 "Amp board 6 interface" 50
+F1 "amp_board_interface.sch" 50
+F2 "Shutdown_Force" I L 14900 950 50 
+F3 "SDA" B L 14900 1250 50 
+F4 "Shutdown_Sense_Latched" O L 14900 1050 50 
+F5 "SCL" I L 14900 1350 50 
+F6 "~ADC_CS-" I L 14900 1600 50 
+F7 "~ADC_CS+" I L 14900 1500 50 
+F8 "ADC_MOSI-" I L 14900 1800 50 
+F9 "ADC_MOSI+" I L 14900 1700 50 
+F10 "ADC_MISO+" O L 14900 1900 50 
+F11 "ADC_MISO-" O L 14900 2000 50 
+F12 "SCKO+" O L 14900 2100 50 
+F13 "SCKO-" O L 14900 2200 50 
+F14 "DAC_MISO+" O L 14900 2300 50 
+F15 "DAC_MISO-" O L 14900 2400 50 
+F16 "~LDAC+" I L 14900 2500 50 
+F17 "~LDAC-" I L 14900 2600 50 
+F18 "~DAC_CS+" I L 14900 2700 50 
+F19 "DAC_MOSI-" I L 14900 3000 50 
+F20 "~DAC_CS-" I L 14900 2800 50 
+F21 "SCKI+" I L 14900 3100 50 
+F22 "SCKI-" I L 14900 3200 50 
+F23 "DAC_MOSI+" I L 14900 2900 50 
+F24 "Shutdown_Reset" I L 14900 1150 50 
+$EndSheet
+$Sheet
+S 14900 3550 1100 2450
+U 60E31E4C
+F0 "Amp board 7 interface" 50
+F1 "amp_board_interface.sch" 50
+F2 "Shutdown_Force" I L 14900 3650 50 
+F3 "SDA" B L 14900 3950 50 
+F4 "Shutdown_Sense_Latched" O L 14900 3750 50 
+F5 "SCL" I L 14900 4050 50 
+F6 "~ADC_CS-" I L 14900 4300 50 
+F7 "~ADC_CS+" I L 14900 4200 50 
+F8 "ADC_MOSI-" I L 14900 4500 50 
+F9 "ADC_MOSI+" I L 14900 4400 50 
+F10 "ADC_MISO+" O L 14900 4600 50 
+F11 "ADC_MISO-" O L 14900 4700 50 
+F12 "SCKO+" O L 14900 4800 50 
+F13 "SCKO-" O L 14900 4900 50 
+F14 "DAC_MISO+" O L 14900 5000 50 
+F15 "DAC_MISO-" O L 14900 5100 50 
+F16 "~LDAC+" I L 14900 5200 50 
+F17 "~LDAC-" I L 14900 5300 50 
+F18 "~DAC_CS+" I L 14900 5400 50 
+F19 "DAC_MOSI-" I L 14900 5700 50 
+F20 "~DAC_CS-" I L 14900 5500 50 
+F21 "SCKI+" I L 14900 5800 50 
+F22 "SCKI-" I L 14900 5900 50 
+F23 "DAC_MOSI+" I L 14900 5600 50 
+F24 "Shutdown_Reset" I L 14900 3850 50 
+$EndSheet
+Text Label 6300 6450 2    50   ~ 0
+SCKI-[0..7]
+Text Label 6300 4850 2    50   ~ 0
+~ADC_CS+[0..7]
+Text Label 6300 4950 2    50   ~ 0
+~ADC_CS-[0..7]
+Text Label 6300 5050 2    50   ~ 0
+ADC_MOSI+[0..7]
+Text Label 6300 5150 2    50   ~ 0
+ADC_MOSI-[0..7]
+Text Label 6300 5250 2    50   ~ 0
+ADC_MISO+[0..7]
+Text Label 6300 5350 2    50   ~ 0
+ADC_MISO-[0..7]
+Text Label 6300 5450 2    50   ~ 0
+SCKO+[0..7]
+Text Label 6300 5550 2    50   ~ 0
+SCKO-[0..7]
+Text Label 6300 5650 2    50   ~ 0
+DAC_MISO+[0..7]
+Text Label 6300 5750 2    50   ~ 0
+DAC_MISO-[0..7]
+Text Label 6300 5850 2    50   ~ 0
+~LDAC+[0..7]
+Text Label 6300 5950 2    50   ~ 0
+~LDAC-[0..7]
+Text Label 6300 6050 2    50   ~ 0
+~DAC_CS+[0..7]
+Text Label 6300 6150 2    50   ~ 0
+~DAC_CS-[0..7]
+Text Label 6300 6250 2    50   ~ 0
+DAC_MOSI+[0..7]
+Text Label 6300 6350 2    50   ~ 0
+DAC_MOSI-[0..7]
+Wire Bus Line
+	5600 4850 6300 4850
+Wire Bus Line
+	5600 4950 6300 4950
+Wire Bus Line
+	5600 5050 6300 5050
+Wire Bus Line
+	5600 5150 6300 5150
+Wire Bus Line
+	5600 5250 6300 5250
+Wire Bus Line
+	5600 5350 6300 5350
+Wire Bus Line
+	5600 5450 6300 5450
+Wire Bus Line
+	5600 5550 6300 5550
+Wire Bus Line
+	5600 5650 6300 5650
+Wire Bus Line
+	5600 5750 6300 5750
+Wire Bus Line
+	5600 5850 6300 5850
+Wire Bus Line
+	5600 5950 6300 5950
+Wire Bus Line
+	5600 6050 6300 6050
+Wire Bus Line
+	5600 6150 6300 6150
+Wire Bus Line
+	5600 6250 6300 6250
+Wire Bus Line
+	5600 6350 6300 6350
+Wire Bus Line
+	5600 6450 6300 6450
+Wire Bus Line
+	5600 6550 6300 6550
+Text Label 6500 6800 2    50   ~ 0
+Shutdown_Sense[0..7]
+Text Label 6500 6900 2    50   ~ 0
+Shutdown_Reset
+Text Label 6500 7000 2    50   ~ 0
+Shutdown_Force
+Text Label 6050 7250 2    50   ~ 0
+SDA[0..7]
+Text Label 6050 7350 2    50   ~ 0
+SCL[0..7]
+Wire Wire Line
+	6500 6900 5600 6900
+Wire Wire Line
+	5600 7000 6500 7000
+Wire Bus Line
+	6500 6800 5600 6800
+Wire Bus Line
+	5600 7250 6050 7250
+Wire Bus Line
+	6050 7350 5600 7350
+$Comp
+L Connector:TestPoint_Flag TP?
+U 1 1 61B230BC
+P 7000 1050
+AR Path="/5F1EE734/61B230BC" Ref="TP?"  Part="1" 
+AR Path="/61B230BC" Ref="TP5"  Part="1" 
+F 0 "TP5" H 7260 1098 50  0000 L CNN
+F 1 "TestPoint_Flag" H 7260 1053 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 7200 1050 50  0001 C CNN
+F 3 "~" H 7200 1050 50  0001 C CNN
+F 4 "Keystone" H 7000 1050 50  0001 C CNN "Manufacturer"
+F 5 "5019" H 7000 1050 50  0001 C CNN "Part Number"
+F 6 "SMT" H 7000 1050 50  0001 C CNN "Type"
+	1    7000 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1050 6900 1050
+$Comp
+L Fiber_Optic:AFBR-1624Z J?
+U 1 1 65052060
+P 7950 4600
+AR Path="/60AF9C81/65052060" Ref="J?"  Part="1" 
+AR Path="/65052060" Ref="J12"  Part="1" 
+F 0 "J12" H 8280 4646 50  0000 L CNN
+F 1 "AFBR-1624Z" H 8280 4555 50  0000 L CNN
+F 2 "Martinos:AFBR-xx2xZ" H 7950 4000 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-4369EN" H 8150 4600 50  0001 C CNN
+F 4 "Broadcom/Avago" H 7950 4600 50  0001 C CNN "Manufacturer"
+F 5 "AFBR-1624Z" H 7950 4600 50  0001 C CNN "Part Number"
+F 6 "Through-hole" H 7950 4600 50  0001 C CNN "Type"
+	1    7950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0166
+U 1 1 65052066
+P 7850 5000
+AR Path="/65052066" Ref="#PWR0166"  Part="1" 
+AR Path="/5EC68138/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/65052066" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/65052066" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0166" H 7850 4750 50  0001 C CNN
+F 1 "GND" H 7855 4827 50  0000 C CNN
+F 2 "" H 7850 5000 50  0001 C CNN
+F 3 "" H 7850 5000 50  0001 C CNN
+	1    7850 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0167
+U 1 1 6505206C
+P 2000 5850
+AR Path="/6505206C" Ref="#PWR0167"  Part="1" 
+AR Path="/5EC68138/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/6505206C" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/6505206C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0167" H 2000 5600 50  0001 C CNN
+F 1 "GND" H 2005 5677 50  0000 C CNN
+F 2 "" H 2000 5850 50  0001 C CNN
+F 3 "" H 2000 5850 50  0001 C CNN
+	1    2000 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 5000 7850 5000
+Connection ~ 7850 5000
+$Comp
+L Fiber_Optic:AFBR-2624Z J?
+U 1 1 65052074
+P 2000 5450
+AR Path="/60AF9C81/65052074" Ref="J?"  Part="1" 
+AR Path="/65052074" Ref="J9"  Part="1" 
+F 0 "J9" H 1670 5496 50  0000 R CNN
+F 1 "AFBR-2624Z" H 1670 5405 50  0000 R CNN
+F 2 "Martinos:AFBR-xx2xZ" H 1900 4950 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-4369EN" H 1900 5450 50  0001 C CNN
+F 4 "Broadcom/Avago" H 2000 5450 50  0001 C CNN "Manufacturer"
+F 5 "AFBR-2624Z" H 2000 5450 50  0001 C CNN "Part Number"
+F 6 "Through-hole" H 2000 5450 50  0001 C CNN "Type"
+	1    2000 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5850 2100 5850
+Connection ~ 2000 5850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6505207C
+P 3300 4850
+AR Path="/60AF9C81/6505207C" Ref="#PWR?"  Part="1" 
+AR Path="/6505207C" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0168" H 3300 4700 50  0001 C CNN
+F 1 "+3.3V" H 3315 5023 50  0000 C CNN
+F 2 "" H 3300 4850 50  0001 C CNN
+F 3 "" H 3300 4850 50  0001 C CNN
+	1    3300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 65052085
+P 2900 5000
+AR Path="/65052085" Ref="C16"  Part="1" 
+AR Path="/6029848C/65052085" Ref="C?"  Part="1" 
+AR Path="/61373C09/65052085" Ref="C?"  Part="1" 
+AR Path="/61374DC8/65052085" Ref="C?"  Part="1" 
+AR Path="/61375C79/65052085" Ref="C?"  Part="1" 
+AR Path="/61376894/65052085" Ref="C?"  Part="1" 
+AR Path="/61377127/65052085" Ref="C?"  Part="1" 
+AR Path="/61377C56/65052085" Ref="C?"  Part="1" 
+AR Path="/6137853A/65052085" Ref="C?"  Part="1" 
+AR Path="/60AF9C81/65052085" Ref="C?"  Part="1" 
+F 0 "C16" H 3100 5000 50  0000 C CNN
+F 1 "1uF 50V X7R" H 3200 5100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 4850 50  0001 C CNN
+F 3 "~" H 2900 5000 50  0001 C CNN
+F 4 "Kemet" H 2900 5000 50  0001 C CNN "Manufacturer"
+F 5 "C0805C105K3RACTU" H 2900 5000 50  0001 C CNN "Part Number"
+F 6 "SMT" H 2900 5000 50  0001 C CNN "Type"
+	1    2900 5000
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0169
+U 1 1 6505208B
+P 2900 5150
+AR Path="/6505208B" Ref="#PWR0169"  Part="1" 
+AR Path="/5EC68138/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/6505208B" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/6505208B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0169" H 2900 4900 50  0001 C CNN
+F 1 "GND" H 2905 4977 50  0000 C CNN
+F 2 "" H 2900 5150 50  0001 C CNN
+F 3 "" H 2900 5150 50  0001 C CNN
+	1    2900 5150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 65052093
+P 2700 5000
+AR Path="/5EC68138/65052093" Ref="C?"  Part="1" 
+AR Path="/5F1EE734/65052093" Ref="C?"  Part="1" 
+AR Path="/5F3804DD/65052093" Ref="C?"  Part="1" 
+AR Path="/5F380775/65052093" Ref="C?"  Part="1" 
+AR Path="/5F380999/65052093" Ref="C?"  Part="1" 
+AR Path="/5F382B3C/65052093" Ref="C?"  Part="1" 
+AR Path="/5F382D81/65052093" Ref="C?"  Part="1" 
+AR Path="/5F383034/65052093" Ref="C?"  Part="1" 
+AR Path="/5F3853FE/65052093" Ref="C?"  Part="1" 
+AR Path="/60F2428F/65052093" Ref="C?"  Part="1" 
+AR Path="/60F46E08/65052093" Ref="C?"  Part="1" 
+AR Path="/60F4BA31/65052093" Ref="C?"  Part="1" 
+AR Path="/60F50E2B/65052093" Ref="C?"  Part="1" 
+AR Path="/60F5716A/65052093" Ref="C?"  Part="1" 
+AR Path="/60F7079A/65052093" Ref="C?"  Part="1" 
+AR Path="/60F7B613/65052093" Ref="C?"  Part="1" 
+AR Path="/60DC7482/65052093" Ref="C?"  Part="1" 
+AR Path="/60DD6A20/65052093" Ref="C?"  Part="1" 
+AR Path="/60DE6274/65052093" Ref="C?"  Part="1" 
+AR Path="/60DF5646/65052093" Ref="C?"  Part="1" 
+AR Path="/60E04686/65052093" Ref="C?"  Part="1" 
+AR Path="/60E22C5C/65052093" Ref="C?"  Part="1" 
+AR Path="/60E31E4C/65052093" Ref="C?"  Part="1" 
+AR Path="/60AF9C81/65052093" Ref="C?"  Part="1" 
+AR Path="/65052093" Ref="C2"  Part="1" 
+F 0 "C2" H 2950 5000 50  0000 L CNN
+F 1 "100nF 50V X7R" H 2750 4900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 4850 50  0001 C CNN
+F 3 "~" H 2700 5000 50  0001 C CNN
+F 4 "Kemet" H 2700 5000 50  0001 C CNN "Manufacturer"
+F 5 "C0603C104K5RACTU" H 2700 5000 50  0001 C CNN "Part Number"
+F 6 "SMT" H 2700 5000 50  0001 C CNN "Type"
+	1    2700 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0170
+U 1 1 65052099
+P 2700 5150
+AR Path="/65052099" Ref="#PWR0170"  Part="1" 
+AR Path="/5EC68138/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/65052099" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/65052099" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0170" H 2700 4900 50  0001 C CNN
+F 1 "GND" H 2705 4977 50  0000 C CNN
+F 2 "" H 2700 5150 50  0001 C CNN
+F 3 "" H 2700 5150 50  0001 C CNN
+	1    2700 5150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4850 2700 4850
+Connection ~ 2700 4850
+Wire Wire Line
+	2700 4850 2900 4850
+Wire Wire Line
+	2000 4850 2000 5050
+$Comp
+L Device:R R?
+U 1 1 650520A3
+P 3050 4850
+AR Path="/60AF9C81/650520A3" Ref="R?"  Part="1" 
+AR Path="/650520A3" Ref="R3"  Part="1" 
+F 0 "R3" V 2850 4800 50  0000 L CNN
+F 1 "1" V 2950 4800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2980 4850 50  0001 C CNN
+F 3 "~" H 3050 4850 50  0001 C CNN
+F 4 "KOA Speer" H 3050 4850 50  0001 C CNN "Manufacturer"
+F 5 "Can substitute generic resistor with same package, value, 1% tolerance" H 3050 4850 50  0001 C CNN "Notes"
+F 6 "RK73H2ATTD1R00F" H 3050 4850 50  0001 C CNN "Part Number"
+F 7 "SMT" H 3050 4850 50  0001 C CNN "Type"
+	1    3050 4850
+	0    1    1    0   
+$EndComp
+Connection ~ 2900 4850
+Wire Wire Line
+	3200 4850 3300 4850
+Text Notes 2600 4850 2    50   ~ 0
+Noise filter,\n160 kHz LPF
+$Comp
+L power:GND #PWR0171
+U 1 1 650520AC
+P 2000 7150
+AR Path="/650520AC" Ref="#PWR0171"  Part="1" 
+AR Path="/5EC68138/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/650520AC" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/650520AC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0171" H 2000 6900 50  0001 C CNN
+F 1 "GND" H 2005 6977 50  0000 C CNN
+F 2 "" H 2000 7150 50  0001 C CNN
+F 3 "" H 2000 7150 50  0001 C CNN
+	1    2000 7150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Fiber_Optic:AFBR-2624Z J?
+U 1 1 650520B2
+P 2000 6750
+AR Path="/60AF9C81/650520B2" Ref="J?"  Part="1" 
+AR Path="/650520B2" Ref="J10"  Part="1" 
+F 0 "J10" H 1670 6796 50  0000 R CNN
+F 1 "AFBR-2624Z" H 1670 6705 50  0000 R CNN
+F 2 "Martinos:AFBR-xx2xZ" H 1900 6250 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-4369EN" H 1900 6750 50  0001 C CNN
+F 4 "Broadcom/Avago" H 2000 6750 50  0001 C CNN "Manufacturer"
+F 5 "AFBR-2624Z" H 2000 6750 50  0001 C CNN "Part Number"
+F 6 "Through-hole" H 2000 6750 50  0001 C CNN "Type"
+	1    2000 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 7150 2100 7150
+Connection ~ 2000 7150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 650520BA
+P 3300 6150
+AR Path="/60AF9C81/650520BA" Ref="#PWR?"  Part="1" 
+AR Path="/650520BA" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0172" H 3300 6000 50  0001 C CNN
+F 1 "+3.3V" H 3315 6323 50  0000 C CNN
+F 2 "" H 3300 6150 50  0001 C CNN
+F 3 "" H 3300 6150 50  0001 C CNN
+	1    3300 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 650520C3
+P 2900 6300
+AR Path="/650520C3" Ref="C17"  Part="1" 
+AR Path="/6029848C/650520C3" Ref="C?"  Part="1" 
+AR Path="/61373C09/650520C3" Ref="C?"  Part="1" 
+AR Path="/61374DC8/650520C3" Ref="C?"  Part="1" 
+AR Path="/61375C79/650520C3" Ref="C?"  Part="1" 
+AR Path="/61376894/650520C3" Ref="C?"  Part="1" 
+AR Path="/61377127/650520C3" Ref="C?"  Part="1" 
+AR Path="/61377C56/650520C3" Ref="C?"  Part="1" 
+AR Path="/6137853A/650520C3" Ref="C?"  Part="1" 
+AR Path="/60AF9C81/650520C3" Ref="C?"  Part="1" 
+F 0 "C17" H 3100 6300 50  0000 C CNN
+F 1 "1uF 50V X7R" H 3200 6400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 6150 50  0001 C CNN
+F 3 "~" H 2900 6300 50  0001 C CNN
+F 4 "Kemet" H 2900 6300 50  0001 C CNN "Manufacturer"
+F 5 "C0805C105K3RACTU" H 2900 6300 50  0001 C CNN "Part Number"
+F 6 "SMT" H 2900 6300 50  0001 C CNN "Type"
+	1    2900 6300
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0173
+U 1 1 650520C9
+P 2900 6450
+AR Path="/650520C9" Ref="#PWR0173"  Part="1" 
+AR Path="/5EC68138/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/650520C9" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/650520C9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0173" H 2900 6200 50  0001 C CNN
+F 1 "GND" H 2905 6277 50  0000 C CNN
+F 2 "" H 2900 6450 50  0001 C CNN
+F 3 "" H 2900 6450 50  0001 C CNN
+	1    2900 6450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 650520D1
+P 2700 6300
+AR Path="/5EC68138/650520D1" Ref="C?"  Part="1" 
+AR Path="/5F1EE734/650520D1" Ref="C?"  Part="1" 
+AR Path="/5F3804DD/650520D1" Ref="C?"  Part="1" 
+AR Path="/5F380775/650520D1" Ref="C?"  Part="1" 
+AR Path="/5F380999/650520D1" Ref="C?"  Part="1" 
+AR Path="/5F382B3C/650520D1" Ref="C?"  Part="1" 
+AR Path="/5F382D81/650520D1" Ref="C?"  Part="1" 
+AR Path="/5F383034/650520D1" Ref="C?"  Part="1" 
+AR Path="/5F3853FE/650520D1" Ref="C?"  Part="1" 
+AR Path="/60F2428F/650520D1" Ref="C?"  Part="1" 
+AR Path="/60F46E08/650520D1" Ref="C?"  Part="1" 
+AR Path="/60F4BA31/650520D1" Ref="C?"  Part="1" 
+AR Path="/60F50E2B/650520D1" Ref="C?"  Part="1" 
+AR Path="/60F5716A/650520D1" Ref="C?"  Part="1" 
+AR Path="/60F7079A/650520D1" Ref="C?"  Part="1" 
+AR Path="/60F7B613/650520D1" Ref="C?"  Part="1" 
+AR Path="/60DC7482/650520D1" Ref="C?"  Part="1" 
+AR Path="/60DD6A20/650520D1" Ref="C?"  Part="1" 
+AR Path="/60DE6274/650520D1" Ref="C?"  Part="1" 
+AR Path="/60DF5646/650520D1" Ref="C?"  Part="1" 
+AR Path="/60E04686/650520D1" Ref="C?"  Part="1" 
+AR Path="/60E22C5C/650520D1" Ref="C?"  Part="1" 
+AR Path="/60E31E4C/650520D1" Ref="C?"  Part="1" 
+AR Path="/60AF9C81/650520D1" Ref="C?"  Part="1" 
+AR Path="/650520D1" Ref="C3"  Part="1" 
+F 0 "C3" H 2950 6300 50  0000 L CNN
+F 1 "100nF 50V X7R" H 2750 6200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 6150 50  0001 C CNN
+F 3 "~" H 2700 6300 50  0001 C CNN
+F 4 "Kemet" H 2700 6300 50  0001 C CNN "Manufacturer"
+F 5 "C0603C104K5RACTU" H 2700 6300 50  0001 C CNN "Part Number"
+F 6 "SMT" H 2700 6300 50  0001 C CNN "Type"
+	1    2700 6300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0174
+U 1 1 650520D7
+P 2700 6450
+AR Path="/650520D7" Ref="#PWR0174"  Part="1" 
+AR Path="/5EC68138/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/650520D7" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/650520D7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0174" H 2700 6200 50  0001 C CNN
+F 1 "GND" H 2705 6277 50  0000 C CNN
+F 2 "" H 2700 6450 50  0001 C CNN
+F 3 "" H 2700 6450 50  0001 C CNN
+	1    2700 6450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6150 2700 6150
+Connection ~ 2700 6150
+Wire Wire Line
+	2700 6150 2900 6150
+Wire Wire Line
+	2000 6150 2000 6350
+$Comp
+L Device:R R?
+U 1 1 650520E1
+P 3050 6150
+AR Path="/60AF9C81/650520E1" Ref="R?"  Part="1" 
+AR Path="/650520E1" Ref="R4"  Part="1" 
+F 0 "R4" V 2850 6100 50  0000 L CNN
+F 1 "1" V 2950 6100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2980 6150 50  0001 C CNN
+F 3 "~" H 3050 6150 50  0001 C CNN
+F 4 "KOA Speer" H 3050 6150 50  0001 C CNN "Manufacturer"
+F 5 "Can substitute generic resistor with same package, value, 1% tolerance" H 3050 6150 50  0001 C CNN "Notes"
+F 6 "RK73H2ATTD1R00F" H 3050 6150 50  0001 C CNN "Part Number"
+F 7 "SMT" H 3050 6150 50  0001 C CNN "Type"
+	1    3050 6150
+	0    1    1    0   
+$EndComp
+Connection ~ 2900 6150
+Wire Wire Line
+	3200 6150 3300 6150
+Text Notes 2600 6150 2    50   ~ 0
+Noise filter,\n160 kHz LPF
+$Comp
+L power:GND #PWR0175
+U 1 1 650520EA
+P 2000 8550
+AR Path="/650520EA" Ref="#PWR0175"  Part="1" 
+AR Path="/5EC68138/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/650520EA" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/650520EA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0175" H 2000 8300 50  0001 C CNN
+F 1 "GND" H 2005 8377 50  0000 C CNN
+F 2 "" H 2000 8550 50  0001 C CNN
+F 3 "" H 2000 8550 50  0001 C CNN
+	1    2000 8550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Fiber_Optic:AFBR-2624Z J?
+U 1 1 650520F0
+P 2000 8150
+AR Path="/60AF9C81/650520F0" Ref="J?"  Part="1" 
+AR Path="/650520F0" Ref="J11"  Part="1" 
+F 0 "J11" H 1670 8196 50  0000 R CNN
+F 1 "AFBR-2624Z" H 1670 8105 50  0000 R CNN
+F 2 "Martinos:AFBR-xx2xZ" H 1900 7650 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-4369EN" H 1900 8150 50  0001 C CNN
+F 4 "Broadcom/Avago" H 2000 8150 50  0001 C CNN "Manufacturer"
+F 5 "AFBR-2624Z" H 2000 8150 50  0001 C CNN "Part Number"
+F 6 "Through-hole" H 2000 8150 50  0001 C CNN "Type"
+	1    2000 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 8550 2100 8550
+Connection ~ 2000 8550
+$Comp
+L power:+3.3V #PWR?
+U 1 1 650520F8
+P 3300 7550
+AR Path="/60AF9C81/650520F8" Ref="#PWR?"  Part="1" 
+AR Path="/650520F8" Ref="#PWR0176"  Part="1" 
+F 0 "#PWR0176" H 3300 7400 50  0001 C CNN
+F 1 "+3.3V" H 3315 7723 50  0000 C CNN
+F 2 "" H 3300 7550 50  0001 C CNN
+F 3 "" H 3300 7550 50  0001 C CNN
+	1    3300 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 65052101
+P 2900 7700
+AR Path="/65052101" Ref="C18"  Part="1" 
+AR Path="/6029848C/65052101" Ref="C?"  Part="1" 
+AR Path="/61373C09/65052101" Ref="C?"  Part="1" 
+AR Path="/61374DC8/65052101" Ref="C?"  Part="1" 
+AR Path="/61375C79/65052101" Ref="C?"  Part="1" 
+AR Path="/61376894/65052101" Ref="C?"  Part="1" 
+AR Path="/61377127/65052101" Ref="C?"  Part="1" 
+AR Path="/61377C56/65052101" Ref="C?"  Part="1" 
+AR Path="/6137853A/65052101" Ref="C?"  Part="1" 
+AR Path="/60AF9C81/65052101" Ref="C?"  Part="1" 
+F 0 "C18" H 3100 7700 50  0000 C CNN
+F 1 "1uF 50V X7R" H 3200 7800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 7550 50  0001 C CNN
+F 3 "~" H 2900 7700 50  0001 C CNN
+F 4 "Kemet" H 2900 7700 50  0001 C CNN "Manufacturer"
+F 5 "C0805C105K3RACTU" H 2900 7700 50  0001 C CNN "Part Number"
+F 6 "SMT" H 2900 7700 50  0001 C CNN "Type"
+	1    2900 7700
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0177
+U 1 1 65052107
+P 2900 7850
+AR Path="/65052107" Ref="#PWR0177"  Part="1" 
+AR Path="/5EC68138/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/65052107" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/65052107" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0177" H 2900 7600 50  0001 C CNN
+F 1 "GND" H 2905 7677 50  0000 C CNN
+F 2 "" H 2900 7850 50  0001 C CNN
+F 3 "" H 2900 7850 50  0001 C CNN
+	1    2900 7850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6505210F
+P 2700 7700
+AR Path="/5EC68138/6505210F" Ref="C?"  Part="1" 
+AR Path="/5F1EE734/6505210F" Ref="C?"  Part="1" 
+AR Path="/5F3804DD/6505210F" Ref="C?"  Part="1" 
+AR Path="/5F380775/6505210F" Ref="C?"  Part="1" 
+AR Path="/5F380999/6505210F" Ref="C?"  Part="1" 
+AR Path="/5F382B3C/6505210F" Ref="C?"  Part="1" 
+AR Path="/5F382D81/6505210F" Ref="C?"  Part="1" 
+AR Path="/5F383034/6505210F" Ref="C?"  Part="1" 
+AR Path="/5F3853FE/6505210F" Ref="C?"  Part="1" 
+AR Path="/60F2428F/6505210F" Ref="C?"  Part="1" 
+AR Path="/60F46E08/6505210F" Ref="C?"  Part="1" 
+AR Path="/60F4BA31/6505210F" Ref="C?"  Part="1" 
+AR Path="/60F50E2B/6505210F" Ref="C?"  Part="1" 
+AR Path="/60F5716A/6505210F" Ref="C?"  Part="1" 
+AR Path="/60F7079A/6505210F" Ref="C?"  Part="1" 
+AR Path="/60F7B613/6505210F" Ref="C?"  Part="1" 
+AR Path="/60DC7482/6505210F" Ref="C?"  Part="1" 
+AR Path="/60DD6A20/6505210F" Ref="C?"  Part="1" 
+AR Path="/60DE6274/6505210F" Ref="C?"  Part="1" 
+AR Path="/60DF5646/6505210F" Ref="C?"  Part="1" 
+AR Path="/60E04686/6505210F" Ref="C?"  Part="1" 
+AR Path="/60E22C5C/6505210F" Ref="C?"  Part="1" 
+AR Path="/60E31E4C/6505210F" Ref="C?"  Part="1" 
+AR Path="/60AF9C81/6505210F" Ref="C?"  Part="1" 
+AR Path="/6505210F" Ref="C10"  Part="1" 
+F 0 "C10" H 2950 7700 50  0000 L CNN
+F 1 "100nF 50V X7R" H 2750 7600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 7550 50  0001 C CNN
+F 3 "~" H 2700 7700 50  0001 C CNN
+F 4 "Kemet" H 2700 7700 50  0001 C CNN "Manufacturer"
+F 5 "C0603C104K5RACTU" H 2700 7700 50  0001 C CNN "Part Number"
+F 6 "SMT" H 2700 7700 50  0001 C CNN "Type"
+	1    2700 7700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0178
+U 1 1 65052115
+P 2700 7850
+AR Path="/65052115" Ref="#PWR0178"  Part="1" 
+AR Path="/5EC68138/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/65052115" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/65052115" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0178" H 2700 7600 50  0001 C CNN
+F 1 "GND" H 2705 7677 50  0000 C CNN
+F 2 "" H 2700 7850 50  0001 C CNN
+F 3 "" H 2700 7850 50  0001 C CNN
+	1    2700 7850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 7550 2700 7550
+Connection ~ 2700 7550
+Wire Wire Line
+	2700 7550 2900 7550
+Wire Wire Line
+	2000 7550 2000 7750
+$Comp
+L Device:R R?
+U 1 1 6505211F
+P 3050 7550
+AR Path="/60AF9C81/6505211F" Ref="R?"  Part="1" 
+AR Path="/6505211F" Ref="R10"  Part="1" 
+F 0 "R10" V 2850 7500 50  0000 L CNN
+F 1 "1" V 2950 7500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2980 7550 50  0001 C CNN
+F 3 "~" H 3050 7550 50  0001 C CNN
+F 4 "KOA Speer" H 3050 7550 50  0001 C CNN "Manufacturer"
+F 5 "Can substitute generic resistor with same package, value, 1% tolerance" H 3050 7550 50  0001 C CNN "Notes"
+F 6 "RK73H2ATTD1R00F" H 3050 7550 50  0001 C CNN "Part Number"
+F 7 "SMT" H 3050 7550 50  0001 C CNN "Type"
+	1    3050 7550
+	0    1    1    0   
+$EndComp
+Connection ~ 2900 7550
+Wire Wire Line
+	3200 7550 3300 7550
+Text Notes 2600 7550 2    50   ~ 0
+Noise filter,\n160 kHz LPF
+$Comp
+L power:+3.3V #PWR?
+U 1 1 650D1F30
+P 6650 3500
+AR Path="/60AF9C81/650D1F30" Ref="#PWR?"  Part="1" 
+AR Path="/650D1F30" Ref="#PWR0179"  Part="1" 
+F 0 "#PWR0179" H 6650 3350 50  0001 C CNN
+F 1 "+3.3V" H 6665 3673 50  0000 C CNN
+F 2 "" H 6650 3500 50  0001 C CNN
+F 3 "" H 6650 3500 50  0001 C CNN
+	1    6650 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 650D1F39
+P 7050 3650
+AR Path="/650D1F39" Ref="C19"  Part="1" 
+AR Path="/6029848C/650D1F39" Ref="C?"  Part="1" 
+AR Path="/61373C09/650D1F39" Ref="C?"  Part="1" 
+AR Path="/61374DC8/650D1F39" Ref="C?"  Part="1" 
+AR Path="/61375C79/650D1F39" Ref="C?"  Part="1" 
+AR Path="/61376894/650D1F39" Ref="C?"  Part="1" 
+AR Path="/61377127/650D1F39" Ref="C?"  Part="1" 
+AR Path="/61377C56/650D1F39" Ref="C?"  Part="1" 
+AR Path="/6137853A/650D1F39" Ref="C?"  Part="1" 
+AR Path="/60AF9C81/650D1F39" Ref="C?"  Part="1" 
+F 0 "C19" H 7250 3650 50  0000 C CNN
+F 1 "1uF 50V X7R" H 7350 3750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7088 3500 50  0001 C CNN
+F 3 "~" H 7050 3650 50  0001 C CNN
+F 4 "Kemet" H 7050 3650 50  0001 C CNN "Manufacturer"
+F 5 "C0805C105K3RACTU" H 7050 3650 50  0001 C CNN "Part Number"
+F 6 "SMT" H 7050 3650 50  0001 C CNN "Type"
+	1    7050 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0180
+U 1 1 650D1F3F
+P 7050 3800
+AR Path="/650D1F3F" Ref="#PWR0180"  Part="1" 
+AR Path="/5EC68138/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/650D1F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/650D1F3F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0180" H 7050 3550 50  0001 C CNN
+F 1 "GND" H 7055 3627 50  0000 C CNN
+F 2 "" H 7050 3800 50  0001 C CNN
+F 3 "" H 7050 3800 50  0001 C CNN
+	1    7050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 650D1F47
+P 7250 3650
+AR Path="/5EC68138/650D1F47" Ref="C?"  Part="1" 
+AR Path="/5F1EE734/650D1F47" Ref="C?"  Part="1" 
+AR Path="/5F3804DD/650D1F47" Ref="C?"  Part="1" 
+AR Path="/5F380775/650D1F47" Ref="C?"  Part="1" 
+AR Path="/5F380999/650D1F47" Ref="C?"  Part="1" 
+AR Path="/5F382B3C/650D1F47" Ref="C?"  Part="1" 
+AR Path="/5F382D81/650D1F47" Ref="C?"  Part="1" 
+AR Path="/5F383034/650D1F47" Ref="C?"  Part="1" 
+AR Path="/5F3853FE/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60F2428F/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60F46E08/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60F4BA31/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60F50E2B/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60F5716A/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60F7079A/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60F7B613/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60DC7482/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60DD6A20/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60DE6274/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60DF5646/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60E04686/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60E22C5C/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60E31E4C/650D1F47" Ref="C?"  Part="1" 
+AR Path="/60AF9C81/650D1F47" Ref="C?"  Part="1" 
+AR Path="/650D1F47" Ref="C20"  Part="1" 
+F 0 "C20" H 7500 3650 50  0000 L CNN
+F 1 "100nF 50V X7R" H 7300 3550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7288 3500 50  0001 C CNN
+F 3 "~" H 7250 3650 50  0001 C CNN
+F 4 "Kemet" H 7250 3650 50  0001 C CNN "Manufacturer"
+F 5 "C0603C104K5RACTU" H 7250 3650 50  0001 C CNN "Part Number"
+F 6 "SMT" H 7250 3650 50  0001 C CNN "Type"
+	1    7250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0181
+U 1 1 650D1F4D
+P 7250 3800
+AR Path="/650D1F4D" Ref="#PWR0181"  Part="1" 
+AR Path="/5EC68138/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/650D1F4D" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/650D1F4D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0181" H 7250 3550 50  0001 C CNN
+F 1 "GND" H 7255 3627 50  0000 C CNN
+F 2 "" H 7250 3800 50  0001 C CNN
+F 3 "" H 7250 3800 50  0001 C CNN
+	1    7250 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3500 7250 3500
+Connection ~ 7250 3500
+Wire Wire Line
+	7250 3500 7050 3500
+$Comp
+L Device:R R?
+U 1 1 650D1F56
+P 6900 3500
+AR Path="/60AF9C81/650D1F56" Ref="R?"  Part="1" 
+AR Path="/650D1F56" Ref="R11"  Part="1" 
+F 0 "R11" V 6700 3450 50  0000 L CNN
+F 1 "1" V 6800 3450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6830 3500 50  0001 C CNN
+F 3 "~" H 6900 3500 50  0001 C CNN
+F 4 "KOA Speer" H 6900 3500 50  0001 C CNN "Manufacturer"
+F 5 "Can substitute generic resistor with same package, value, 1% tolerance" H 6900 3500 50  0001 C CNN "Notes"
+F 6 "RK73H2ATTD1R00F" H 6900 3500 50  0001 C CNN "Part Number"
+F 7 "SMT" H 6900 3500 50  0001 C CNN "Type"
+	1    6900 3500
+	0    -1   1    0   
+$EndComp
+Connection ~ 7050 3500
+Wire Wire Line
+	6750 3500 6650 3500
+Text Notes 7350 3500 0    50   ~ 0
+Noise filter,\n160 kHz LPF
+Wire Wire Line
+	2400 6750 3750 6750
+Wire Wire Line
+	2400 8150 3950 8150
+Wire Wire Line
+	7550 4600 7300 4600
+Text Notes 1550 5250 2    79   ~ 0
+UART\nRx (FPGA),\nTx (Host)
+Text Notes 1600 6550 2    79   ~ 0
+Scanner\nTrigger Input
+Text Notes 1600 7900 2    79   ~ 0
+Scanner\n10 Mhz Clk\nSync Input
+Text Notes 8450 4400 0    79   ~ 0
+UART\nTx (FPGA),\nRx (Host)
+Text Notes 8000 5000 0    50   ~ 0
+21 mA typ., 31 mA max.
+Text Notes 2150 5850 0    50   ~ 0
+20 mA typ., 30 mA max.
+Text Notes 2150 7150 0    50   ~ 0
+20 mA typ., 30 mA max.
+Text Notes 2150 8550 0    50   ~ 0
+20 mA typ., 30 mA max.
+$Comp
+L Device:LED D5
+U 1 1 652A9BB4
+P 8650 2550
+F 0 "D5" V 8689 2433 50  0000 R CNN
+F 1 "Green" V 8598 2433 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8650 2550 50  0001 C CNN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-118/LTST-C171KGKT.pdf" H 8650 2550 50  0001 C CNN
+F 4 "Lite-On" V 8650 2550 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C171KGKT" V 8650 2550 50  0001 C CNN "Part Number"
+F 6 "SMT" H 8650 2550 50  0001 C CNN "Type"
+	1    8650 2550
+	0    -1   -1   0   
+$EndComp
+Text Notes 8050 2600 0    50   ~ 0
+1.95V @ 1mA
+$Comp
+L power:GND #PWR?
+U 1 1 652A9BBB
+P 8650 2700
+AR Path="/5D5B46F6/652A9BBB" Ref="#PWR?"  Part="1" 
+AR Path="/5D5B472C/652A9BBB" Ref="#PWR?"  Part="1" 
+AR Path="/5D5B478D/652A9BBB" Ref="#PWR?"  Part="1" 
+AR Path="/652A9BBB" Ref="#PWR0182"  Part="1" 
+F 0 "#PWR0182" H 8650 2450 50  0001 C CNN
+F 1 "GND" H 8655 2527 50  0000 C CNN
+F 2 "" H 8650 2700 50  0001 C CNN
+F 3 "" H 8650 2700 50  0001 C CNN
+	1    8650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 652A9BC3
+P 8650 2250
+AR Path="/5EC68138/652A9BC3" Ref="R?"  Part="1" 
+AR Path="/652A9BC3" Ref="R12"  Part="1" 
+F 0 "R12" H 8450 2300 50  0000 L CNN
+F 1 "560" H 8400 2200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8580 2250 50  0001 C CNN
+F 3 "~" H 8650 2250 50  0001 C CNN
+F 4 "KOA Speer" H 8650 2250 50  0001 C CNN "Manufacturer"
+F 5 "RK73H2ATTD5600F" H 8650 2250 50  0001 C CNN "Part Number"
+F 6 "Can substitute generic resistor with same package, value, 1% tolerance" H 8650 2250 50  0001 C CNN "Notes"
+F 7 "SMT" H 8650 2250 50  0001 C CNN "Type"
+	1    8650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Martinos:+2.5V #PWR0183
+U 1 1 652C2158
+P 8650 2100
+F 0 "#PWR0183" H 8650 1950 50  0001 C CNN
+F 1 "+2.5V" H 8665 2273 50  0000 C CNN
+F 2 "" H 8650 2100 50  0001 C CNN
+F 3 "" H 8650 2100 50  0001 C CNN
+	1    8650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0428
+U 1 1 654AF190
+P 7450 9700
+AR Path="/654AF190" Ref="#PWR0428"  Part="1" 
+AR Path="/5EC68138/654AF190" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/654AF190" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/654AF190" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/654AF190" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/654AF190" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/654AF190" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/654AF190" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/654AF190" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/654AF190" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0428" H 7450 9450 50  0001 C CNN
+F 1 "GND" H 7455 9527 50  0000 C CNN
+F 2 "" H 7450 9700 50  0001 C CNN
+F 3 "" H 7450 9700 50  0001 C CNN
+	1    7450 9700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0431
+U 1 1 654AF545
+P 6950 9700
+AR Path="/654AF545" Ref="#PWR0431"  Part="1" 
+AR Path="/5EC68138/654AF545" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/654AF545" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/654AF545" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/654AF545" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/654AF545" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/654AF545" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/654AF545" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/654AF545" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/654AF545" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0431" H 6950 9450 50  0001 C CNN
+F 1 "GND" H 6955 9527 50  0000 C CNN
+F 2 "" H 6950 9700 50  0001 C CNN
+F 3 "" H 6950 9700 50  0001 C CNN
+	1    6950 9700
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 5600 8250
+NoConn ~ 5600 8150
+NoConn ~ 5600 8050
+NoConn ~ 5600 7950
+NoConn ~ 5600 7850
+NoConn ~ 5600 7750
+NoConn ~ 5600 7650
+NoConn ~ 5600 7550
+$Sheet
+S 4150 8800 1300 200 
+U 657A93E5
+F0 "Activity Indicator (10 Mhz)" 50
+F1 "activity_indicator.sch" 50
+F2 "In" I L 4150 8900 50 
+$EndSheet
+$Sheet
+S 4150 9200 1300 200 
+U 65824FBC
+F0 "Activity Indicator (Trigger)" 50
+F1 "activity_indicator.sch" 50
+F2 "In" I L 4150 9300 50 
+$EndSheet
+Wire Wire Line
+	4150 8900 3950 8900
+Wire Wire Line
+	3950 8900 3950 8150
+Connection ~ 3950 8150
+Wire Wire Line
+	3950 8150 4100 8150
+Wire Wire Line
+	4150 9300 3750 9300
+Wire Wire Line
+	3750 9300 3750 6750
+Connection ~ 3750 6750
+Wire Wire Line
+	3750 6750 4100 6750
+$Sheet
+S 4150 9600 1300 200 
+U 658858E8
+F0 "Activitiy Indicator (Rx)" 50
+F1 "activity_indicator.sch" 50
+F2 "In" I L 4150 9700 50 
+$EndSheet
+Wire Wire Line
+	3500 5450 2400 5450
+$Sheet
+S 7450 5400 1300 200 
+U 658BBC8A
+F0 "Activity Indicator (Tx)" 50
+F1 "activity_indicator.sch" 50
+F2 "In" I L 7450 5500 50 
+$EndSheet
+Wire Wire Line
+	7450 5500 7300 5500
+Wire Wire Line
+	7300 5500 7300 4600
+Connection ~ 7300 4600
+Wire Wire Line
+	7300 4600 6750 4600
+$Comp
+L Martinos:74LVC1G14 U29
+U 1 1 659E71BC
+P 6500 4600
+F 0 "U29" H 6794 4646 50  0000 L CNN
+F 1 "74LVC1G14" H 6794 4555 50  0000 L CNN
+F 2 "Martinos_std:SOT-23-5" H 6500 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6500 4600 50  0001 C CNN
+F 4 "Texas Instruments" H 6500 4600 50  0001 C CNN "Manufacturer"
+F 5 "Nexperia" H 6500 4600 50  0001 C CNN "Manufacturer Alt."
+F 6 "SN74LVC1G14DBVR" H 6500 4600 50  0001 C CNN "Part Number"
+F 7 "74LVC1G14GV,125" H 6500 4600 50  0001 C CNN "Part Number Alt."
+F 8 "SMT" H 6500 4600 50  0001 C CNN "Type"
+	1    6500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4600 5600 4600
+$Comp
+L power:GND #PWR0439
+U 1 1 659E7EB7
+P 6500 4700
+AR Path="/659E7EB7" Ref="#PWR0439"  Part="1" 
+AR Path="/5EC68138/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/659E7EB7" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/659E7EB7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0439" H 6500 4450 50  0001 C CNN
+F 1 "GND" H 6505 4527 50  0000 C CNN
+F 2 "" H 6500 4700 50  0001 C CNN
+F 3 "" H 6500 4700 50  0001 C CNN
+	1    6500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C62
+U 1 1 659F0188
+P 6350 4350
+AR Path="/659F0188" Ref="C62"  Part="1" 
+AR Path="/609654E7/659F0188" Ref="C?"  Part="1" 
+AR Path="/609654E7/6113105B/659F0188" Ref="C?"  Part="1" 
+AR Path="/60909F92/659F0188" Ref="C?"  Part="1" 
+AR Path="/60AF9C81/659F0188" Ref="C?"  Part="1" 
+AR Path="/657A93E5/659F0188" Ref="C?"  Part="1" 
+AR Path="/65824FBC/659F0188" Ref="C?"  Part="1" 
+AR Path="/658858E8/659F0188" Ref="C?"  Part="1" 
+AR Path="/658BBC8A/659F0188" Ref="C?"  Part="1" 
+F 0 "C62" V 6600 4450 50  0000 C CNN
+F 1 "100nF 50V X7R" V 6500 4550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 4200 50  0001 C CNN
+F 3 "~" H 6350 4350 50  0001 C CNN
+F 4 "SMT" H 6350 4350 50  0001 C CNN "Type"
+F 5 "Kemet" H 6350 4350 50  0001 C CNN "Manufacturer"
+F 6 "C0603C104K5RACTU" H 6350 4350 50  0001 C CNN "Part Number"
+	1    6350 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 4200 6500 4350
+$Comp
+L power:+3.3V #PWR?
+U 1 1 659F018F
+P 6500 4200
+AR Path="/60AF9C81/659F018F" Ref="#PWR?"  Part="1" 
+AR Path="/657A93E5/659F018F" Ref="#PWR?"  Part="1" 
+AR Path="/65824FBC/659F018F" Ref="#PWR?"  Part="1" 
+AR Path="/658858E8/659F018F" Ref="#PWR?"  Part="1" 
+AR Path="/658BBC8A/659F018F" Ref="#PWR?"  Part="1" 
+AR Path="/659F018F" Ref="#PWR0440"  Part="1" 
+F 0 "#PWR0440" H 6500 4050 50  0001 C CNN
+F 1 "+3.3V" H 6515 4373 50  0000 C CNN
+F 2 "" H 6500 4200 50  0001 C CNN
+F 3 "" H 6500 4200 50  0001 C CNN
+	1    6500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4350 6500 4500
+Connection ~ 6500 4350
+$Comp
+L power:GND #PWR0441
+U 1 1 659F0197
+P 6200 4350
+AR Path="/659F0197" Ref="#PWR0441"  Part="1" 
+AR Path="/5EC68138/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/657A93E5/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/65824FBC/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/658858E8/659F0197" Ref="#PWR?"  Part="1" 
+AR Path="/658BBC8A/659F0197" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0441" H 6200 4100 50  0001 C CNN
+F 1 "GND" H 6205 4177 50  0000 C CNN
+F 2 "" H 6200 4350 50  0001 C CNN
+F 3 "" H 6200 4350 50  0001 C CNN
+	1    6200 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3500 7950 4200
+$Comp
+L Martinos:74LVC1G14 U27
+U 1 1 65A9FE15
+P 3800 5450
+F 0 "U27" H 3550 5150 50  0000 L CNN
+F 1 "74LVC1G14" H 3550 5050 50  0000 L CNN
+F 2 "Martinos_std:SOT-23-5" H 3800 5450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3800 5450 50  0001 C CNN
+F 4 "Texas Instruments" H 3800 5450 50  0001 C CNN "Manufacturer"
+F 5 "Nexperia" H 3800 5450 50  0001 C CNN "Manufacturer Alt."
+F 6 "SN74LVC1G14DBVR" H 3800 5450 50  0001 C CNN "Part Number"
+F 7 "74LVC1G14GV,125" H 3800 5450 50  0001 C CNN "Part Number Alt."
+F 8 "SMT" H 3800 5450 50  0001 C CNN "Type"
+	1    3800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0442
+U 1 1 65A9FE1B
+P 3800 5550
+AR Path="/65A9FE1B" Ref="#PWR0442"  Part="1" 
+AR Path="/5EC68138/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/65A9FE1B" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/65A9FE1B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0442" H 3800 5300 50  0001 C CNN
+F 1 "GND" H 3805 5377 50  0000 C CNN
+F 2 "" H 3800 5550 50  0001 C CNN
+F 3 "" H 3800 5550 50  0001 C CNN
+	1    3800 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5450 4100 5450
+$Comp
+L Device:C C61
+U 1 1 65AF719C
+P 3650 5200
+AR Path="/65AF719C" Ref="C61"  Part="1" 
+AR Path="/609654E7/65AF719C" Ref="C?"  Part="1" 
+AR Path="/609654E7/6113105B/65AF719C" Ref="C?"  Part="1" 
+AR Path="/60909F92/65AF719C" Ref="C?"  Part="1" 
+AR Path="/60AF9C81/65AF719C" Ref="C?"  Part="1" 
+AR Path="/657A93E5/65AF719C" Ref="C?"  Part="1" 
+AR Path="/65824FBC/65AF719C" Ref="C?"  Part="1" 
+AR Path="/658858E8/65AF719C" Ref="C?"  Part="1" 
+AR Path="/658BBC8A/65AF719C" Ref="C?"  Part="1" 
+F 0 "C61" V 4150 5150 50  0000 C CNN
+F 1 "100nF 50V X7R" V 4050 5100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 5050 50  0001 C CNN
+F 3 "~" H 3650 5200 50  0001 C CNN
+F 4 "SMT" H 3650 5200 50  0001 C CNN "Type"
+F 5 "Kemet" H 3650 5200 50  0001 C CNN "Manufacturer"
+F 6 "C0603C104K5RACTU" H 3650 5200 50  0001 C CNN "Part Number"
+	1    3650 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 5050 3800 5200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65AF71A3
+P 3800 5050
+AR Path="/60AF9C81/65AF71A3" Ref="#PWR?"  Part="1" 
+AR Path="/657A93E5/65AF71A3" Ref="#PWR?"  Part="1" 
+AR Path="/65824FBC/65AF71A3" Ref="#PWR?"  Part="1" 
+AR Path="/658858E8/65AF71A3" Ref="#PWR?"  Part="1" 
+AR Path="/658BBC8A/65AF71A3" Ref="#PWR?"  Part="1" 
+AR Path="/65AF71A3" Ref="#PWR0443"  Part="1" 
+F 0 "#PWR0443" H 3800 4900 50  0001 C CNN
+F 1 "+3.3V" H 3815 5223 50  0000 C CNN
+F 2 "" H 3800 5050 50  0001 C CNN
+F 3 "" H 3800 5050 50  0001 C CNN
+	1    3800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5200 3800 5350
+Connection ~ 3800 5200
+$Comp
+L power:GND #PWR0444
+U 1 1 65AF71AB
+P 3500 5200
+AR Path="/65AF71AB" Ref="#PWR0444"  Part="1" 
+AR Path="/5EC68138/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/60AF9C81/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/657A93E5/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/65824FBC/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/658858E8/65AF71AB" Ref="#PWR?"  Part="1" 
+AR Path="/658BBC8A/65AF71AB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0444" H 3500 4950 50  0001 C CNN
+F 1 "GND" H 3505 5027 50  0000 C CNN
+F 2 "" H 3500 5200 50  0001 C CNN
+F 3 "" H 3500 5200 50  0001 C CNN
+	1    3500 5200
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3500 5450
+Wire Wire Line
+	3500 9700 3500 5450
+Wire Wire Line
+	4150 9700 3500 9700
+$Comp
+L power:+VDC #PWR?
+U 1 1 619909A6
+P 900 2200
+AR Path="/5F1EE734/619909A6" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/619909A6" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/619909A6" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/619909A6" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/619909A6" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/619909A6" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/619909A6" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/619909A6" Ref="#PWR?"  Part="1" 
+AR Path="/619909A6" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 900 2100 50  0001 C CNN
+F 1 "+VDC" H 900 2475 50  0000 C CNN
+F 2 "" H 900 2200 50  0001 C CNN
+F 3 "" H 900 2200 50  0001 C CNN
+	1    900  2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2200 1100 2200
+$Comp
+L Connector:TestPoint_Flag TP?
+U 1 1 619AA2BB
+P 1100 2450
+AR Path="/5F1EE734/619AA2BB" Ref="TP?"  Part="1" 
+AR Path="/619AA2BB" Ref="TP3"  Part="1" 
+F 0 "TP3" H 1360 2498 50  0000 L CNN
+F 1 "TestPoint_Flag" H 1360 2453 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1300 2450 50  0001 C CNN
+F 3 "~" H 1300 2450 50  0001 C CNN
+F 4 "Keystone" H 1100 2450 50  0001 C CNN "Manufacturer"
+F 5 "5019" H 1100 2450 50  0001 C CNN "Part Number"
+F 6 "SMT" H 1100 2450 50  0001 C CNN "Type"
+	1    1100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 619AA71A
+P 1100 2450
+AR Path="/5F1EE734/619AA71A" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/619AA71A" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/619AA71A" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/619AA71A" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/619AA71A" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/619AA71A" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/619AA71A" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/619AA71A" Ref="#PWR?"  Part="1" 
+AR Path="/619AA71A" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 1100 2250 50  0001 C CNN
+F 1 "GNDPWR" H 1104 2296 50  0000 C CNN
+F 2 "" H 1100 2400 50  0001 C CNN
+F 3 "" H 1100 2400 50  0001 C CNN
+	1    1100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 619AD32C
+P 9850 9750
+AR Path="/5F1EE734/619AD32C" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/619AD32C" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/619AD32C" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/619AD32C" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/619AD32C" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/619AD32C" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/619AD32C" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/619AD32C" Ref="#PWR?"  Part="1" 
+AR Path="/619AD32C" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 9850 9550 50  0001 C CNN
+F 1 "GNDPWR" H 9854 9596 50  0000 C CNN
+F 2 "" H 9850 9700 50  0001 C CNN
+F 3 "" H 9850 9700 50  0001 C CNN
+	1    9850 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 619BB535
+P 10350 9750
+AR Path="/5F1EE734/619BB535" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/619BB535" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/619BB535" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/619BB535" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/619BB535" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/619BB535" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/619BB535" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/619BB535" Ref="#PWR?"  Part="1" 
+AR Path="/619BB535" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 10350 9550 50  0001 C CNN
+F 1 "GNDPWR" H 10354 9596 50  0000 C CNN
+F 2 "" H 10350 9700 50  0001 C CNN
+F 3 "" H 10350 9700 50  0001 C CNN
+	1    10350 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 619F6FCB
+P 9850 10250
+AR Path="/5F1EE734/619F6FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/619F6FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/619F6FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/619F6FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/619F6FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/619F6FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/619F6FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/619F6FCB" Ref="#PWR?"  Part="1" 
+AR Path="/619F6FCB" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 9850 10050 50  0001 C CNN
+F 1 "GNDPWR" H 9854 10096 50  0000 C CNN
+F 2 "" H 9850 10200 50  0001 C CNN
+F 3 "" H 9850 10200 50  0001 C CNN
+	1    9850 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0203
+U 1 1 61A349EF
+P 6450 9700
+AR Path="/61A349EF" Ref="#PWR0203"  Part="1" 
+AR Path="/5EC68138/61A349EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/61A349EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/61A349EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/61A349EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/61A349EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/61A349EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/61A349EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/61A349EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/61A349EF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0203" H 6450 9450 50  0001 C CNN
+F 1 "GND" H 6455 9527 50  0000 C CNN
+F 2 "" H 6450 9700 50  0001 C CNN
+F 3 "" H 6450 9700 50  0001 C CNN
+	1    6450 9700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H16
+U 1 1 61A96A4B
+P 9350 9650
+F 0 "H16" H 9450 9699 50  0000 L CNN
+F 1 "#4/M3" H 9450 9608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9350 9650 50  0001 C CNN
+F 3 "~" H 9350 9650 50  0001 C CNN
+F 4 "DNP" H 9350 9650 50  0001 C CNN "DNP"
+	1    9350 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H17
+U 1 1 61AD335C
+P 9350 10150
+F 0 "H17" H 9450 10199 50  0000 L CNN
+F 1 "#4/M3" H 9450 10108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9350 10150 50  0001 C CNN
+F 3 "~" H 9350 10150 50  0001 C CNN
+F 4 "DNP" H 9350 10150 50  0001 C CNN "DNP"
+	1    9350 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 61B98527
+P 2950 1650
+AR Path="/5F1EE734/61B98527" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/61B98527" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/61B98527" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/61B98527" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/61B98527" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/61B98527" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/61B98527" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/61B98527" Ref="#PWR?"  Part="1" 
+AR Path="/61B98527" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 2950 1450 50  0001 C CNN
+F 1 "GNDPWR" H 2954 1496 50  0000 C CNN
+F 2 "" H 2950 1600 50  0001 C CNN
+F 3 "" H 2950 1600 50  0001 C CNN
+	1    2950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 63422F8B
+P 9350 9750
+AR Path="/5F1EE734/63422F8B" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/63422F8B" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/63422F8B" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/63422F8B" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/63422F8B" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/63422F8B" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/63422F8B" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/63422F8B" Ref="#PWR?"  Part="1" 
+AR Path="/63422F8B" Ref="#PWR0200"  Part="1" 
+F 0 "#PWR0200" H 9350 9550 50  0001 C CNN
+F 1 "GNDPWR" H 9354 9596 50  0000 C CNN
+F 2 "" H 9350 9700 50  0001 C CNN
+F 3 "" H 9350 9700 50  0001 C CNN
+	1    9350 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 6342347E
+P 9350 10250
+AR Path="/5F1EE734/6342347E" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/6342347E" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/6342347E" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/6342347E" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/6342347E" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/6342347E" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/6342347E" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/6342347E" Ref="#PWR?"  Part="1" 
+AR Path="/6342347E" Ref="#PWR0204"  Part="1" 
+F 0 "#PWR0204" H 9350 10050 50  0001 C CNN
+F 1 "GNDPWR" H 9354 10096 50  0000 C CNN
+F 2 "" H 9350 10200 50  0001 C CNN
+F 3 "" H 9350 10200 50  0001 C CNN
+	1    9350 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 63473F46
+P 10350 10250
+AR Path="/5F1EE734/63473F46" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/63473F46" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/63473F46" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/63473F46" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/63473F46" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/63473F46" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/63473F46" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/63473F46" Ref="#PWR?"  Part="1" 
+AR Path="/63473F46" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 10350 10050 50  0001 C CNN
+F 1 "GNDPWR" H 10354 10096 50  0000 C CNN
+F 2 "" H 10350 10200 50  0001 C CNN
+F 3 "" H 10350 10200 50  0001 C CNN
+	1    10350 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 63474560
+P 10850 9750
+AR Path="/5F1EE734/63474560" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/63474560" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/63474560" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/63474560" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/63474560" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/63474560" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/63474560" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/63474560" Ref="#PWR?"  Part="1" 
+AR Path="/63474560" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 10850 9550 50  0001 C CNN
+F 1 "GNDPWR" H 10854 9596 50  0000 C CNN
+F 2 "" H 10850 9700 50  0001 C CNN
+F 3 "" H 10850 9700 50  0001 C CNN
+	1    10850 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H18
+U 1 1 6349B0EE
+P 11350 9650
+F 0 "H18" H 11450 9699 50  0000 L CNN
+F 1 "#4/M3" H 11450 9608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 11350 9650 50  0001 C CNN
+F 3 "~" H 11350 9650 50  0001 C CNN
+F 4 "DNP" H 11350 9650 50  0001 C CNN "DNP"
+	1    11350 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H20
+U 1 1 6349B0F5
+P 11350 10150
+F 0 "H20" H 11450 10199 50  0000 L CNN
+F 1 "#4/M3" H 11450 10108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 11350 10150 50  0001 C CNN
+F 3 "~" H 11350 10150 50  0001 C CNN
+F 4 "DNP" H 11350 10150 50  0001 C CNN "DNP"
+	1    11350 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H19
+U 1 1 6349B0FC
+P 10850 10150
+F 0 "H19" H 10950 10199 50  0000 L CNN
+F 1 "#4/M3" H 10950 10108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10850 10150 50  0001 C CNN
+F 3 "~" H 10850 10150 50  0001 C CNN
+F 4 "DNP" H 10850 10150 50  0001 C CNN "DNP"
+	1    10850 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 634EDB27
+P 11350 9750
+AR Path="/5F1EE734/634EDB27" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/634EDB27" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/634EDB27" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/634EDB27" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/634EDB27" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/634EDB27" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/634EDB27" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/634EDB27" Ref="#PWR?"  Part="1" 
+AR Path="/634EDB27" Ref="#PWR0206"  Part="1" 
+F 0 "#PWR0206" H 11350 9550 50  0001 C CNN
+F 1 "GNDPWR" H 11354 9596 50  0000 C CNN
+F 2 "" H 11350 9700 50  0001 C CNN
+F 3 "" H 11350 9700 50  0001 C CNN
+	1    11350 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 634EE1E5
+P 11350 10250
+AR Path="/5F1EE734/634EE1E5" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/634EE1E5" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/634EE1E5" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/634EE1E5" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/634EE1E5" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/634EE1E5" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/634EE1E5" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/634EE1E5" Ref="#PWR?"  Part="1" 
+AR Path="/634EE1E5" Ref="#PWR0279"  Part="1" 
+F 0 "#PWR0279" H 11350 10050 50  0001 C CNN
+F 1 "GNDPWR" H 11354 10096 50  0000 C CNN
+F 2 "" H 11350 10200 50  0001 C CNN
+F 3 "" H 11350 10200 50  0001 C CNN
+	1    11350 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 634EE889
+P 10850 10250
+AR Path="/5F1EE734/634EE889" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/634EE889" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/634EE889" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/634EE889" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/634EE889" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/634EE889" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/634EE889" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/634EE889" Ref="#PWR?"  Part="1" 
+AR Path="/634EE889" Ref="#PWR0294"  Part="1" 
+F 0 "#PWR0294" H 10850 10050 50  0001 C CNN
+F 1 "GNDPWR" H 10854 10096 50  0000 C CNN
+F 2 "" H 10850 10200 50  0001 C CNN
+F 3 "" H 10850 10200 50  0001 C CNN
+	1    10850 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0299
+U 1 1 637235AA
+P 7950 10200
+AR Path="/637235AA" Ref="#PWR0299"  Part="1" 
+AR Path="/5EC68138/637235AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F1EE734/637235AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/637235AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/637235AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/637235AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/637235AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/637235AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/637235AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/637235AA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0299" H 7950 9950 50  0001 C CNN
+F 1 "GND" H 7955 10027 50  0000 C CNN
+F 2 "" H 7950 10200 50  0001 C CNN
+F 3 "" H 7950 10200 50  0001 C CNN
+	1    7950 10200
+	-1   0    0    -1  
+$EndComp
+Text Notes 3950 4450 2    50   ~ 0
+UART signals are inverted at both ends\nso that they idle low, and save LED power
+Text Notes 6450 3950 2    50   ~ 0
+UART signals are inverted at both ends\nso that they idle low, and save LED power
+Wire Notes Line
+	4050 5400 4050 4350
+Wire Notes Line
+	4050 4350 3950 4350
+Wire Notes Line
+	6700 4500 6700 3850
+Wire Notes Line
+	6700 3850 6450 3850
+Text Notes 3400 10000 0    50   ~ 0
+LEDs light on rising edges as signal-activity indicators
+Wire Wire Line
+	6250 1050 6450 1050
+Wire Wire Line
+	4350 1050 4900 1050
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 6139AFCD
+P 14650 7300
+AR Path="/5F1EE734/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/6139AFCD" Ref="#PWR?"  Part="1" 
+AR Path="/6139AFCD" Ref="#PWR0188"  Part="1" 
+F 0 "#PWR0188" H 14650 7100 50  0001 C CNN
+F 1 "GNDPWR" H 14654 7146 50  0000 C CNN
+F 2 "" H 14650 7250 50  0001 C CNN
+F 3 "" H 14650 7250 50  0001 C CNN
+	1    14650 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR?
+U 1 1 6139AFD3
+P 14650 7000
+AR Path="/5F1EE734/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/6139AFD3" Ref="#PWR?"  Part="1" 
+AR Path="/6139AFD3" Ref="#PWR0189"  Part="1" 
+F 0 "#PWR0189" H 14650 6900 50  0001 C CNN
+F 1 "+VDC" H 14650 7275 50  0000 C CNN
+F 2 "" H 14650 7000 50  0001 C CNN
+F 3 "" H 14650 7000 50  0001 C CNN
+	1    14650 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14650 7000 14650 7100
+Wire Wire Line
+	14650 7300 14650 7200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6139AFDF
+P 14850 7200
+AR Path="/5F1EE734/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/5F3804DD/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/5F380775/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/5F382B3C/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/5F382D81/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/5F383034/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/5F3853FE/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/5F380999/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60F2428F/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60F46E08/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60F4BA31/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60F50E2B/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60F5716A/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60F7079A/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60F7B613/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60DC7482/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60DD6A20/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60DE6274/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60DF5646/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60E04686/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60E22C5C/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/60E31E4C/6139AFDF" Ref="J?"  Part="1" 
+AR Path="/6139AFDF" Ref="J42"  Part="1" 
+F 0 "J42" H 14850 7300 50  0000 C CNN
+F 1 "Conn_01x02" H 14768 7326 50  0001 C CNN
+F 2 "Martinos:Connector_Phoenix_1792229" H 14850 7200 50  0001 C CNN
+F 3 "~" H 14850 7200 50  0001 C CNN
+F 4 "Through-hole" H 14850 7200 50  0001 C CNN "Type"
+F 5 "" H 14850 7200 50  0001 C CNN "Notes"
+F 6 "Phoenix Contact" H 14850 7200 50  0001 C CNN "Manufacturer"
+F 7 "1792229" H 14850 7200 50  0001 C CNN "Part Number"
+	1    14850 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 613B50E8
+P 15100 7300
+AR Path="/5F1EE734/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/613B50E8" Ref="#PWR?"  Part="1" 
+AR Path="/613B50E8" Ref="#PWR0268"  Part="1" 
+F 0 "#PWR0268" H 15100 7100 50  0001 C CNN
+F 1 "GNDPWR" H 15104 7146 50  0000 C CNN
+F 2 "" H 15100 7250 50  0001 C CNN
+F 3 "" H 15100 7250 50  0001 C CNN
+	1    15100 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR?
+U 1 1 613B50EE
+P 15100 7000
+AR Path="/5F1EE734/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/613B50EE" Ref="#PWR?"  Part="1" 
+AR Path="/613B50EE" Ref="#PWR0269"  Part="1" 
+F 0 "#PWR0269" H 15100 6900 50  0001 C CNN
+F 1 "+VDC" H 15100 7275 50  0000 C CNN
+F 2 "" H 15100 7000 50  0001 C CNN
+F 3 "" H 15100 7000 50  0001 C CNN
+	1    15100 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 7000 15100 7100
+Wire Wire Line
+	15100 7300 15100 7200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 613B50FA
+P 15300 7200
+AR Path="/5F1EE734/613B50FA" Ref="J?"  Part="1" 
+AR Path="/5F3804DD/613B50FA" Ref="J?"  Part="1" 
+AR Path="/5F380775/613B50FA" Ref="J?"  Part="1" 
+AR Path="/5F382B3C/613B50FA" Ref="J?"  Part="1" 
+AR Path="/5F382D81/613B50FA" Ref="J?"  Part="1" 
+AR Path="/5F383034/613B50FA" Ref="J?"  Part="1" 
+AR Path="/5F3853FE/613B50FA" Ref="J?"  Part="1" 
+AR Path="/5F380999/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60F2428F/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60F46E08/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60F4BA31/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60F50E2B/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60F5716A/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60F7079A/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60F7B613/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60DC7482/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60DD6A20/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60DE6274/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60DF5646/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60E04686/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60E22C5C/613B50FA" Ref="J?"  Part="1" 
+AR Path="/60E31E4C/613B50FA" Ref="J?"  Part="1" 
+AR Path="/613B50FA" Ref="J47"  Part="1" 
+F 0 "J47" H 15300 7300 50  0000 C CNN
+F 1 "Conn_01x02" H 15218 7326 50  0001 C CNN
+F 2 "Martinos:Connector_Phoenix_1792229" H 15300 7200 50  0001 C CNN
+F 3 "~" H 15300 7200 50  0001 C CNN
+F 4 "Through-hole" H 15300 7200 50  0001 C CNN "Type"
+F 5 "" H 15300 7200 50  0001 C CNN "Notes"
+F 6 "Phoenix Contact" H 15300 7200 50  0001 C CNN "Manufacturer"
+F 7 "1792229" H 15300 7200 50  0001 C CNN "Part Number"
+	1    15300 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 613CEF4A
+P 14650 8150
+AR Path="/5F1EE734/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/613CEF4A" Ref="#PWR?"  Part="1" 
+AR Path="/613CEF4A" Ref="#PWR0288"  Part="1" 
+F 0 "#PWR0288" H 14650 7950 50  0001 C CNN
+F 1 "GNDPWR" H 14654 7996 50  0000 C CNN
+F 2 "" H 14650 8100 50  0001 C CNN
+F 3 "" H 14650 8100 50  0001 C CNN
+	1    14650 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR?
+U 1 1 613CEF50
+P 14650 7850
+AR Path="/5F1EE734/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/613CEF50" Ref="#PWR?"  Part="1" 
+AR Path="/613CEF50" Ref="#PWR0289"  Part="1" 
+F 0 "#PWR0289" H 14650 7750 50  0001 C CNN
+F 1 "+VDC" H 14650 8125 50  0000 C CNN
+F 2 "" H 14650 7850 50  0001 C CNN
+F 3 "" H 14650 7850 50  0001 C CNN
+	1    14650 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14650 7850 14650 7950
+Wire Wire Line
+	14650 8150 14650 8050
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 613CEF5C
+P 14850 8050
+AR Path="/5F1EE734/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/5F3804DD/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/5F380775/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/5F382B3C/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/5F382D81/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/5F383034/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/5F3853FE/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/5F380999/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60F2428F/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60F46E08/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60F4BA31/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60F50E2B/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60F5716A/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60F7079A/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60F7B613/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60DC7482/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60DD6A20/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60DE6274/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60DF5646/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60E04686/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60E22C5C/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/60E31E4C/613CEF5C" Ref="J?"  Part="1" 
+AR Path="/613CEF5C" Ref="J22"  Part="1" 
+F 0 "J22" H 14850 8150 50  0000 C CNN
+F 1 "Conn_01x02" H 14768 8176 50  0001 C CNN
+F 2 "Martinos:Connector_Phoenix_1792229" H 14850 8050 50  0001 C CNN
+F 3 "~" H 14850 8050 50  0001 C CNN
+F 4 "Through-hole" H 14850 8050 50  0001 C CNN "Type"
+F 5 "" H 14850 8050 50  0001 C CNN "Notes"
+F 6 "Phoenix Contact" H 14850 8050 50  0001 C CNN "Manufacturer"
+F 7 "1792229" H 14850 8050 50  0001 C CNN "Part Number"
+	1    14850 8050
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 613E9031
+P 15100 8150
+AR Path="/5F1EE734/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/613E9031" Ref="#PWR?"  Part="1" 
+AR Path="/613E9031" Ref="#PWR0308"  Part="1" 
+F 0 "#PWR0308" H 15100 7950 50  0001 C CNN
+F 1 "GNDPWR" H 15104 7996 50  0000 C CNN
+F 2 "" H 15100 8100 50  0001 C CNN
+F 3 "" H 15100 8100 50  0001 C CNN
+	1    15100 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR?
+U 1 1 613E9037
+P 15100 7850
+AR Path="/5F1EE734/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/613E9037" Ref="#PWR?"  Part="1" 
+AR Path="/613E9037" Ref="#PWR0309"  Part="1" 
+F 0 "#PWR0309" H 15100 7750 50  0001 C CNN
+F 1 "+VDC" H 15100 8125 50  0000 C CNN
+F 2 "" H 15100 7850 50  0001 C CNN
+F 3 "" H 15100 7850 50  0001 C CNN
+	1    15100 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 7850 15100 7950
+Wire Wire Line
+	15100 8150 15100 8050
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 613E9043
+P 15300 8050
+AR Path="/5F1EE734/613E9043" Ref="J?"  Part="1" 
+AR Path="/5F3804DD/613E9043" Ref="J?"  Part="1" 
+AR Path="/5F380775/613E9043" Ref="J?"  Part="1" 
+AR Path="/5F382B3C/613E9043" Ref="J?"  Part="1" 
+AR Path="/5F382D81/613E9043" Ref="J?"  Part="1" 
+AR Path="/5F383034/613E9043" Ref="J?"  Part="1" 
+AR Path="/5F3853FE/613E9043" Ref="J?"  Part="1" 
+AR Path="/5F380999/613E9043" Ref="J?"  Part="1" 
+AR Path="/60F2428F/613E9043" Ref="J?"  Part="1" 
+AR Path="/60F46E08/613E9043" Ref="J?"  Part="1" 
+AR Path="/60F4BA31/613E9043" Ref="J?"  Part="1" 
+AR Path="/60F50E2B/613E9043" Ref="J?"  Part="1" 
+AR Path="/60F5716A/613E9043" Ref="J?"  Part="1" 
+AR Path="/60F7079A/613E9043" Ref="J?"  Part="1" 
+AR Path="/60F7B613/613E9043" Ref="J?"  Part="1" 
+AR Path="/60DC7482/613E9043" Ref="J?"  Part="1" 
+AR Path="/60DD6A20/613E9043" Ref="J?"  Part="1" 
+AR Path="/60DE6274/613E9043" Ref="J?"  Part="1" 
+AR Path="/60DF5646/613E9043" Ref="J?"  Part="1" 
+AR Path="/60E04686/613E9043" Ref="J?"  Part="1" 
+AR Path="/60E22C5C/613E9043" Ref="J?"  Part="1" 
+AR Path="/60E31E4C/613E9043" Ref="J?"  Part="1" 
+AR Path="/613E9043" Ref="J37"  Part="1" 
+F 0 "J37" H 15300 8150 50  0000 C CNN
+F 1 "Conn_01x02" H 15218 8176 50  0001 C CNN
+F 2 "Martinos:Connector_Phoenix_1792229" H 15300 8050 50  0001 C CNN
+F 3 "~" H 15300 8050 50  0001 C CNN
+F 4 "Through-hole" H 15300 8050 50  0001 C CNN "Type"
+F 5 "" H 15300 8050 50  0001 C CNN "Notes"
+F 6 "Phoenix Contact" H 15300 8050 50  0001 C CNN "Manufacturer"
+F 7 "1792229" H 15300 8050 50  0001 C CNN "Part Number"
+	1    15300 8050
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 61403416
+P 15550 7300
+AR Path="/5F1EE734/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/61403416" Ref="#PWR?"  Part="1" 
+AR Path="/61403416" Ref="#PWR0314"  Part="1" 
+F 0 "#PWR0314" H 15550 7100 50  0001 C CNN
+F 1 "GNDPWR" H 15554 7146 50  0000 C CNN
+F 2 "" H 15550 7250 50  0001 C CNN
+F 3 "" H 15550 7250 50  0001 C CNN
+	1    15550 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR?
+U 1 1 6140341C
+P 15550 7000
+AR Path="/5F1EE734/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/6140341C" Ref="#PWR?"  Part="1" 
+AR Path="/6140341C" Ref="#PWR0319"  Part="1" 
+F 0 "#PWR0319" H 15550 6900 50  0001 C CNN
+F 1 "+VDC" H 15550 7275 50  0000 C CNN
+F 2 "" H 15550 7000 50  0001 C CNN
+F 3 "" H 15550 7000 50  0001 C CNN
+	1    15550 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15550 7000 15550 7100
+Wire Wire Line
+	15550 7300 15550 7200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61403428
+P 15750 7200
+AR Path="/5F1EE734/61403428" Ref="J?"  Part="1" 
+AR Path="/5F3804DD/61403428" Ref="J?"  Part="1" 
+AR Path="/5F380775/61403428" Ref="J?"  Part="1" 
+AR Path="/5F382B3C/61403428" Ref="J?"  Part="1" 
+AR Path="/5F382D81/61403428" Ref="J?"  Part="1" 
+AR Path="/5F383034/61403428" Ref="J?"  Part="1" 
+AR Path="/5F3853FE/61403428" Ref="J?"  Part="1" 
+AR Path="/5F380999/61403428" Ref="J?"  Part="1" 
+AR Path="/60F2428F/61403428" Ref="J?"  Part="1" 
+AR Path="/60F46E08/61403428" Ref="J?"  Part="1" 
+AR Path="/60F4BA31/61403428" Ref="J?"  Part="1" 
+AR Path="/60F50E2B/61403428" Ref="J?"  Part="1" 
+AR Path="/60F5716A/61403428" Ref="J?"  Part="1" 
+AR Path="/60F7079A/61403428" Ref="J?"  Part="1" 
+AR Path="/60F7B613/61403428" Ref="J?"  Part="1" 
+AR Path="/60DC7482/61403428" Ref="J?"  Part="1" 
+AR Path="/60DD6A20/61403428" Ref="J?"  Part="1" 
+AR Path="/60DE6274/61403428" Ref="J?"  Part="1" 
+AR Path="/60DF5646/61403428" Ref="J?"  Part="1" 
+AR Path="/60E04686/61403428" Ref="J?"  Part="1" 
+AR Path="/60E22C5C/61403428" Ref="J?"  Part="1" 
+AR Path="/60E31E4C/61403428" Ref="J?"  Part="1" 
+AR Path="/61403428" Ref="J32"  Part="1" 
+F 0 "J32" H 15750 7300 50  0000 C CNN
+F 1 "Conn_01x02" H 15668 7326 50  0001 C CNN
+F 2 "Martinos:Connector_Phoenix_1792229" H 15750 7200 50  0001 C CNN
+F 3 "~" H 15750 7200 50  0001 C CNN
+F 4 "Through-hole" H 15750 7200 50  0001 C CNN "Type"
+F 5 "" H 15750 7200 50  0001 C CNN "Notes"
+F 6 "Phoenix Contact" H 15750 7200 50  0001 C CNN "Manufacturer"
+F 7 "1792229" H 15750 7200 50  0001 C CNN "Part Number"
+	1    15750 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 6141D694
+P 15550 8150
+AR Path="/5F1EE734/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/6141D694" Ref="#PWR?"  Part="1" 
+AR Path="/6141D694" Ref="#PWR0328"  Part="1" 
+F 0 "#PWR0328" H 15550 7950 50  0001 C CNN
+F 1 "GNDPWR" H 15554 7996 50  0000 C CNN
+F 2 "" H 15550 8100 50  0001 C CNN
+F 3 "" H 15550 8100 50  0001 C CNN
+	1    15550 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR?
+U 1 1 6141D69A
+P 15550 7850
+AR Path="/5F1EE734/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/6141D69A" Ref="#PWR?"  Part="1" 
+AR Path="/6141D69A" Ref="#PWR0329"  Part="1" 
+F 0 "#PWR0329" H 15550 7750 50  0001 C CNN
+F 1 "+VDC" H 15550 8125 50  0000 C CNN
+F 2 "" H 15550 7850 50  0001 C CNN
+F 3 "" H 15550 7850 50  0001 C CNN
+	1    15550 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15550 7850 15550 7950
+Wire Wire Line
+	15550 8150 15550 8050
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6141D6A6
+P 15750 8050
+AR Path="/5F1EE734/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/5F3804DD/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/5F380775/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/5F382B3C/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/5F382D81/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/5F383034/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/5F3853FE/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/5F380999/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60F2428F/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60F46E08/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60F4BA31/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60F50E2B/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60F5716A/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60F7079A/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60F7B613/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60DC7482/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60DD6A20/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60DE6274/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60DF5646/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60E04686/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60E22C5C/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/60E31E4C/6141D6A6" Ref="J?"  Part="1" 
+AR Path="/6141D6A6" Ref="J8"  Part="1" 
+F 0 "J8" H 15750 8150 50  0000 C CNN
+F 1 "Conn_01x02" H 15668 8176 50  0001 C CNN
+F 2 "Martinos:Connector_Phoenix_1792229" H 15750 8050 50  0001 C CNN
+F 3 "~" H 15750 8050 50  0001 C CNN
+F 4 "Through-hole" H 15750 8050 50  0001 C CNN "Type"
+F 5 "" H 15750 8050 50  0001 C CNN "Notes"
+F 6 "Phoenix Contact" H 15750 8050 50  0001 C CNN "Manufacturer"
+F 7 "1792229" H 15750 8050 50  0001 C CNN "Part Number"
+	1    15750 8050
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 61437CB6
+P 16000 7300
+AR Path="/5F1EE734/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/61437CB6" Ref="#PWR?"  Part="1" 
+AR Path="/61437CB6" Ref="#PWR0334"  Part="1" 
+F 0 "#PWR0334" H 16000 7100 50  0001 C CNN
+F 1 "GNDPWR" H 16004 7146 50  0000 C CNN
+F 2 "" H 16000 7250 50  0001 C CNN
+F 3 "" H 16000 7250 50  0001 C CNN
+	1    16000 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR?
+U 1 1 61437CBC
+P 16000 7000
+AR Path="/5F1EE734/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/61437CBC" Ref="#PWR?"  Part="1" 
+AR Path="/61437CBC" Ref="#PWR0339"  Part="1" 
+F 0 "#PWR0339" H 16000 6900 50  0001 C CNN
+F 1 "+VDC" H 16000 7275 50  0000 C CNN
+F 2 "" H 16000 7000 50  0001 C CNN
+F 3 "" H 16000 7000 50  0001 C CNN
+	1    16000 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16000 7000 16000 7100
+Wire Wire Line
+	16000 7300 16000 7200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61437CC8
+P 16200 7200
+AR Path="/5F1EE734/61437CC8" Ref="J?"  Part="1" 
+AR Path="/5F3804DD/61437CC8" Ref="J?"  Part="1" 
+AR Path="/5F380775/61437CC8" Ref="J?"  Part="1" 
+AR Path="/5F382B3C/61437CC8" Ref="J?"  Part="1" 
+AR Path="/5F382D81/61437CC8" Ref="J?"  Part="1" 
+AR Path="/5F383034/61437CC8" Ref="J?"  Part="1" 
+AR Path="/5F3853FE/61437CC8" Ref="J?"  Part="1" 
+AR Path="/5F380999/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60F2428F/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60F46E08/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60F4BA31/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60F50E2B/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60F5716A/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60F7079A/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60F7B613/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60DC7482/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60DD6A20/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60DE6274/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60DF5646/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60E04686/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60E22C5C/61437CC8" Ref="J?"  Part="1" 
+AR Path="/60E31E4C/61437CC8" Ref="J?"  Part="1" 
+AR Path="/61437CC8" Ref="J27"  Part="1" 
+F 0 "J27" H 16200 7300 50  0000 C CNN
+F 1 "Conn_01x02" H 16118 7326 50  0001 C CNN
+F 2 "Martinos:Connector_Phoenix_1792229" H 16200 7200 50  0001 C CNN
+F 3 "~" H 16200 7200 50  0001 C CNN
+F 4 "Through-hole" H 16200 7200 50  0001 C CNN "Type"
+F 5 "" H 16200 7200 50  0001 C CNN "Notes"
+F 6 "Phoenix Contact" H 16200 7200 50  0001 C CNN "Manufacturer"
+F 7 "1792229" H 16200 7200 50  0001 C CNN "Part Number"
+	1    16200 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 61451DBC
+P 16000 8150
+AR Path="/5F1EE734/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/61451DBC" Ref="#PWR?"  Part="1" 
+AR Path="/61451DBC" Ref="#PWR0348"  Part="1" 
+F 0 "#PWR0348" H 16000 7950 50  0001 C CNN
+F 1 "GNDPWR" H 16004 7996 50  0000 C CNN
+F 2 "" H 16000 8100 50  0001 C CNN
+F 3 "" H 16000 8100 50  0001 C CNN
+	1    16000 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR?
+U 1 1 61451DC2
+P 16000 7850
+AR Path="/5F1EE734/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/5F3804DD/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/5F380775/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/5F380999/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/5F382B3C/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/5F382D81/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/5F383034/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/5F3853FE/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60F2428F/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60F46E08/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60F4BA31/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60F50E2B/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60F5716A/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60F7079A/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60F7B613/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60DC7482/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60DD6A20/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60DE6274/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60DF5646/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60E04686/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60E22C5C/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/60E31E4C/61451DC2" Ref="#PWR?"  Part="1" 
+AR Path="/61451DC2" Ref="#PWR0349"  Part="1" 
+F 0 "#PWR0349" H 16000 7750 50  0001 C CNN
+F 1 "+VDC" H 16000 8125 50  0000 C CNN
+F 2 "" H 16000 7850 50  0001 C CNN
+F 3 "" H 16000 7850 50  0001 C CNN
+	1    16000 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16000 7850 16000 7950
+Wire Wire Line
+	16000 8150 16000 8050
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61451DCE
+P 16200 8050
+AR Path="/5F1EE734/61451DCE" Ref="J?"  Part="1" 
+AR Path="/5F3804DD/61451DCE" Ref="J?"  Part="1" 
+AR Path="/5F380775/61451DCE" Ref="J?"  Part="1" 
+AR Path="/5F382B3C/61451DCE" Ref="J?"  Part="1" 
+AR Path="/5F382D81/61451DCE" Ref="J?"  Part="1" 
+AR Path="/5F383034/61451DCE" Ref="J?"  Part="1" 
+AR Path="/5F3853FE/61451DCE" Ref="J?"  Part="1" 
+AR Path="/5F380999/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60F2428F/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60F46E08/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60F4BA31/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60F50E2B/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60F5716A/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60F7079A/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60F7B613/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60DC7482/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60DD6A20/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60DE6274/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60DF5646/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60E04686/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60E22C5C/61451DCE" Ref="J?"  Part="1" 
+AR Path="/60E31E4C/61451DCE" Ref="J?"  Part="1" 
+AR Path="/61451DCE" Ref="J17"  Part="1" 
+F 0 "J17" H 16200 8150 50  0000 C CNN
+F 1 "Conn_01x02" H 16118 8176 50  0001 C CNN
+F 2 "Martinos:Connector_Phoenix_1792229" H 16200 8050 50  0001 C CNN
+F 3 "~" H 16200 8050 50  0001 C CNN
+F 4 "Through-hole" H 16200 8050 50  0001 C CNN "Type"
+F 5 "" H 16200 8050 50  0001 C CNN "Notes"
+F 6 "Phoenix Contact" H 16200 8050 50  0001 C CNN "Manufacturer"
+F 7 "1792229" H 16200 8050 50  0001 C CNN "Part Number"
+	1    16200 8050
+	1    0    0    1   
+$EndComp
+$EndSCHEMATC
