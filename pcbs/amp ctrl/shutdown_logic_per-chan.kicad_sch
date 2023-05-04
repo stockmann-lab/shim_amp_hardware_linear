@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2023-05-04")
+    (rev "D4")
+  )
+
   (lib_symbols
     (symbol "74xx:74HC02" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 1.27 0)
@@ -2216,6 +2221,9 @@
     (property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS" (id 7) (at 209.55 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Type" "SMT" (id 8) (at 209.55 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1d67a364-9636-4d92-8f5d-4182f0f7b53f))
     (pin "2" (uuid a2800223-26cf-413c-b1b3-507897cfff21))
   )
@@ -2241,6 +2249,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS" (id 7) (at 209.55 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Type" "SMT" (id 8) (at 209.55 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6203f2c3-d6e5-4c02-937f-a37bc0b5cbc4))
@@ -2323,6 +2334,9 @@
     (property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS" (id 7) (at 209.55 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Type" "SMT" (id 8) (at 209.55 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 70142e95-e455-4a56-909c-7795059cb39a))
     (pin "2" (uuid 04b51c12-dc15-4375-8518-0b0c4ba82167))
   )
@@ -2348,6 +2362,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS" (id 7) (at 209.55 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Type" "SMT" (id 8) (at 209.55 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid acb4c439-f3e3-4dd5-a721-b841583e3792))

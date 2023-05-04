@@ -1,4 +1,4 @@
-21361298105308609
+21363166915947023
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54067,6 +54067,13 @@ resistor array
 0
 8
 8
+Don_std
+R_Array_Convex_2x0606
+Precision Thin Film Chip Resistor Array, VISHAY (see http://www.vishay.com/docs/28770/acasat.pdf)
+resistor array
+0
+4
+4
 Don_std
 R_Array_Convex_4x0603
 Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)

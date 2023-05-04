@@ -6,7 +6,8 @@
 
   (title_block
     (title "Shim amplifier control board")
-    (rev "D3")
+    (date "2023-05-04")
+    (rev "D4")
     (company "Martinos Center @ MGH")
     (comment 1 "Don Straney")
   )
@@ -10757,52 +10758,52 @@
       (reference "RN4") (unit 1) (value "100 5%") (footprint "Martinos_std:R_Array_Concave_4x0603")
     )
     (path "/00000000-0000-0000-0000-00006029848c/00000000-0000-0000-0000-000061ea32b0"
-      (reference "RN5") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN5") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-00006029848c/00000000-0000-0000-0000-000061ea5ac6"
-      (reference "RN6") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN6") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061373c09/00000000-0000-0000-0000-000061ea32b0"
-      (reference "RN7") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN7") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061373c09/00000000-0000-0000-0000-000061ea5ac6"
-      (reference "RN8") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN8") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061374dc8/00000000-0000-0000-0000-000061ea32b0"
-      (reference "RN9") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN9") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061374dc8/00000000-0000-0000-0000-000061ea5ac6"
-      (reference "RN10") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN10") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061375c79/00000000-0000-0000-0000-000061ea32b0"
-      (reference "RN11") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN11") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061375c79/00000000-0000-0000-0000-000061ea5ac6"
-      (reference "RN12") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN12") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061376894/00000000-0000-0000-0000-000061ea32b0"
-      (reference "RN13") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN13") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061376894/00000000-0000-0000-0000-000061ea5ac6"
-      (reference "RN14") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN14") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061377127/00000000-0000-0000-0000-000061ea32b0"
-      (reference "RN15") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN15") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061377127/00000000-0000-0000-0000-000061ea5ac6"
-      (reference "RN16") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN16") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061377c56/00000000-0000-0000-0000-000061ea32b0"
-      (reference "RN17") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN17") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061377c56/00000000-0000-0000-0000-000061ea5ac6"
-      (reference "RN18") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN18") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-00006137853a/00000000-0000-0000-0000-000061ea32b0"
-      (reference "RN19") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN19") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-00006137853a/00000000-0000-0000-0000-000061ea5ac6"
-      (reference "RN20") (unit 1) (value "10K 0.1%") (footprint "Resistor_SMD:R_Array_Convex_2x0606")
+      (reference "RN20") (unit 1) (value "10K 0.1%") (footprint "Don_std:R_Array_Convex_2x0606")
     )
     (path "/00000000-0000-0000-0000-000061502dfa"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")

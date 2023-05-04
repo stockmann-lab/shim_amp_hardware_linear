@@ -1,8 +1,8 @@
 4 layers, 1.6 mm (0.062") thickness, LPI soldermask and silkscreen both sides
 Outer layers 1 oz copper, inner layers 1 oz copper
-Lead-free (RoHS) HASL plating on pads
-Overall dimensions 344.25 x 110 mm (13.553" x 4.331")
-Min. trace/spacing 0.18 mm (0.0071")
+ENIG plating on pads
+Overall dimensions 343.25 x 120 mm (13.514" x 4.724")
+Min. trace/spacing 0.16 mm (0.0063")
 Min. hole size 0.26 mm (0.010")
 
 All copper layers positive, Gerber RS-247X

@@ -24,3 +24,5 @@ fp-info-cache
 *.csv
 # Local settings files
 *.kicad_prl
+# Exported manufacturing files
+manufacturing/
