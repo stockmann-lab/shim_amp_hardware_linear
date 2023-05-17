@@ -122,6 +122,7 @@
       },
       "track_widths": [
         0.0,
+        0.4,
         0.47,
         0.8,
         1.0
@@ -356,7 +357,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "output conn ODU 7x6 16ch fwd.kicad_pro",
+    "filename": "output conn ODU 7x6 16ch bck.kicad_pro",
     "version": 1
   },
   "net_settings": {

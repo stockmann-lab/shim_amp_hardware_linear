@@ -11316,7 +11316,7 @@
       (reference "U5") (unit 2) (value "74LVC2G06") (footprint "Martinos_std:SOT-23-6")
     )
     (path "/00000000-0000-0000-0000-0000609654e7/00000000-0000-0000-0000-0000621875ac"
-      (reference "U6") (unit 1) (value "ADA4841-1YRJZ-R2 (/LTC6261/LTC6202/LTC6220/LT1800)") (footprint "Martinos_std:SOT-23-6")
+      (reference "U6") (unit 1) (value "LTC6220/LT6202") (footprint "Martinos_std:SOT-23-6")
     )
     (path "/00000000-0000-0000-0000-00006029848c/00000000-0000-0000-0000-000060b1991b"
       (reference "U7") (unit 1) (value "TLVH431") (footprint "Martinos_std:SOT-23")
