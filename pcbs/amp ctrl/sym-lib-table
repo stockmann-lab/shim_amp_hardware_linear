@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name "amp-ctrl-rescue")(type "Legacy")(uri "${KIPRJMOD}/amp ctrl-rescue.lib")(options "")(descr ""))
 )
