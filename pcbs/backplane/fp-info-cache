@@ -1,4 +1,4 @@
-23616015544488024
+23621217777555312
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56007,6 +56007,20 @@ DC-DC module (20.3 x 31.8 mm); 24-lead though-hole mounted DIP package, row spac
 8
 8
 Don
+DC-DC_SIP-4
+DC-DC module (11.65 x 8.4 mm); 4-lead though-hole mounted SIP package, pin spacing 2.54 mm (100 mils); fits XP Power IL / Trace TME & TBA / Gaptec 2S4E & 1S4E series
+
+0
+4
+4
+Don
+DC-DC_SIP-8_N4
+DC-DC module (11.65 x 8.4 mm); 4-lead though-hole mounted SIP package, pin spacing 2.54 mm (100 mils); fits XP Power IL / Trace TME & TBA / Gaptec 2S4E & 1S4E series
+
+0
+7
+7
+Don
 DFN-6-1EP_3x3mm_P0.95mm_EP1.75x2.5mm
 DFN-6, 3x3 mm, 0.95 mm pitch, exposed pad 1.75x2.5 mm (based on ST LD39050)
 DFN 0.95
@@ -56601,6 +56615,13 @@ relay reed
 0
 4
 4
+Don
+Rework_piggyback_TE_x-406541-x
+Castellation for piggybacking a daughterboard onto underside of RJ-45/8p8c modular jack footprint (TE Connectivity *-406541-* model)
+RJ45 ethernet 8p8c
+0
+8
+8
 Don
 SMA_Amphenol_132289_EdgeMount
 http://www.amphenolrf.com/132289.html

@@ -2376,6 +2376,18 @@
 		)
 		(uuid "76f90e58-3a9d-4789-9ddd-527b8af612cb")
 	)
+	(text "Amplifier board disabled"
+		(exclude_from_sim no)
+		(at 228.6 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ac1829bd-719c-4122-ae4e-4581ab07b4ed")
+	)
 	(text "R (dominant)"
 		(exclude_from_sim no)
 		(at 184.15 55.88 0)
