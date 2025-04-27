@@ -5231,7 +5231,6 @@
 	)
 	(label "ADC_Driver_Out"
 		(at 335.28 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5242,7 +5241,6 @@
 	)
 	(label "~{Reset}"
 		(at 17.78 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5253,7 +5251,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 12.7 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5264,7 +5261,6 @@
 	)
 	(label "ADC_AVCC"
 		(at 359.41 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5275,7 +5271,6 @@
 	)
 	(label "ADC_Driver_In"
 		(at 295.91 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5286,7 +5281,6 @@
 	)
 	(label "Vref"
 		(at 236.22 224.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5298,7 +5292,6 @@
 	(hierarchical_label "Vref_Buffered"
 		(shape output)
 		(at 193.04 227.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5310,7 +5303,6 @@
 	(hierarchical_label "SP_Out4"
 		(shape output)
 		(at 152.4 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5322,7 +5314,6 @@
 	(hierarchical_label "~{DAC_CS}"
 		(shape input)
 		(at 33.02 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5334,7 +5325,6 @@
 	(hierarchical_label "ADC_SCKI"
 		(shape input)
 		(at 358.14 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5346,7 +5336,6 @@
 	(hierarchical_label "CS_In7"
 		(shape input)
 		(at 238.76 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5358,7 +5347,6 @@
 	(hierarchical_label "DAC_MISO"
 		(shape output)
 		(at 33.02 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5370,7 +5358,6 @@
 	(hierarchical_label "ADC_MOSI"
 		(shape input)
 		(at 358.14 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5382,7 +5369,6 @@
 	(hierarchical_label "CS_In3"
 		(shape input)
 		(at 238.76 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5394,7 +5380,6 @@
 	(hierarchical_label "~{LDAC}"
 		(shape input)
 		(at 30.48 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5406,7 +5391,6 @@
 	(hierarchical_label "CS_In2"
 		(shape input)
 		(at 238.76 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5418,7 +5402,6 @@
 	(hierarchical_label "CS_In1"
 		(shape input)
 		(at 238.76 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5430,7 +5413,6 @@
 	(hierarchical_label "SP_Out5"
 		(shape output)
 		(at 152.4 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5442,7 +5424,6 @@
 	(hierarchical_label "SP_Out8"
 		(shape output)
 		(at 152.4 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5454,7 +5435,6 @@
 	(hierarchical_label "SP_Out7"
 		(shape output)
 		(at 152.4 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5466,7 +5446,6 @@
 	(hierarchical_label "DAC_MOSI"
 		(shape input)
 		(at 33.02 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5478,7 +5457,6 @@
 	(hierarchical_label "CS_In4"
 		(shape input)
 		(at 238.76 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5490,7 +5468,6 @@
 	(hierarchical_label "CS_In5"
 		(shape input)
 		(at 238.76 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5502,7 +5479,6 @@
 	(hierarchical_label "ADC_MISO"
 		(shape output)
 		(at 358.14 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5514,7 +5490,6 @@
 	(hierarchical_label "SP_Out2"
 		(shape output)
 		(at 152.4 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5526,7 +5501,6 @@
 	(hierarchical_label "SP_Out1"
 		(shape output)
 		(at 152.4 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5538,7 +5512,6 @@
 	(hierarchical_label "SP_Out6"
 		(shape output)
 		(at 152.4 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5550,7 +5523,6 @@
 	(hierarchical_label "DAC_SCKI"
 		(shape input)
 		(at 33.02 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5562,7 +5534,6 @@
 	(hierarchical_label "~{ADC_CS}"
 		(shape input)
 		(at 358.14 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5574,7 +5545,6 @@
 	(hierarchical_label "CS_In6"
 		(shape input)
 		(at 238.76 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5586,7 +5556,6 @@
 	(hierarchical_label "CS_In8"
 		(shape input)
 		(at 238.76 194.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5598,7 +5567,6 @@
 	(hierarchical_label "~{Reset}"
 		(shape input)
 		(at 377.19 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5610,7 +5578,6 @@
 	(hierarchical_label "SP_Out3"
 		(shape output)
 		(at 152.4 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

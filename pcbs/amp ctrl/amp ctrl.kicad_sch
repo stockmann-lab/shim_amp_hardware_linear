@@ -7696,7 +7696,6 @@
 	)
 	(label "Out4-"
 		(at 350.52 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7707,7 +7706,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 205.74 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7718,7 +7716,6 @@
 	)
 	(label "Offset_Cal_Drive"
 		(at 156.21 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7729,7 +7726,6 @@
 	)
 	(label "Vmid_buf"
 		(at 208.28 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7740,7 +7736,6 @@
 	)
 	(label "Offset_Cal_Drive"
 		(at 203.2 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7751,7 +7746,6 @@
 	)
 	(label "Out1+"
 		(at 254 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7762,7 +7756,6 @@
 	)
 	(label "Out4-"
 		(at 254 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7773,7 +7766,6 @@
 	)
 	(label "Vmid_buf"
 		(at 208.28 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7784,7 +7776,6 @@
 	)
 	(label "Out2-"
 		(at 350.52 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7795,7 +7786,6 @@
 	)
 	(label "Shutdown_Global_Force"
 		(at 196.85 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7806,7 +7796,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 205.74 194.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7817,7 +7806,6 @@
 	)
 	(label "Offset_Cal_Short"
 		(at 203.2 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7828,7 +7816,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 205.74 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7839,7 +7826,6 @@
 	)
 	(label "Out3-"
 		(at 350.52 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7850,7 +7836,6 @@
 	)
 	(label "Vmid_buf"
 		(at 208.28 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7861,7 +7846,6 @@
 	)
 	(label "~{Shutdown_Global_Sense}"
 		(at 162.56 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7872,7 +7856,6 @@
 	)
 	(label "Vmid_buf"
 		(at 208.28 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7883,7 +7866,6 @@
 	)
 	(label "Out6-"
 		(at 254 189.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7894,7 +7876,6 @@
 	)
 	(label "~{Shutdown_Global_Sense}"
 		(at 196.85 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7905,7 +7886,6 @@
 	)
 	(label "Shutdown_Global_Force"
 		(at 196.85 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7916,7 +7896,6 @@
 	)
 	(label "~{All_Amps_Disabled}"
 		(at 203.2 262.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7927,7 +7906,6 @@
 	)
 	(label "~{Shutdown_Global_Sense}"
 		(at 196.85 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7938,7 +7916,6 @@
 	)
 	(label "Vmid_buf"
 		(at 208.28 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7949,7 +7926,6 @@
 	)
 	(label "Out8+"
 		(at 314.96 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7960,7 +7936,6 @@
 	)
 	(label "Out5+"
 		(at 314.96 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7971,7 +7946,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 205.74 250.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7982,7 +7956,6 @@
 	)
 	(label "~{All_Amps_Disabled}"
 		(at 203.2 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7993,7 +7966,6 @@
 	)
 	(label "~{All_Amps_Disabled}"
 		(at 203.2 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8004,7 +7976,6 @@
 	)
 	(label "Offset_Cal_Drive"
 		(at 203.2 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8015,7 +7986,6 @@
 	)
 	(label "Out7+"
 		(at 314.96 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8026,7 +7996,6 @@
 	)
 	(label "Offset_Cal_Short"
 		(at 203.2 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8037,7 +8006,6 @@
 	)
 	(label "Out3-"
 		(at 254 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8048,7 +8016,6 @@
 	)
 	(label "Out7-"
 		(at 350.52 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8059,7 +8026,6 @@
 	)
 	(label "Shutdown_Global_Force"
 		(at 196.85 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8070,7 +8036,6 @@
 	)
 	(label "Offset_Cal_Short"
 		(at 203.2 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8081,7 +8046,6 @@
 	)
 	(label "Offset_Cal_Drive"
 		(at 203.2 260.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8092,7 +8056,6 @@
 	)
 	(label "Out8-"
 		(at 350.52 184.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8103,7 +8066,6 @@
 	)
 	(label "Out7-"
 		(at 254 217.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8114,7 +8076,6 @@
 	)
 	(label "Offset_Cal_Short"
 		(at 203.2 229.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8125,7 +8086,6 @@
 	)
 	(label "Vmid_buf"
 		(at 394.97 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8136,7 +8096,6 @@
 	)
 	(label "Out5+"
 		(at 254 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8147,7 +8106,6 @@
 	)
 	(label "~{Shutdown_Global_Sense}"
 		(at 196.85 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8158,7 +8116,6 @@
 	)
 	(label "Shutdown_Global_Force"
 		(at 196.85 252.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8169,7 +8126,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 132.08 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8180,7 +8136,6 @@
 	)
 	(label "Out6+"
 		(at 254 186.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8191,7 +8146,6 @@
 	)
 	(label "Out2-"
 		(at 254 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8202,7 +8156,6 @@
 	)
 	(label "Out5-"
 		(at 254 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8213,7 +8166,6 @@
 	)
 	(label "~{Shutdown_Global_Sense}"
 		(at 196.85 255.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8224,7 +8176,6 @@
 	)
 	(label "Offset_Cal_Drive"
 		(at 203.2 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8235,7 +8186,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 205.74 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8246,7 +8196,6 @@
 	)
 	(label "Shutdown_Global_Force"
 		(at 196.85 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8257,7 +8206,6 @@
 	)
 	(label "~{All_Amps_Disabled}"
 		(at 203.2 207.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8268,7 +8216,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 205.74 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8279,7 +8226,6 @@
 	)
 	(label "~{Shutdown_Global_Sense}"
 		(at 196.85 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8290,7 +8236,6 @@
 	)
 	(label "Out2+"
 		(at 314.96 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8301,7 +8246,6 @@
 	)
 	(label "Out3+"
 		(at 314.96 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8312,7 +8256,6 @@
 	)
 	(label "Offset_Cal_Drive"
 		(at 203.2 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8323,7 +8266,6 @@
 	)
 	(label "~{All_Amps_Disabled}"
 		(at 156.21 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8334,7 +8276,6 @@
 	)
 	(label "Out1-"
 		(at 254 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8345,7 +8286,6 @@
 	)
 	(label "Shutdown_Global_Force"
 		(at 162.56 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8356,7 +8296,6 @@
 	)
 	(label "~{All_Amps_Disabled}"
 		(at 203.2 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8367,7 +8306,6 @@
 	)
 	(label "Vmid"
 		(at 350.52 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8378,7 +8316,6 @@
 	)
 	(label "Out4+"
 		(at 254 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8389,7 +8326,6 @@
 	)
 	(label "Out7+"
 		(at 254 214.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8400,7 +8336,6 @@
 	)
 	(label "~{Shutdown_Global_Sense}"
 		(at 196.85 199.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8411,7 +8346,6 @@
 	)
 	(label "Out8+"
 		(at 254 242.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8422,7 +8356,6 @@
 	)
 	(label "Shutdown_Global_Force"
 		(at 196.85 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8433,7 +8366,6 @@
 	)
 	(label "Out2+"
 		(at 254 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8444,7 +8376,6 @@
 	)
 	(label "Offset_Cal_Drive"
 		(at 203.2 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8455,7 +8386,6 @@
 	)
 	(label "~{All_Amps_Disabled}"
 		(at 203.2 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8466,7 +8396,6 @@
 	)
 	(label "~{Shutdown_Global_Sense}"
 		(at 196.85 227.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8477,7 +8406,6 @@
 	)
 	(label "Offset_Cal_Drive"
 		(at 203.2 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8488,7 +8416,6 @@
 	)
 	(label "Offset_Cal_Short"
 		(at 203.2 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8499,7 +8426,6 @@
 	)
 	(label "Out1+"
 		(at 314.96 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8510,7 +8436,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 205.74 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8521,7 +8446,6 @@
 	)
 	(label "Shutdown_Global_Force"
 		(at 196.85 196.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8532,7 +8456,6 @@
 	)
 	(label "Out3+"
 		(at 254 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8543,7 +8466,6 @@
 	)
 	(label "Out4+"
 		(at 314.96 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8554,7 +8476,6 @@
 	)
 	(label "Offset_Cal_Short"
 		(at 203.2 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8565,7 +8486,6 @@
 	)
 	(label "~{All_Amps_Disabled}"
 		(at 203.2 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8576,7 +8496,6 @@
 	)
 	(label "Out5-"
 		(at 350.52 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8587,7 +8506,6 @@
 	)
 	(label "Offset_Cal_Short"
 		(at 203.2 257.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8598,7 +8516,6 @@
 	)
 	(label "Offset_Cal_Short"
 		(at 203.2 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8609,7 +8526,6 @@
 	)
 	(label "Vmid_buf"
 		(at 208.28 247.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8620,7 +8536,6 @@
 	)
 	(label "Out6+"
 		(at 314.96 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8631,7 +8546,6 @@
 	)
 	(label "~{Shutdown_Global_Sense}"
 		(at 196.85 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8642,7 +8556,6 @@
 	)
 	(label "Vmid_buf"
 		(at 208.28 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8653,7 +8566,6 @@
 	)
 	(label "~{All_Amps_Disabled}"
 		(at 203.2 234.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8664,7 +8576,6 @@
 	)
 	(label "Offset_Cal_Short"
 		(at 156.21 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8675,7 +8586,6 @@
 	)
 	(label "Shutdown_Global_Force"
 		(at 196.85 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8686,7 +8596,6 @@
 	)
 	(label "Out1-"
 		(at 350.52 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8697,7 +8606,6 @@
 	)
 	(label "Out8-"
 		(at 254 245.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8708,7 +8616,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 205.74 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8719,7 +8626,6 @@
 	)
 	(label "Vmid_buf"
 		(at 208.28 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8730,7 +8636,6 @@
 	)
 	(label "Out6-"
 		(at 350.52 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8741,7 +8646,6 @@
 	)
 	(label "Offset_Cal_Drive"
 		(at 203.2 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

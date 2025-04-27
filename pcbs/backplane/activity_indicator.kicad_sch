@@ -969,7 +969,6 @@
 	(hierarchical_label "In"
 		(shape input)
 		(at 123.19 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1005,7 +1004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:TSOT-23-6"
+		(property "Footprint" "Don_std:TSOT-23-6"
 			(at 140.97 101.6 0)
 			(effects
 				(font
@@ -1474,12 +1473,11 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 106.68 77.47 0)
+			(at 104.14 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -1591,12 +1589,11 @@
 			)
 		)
 		(property "Value" "6.81K"
-			(at 106.68 85.09 0)
+			(at 104.14 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -2048,12 +2045,11 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 160.02 96.52 0)
+			(at 165.1 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -2165,12 +2161,11 @@
 			)
 		)
 		(property "Value" "180K"
-			(at 123.19 100.33 0)
+			(at 120.65 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"

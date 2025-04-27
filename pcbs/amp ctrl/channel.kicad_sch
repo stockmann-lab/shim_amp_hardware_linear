@@ -8275,7 +8275,6 @@
 	)
 	(label "Vout_cmd"
 		(at 306.07 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8286,7 +8285,6 @@
 	)
 	(label "Out-_Unfused"
 		(at 318.77 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8297,7 +8295,6 @@
 	)
 	(label "EA_Out_Filt"
 		(at 73.66 254 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8308,7 +8305,6 @@
 	)
 	(label "CS-"
 		(at 215.9 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8319,7 +8315,6 @@
 	)
 	(label "~{Shutdown1}"
 		(at 322.58 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8330,7 +8325,6 @@
 	)
 	(label "EA_Out"
 		(at 170.18 88.9 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8341,7 +8335,6 @@
 	)
 	(label "Out-_Unfused"
 		(at 279.4 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8352,7 +8345,6 @@
 	)
 	(label "CS+"
 		(at 215.9 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8363,7 +8355,6 @@
 	)
 	(label "CS+"
 		(at 321.31 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8374,7 +8365,6 @@
 	)
 	(label "Ilim1"
 		(at 364.49 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8385,7 +8375,6 @@
 	)
 	(label "CS-"
 		(at 288.29 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8396,7 +8385,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 16.51 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8407,7 +8395,6 @@
 	)
 	(label "Vmid"
 		(at 288.29 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8418,7 +8405,6 @@
 	)
 	(label "Out+_Unfused"
 		(at 318.77 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8429,7 +8415,6 @@
 	)
 	(label "Out+_Unfused"
 		(at 331.47 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8440,7 +8425,6 @@
 	)
 	(label "Ilim2"
 		(at 288.29 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8451,7 +8435,6 @@
 	)
 	(label "Vout_cmd"
 		(at 288.29 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8462,7 +8445,6 @@
 	)
 	(label "Out+_Unfused"
 		(at 73.66 247.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8473,7 +8455,6 @@
 	)
 	(label "CS+"
 		(at 288.29 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8484,7 +8465,6 @@
 	)
 	(label "CS-"
 		(at 321.31 184.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8495,7 +8475,6 @@
 	)
 	(label "EA_Out_Filt"
 		(at 198.12 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8506,7 +8485,6 @@
 	)
 	(label "~{Shutdown2}"
 		(at 287.02 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8517,7 +8495,6 @@
 	)
 	(label "Ilim1"
 		(at 322.58 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8528,7 +8505,6 @@
 	)
 	(label "SP-Ext"
 		(at 26.67 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8539,7 +8515,6 @@
 	)
 	(label "Ilim2"
 		(at 364.49 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8550,7 +8525,6 @@
 	)
 	(label "Vref_Buffered"
 		(at 77.47 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8561,7 +8535,6 @@
 	)
 	(label "Vout_cmd"
 		(at 322.58 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8573,7 +8546,6 @@
 	(hierarchical_label "SP-In"
 		(shape input)
 		(at 85.09 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8585,7 +8557,6 @@
 	(hierarchical_label "Offset_Cal_Drive"
 		(shape input)
 		(at 34.29 234.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8597,7 +8568,6 @@
 	(hierarchical_label "Vref_Buffered"
 		(shape input)
 		(at 147.32 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8609,7 +8579,6 @@
 	(hierarchical_label "~{Shutdown_Global_Sense}"
 		(shape input)
 		(at 388.62 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8621,7 +8590,6 @@
 	(hierarchical_label "~{All_Amps_Disabled}"
 		(shape output)
 		(at 388.62 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8633,7 +8601,6 @@
 	(hierarchical_label "Out+"
 		(shape output)
 		(at 391.16 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8645,7 +8612,6 @@
 	(hierarchical_label "Out-"
 		(shape output)
 		(at 391.16 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8657,7 +8623,6 @@
 	(hierarchical_label "Offset_Cal_Short"
 		(shape input)
 		(at 133.35 210.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8669,7 +8634,6 @@
 	(hierarchical_label "CS"
 		(shape output)
 		(at 85.09 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8681,7 +8645,6 @@
 	(hierarchical_label "Shutdown_Global_Force"
 		(shape output)
 		(at 388.62 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8693,7 +8656,6 @@
 	(hierarchical_label "Vmid"
 		(shape input)
 		(at 322.58 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

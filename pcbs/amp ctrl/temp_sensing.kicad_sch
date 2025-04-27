@@ -1177,7 +1177,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 191.77 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1189,7 +1188,6 @@
 	(hierarchical_label "Addr1"
 		(shape input)
 		(at 171.45 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1201,7 +1199,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 191.77 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1213,7 +1210,6 @@
 	(hierarchical_label "Addr0"
 		(shape input)
 		(at 171.45 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

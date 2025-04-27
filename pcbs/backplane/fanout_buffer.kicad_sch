@@ -268,6 +268,117 @@
 				)
 			)
 		)
+		(symbol "backplane-rescue:+2.5V-Martinos"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+2.5V-Martinos"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+2.5V-Martinos_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+2.5V-Martinos_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+2.5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "backplane-rescue:+3.3V-power"
 			(power)
 			(pin_names
@@ -402,7 +513,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Martinos:VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+			(property "Footprint" "Don:VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 				(at 8.89 26.67 0)
 				(effects
 					(font
@@ -1413,10 +1524,22 @@
 		(uuid "371422d0-7325-4fe7-a4a4-da2727a8d550")
 	)
 	(junction
+		(at 115.57 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50bd02b3-4e1d-4b31-b9f6-51a07fae9ce7")
+	)
+	(junction
 		(at 125.73 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "697ba1e6-c343-4938-8e2e-602088009aac")
+	)
+	(junction
+		(at 115.57 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7366c497-34a2-48a0-96bf-ce635692468d")
 	)
 	(junction
 		(at 138.43 67.31)
@@ -1425,19 +1548,19 @@
 		(uuid "8851c8b9-217c-45b1-95fd-82ed429162e1")
 	)
 	(junction
-		(at 93.98 52.07)
+		(at 93.98 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "963b0699-b1a0-4781-8450-41d080c61b84")
 	)
 	(junction
-		(at 78.74 52.07)
+		(at 78.74 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a573ac23-760e-422f-a25b-69f307bdf63b")
 	)
 	(junction
-		(at 104.14 52.07)
+		(at 104.14 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac135120-750b-49b0-a0a0-bff8f4f9f7ca")
@@ -1449,13 +1572,13 @@
 		(uuid "b36a3dba-7887-450a-b5b1-a3c57a15b36b")
 	)
 	(junction
-		(at 134.62 52.07)
+		(at 134.62 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b99e6a61-6c74-4c8a-89e4-2f7a2c847407")
 	)
 	(junction
-		(at 114.3 52.07)
+		(at 114.3 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be882c61-68d1-4641-a574-39ac975b7e12")
@@ -1467,7 +1590,7 @@
 		(uuid "d7fabdc4-b761-4b8c-8076-71ccac79d810")
 	)
 	(junction
-		(at 124.46 52.07)
+		(at 124.46 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dce5533b-0240-4964-b36d-e73e812a0282")
@@ -1498,7 +1621,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 52.07) (xy 104.14 52.07)
+			(xy 115.57 81.28) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ada7d69-6fc8-4986-978f-fa299eda718c")
+	)
+	(wire
+		(pts
+			(xy 93.98 44.45) (xy 104.14 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1528,13 +1661,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 52.07) (xy 138.43 67.31)
+			(xy 138.43 44.45) (xy 138.43 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2936686e-59d2-4a7f-bae3-c3eb13348591")
+	)
+	(wire
+		(pts
+			(xy 115.57 73.66) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3bee11-d1ff-42fd-8d1a-6fbec781bc06")
 	)
 	(wire
 		(pts
@@ -1578,7 +1721,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 52.07) (xy 138.43 52.07)
+			(xy 134.62 44.45) (xy 138.43 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 52.07) (xy 134.62 52.07)
+			(xy 124.46 44.45) (xy 134.62 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 81.28) (xy 125.73 81.28)
+			(xy 111.76 81.28) (xy 115.57 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1781,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 73.66) (xy 125.73 73.66)
+			(xy 111.76 73.66) (xy 115.57 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1748,7 +1891,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 52.07) (xy 124.46 52.07)
+			(xy 114.3 44.45) (xy 124.46 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1778,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 52.07) (xy 93.98 52.07)
+			(xy 78.74 44.45) (xy 93.98 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1808,7 +1951,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 52.07) (xy 114.3 52.07)
+			(xy 104.14 44.45) (xy 114.3 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1860,6 +2003,17 @@
 		)
 		(uuid "62e7a752-e1ac-437e-ac6c-e20e6abed2c6")
 	)
+	(text "Outputs are high by default while inputs are floating\n(Keeps ~{LDAC} signal disabled during power-up)"
+		(exclude_from_sim no)
+		(at 53.34 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aea344a-b6bb-4b50-a582-4a56e1631cd0")
+	)
 	(text "Med. edge\nrate"
 		(exclude_from_sim no)
 		(at 92.71 123.19 0)
@@ -1896,7 +2050,6 @@
 	(hierarchical_label "Out6N"
 		(shape output)
 		(at 161.29 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1908,7 +2061,6 @@
 	(hierarchical_label "Out2P"
 		(shape output)
 		(at 161.29 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1920,7 +2072,6 @@
 	(hierarchical_label "Out5P"
 		(shape output)
 		(at 161.29 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1932,7 +2083,6 @@
 	(hierarchical_label "Out8N"
 		(shape output)
 		(at 161.29 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1944,7 +2094,6 @@
 	(hierarchical_label "Out4N"
 		(shape output)
 		(at 161.29 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1955,8 +2104,7 @@
 	)
 	(hierarchical_label "InP"
 		(shape input)
-		(at 120.65 73.66 180)
-		(fields_autoplaced yes)
+		(at 111.76 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1968,7 +2116,6 @@
 	(hierarchical_label "Out6P"
 		(shape output)
 		(at 161.29 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1980,7 +2127,6 @@
 	(hierarchical_label "Out2N"
 		(shape output)
 		(at 161.29 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1992,7 +2138,6 @@
 	(hierarchical_label "Out1N"
 		(shape output)
 		(at 161.29 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2004,7 +2149,6 @@
 	(hierarchical_label "Out3P"
 		(shape output)
 		(at 161.29 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2016,7 +2160,6 @@
 	(hierarchical_label "Out1P"
 		(shape output)
 		(at 161.29 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2028,7 +2171,6 @@
 	(hierarchical_label "Out7P"
 		(shape output)
 		(at 161.29 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2040,7 +2182,6 @@
 	(hierarchical_label "Out4P"
 		(shape output)
 		(at 161.29 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2052,7 +2193,6 @@
 	(hierarchical_label "Out8P"
 		(shape output)
 		(at 161.29 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2063,8 +2203,7 @@
 	)
 	(hierarchical_label "InN"
 		(shape input)
-		(at 120.65 81.28 180)
-		(fields_autoplaced yes)
+		(at 111.76 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2076,7 +2215,6 @@
 	(hierarchical_label "Out7N"
 		(shape output)
 		(at 161.29 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2088,7 +2226,6 @@
 	(hierarchical_label "Out5N"
 		(shape output)
 		(at 161.29 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2100,7 +2237,6 @@
 	(hierarchical_label "Out3N"
 		(shape output)
 		(at 161.29 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2134,7 +2270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Martinos:VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+		(property "Footprint" "Don:VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 			(at 154.94 68.58 0)
 			(effects
 				(font
@@ -2390,7 +2526,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 93.98 55.88 0)
+		(at 93.98 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2399,7 +2535,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc264f")
 		(property "Reference" "C5"
-			(at 91.44 53.34 0)
+			(at 91.44 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2544,7 @@
 			)
 		)
 		(property "Value" "100nF 50V X7R"
-			(at 97.79 49.53 0)
+			(at 97.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2553,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 93.0148 59.69 0)
+			(at 93.0148 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +2562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 55.88 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 55.88 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2580,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 93.98 55.88 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2589,7 @@
 			)
 		)
 		(property "Part Number" "C0603C104K5RACTU"
-			(at 93.98 55.88 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2598,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 93.98 55.88 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2627,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 59.69 0)
+		(at 93.98 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2500,7 +2636,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc2655")
 		(property "Reference" "#PWR0130"
-			(at 93.98 66.04 0)
+			(at 93.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2645,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.853 64.0842 0)
+			(at 93.853 56.4642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 59.69 0)
+			(at 93.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 59.69 0)
+			(at 93.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 59.69 0)
+			(at 93.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2697,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 104.14 55.88 0)
+		(at 104.14 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2570,7 +2706,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc265d")
 		(property "Reference" "C6"
-			(at 101.6 53.34 0)
+			(at 101.6 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2715,7 @@
 			)
 		)
 		(property "Value" "100nF 50V X7R"
-			(at 110.49 46.99 0)
+			(at 110.49 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2724,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 103.1748 59.69 0)
+			(at 103.1748 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 55.88 0)
+			(at 104.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 55.88 0)
+			(at 104.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +2751,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 104.14 55.88 0)
+			(at 104.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2760,7 @@
 			)
 		)
 		(property "Part Number" "C0603C104K5RACTU"
-			(at 104.14 55.88 0)
+			(at 104.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +2769,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 104.14 55.88 0)
+			(at 104.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2798,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 59.69 0)
+		(at 104.14 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2671,7 +2807,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc2663")
 		(property "Reference" "#PWR0131"
-			(at 104.14 66.04 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,7 +2816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.013 64.0842 0)
+			(at 104.013 56.4642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 59.69 0)
+			(at 104.14 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 59.69 0)
+			(at 104.14 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 59.69 0)
+			(at 104.14 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2868,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 55.88 0)
+		(at 114.3 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2741,7 +2877,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc266b")
 		(property "Reference" "C7"
-			(at 111.76 53.34 0)
+			(at 111.76 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2886,7 @@
 			)
 		)
 		(property "Value" "100nF 50V X7R"
-			(at 118.11 49.53 0)
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.3348 59.69 0)
+			(at 113.3348 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2904,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 55.88 0)
+			(at 114.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2913,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 55.88 0)
+			(at 114.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2922,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 114.3 55.88 0)
+			(at 114.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2931,7 @@
 			)
 		)
 		(property "Part Number" "C0603C104K5RACTU"
-			(at 114.3 55.88 0)
+			(at 114.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2940,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 114.3 55.88 0)
+			(at 114.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2969,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 59.69 0)
+		(at 114.3 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2842,7 +2978,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc2671")
 		(property "Reference" "#PWR0132"
-			(at 114.3 66.04 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +2987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.173 64.0842 0)
+			(at 114.173 56.4642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 59.69 0)
+			(at 114.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +3004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 59.69 0)
+			(at 114.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +3013,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 59.69 0)
+			(at 114.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +3039,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 124.46 55.88 0)
+		(at 124.46 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2912,7 +3048,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc2679")
 		(property "Reference" "C8"
-			(at 121.92 53.34 0)
+			(at 121.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +3057,7 @@
 			)
 		)
 		(property "Value" "100nF 50V X7R"
-			(at 130.81 46.99 0)
+			(at 130.81 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +3066,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 123.4948 59.69 0)
+			(at 123.4948 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +3075,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 55.88 0)
+			(at 124.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +3084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 55.88 0)
+			(at 124.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +3093,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 124.46 55.88 0)
+			(at 124.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +3102,7 @@
 			)
 		)
 		(property "Part Number" "C0603C104K5RACTU"
-			(at 124.46 55.88 0)
+			(at 124.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +3111,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 124.46 55.88 0)
+			(at 124.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3140,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 59.69 0)
+		(at 124.46 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3013,7 +3149,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc267f")
 		(property "Reference" "#PWR0133"
-			(at 124.46 66.04 0)
+			(at 124.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +3158,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.333 64.0842 0)
+			(at 124.333 56.4642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +3166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 59.69 0)
+			(at 124.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +3175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 59.69 0)
+			(at 124.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 59.69 0)
+			(at 124.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3210,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 134.62 55.88 0)
+		(at 134.62 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3083,7 +3219,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc2687")
 		(property "Reference" "C9"
-			(at 132.08 53.34 0)
+			(at 132.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3228,7 @@
 			)
 		)
 		(property "Value" "100nF 50V X7R"
-			(at 138.43 49.53 0)
+			(at 138.43 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3237,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.6548 59.69 0)
+			(at 133.6548 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 55.88 0)
+			(at 134.62 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,7 +3255,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 55.88 0)
+			(at 134.62 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3264,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 134.62 55.88 0)
+			(at 134.62 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +3273,7 @@
 			)
 		)
 		(property "Part Number" "C0603C104K5RACTU"
-			(at 134.62 55.88 0)
+			(at 134.62 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +3282,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 134.62 55.88 0)
+			(at 134.62 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,7 +3311,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 59.69 0)
+		(at 134.62 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3184,7 +3320,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc268d")
 		(property "Reference" "#PWR0134"
-			(at 134.62 66.04 0)
+			(at 134.62 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3329,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.493 64.0842 0)
+			(at 134.493 56.4642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 59.69 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 59.69 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 59.69 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3381,7 @@
 	)
 	(symbol
 		(lib_id "backplane-rescue:+3.3V-power")
-		(at 78.74 52.07 0)
+		(at 78.74 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3253,7 +3389,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc26a5")
 		(property "Reference" "#PWR0135"
-			(at 78.74 55.88 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +3398,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 79.121 47.6758 0)
+			(at 79.121 40.0558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 52.07 0)
+			(at 78.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 52.07 0)
+			(at 78.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3424,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 52.07 0)
+			(at 78.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3450,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 59.69 0)
+		(at 78.74 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3323,7 +3459,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc26b6")
 		(property "Reference" "#PWR0136"
-			(at 78.74 66.04 0)
+			(at 78.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3468,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.613 64.0842 0)
+			(at 78.613 56.4642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 59.69 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 59.69 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3494,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 59.69 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4379,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc9a90")
 		(property "Reference" "R1"
-			(at 123.19 76.2 0)
+			(at 123.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,12 +4388,11 @@
 			)
 		)
 		(property "Value" "100"
-			(at 123.9774 78.613 0)
+			(at 125.73 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -4344,7 +4479,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 55.88 180)
+		(at 78.74 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4352,7 +4487,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dde53e")
 		(property "Reference" "C36"
-			(at 73.66 53.34 0)
+			(at 73.66 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4495,7 @@
 			)
 		)
 		(property "Value" "1uF 50V X7R"
-			(at 68.58 55.88 0)
+			(at 68.58 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4503,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 77.7748 52.07 0)
+			(at 77.7748 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 55.88 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4521,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 55.88 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4530,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 78.74 55.88 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4539,7 @@
 			)
 		)
 		(property "Part Number" "C0805C105K3RACTU"
-			(at 78.74 55.88 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4548,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 78.74 55.88 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,6 +4570,363 @@
 				)
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d/00000000-0000-0000-0000-000060af9c81/00000000-0000-0000-0000-000060bfa4d1"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "backplane-rescue:+2.5V-Martinos")
+		(at 115.57 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0eb46f49-d579-4eca-8ff2-762bd68e211b")
+		(property "Reference" "#PWR031"
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.5V"
+			(at 115.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92053357-a2d6-47d4-9992-8937ce8a86f6")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d/00000000-0000-0000-0000-000060af9c81/00000000-0000-0000-0000-000060bbcd23"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d/00000000-0000-0000-0000-000060af9c81/00000000-0000-0000-0000-000060bfa4d1"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c42d162-82f8-4c41-9191-f8da6626f94e")
+		(property "Reference" "R86"
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 115.57 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 113.792 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Can substitute generic resistor with same package, value, 1% tolerance"
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RK73H1ETTP1000F"
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce5bad52-6d96-4004-bbb4-934868a469c8")
+		)
+		(pin "2"
+			(uuid "63e181a1-8eb4-469e-b0ae-45879d5e1db4")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d/00000000-0000-0000-0000-000060af9c81/00000000-0000-0000-0000-000060bbcd23"
+					(reference "R86")
+					(unit 1)
+				)
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d/00000000-0000-0000-0000-000060af9c81/00000000-0000-0000-0000-000060bfa4d1"
+					(reference "R87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 85.09 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a64308e4-54ae-4705-9709-a4b4ecc05604")
+		(property "Reference" "R84"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 115.57 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 113.792 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Can substitute generic resistor with same package, value, 1% tolerance"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RK73H1ETTP1000F"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10a40ad4-f607-4ef4-b900-55d27b03760f")
+		)
+		(pin "2"
+			(uuid "e4a17987-8ecc-4cf2-9545-3daa7bcc5934")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d/00000000-0000-0000-0000-000060af9c81/00000000-0000-0000-0000-000060bbcd23"
+					(reference "R84")
+					(unit 1)
+				)
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d/00000000-0000-0000-0000-000060af9c81/00000000-0000-0000-0000-000060bfa4d1"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f289495c-616b-4fc2-a0ae-eaa0890f8000")
+		(property "Reference" "#PWR029"
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.443 93.2942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "600910ac-39bf-441d-a0e9-c026bcccd1fa")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d/00000000-0000-0000-0000-000060af9c81/00000000-0000-0000-0000-000060bbcd23"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d/00000000-0000-0000-0000-000060af9c81/00000000-0000-0000-0000-000060bfa4d1"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

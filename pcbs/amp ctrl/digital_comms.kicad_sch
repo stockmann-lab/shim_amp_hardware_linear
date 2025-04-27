@@ -3609,7 +3609,7 @@
 		(uuid "30f9c881-0488-4f33-8251-dace5faaf28b")
 	)
 	(junction
-		(at 34.29 252.73)
+		(at 54.61 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33f9406b-45d4-4cc9-9e1e-b5567672fdc5")
@@ -3679,6 +3679,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70ff5706-c924-4739-88d9-97f7d87a1a83")
+	)
+	(junction
+		(at 39.37 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "786b0a43-8e80-419e-93d4-7a3338f52ee3")
 	)
 	(junction
 		(at 149.86 223.52)
@@ -3813,10 +3819,6 @@
 		(uuid "614c7198-2e16-4396-9a51-370b0e72eaa9")
 	)
 	(no_connect
-		(at 85.09 55.88)
-		(uuid "6f67a1c2-397e-4c6a-9414-089276c6a25d")
-	)
-	(no_connect
 		(at 198.12 256.54)
 		(uuid "75c92d05-d973-444b-bb1c-0310b2d88add")
 	)
@@ -3841,11 +3843,11 @@
 		(uuid "c0b99295-57a9-47dc-8547-4a0ba13345fe")
 	)
 	(no_connect
-		(at 46.99 250.19)
+		(at 67.31 246.38)
 		(uuid "ea21fda1-b681-43ff-b323-b3f4e8c621cf")
 	)
 	(no_connect
-		(at 46.99 255.27)
+		(at 67.31 251.46)
 		(uuid "ee161079-6437-4dfe-a7a3-f1a8553f1f5d")
 	)
 	(no_connect
@@ -4404,6 +4406,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 248.92) (xy 54.61 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5483f8e1-3b04-4ea5-ad0e-493f4967658b")
+	)
+	(wire
+		(pts
 			(xy 137.16 146.05) (xy 127 146.05)
 		)
 		(stroke
@@ -4424,7 +4436,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 252.73) (xy 39.37 252.73)
+			(xy 54.61 248.92) (xy 59.69 248.92)
 		)
 		(stroke
 			(width 0)
@@ -4461,6 +4473,16 @@
 			(type default)
 		)
 		(uuid "5e62a99e-73a7-4029-adc3-5612c0386323")
+	)
+	(wire
+		(pts
+			(xy 71.12 55.88) (xy 85.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec4bb97-8d3e-4071-898d-ac56853434fe")
 	)
 	(wire
 		(pts
@@ -4961,6 +4983,16 @@
 			(type default)
 		)
 		(uuid "bbcf2468-81c9-4291-9a11-8ef53c7474a5")
+	)
+	(wire
+		(pts
+			(xy 13.97 254) (xy 26.67 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd391d6-7745-412f-824d-cdb95c9235d0")
 	)
 	(wire
 		(pts
@@ -5474,6 +5506,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 254) (xy 39.37 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99eff43-460c-4c3a-b8ae-d2e202564e4a")
+	)
+	(wire
+		(pts
 			(xy 187.96 93.98) (xy 187.96 88.9)
 		)
 		(stroke
@@ -5514,7 +5556,7 @@
 	)
 	(text_box "Power-on ADC & DAC reset: ~50 ms\nWhen DAC is in reset, voltage reference output is disabled -\nADC & DAC have a much shorter reset time, so that Vref_buffered\ncan be stable by the time the channels come out of shutdown"
 		(exclude_from_sim no)
-		(at 55.88 234.95 0)
+		(at 82.55 252.73 0)
 		(size 67.31 10.16)
 		(stroke
 			(width 0)
@@ -5731,7 +5773,6 @@
 	)
 	(label "SCKI+"
 		(at 228.6 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5742,7 +5783,6 @@
 	)
 	(label "~{LDAC+}"
 		(at 113.03 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5753,7 +5793,6 @@
 	)
 	(label "~{LDAC-}"
 		(at 218.44 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5764,7 +5803,6 @@
 	)
 	(label "~{DAC_CS-}"
 		(at 217.17 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5775,7 +5813,6 @@
 	)
 	(label "~{Shutdown}"
 		(at 81.28 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5786,7 +5823,6 @@
 	)
 	(label "~{ADC_CS-}"
 		(at 185.42 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5797,7 +5833,6 @@
 	)
 	(label "~{DAC_CS+}"
 		(at 182.88 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5808,7 +5843,6 @@
 	)
 	(label "SCKO"
 		(at 309.88 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5819,7 +5853,6 @@
 	)
 	(label "SCKO+"
 		(at 71.12 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5830,7 +5863,6 @@
 	)
 	(label "DAC_MOSI-"
 		(at 113.03 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5841,7 +5873,6 @@
 	)
 	(label "ADC_MOSI-"
 		(at 228.6 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5852,7 +5883,6 @@
 	)
 	(label "SCKO-"
 		(at 228.6 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5863,7 +5893,6 @@
 	)
 	(label "DAC_MISO-"
 		(at 71.12 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5874,7 +5903,6 @@
 	)
 	(label "DAC_MOSI-"
 		(at 218.44 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5885,7 +5913,6 @@
 	)
 	(label "~{ADC_CS+}"
 		(at 228.6 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5896,7 +5923,6 @@
 	)
 	(label "SCKI+"
 		(at 217.17 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5907,7 +5933,6 @@
 	)
 	(label "ADC_MOSI+"
 		(at 220.98 259.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5918,7 +5943,6 @@
 	)
 	(label "ADC_MISO+"
 		(at 228.6 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5929,7 +5953,6 @@
 	)
 	(label "DAC_MISO+"
 		(at 228.6 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5940,7 +5963,6 @@
 	)
 	(label "DAC_MOSI-"
 		(at 218.44 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5951,7 +5973,6 @@
 	)
 	(label "ADC_MOSI+"
 		(at 228.6 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5962,7 +5983,6 @@
 	)
 	(label "~{DAC_CS-}"
 		(at 228.6 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5973,7 +5993,6 @@
 	)
 	(label "DAC_MOSI+"
 		(at 182.88 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5984,7 +6003,6 @@
 	)
 	(label "DAC_MISO+"
 		(at 71.12 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5995,7 +6013,6 @@
 	)
 	(label "ADC_MOSI+"
 		(at 29.21 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6006,7 +6023,6 @@
 	)
 	(label "~{LDAC+}"
 		(at 228.6 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6015,9 +6031,18 @@
 		)
 		(uuid "7dd1af27-b022-4acb-a010-ed9979134b3c")
 	)
+	(label "ADC_DAC_Rst"
+		(at 71.12 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "855e3ab1-0a0d-4c03-ad95-3cab0e4323b7")
+	)
 	(label "DAC_MOSI+"
 		(at 218.44 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6028,7 +6053,6 @@
 	)
 	(label "DAC_MISO-"
 		(at 228.6 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6039,7 +6063,6 @@
 	)
 	(label "~{ADC_CS+}"
 		(at 30.48 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6050,7 +6073,6 @@
 	)
 	(label "~{ADC_CS-}"
 		(at 228.6 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6061,7 +6083,6 @@
 	)
 	(label "ADC_MOSI-"
 		(at 29.21 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6072,7 +6093,6 @@
 	)
 	(label "~{LDAC+}"
 		(at 217.17 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6083,7 +6103,6 @@
 	)
 	(label "~{DAC_CS+}"
 		(at 113.03 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6094,7 +6113,6 @@
 	)
 	(label "SCKI+"
 		(at 182.88 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6105,7 +6123,6 @@
 	)
 	(label "SCKI-"
 		(at 218.44 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6116,7 +6133,6 @@
 	)
 	(label "~{DAC_CS-}"
 		(at 113.03 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6127,7 +6143,6 @@
 	)
 	(label "ADC_MISO-"
 		(at 228.6 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6138,7 +6153,6 @@
 	)
 	(label "DAC_MOSI+"
 		(at 228.6 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6149,7 +6163,6 @@
 	)
 	(label "SCKI-"
 		(at 113.03 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6160,7 +6173,6 @@
 	)
 	(label "DAC_MOSI-"
 		(at 228.6 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6171,7 +6183,6 @@
 	)
 	(label "~{LDAC-}"
 		(at 217.17 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6182,7 +6193,6 @@
 	)
 	(label "SCKI-"
 		(at 228.6 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6193,7 +6203,6 @@
 	)
 	(label "SCKI-"
 		(at 217.17 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6204,7 +6213,6 @@
 	)
 	(label "ADC_MISO+"
 		(at 71.12 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6215,7 +6223,6 @@
 	)
 	(label "~{ADC_CS+}"
 		(at 220.98 251.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6226,7 +6233,6 @@
 	)
 	(label "~{DAC_CS-}"
 		(at 218.44 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6235,9 +6241,18 @@
 		)
 		(uuid "d263873d-3c46-4518-bc24-333d65e1a2db")
 	)
+	(label "ADC_DAC_Rst"
+		(at 13.97 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d39ef0cf-fddc-4180-a690-8f7f54e6c179")
+	)
 	(label "DAC_MOSI+"
 		(at 113.03 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6248,7 +6263,6 @@
 	)
 	(label "SCKI+"
 		(at 113.03 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6259,7 +6273,6 @@
 	)
 	(label "~{ADC_CS-}"
 		(at 30.48 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6270,7 +6283,6 @@
 	)
 	(label "ADC_MOSI-"
 		(at 185.42 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6281,7 +6293,6 @@
 	)
 	(label "~{DAC_CS+}"
 		(at 228.6 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6292,7 +6303,6 @@
 	)
 	(label "SCKO+"
 		(at 228.6 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6303,7 +6313,6 @@
 	)
 	(label "~{LDAC-}"
 		(at 113.03 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6314,7 +6323,6 @@
 	)
 	(label "SCKO-"
 		(at 71.12 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6325,7 +6333,6 @@
 	)
 	(label "~{LDAC+}"
 		(at 182.88 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6336,7 +6343,6 @@
 	)
 	(label "~{Shutdown}"
 		(at 30.48 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6347,7 +6353,6 @@
 	)
 	(label "~{LDAC-}"
 		(at 228.6 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6358,7 +6363,6 @@
 	)
 	(label "~{DAC_CS+}"
 		(at 217.17 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6369,7 +6373,6 @@
 	)
 	(label "SCKI"
 		(at 341.63 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6380,7 +6383,6 @@
 	)
 	(label "ADC_MISO-"
 		(at 71.12 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6392,7 +6394,6 @@
 	(hierarchical_label "~{ADC_CS}"
 		(shape output)
 		(at 295.91 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6404,7 +6405,6 @@
 	(hierarchical_label "SCL"
 		(shape output)
 		(at 30.48 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6416,7 +6416,6 @@
 	(hierarchical_label "DAC_MISO"
 		(shape input)
 		(at 331.47 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6428,7 +6427,6 @@
 	(hierarchical_label "~{DAC_CS}"
 		(shape output)
 		(at 295.91 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6440,7 +6438,6 @@
 	(hierarchical_label "~{LDAC}"
 		(shape output)
 		(at 295.91 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6452,7 +6449,6 @@
 	(hierarchical_label "DAC_MOSI"
 		(shape output)
 		(at 295.91 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6464,7 +6460,6 @@
 	(hierarchical_label "ADC_MOSI"
 		(shape output)
 		(at 295.91 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6475,8 +6470,7 @@
 	)
 	(hierarchical_label "~{Reset}"
 		(shape output)
-		(at 53.34 252.73 0)
-		(fields_autoplaced yes)
+		(at 73.66 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6488,7 +6482,6 @@
 	(hierarchical_label "SCKI"
 		(shape output)
 		(at 295.91 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6500,7 +6493,6 @@
 	(hierarchical_label "ADC_MISO"
 		(shape input)
 		(at 331.47 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6512,7 +6504,6 @@
 	(hierarchical_label "~{All_Amps_Disabled}"
 		(shape input)
 		(at 124.46 205.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6524,7 +6515,6 @@
 	(hierarchical_label "Offset_Cal_Drive"
 		(shape output)
 		(at 165.1 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6536,7 +6526,6 @@
 	(hierarchical_label "~{Shutdown_Global_Sense}"
 		(shape output)
 		(at 137.16 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6548,7 +6537,6 @@
 	(hierarchical_label "Offset_Cal_Short"
 		(shape output)
 		(at 165.1 199.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6560,7 +6548,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 30.48 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6572,7 +6559,6 @@
 	(hierarchical_label "Shutdown_Global_Force"
 		(shape input)
 		(at 41.91 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8595,7 +8581,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:74LVC2G17-Martinos")
-		(at 46.99 252.73 0)
+		(at 67.31 248.92 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8603,7 +8589,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006122895e")
 		(property "Reference" "U47"
-			(at 44.45 245.11 0)
+			(at 64.77 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +8598,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 44.45 247.65 0)
+			(at 64.77 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8607,7 @@
 			)
 		)
 		(property "Footprint" "Martinos_std:SOT-23-6"
-			(at 46.99 252.73 0)
+			(at 67.31 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 252.73 0)
+			(at 67.31 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +8625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 252.73 0)
+			(at 67.31 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,7 +8634,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 46.99 252.73 0)
+			(at 67.31 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8657,7 +8643,7 @@
 			)
 		)
 		(property "Part Number" "74LVC2G17GV,125"
-			(at 46.99 252.73 0)
+			(at 67.31 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8666,7 +8652,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 46.99 252.73 0)
+			(at 67.31 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8675,7 +8661,7 @@
 			)
 		)
 		(property "Manufacturer Alt." "Texas Instruments, Diodes Inc."
-			(at 46.99 252.73 0)
+			(at 67.31 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8684,7 +8670,7 @@
 			)
 		)
 		(property "Part Number Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
-			(at 46.99 252.73 0)
+			(at 67.31 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8946,7 +8932,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 260.35 0)
+		(at 54.61 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8954,7 +8940,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061240bae")
 		(property "Reference" "#PWR0291"
-			(at 34.29 266.7 0)
+			(at 54.61 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +8949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.417 264.7442 0)
+			(at 54.737 260.9342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,7 +8957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 260.35 0)
+			(at 54.61 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8980,7 +8966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 260.35 0)
+			(at 54.61 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8989,7 +8975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 260.35 0)
+			(at 54.61 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,32 +14015,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 34.29 248.92 180)
+		(lib_id "power:GND")
+		(at 46.99 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "53b83158-b811-433d-9144-a0d9dee378be")
-		(property "Reference" "R289"
-			(at 29.21 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470K"
-			(at 29.21 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 36.068 248.92 90)
+		(uuid "1b138f7a-b86f-4f96-9177-6acb38f3ff0a")
+		(property "Reference" "#PWR085"
+			(at 46.99 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14062,8 +14032,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 34.29 248.92 0)
+		(property "Value" "GND"
+			(at 47.117 263.4742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14072,7 +14059,76 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 248.92 0)
+			(at 46.99 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be6978e0-2f5e-4f8d-8904-0251d08e5c5f")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 44.45 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4100a9b1-0f07-48c1-95b4-769889d6917e")
+		(property "Reference" "Q38"
+			(at 36.83 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 36.83 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Don_std:SOT-23"
+			(at 49.53 255.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 44.45 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14081,7 +14137,122 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 34.29 248.92 0)
+			(at 44.45 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Inc."
+			(at 44.45 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MMBT3904-7-F"
+			(at 44.45 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alt." "Nexperia"
+			(at 44.45 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Alt." "MMBT3904,215"
+			(at 44.45 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99c666d3-922d-4f10-9e3f-27565ff6da66")
+		)
+		(pin "2"
+			(uuid "18b9c332-2f18-409f-a539-efd9df400019")
+		)
+		(pin "3"
+			(uuid "ba5c89c2-2763-4ec5-b630-c816198f6ed5")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "Q38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 245.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53b83158-b811-433d-9144-a0d9dee378be")
+		(property "Reference" "R289"
+			(at 49.53 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470K"
+			(at 49.53 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 56.388 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 54.61 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14090,7 +14261,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer"
-			(at 34.29 248.92 0)
+			(at 54.61 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14099,7 +14270,7 @@
 			)
 		)
 		(property "Part Number" "RK73H2ATTD4703F"
-			(at 34.29 248.92 0)
+			(at 54.61 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14254,6 +14425,166 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 39.37 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "885a1ba6-ab71-4f92-b688-c0abfe820b2d")
+		(property "Reference" "#PWR099"
+			(at 39.37 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.497 266.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14906052-4bd6-428d-b460-3b0d24cc1891")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 254 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92b1580d-93c8-4384-8a05-9f41b67e1a4c")
+		(property "Reference" "R293"
+			(at 30.48 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 30.48 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 30.48 255.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 30.48 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 30.48 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RK73H2ATTE1003F"
+			(at 30.48 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ec0dd4b-c757-4faa-8b65-125acc6fcaf5")
+		)
+		(pin "2"
+			(uuid "a23063b6-66da-4a9d-9c73-e55b056be3f9")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "R293")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 189.23 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14319,7 +14650,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:+3.3V-power")
-		(at 34.29 245.11 0)
+		(at 54.61 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14327,7 +14658,7 @@
 		(dnp no)
 		(uuid "9c0d1768-8f64-4ea4-ac27-0fe268451abf")
 		(property "Reference" "#PWR015"
-			(at 34.29 248.92 0)
+			(at 54.61 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14336,7 +14667,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 34.671 240.7158 0)
+			(at 54.991 236.9058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14344,7 +14675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 245.11 0)
+			(at 54.61 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14353,7 +14684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 245.11 0)
+			(at 54.61 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14362,7 +14693,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 245.11 0)
+			(at 54.61 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14514,33 +14845,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 34.29 256.54 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 39.37 257.81 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b0e565a0-28f8-4bb0-afe2-7290b14719f1")
-		(property "Reference" "C204"
-			(at 29.21 256.54 0)
+		(uuid "aec95592-f527-42ca-b835-e0c059437638")
+		(property "Reference" "R290"
+			(at 34.29 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100nF 50V X7R"
-			(at 25.4 259.08 0)
+		(property "Value" "100K"
+			(at 36.83 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 35.2552 252.73 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 41.148 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14549,7 +14880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 256.54 0)
+			(at 39.37 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14558,7 +14889,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 256.54 0)
+			(at 39.37 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14567,7 +14898,102 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 34.29 256.54 0)
+			(at 39.37 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 39.37 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RK73H2ATTE1003F"
+			(at 39.37 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8d12b19-5a1c-4ab3-8d3b-8c55fe41aee6")
+		)
+		(pin "2"
+			(uuid "07820e5c-3b86-46a9-8419-b61c37bb69f2")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "R290")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 54.61 252.73 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0e565a0-28f8-4bb0-afe2-7290b14719f1")
+		(property "Reference" "C204"
+			(at 59.69 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 63.5 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 55.5752 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 54.61 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14576,7 +15002,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 34.29 256.54 0)
+			(at 54.61 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14585,7 +15011,7 @@
 			)
 		)
 		(property "Part Number" "C0603C104K5RACTU"
-			(at 34.29 256.54 0)
+			(at 54.61 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3170,7 +3170,6 @@
 	)
 	(label "~{Shutdown_Local2}"
 		(at 46.99 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3181,7 +3180,6 @@
 	)
 	(label "~{Shutdown_Local1}"
 		(at 46.99 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3193,7 +3191,6 @@
 	(hierarchical_label "~{Shutdown_Local2}"
 		(shape bidirectional)
 		(at 140.97 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3205,7 +3202,6 @@
 	(hierarchical_label "~{All_Amps_Disabled}"
 		(shape output)
 		(at 264.16 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3217,7 +3213,6 @@
 	(hierarchical_label "~{Shutdown_Local1}"
 		(shape bidirectional)
 		(at 142.24 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3229,7 +3224,6 @@
 	(hierarchical_label "Shutdown_Global_Force"
 		(shape output)
 		(at 231.14 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3241,7 +3235,6 @@
 	(hierarchical_label "~{Shutdown_Global_Sense}"
 		(shape input)
 		(at 73.66 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
