@@ -7111,7 +7111,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060b36411")
 		(property "Reference" "C48"
 			(at 242.57 99.06 0)
@@ -7213,7 +7213,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060b43043")
 		(property "Reference" "C49"
 			(at 242.57 113.03 0)
@@ -7315,7 +7315,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060b45ba0")
 		(property "Reference" "C50"
 			(at 242.57 127 0)
@@ -7417,7 +7417,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060b4877d")
 		(property "Reference" "C51"
 			(at 242.57 140.97 0)
@@ -7519,7 +7519,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060b4b1e8")
 		(property "Reference" "C52"
 			(at 242.57 154.94 0)
@@ -7621,7 +7621,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060b4e46f")
 		(property "Reference" "C53"
 			(at 242.57 168.91 0)
@@ -7723,7 +7723,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060b6900d")
 		(property "Reference" "C54"
 			(at 242.57 182.88 0)
@@ -7825,7 +7825,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060b6ba9c")
 		(property "Reference" "C55"
 			(at 242.57 196.85 0)
@@ -7927,7 +7927,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060c2fda1")
 		(property "Reference" "TP60"
 			(at 363.22 212.09 0)
@@ -7948,7 +7948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 368.3 215.9 0)
 			(effects
 				(font
@@ -8095,7 +8095,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060c474bc")
 		(property "Reference" "TP61"
 			(at 374.65 212.09 0)
@@ -8116,7 +8116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 379.73 215.9 0)
 			(effects
 				(font
@@ -8843,16 +8843,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Connector:TestPoint_Flag")
 		(at 87.63 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060c7d803")
 		(property "Reference" "TP22"
-			(at 85.09 20.32 0)
+			(at 88.9 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +8870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 92.71 25.4 0)
 			(effects
 				(font
@@ -8889,6 +8889,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 87.63 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "5019"
 			(at 87.63 25.4 0)
 			(effects
 				(font
@@ -9416,16 +9434,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Connector:TestPoint_Flag")
 		(at 87.63 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060cbe91c")
 		(property "Reference" "TP23"
-			(at 85.09 35.56 0)
+			(at 88.9 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9443,7 +9461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 92.71 40.64 0)
 			(effects
 				(font
@@ -9462,6 +9480,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 87.63 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "5019"
 			(at 87.63 40.64 0)
 			(effects
 				(font
@@ -9989,16 +10025,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Connector:TestPoint_Flag")
 		(at 87.63 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060cca508")
 		(property "Reference" "TP24"
-			(at 85.09 50.8 0)
+			(at 88.9 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,7 +10052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 92.71 55.88 0)
 			(effects
 				(font
@@ -10035,6 +10071,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "5019"
 			(at 87.63 55.88 0)
 			(effects
 				(font
@@ -10562,16 +10616,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Connector:TestPoint_Flag")
 		(at 87.63 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060cd2eda")
 		(property "Reference" "TP25"
-			(at 85.09 66.04 0)
+			(at 88.9 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10589,7 +10643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 92.71 71.12 0)
 			(effects
 				(font
@@ -10608,6 +10662,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 87.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "5019"
 			(at 87.63 71.12 0)
 			(effects
 				(font
@@ -11135,16 +11207,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Connector:TestPoint_Flag")
 		(at 87.63 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060cdbb8e")
 		(property "Reference" "TP26"
-			(at 86.36 81.28 0)
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11162,7 +11234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 92.71 86.36 0)
 			(effects
 				(font
@@ -11181,6 +11253,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "5019"
 			(at 87.63 86.36 0)
 			(effects
 				(font
@@ -11708,16 +11798,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Connector:TestPoint_Flag")
 		(at 87.63 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ce4b70")
 		(property "Reference" "TP27"
-			(at 85.09 96.52 0)
+			(at 88.9 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11735,7 +11825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 92.71 101.6 0)
 			(effects
 				(font
@@ -11754,6 +11844,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "5019"
 			(at 87.63 101.6 0)
 			(effects
 				(font
@@ -12281,16 +12389,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Connector:TestPoint_Flag")
 		(at 87.63 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d092fe")
 		(property "Reference" "TP28"
-			(at 85.09 111.76 0)
+			(at 88.9 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12308,7 +12416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 92.71 116.84 0)
 			(effects
 				(font
@@ -12327,6 +12435,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 87.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "5019"
 			(at 87.63 116.84 0)
 			(effects
 				(font
@@ -12854,16 +12980,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Connector:TestPoint_Flag")
 		(at 87.63 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d1401c")
 		(property "Reference" "TP29"
-			(at 85.09 127 0)
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12881,7 +13007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 92.71 132.08 0)
 			(effects
 				(font
@@ -12900,6 +13026,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 87.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "5019"
 			(at 87.63 132.08 0)
 			(effects
 				(font
@@ -13433,7 +13577,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060d2f64c")
 		(property "Reference" "TP30"
 			(at 153.67 149.86 0)
@@ -13454,7 +13598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 158.75 153.67 0)
 			(effects
 				(font
@@ -13601,7 +13745,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060d2f658")
 		(property "Reference" "TP32"
 			(at 165.1 149.86 0)
@@ -13622,7 +13766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 170.18 153.67 0)
 			(effects
 				(font
@@ -14099,7 +14243,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060df443f")
 		(property "Reference" "J14"
 			(at 201.93 104.14 0)
@@ -16158,7 +16302,7 @@
 		(at 346.71 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000623efefb")
@@ -16225,7 +16369,7 @@
 		(at 346.71 161.29 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000623f1e49")

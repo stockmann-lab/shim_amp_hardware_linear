@@ -3663,7 +3663,7 @@
 		(at 115.57 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc26ce")
@@ -3735,7 +3735,7 @@
 		(at 115.57 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc26d8")
@@ -3807,7 +3807,7 @@
 		(at 93.98 127 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc26e2")
@@ -3879,7 +3879,7 @@
 		(at 124.46 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc26e8")
@@ -4020,7 +4020,7 @@
 		(at 124.46 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc26f8")
@@ -4162,7 +4162,7 @@
 		(at 93.98 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bc2706")
@@ -4174,7 +4174,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_NC_Small"
+		(property "Value" "Jumper_NO_Small"
 			(at 97.0534 121.92 0)
 			(effects
 				(font
@@ -4716,7 +4716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H1ETTP1000F"
+		(property "Part Number" "RK73H1ETTP1002F"
 			(at 115.57 69.85 0)
 			(effects
 				(font
@@ -4825,7 +4825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H1ETTP1000F"
+		(property "Part Number" "RK73H1ETTP1002F"
 			(at 115.57 85.09 0)
 			(effects
 				(font

@@ -8671,7 +8671,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060378ece")
 		(property "Reference" "U3"
 			(at 167.64 52.07 0)
@@ -10130,7 +10130,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060378f91")
 		(property "Reference" "J2"
 			(at 17.78 36.83 0)
@@ -10157,7 +10157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 21.59 36.83 0)
 			(effects
 				(font
@@ -10261,7 +10261,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060378fa0")
 		(property "Reference" "J3"
 			(at 96.52 153.67 0)
@@ -10288,7 +10288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 96.52 157.48 0)
 			(effects
 				(font
@@ -10392,7 +10392,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060378fad")
 		(property "Reference" "R4"
 			(at 133.35 152.2222 90)
@@ -11472,7 +11472,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006037906c")
 		(property "Reference" "TP2"
 			(at 93.98 72.39 0)
@@ -11493,7 +11493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 99.06 76.2 0)
 			(effects
 				(font
@@ -11604,7 +11604,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060379084")
 		(property "Reference" "J5"
 			(at 121.92 125.73 0)
@@ -11631,7 +11631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 121.92 129.54 0)
 			(effects
 				(font
@@ -15257,7 +15257,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006078e0a4")
 		(property "Reference" "J11"
 			(at 373.38 88.9 90)
@@ -15372,7 +15372,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000607bb4ba")
 		(property "Reference" "J92"
 			(at 392.43 100.33 0)
@@ -15520,7 +15520,7 @@
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 118.11 76.2 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -15616,7 +15616,7 @@
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 118.11 68.58 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -19620,7 +19620,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006110b247")
 		(property "Reference" "R237"
 			(at 109.22 66.04 90)
@@ -19751,7 +19751,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061121a66")
 		(property "Reference" "R236"
 			(at 34.29 46.99 0)
@@ -19881,7 +19881,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061140d0f")
 		(property "Reference" "C235"
 			(at 140.97 190.5 0)
@@ -20106,7 +20106,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000613195cd")
 		(property "Reference" "TP18"
 			(at 405.13 209.55 0)
@@ -20127,7 +20127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 410.21 213.36 0)
 			(effects
 				(font
@@ -20330,7 +20330,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000613222e8")
 		(property "Reference" "TP20"
 			(at 405.13 222.25 0)
@@ -20351,7 +20351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 410.21 226.06 0)
 			(effects
 				(font
@@ -20987,7 +20987,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000616b91a7")
 		(property "Reference" "TP52"
 			(at 116.84 153.67 0)
@@ -21008,7 +21008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
 			(at 111.76 157.48 0)
 			(effects
 				(font
@@ -21730,7 +21730,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061ea32b0")
 		(property "Reference" "RN5"
 			(at 65.532 49.7586 0)
@@ -21887,7 +21887,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061ea5ac6")
 		(property "Reference" "RN6"
 			(at 93.98 60.96 90)
@@ -22171,7 +22171,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061eee58a")
 		(property "Reference" "U73"
 			(at 55.88 30.48 0)
@@ -22301,7 +22301,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061eef17c")
 		(property "Reference" "U73"
 			(at 92.71 27.7622 0)
@@ -22431,7 +22431,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061ef0215")
 		(property "Reference" "U73"
 			(at 114.5032 38.3286 0)
@@ -22657,7 +22657,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061efaef6")
 		(property "Reference" "C265"
 			(at 119.38 26.67 90)
@@ -23360,7 +23360,7 @@
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 67.31 68.58 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -23460,7 +23460,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000062035eb6")
 		(property "Reference" "R335"
 			(at 41.91 39.37 90)
@@ -24497,7 +24497,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000621e0c9f")
 		(property "Reference" "D31"
 			(at 45.72 250.19 90)
@@ -25070,7 +25070,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000625b889c")
 		(property "Reference" "R343"
 			(at 67.31 44.45 0)
@@ -25200,7 +25200,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006263a77e")
 		(property "Reference" "C273"
 			(at 93.98 44.45 90)

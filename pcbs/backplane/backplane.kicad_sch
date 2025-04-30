@@ -3052,6 +3052,18 @@
 		(uuid "0139678a-eb2c-4057-ae62-b5534e6098a2")
 	)
 	(junction
+		(at 389.89 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b88a28a-8041-4045-8150-37e713fdb9be")
+	)
+	(junction
+		(at 379.73 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c0d5cb8-36bf-4b9a-9774-6e9b7e88478c")
+	)
+	(junction
 		(at 190.5 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3088,6 +3100,18 @@
 		(uuid "38950e9a-9b67-498e-aaf6-530ee76e6e83")
 	)
 	(junction
+		(at 394.97 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "396c7165-a2d9-4b23-87f3-af4691532f76")
+	)
+	(junction
+		(at 374.65 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3be21264-8b5b-4020-8d70-53842d87d2ab")
+	)
+	(junction
 		(at 165.1 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3104,6 +3128,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "407a2a0b-1891-416c-8dd0-857cb4d2a52b")
+	)
+	(junction
+		(at 405.13 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "425cdddc-d6af-4594-aa65-7af23d53a6a0")
+	)
+	(junction
+		(at 405.13 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48aed586-ace2-4eca-9486-5b7cfe48384f")
+	)
+	(junction
+		(at 400.05 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53b415e7-1ff0-4686-98f0-2332702293ec")
 	)
 	(junction
 		(at 220.98 191.77)
@@ -3142,10 +3184,28 @@
 		(uuid "72e30e3b-51fc-4ca3-9c2e-0ef2fc314c09")
 	)
 	(junction
+		(at 374.65 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a261833-f6fa-4060-b776-08c4b9c456d2")
+	)
+	(junction
 		(at 179.07 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83c2fbf4-3d0a-4863-92a2-f5b60538e3e9")
+	)
+	(junction
+		(at 379.73 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89337dc1-4017-4ac3-b524-169546bd6941")
+	)
+	(junction
+		(at 384.81 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b4342c5-a219-4f48-b987-bffd90495741")
 	)
 	(junction
 		(at 167.64 177.8)
@@ -3172,10 +3232,28 @@
 		(uuid "99da8230-9fd9-4c92-b4a5-af8f2d10beea")
 	)
 	(junction
+		(at 389.89 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bc21bf0-3693-4dac-a395-e1818f64ff58")
+	)
+	(junction
 		(at 198.12 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a84a625f-4012-4be8-9f9a-dc976432daf3")
+	)
+	(junction
+		(at 384.81 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac938a77-451e-4024-8dc8-67b40ba4f29b")
+	)
+	(junction
+		(at 400.05 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b01587a2-5629-4f0f-9e91-fc89e10267b0")
 	)
 	(junction
 		(at 67.31 123.19)
@@ -3194,6 +3272,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d509ef19-9b00-411c-acc4-b649b1b69736")
+	)
+	(junction
+		(at 394.97 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7537331-e8b2-49e1-b833-b466c6eb099e")
 	)
 	(junction
 		(at 190.5 96.52)
@@ -3369,7 +3453,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 185.42) (xy 372.11 182.88)
+			(xy 374.65 171.45) (xy 374.65 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3389,6 +3473,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 214.63) (xy 384.81 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ae5652-b97b-4111-9836-4675fac74ea4")
+	)
+	(wire
+		(pts
 			(xy 328.93 124.46) (xy 311.15 124.46)
 		)
 		(stroke
@@ -3399,7 +3493,7 @@
 	)
 	(wire
 		(pts
-			(xy 406.4 207.01) (xy 406.4 204.47)
+			(xy 408.94 193.04) (xy 408.94 190.5)
 		)
 		(stroke
 			(width 0)
@@ -3416,6 +3510,16 @@
 			(type default)
 		)
 		(uuid "136be1b0-cf93-43e3-850c-6c130393f064")
+	)
+	(wire
+		(pts
+			(xy 405.13 207.01) (xy 410.21 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d7f4e9-a61e-4148-83a8-638e987bf084")
 	)
 	(wire
 		(pts
@@ -3456,6 +3560,16 @@
 			(type default)
 		)
 		(uuid "172191e2-2c6c-4454-98a4-ccad8a64b524")
+	)
+	(wire
+		(pts
+			(xy 374.65 214.63) (xy 379.73 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186ab08a-58f0-4a5b-96d4-ada82f5a7f47")
 	)
 	(polyline
 		(pts
@@ -3679,7 +3793,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 177.8) (xy 372.11 180.34)
+			(xy 374.65 163.83) (xy 374.65 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3849,6 +3963,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 207.01) (xy 389.89 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38eacf09-16fc-403d-8083-70cfcc9b429a")
+	)
+	(wire
+		(pts
 			(xy 328.93 210.82) (xy 311.15 210.82)
 		)
 		(stroke
@@ -3919,7 +4043,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 185.42) (xy 383.54 182.88)
+			(xy 386.08 171.45) (xy 386.08 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3989,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 185.42) (xy 394.97 182.88)
+			(xy 397.51 171.45) (xy 397.51 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4099,7 +4223,7 @@
 	)
 	(wire
 		(pts
-			(xy 406.4 177.8) (xy 406.4 180.34)
+			(xy 408.94 163.83) (xy 408.94 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4459,6 +4583,26 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 214.63) (xy 389.89 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0d3af3-d5de-44bb-ad0a-d9123fb4b1b4")
+	)
+	(wire
+		(pts
+			(xy 379.73 207.01) (xy 384.81 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c400966-2528-45a8-af0c-8db8436384e1")
+	)
+	(wire
+		(pts
 			(xy 378.46 132.08) (xy 360.68 132.08)
 		)
 		(stroke
@@ -4559,7 +4703,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 199.39) (xy 394.97 201.93)
+			(xy 397.51 185.42) (xy 397.51 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4789,7 +4933,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 199.39) (xy 372.11 201.93)
+			(xy 374.65 185.42) (xy 374.65 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4867,6 +5011,16 @@
 		)
 		(uuid "905ed925-ea34-4ff2-907e-bae86178cac3")
 	)
+	(wire
+		(pts
+			(xy 394.97 214.63) (xy 400.05 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9062ba93-33db-44bf-a132-c0e67edfbfb2")
+	)
 	(bus
 		(pts
 			(xy 142.24 158.75) (xy 160.02 158.75)
@@ -4879,13 +5033,23 @@
 	)
 	(wire
 		(pts
-			(xy 406.4 185.42) (xy 406.4 182.88)
+			(xy 408.94 171.45) (xy 408.94 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "91730941-6e4b-4e5e-84c3-a72e073d296b")
+	)
+	(wire
+		(pts
+			(xy 389.89 214.63) (xy 394.97 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917959c9-4ccf-4740-8056-3b76182b40f4")
 	)
 	(wire
 		(pts
@@ -4929,7 +5093,17 @@
 	)
 	(wire
 		(pts
-			(xy 406.4 199.39) (xy 406.4 201.93)
+			(xy 400.05 214.63) (xy 405.13 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e90b4f-1ca0-460a-901a-5953c4f6a5a4")
+	)
+	(wire
+		(pts
+			(xy 408.94 185.42) (xy 408.94 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4956,6 +5130,16 @@
 			(type default)
 		)
 		(uuid "99346344-aa9b-4354-9ea3-9486e1c38218")
+	)
+	(wire
+		(pts
+			(xy 400.05 207.01) (xy 405.13 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99899bcc-c054-47ea-b5cf-25e1ea2ad02c")
 	)
 	(wire
 		(pts
@@ -5189,7 +5373,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 199.39) (xy 383.54 201.93)
+			(xy 386.08 185.42) (xy 386.08 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5429,6 +5613,16 @@
 	)
 	(wire
 		(pts
+			(xy 405.13 214.63) (xy 410.21 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8c3af3-bc79-4386-93e5-b9d38914b88a")
+	)
+	(wire
+		(pts
 			(xy 276.86 195.58) (xy 259.08 195.58)
 		)
 		(stroke
@@ -5509,7 +5703,17 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 207.01) (xy 383.54 204.47)
+			(xy 389.89 207.01) (xy 394.97 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6099e8a-56d5-4fab-a33e-65b84a19891a")
+	)
+	(wire
+		(pts
+			(xy 386.08 193.04) (xy 386.08 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5579,7 +5783,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 177.8) (xy 383.54 180.34)
+			(xy 386.08 163.83) (xy 386.08 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5679,7 +5883,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 207.01) (xy 394.97 204.47)
+			(xy 397.51 193.04) (xy 397.51 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5819,7 +6023,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 207.01) (xy 372.11 204.47)
+			(xy 374.65 193.04) (xy 374.65 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5989,7 +6193,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 177.8) (xy 394.97 180.34)
+			(xy 397.51 163.83) (xy 397.51 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6006,6 +6210,16 @@
 			(type default)
 		)
 		(uuid "f3b1dd79-c8b2-4d09-83f6-ca706353aa7a")
+	)
+	(wire
+		(pts
+			(xy 394.97 207.01) (xy 400.05 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49d2b31-8fcb-4996-b22e-2da756415d4f")
 	)
 	(wire
 		(pts
@@ -6056,6 +6270,16 @@
 			(type default)
 		)
 		(uuid "f9bc9d02-faa3-4061-ac54-99c910336dd6")
+	)
+	(wire
+		(pts
+			(xy 374.65 207.01) (xy 379.73 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9eac980-141c-4840-b60d-0156821d9ec6")
 	)
 	(wire
 		(pts
@@ -9296,7 +9520,7 @@
 		(at 29.21 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f568f9d")
@@ -9371,7 +9595,7 @@
 		(at 44.45 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f58dcd7")
@@ -10078,7 +10302,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f6ca6fc")
 		(property "Reference" "F1"
 			(at 167.64 20.955 90)
@@ -10162,7 +10386,7 @@
 		(at 201.93 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7c79b2")
@@ -10239,7 +10463,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f7cd4e3")
 		(property "Reference" "R6"
 			(at 127 24.13 90)
@@ -10341,7 +10565,7 @@
 		(at 163.83 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7d3909")
@@ -10416,7 +10640,7 @@
 		(at 176.53 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7e109d")
@@ -10491,7 +10715,7 @@
 		(at 189.23 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7ee6bb")
@@ -10566,7 +10790,7 @@
 		(at 201.93 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7fbe51")
@@ -10641,7 +10865,7 @@
 		(at 262.89 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f809371")
@@ -10716,7 +10940,7 @@
 		(at 163.83 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f816d29")
@@ -10791,7 +11015,7 @@
 		(at 275.59 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f82444d")
@@ -10866,7 +11090,7 @@
 		(at 250.19 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f831c47")
@@ -10941,7 +11165,7 @@
 		(at 262.89 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f83f283")
@@ -11016,7 +11240,7 @@
 		(at 176.53 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f84c9ab")
@@ -11091,7 +11315,7 @@
 		(at 189.23 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f85ad61")
@@ -11168,7 +11392,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f85baea")
 		(property "Reference" "R7"
 			(at 127 33.02 90)
@@ -11336,7 +11560,7 @@
 		(at 250.19 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f8686ff")
@@ -11414,7 +11638,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f895489")
 		(property "Reference" "J1"
 			(at 105.41 26.67 0)
@@ -11926,7 +12150,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 372.11 185.42 0)
+		(at 374.65 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11934,7 +12158,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006139afcd")
 		(property "Reference" "#PWR0188"
-			(at 372.11 190.5 0)
+			(at 374.65 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11943,7 +12167,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 372.2116 189.3316 0)
+			(at 374.7516 175.3616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11951,7 +12175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 186.69 0)
+			(at 374.65 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11960,7 +12184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 186.69 0)
+			(at 374.65 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11969,7 +12193,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 372.11 185.42 0)
+			(at 374.65 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11991,7 +12215,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 372.11 177.8 0)
+		(at 374.65 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11999,7 +12223,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006139afd3")
 		(property "Reference" "#PWR0189"
-			(at 372.11 180.34 0)
+			(at 374.65 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,7 +12232,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 372.11 170.815 0)
+			(at 374.65 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,7 +12240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 177.8 0)
+			(at 374.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12025,7 +12249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 177.8 0)
+			(at 374.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,7 +12258,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 372.11 177.8 0)
+			(at 374.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12056,7 +12280,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 377.19 182.88 0)
+		(at 379.73 168.91 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12065,7 +12289,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006139afdf")
 		(property "Reference" "J42"
-			(at 377.19 185.42 0)
+			(at 379.73 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12073,7 +12297,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 375.1072 186.0804 0)
+			(at 377.6472 172.1104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12082,7 +12306,7 @@
 			)
 		)
 		(property "Footprint" "Don:Connector_Phoenix_1792229"
-			(at 377.19 182.88 0)
+			(at 379.73 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12091,7 +12315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 377.19 182.88 0)
+			(at 379.73 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12100,7 +12324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 377.19 182.88 0)
+			(at 379.73 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12109,7 +12333,7 @@
 			)
 		)
 		(property "Type" "Through-hole"
-			(at 377.19 182.88 0)
+			(at 379.73 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12118,7 +12342,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 377.19 182.88 0)
+			(at 379.73 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12127,7 +12351,7 @@
 			)
 		)
 		(property "Manufacturer" "Phoenix Contact"
-			(at 377.19 182.88 0)
+			(at 379.73 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12136,7 +12360,7 @@
 			)
 		)
 		(property "Part Number" "1792229"
-			(at 377.19 182.88 0)
+			(at 379.73 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,7 +12385,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 383.54 185.42 0)
+		(at 386.08 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12169,7 +12393,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613b50e8")
 		(property "Reference" "#PWR0268"
-			(at 383.54 190.5 0)
+			(at 386.08 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12178,7 +12402,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 383.6416 189.3316 0)
+			(at 386.1816 175.3616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12186,7 +12410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 186.69 0)
+			(at 386.08 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12195,7 +12419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 186.69 0)
+			(at 386.08 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12204,7 +12428,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 383.54 185.42 0)
+			(at 386.08 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12226,7 +12450,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 383.54 177.8 0)
+		(at 386.08 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12234,7 +12458,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613b50ee")
 		(property "Reference" "#PWR0269"
-			(at 383.54 180.34 0)
+			(at 386.08 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12243,7 +12467,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 383.54 170.815 0)
+			(at 386.08 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12251,7 +12475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 177.8 0)
+			(at 386.08 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12260,7 +12484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 177.8 0)
+			(at 386.08 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12269,7 +12493,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 383.54 177.8 0)
+			(at 386.08 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12291,7 +12515,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 388.62 182.88 0)
+		(at 391.16 168.91 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12300,7 +12524,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613b50fa")
 		(property "Reference" "J47"
-			(at 388.62 185.42 0)
+			(at 391.16 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12308,7 +12532,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 386.5372 186.0804 0)
+			(at 389.0772 172.1104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12317,7 +12541,7 @@
 			)
 		)
 		(property "Footprint" "Don:Connector_Phoenix_1792229"
-			(at 388.62 182.88 0)
+			(at 391.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,7 +12550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 388.62 182.88 0)
+			(at 391.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12335,7 +12559,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 388.62 182.88 0)
+			(at 391.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12344,7 +12568,7 @@
 			)
 		)
 		(property "Type" "Through-hole"
-			(at 388.62 182.88 0)
+			(at 391.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,7 +12577,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 388.62 182.88 0)
+			(at 391.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,7 +12586,7 @@
 			)
 		)
 		(property "Manufacturer" "Phoenix Contact"
-			(at 388.62 182.88 0)
+			(at 391.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12371,7 +12595,7 @@
 			)
 		)
 		(property "Part Number" "1792229"
-			(at 388.62 182.88 0)
+			(at 391.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12396,7 +12620,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 372.11 207.01 0)
+		(at 374.65 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12404,7 +12628,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613cef4a")
 		(property "Reference" "#PWR0288"
-			(at 372.11 212.09 0)
+			(at 374.65 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,7 +12637,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 372.2116 210.9216 0)
+			(at 374.7516 196.9516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12421,7 +12645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 208.28 0)
+			(at 374.65 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12430,7 +12654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 208.28 0)
+			(at 374.65 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12439,7 +12663,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 372.11 207.01 0)
+			(at 374.65 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12461,7 +12685,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 372.11 199.39 0)
+		(at 374.65 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12469,7 +12693,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613cef50")
 		(property "Reference" "#PWR0289"
-			(at 372.11 201.93 0)
+			(at 374.65 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12478,7 +12702,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 372.11 192.405 0)
+			(at 374.65 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12486,7 +12710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 199.39 0)
+			(at 374.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12495,7 +12719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 199.39 0)
+			(at 374.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12504,7 +12728,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 372.11 199.39 0)
+			(at 374.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12526,7 +12750,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 377.19 204.47 0)
+		(at 379.73 190.5 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12535,7 +12759,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613cef5c")
 		(property "Reference" "J22"
-			(at 377.19 207.01 0)
+			(at 379.73 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12543,7 +12767,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 375.1072 207.6704 0)
+			(at 377.6472 193.7004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12552,7 +12776,7 @@
 			)
 		)
 		(property "Footprint" "Don:Connector_Phoenix_1792229"
-			(at 377.19 204.47 0)
+			(at 379.73 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12561,7 +12785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 377.19 204.47 0)
+			(at 379.73 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12570,7 +12794,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 377.19 204.47 0)
+			(at 379.73 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,7 +12803,7 @@
 			)
 		)
 		(property "Type" "Through-hole"
-			(at 377.19 204.47 0)
+			(at 379.73 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12812,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 377.19 204.47 0)
+			(at 379.73 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12597,7 +12821,7 @@
 			)
 		)
 		(property "Manufacturer" "Phoenix Contact"
-			(at 377.19 204.47 0)
+			(at 379.73 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12606,7 +12830,7 @@
 			)
 		)
 		(property "Part Number" "1792229"
-			(at 377.19 204.47 0)
+			(at 379.73 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12631,7 +12855,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 383.54 207.01 0)
+		(at 386.08 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12639,7 +12863,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613e9031")
 		(property "Reference" "#PWR0308"
-			(at 383.54 212.09 0)
+			(at 386.08 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12648,7 +12872,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 383.6416 210.9216 0)
+			(at 386.1816 196.9516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12656,7 +12880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 208.28 0)
+			(at 386.08 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12665,7 +12889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 208.28 0)
+			(at 386.08 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12674,7 +12898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 383.54 207.01 0)
+			(at 386.08 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12696,7 +12920,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 383.54 199.39 0)
+		(at 386.08 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12704,7 +12928,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613e9037")
 		(property "Reference" "#PWR0309"
-			(at 383.54 201.93 0)
+			(at 386.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12713,7 +12937,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 383.54 192.405 0)
+			(at 386.08 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12721,7 +12945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 199.39 0)
+			(at 386.08 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12730,7 +12954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 199.39 0)
+			(at 386.08 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12739,7 +12963,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 383.54 199.39 0)
+			(at 386.08 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12761,7 +12985,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 388.62 204.47 0)
+		(at 391.16 190.5 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12770,7 +12994,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613e9043")
 		(property "Reference" "J37"
-			(at 388.62 207.01 0)
+			(at 391.16 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12778,7 +13002,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 386.5372 207.6704 0)
+			(at 389.0772 193.7004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12787,7 +13011,7 @@
 			)
 		)
 		(property "Footprint" "Don:Connector_Phoenix_1792229"
-			(at 388.62 204.47 0)
+			(at 391.16 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12796,7 +13020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 388.62 204.47 0)
+			(at 391.16 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12805,7 +13029,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 388.62 204.47 0)
+			(at 391.16 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12814,7 +13038,7 @@
 			)
 		)
 		(property "Type" "Through-hole"
-			(at 388.62 204.47 0)
+			(at 391.16 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12823,7 +13047,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 388.62 204.47 0)
+			(at 391.16 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12832,7 +13056,7 @@
 			)
 		)
 		(property "Manufacturer" "Phoenix Contact"
-			(at 388.62 204.47 0)
+			(at 391.16 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12841,7 +13065,7 @@
 			)
 		)
 		(property "Part Number" "1792229"
-			(at 388.62 204.47 0)
+			(at 391.16 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12866,7 +13090,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 394.97 185.42 0)
+		(at 397.51 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12874,7 +13098,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061403416")
 		(property "Reference" "#PWR0314"
-			(at 394.97 190.5 0)
+			(at 397.51 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12883,7 +13107,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 395.0716 189.3316 0)
+			(at 397.6116 175.3616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,7 +13115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 394.97 186.69 0)
+			(at 397.51 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12900,7 +13124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 394.97 186.69 0)
+			(at 397.51 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12909,7 +13133,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 394.97 185.42 0)
+			(at 397.51 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,7 +13155,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 394.97 177.8 0)
+		(at 397.51 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12939,7 +13163,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006140341c")
 		(property "Reference" "#PWR0319"
-			(at 394.97 180.34 0)
+			(at 397.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12948,7 +13172,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 394.97 170.815 0)
+			(at 397.51 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12956,7 +13180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 394.97 177.8 0)
+			(at 397.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12965,7 +13189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 394.97 177.8 0)
+			(at 397.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12974,7 +13198,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 394.97 177.8 0)
+			(at 397.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12996,7 +13220,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 400.05 182.88 0)
+		(at 402.59 168.91 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13005,7 +13229,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061403428")
 		(property "Reference" "J32"
-			(at 400.05 185.42 0)
+			(at 402.59 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13013,7 +13237,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 397.9672 186.0804 0)
+			(at 400.5072 172.1104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13022,7 +13246,7 @@
 			)
 		)
 		(property "Footprint" "Don:Connector_Phoenix_1792229"
-			(at 400.05 182.88 0)
+			(at 402.59 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,7 +13255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 400.05 182.88 0)
+			(at 402.59 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13040,7 +13264,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 400.05 182.88 0)
+			(at 402.59 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13049,7 +13273,7 @@
 			)
 		)
 		(property "Type" "Through-hole"
-			(at 400.05 182.88 0)
+			(at 402.59 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13058,7 +13282,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 400.05 182.88 0)
+			(at 402.59 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13067,7 +13291,7 @@
 			)
 		)
 		(property "Manufacturer" "Phoenix Contact"
-			(at 400.05 182.88 0)
+			(at 402.59 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13076,7 +13300,7 @@
 			)
 		)
 		(property "Part Number" "1792229"
-			(at 400.05 182.88 0)
+			(at 402.59 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13101,7 +13325,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 394.97 207.01 0)
+		(at 397.51 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13109,7 +13333,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006141d694")
 		(property "Reference" "#PWR0328"
-			(at 394.97 212.09 0)
+			(at 397.51 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13118,7 +13342,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 395.0716 210.9216 0)
+			(at 397.6116 196.9516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13126,7 +13350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 394.97 208.28 0)
+			(at 397.51 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13135,7 +13359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 394.97 208.28 0)
+			(at 397.51 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13144,7 +13368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 394.97 207.01 0)
+			(at 397.51 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13166,7 +13390,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 394.97 199.39 0)
+		(at 397.51 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13174,7 +13398,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006141d69a")
 		(property "Reference" "#PWR0329"
-			(at 394.97 201.93 0)
+			(at 397.51 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13183,7 +13407,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 394.97 192.405 0)
+			(at 397.51 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13191,7 +13415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 394.97 199.39 0)
+			(at 397.51 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13200,7 +13424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 394.97 199.39 0)
+			(at 397.51 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13209,7 +13433,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 394.97 199.39 0)
+			(at 397.51 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13231,7 +13455,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 400.05 204.47 0)
+		(at 402.59 190.5 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13240,7 +13464,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006141d6a6")
 		(property "Reference" "J8"
-			(at 400.05 207.01 0)
+			(at 402.59 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,7 +13472,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 397.9672 207.6704 0)
+			(at 400.5072 193.7004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13257,7 +13481,7 @@
 			)
 		)
 		(property "Footprint" "Don:Connector_Phoenix_1792229"
-			(at 400.05 204.47 0)
+			(at 402.59 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13266,7 +13490,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 400.05 204.47 0)
+			(at 402.59 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +13499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 400.05 204.47 0)
+			(at 402.59 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,7 +13508,7 @@
 			)
 		)
 		(property "Type" "Through-hole"
-			(at 400.05 204.47 0)
+			(at 402.59 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13293,7 +13517,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 400.05 204.47 0)
+			(at 402.59 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13302,7 +13526,7 @@
 			)
 		)
 		(property "Manufacturer" "Phoenix Contact"
-			(at 400.05 204.47 0)
+			(at 402.59 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13311,7 +13535,7 @@
 			)
 		)
 		(property "Part Number" "1792229"
-			(at 400.05 204.47 0)
+			(at 402.59 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13336,7 +13560,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 406.4 185.42 0)
+		(at 408.94 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13344,7 +13568,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061437cb6")
 		(property "Reference" "#PWR0334"
-			(at 406.4 190.5 0)
+			(at 408.94 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,7 +13577,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 406.5016 189.3316 0)
+			(at 409.0416 175.3616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13361,7 +13585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 406.4 186.69 0)
+			(at 408.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13370,7 +13594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 406.4 186.69 0)
+			(at 408.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13379,7 +13603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 406.4 185.42 0)
+			(at 408.94 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13401,7 +13625,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 406.4 177.8 0)
+		(at 408.94 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13409,7 +13633,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061437cbc")
 		(property "Reference" "#PWR0339"
-			(at 406.4 180.34 0)
+			(at 408.94 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13418,7 +13642,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 406.4 170.815 0)
+			(at 408.94 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 406.4 177.8 0)
+			(at 408.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13435,7 +13659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 406.4 177.8 0)
+			(at 408.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13444,7 +13668,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 406.4 177.8 0)
+			(at 408.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13466,7 +13690,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 411.48 182.88 0)
+		(at 414.02 168.91 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13475,7 +13699,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061437cc8")
 		(property "Reference" "J27"
-			(at 411.48 185.42 0)
+			(at 414.02 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13483,7 +13707,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 409.3972 186.0804 0)
+			(at 411.9372 172.1104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13492,7 +13716,7 @@
 			)
 		)
 		(property "Footprint" "Don:Connector_Phoenix_1792229"
-			(at 411.48 182.88 0)
+			(at 414.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13501,7 +13725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 411.48 182.88 0)
+			(at 414.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13510,7 +13734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 411.48 182.88 0)
+			(at 414.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13519,7 +13743,7 @@
 			)
 		)
 		(property "Type" "Through-hole"
-			(at 411.48 182.88 0)
+			(at 414.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13528,7 +13752,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 411.48 182.88 0)
+			(at 414.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13537,7 +13761,7 @@
 			)
 		)
 		(property "Manufacturer" "Phoenix Contact"
-			(at 411.48 182.88 0)
+			(at 414.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13546,7 +13770,7 @@
 			)
 		)
 		(property "Part Number" "1792229"
-			(at 411.48 182.88 0)
+			(at 414.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13571,7 +13795,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 406.4 207.01 0)
+		(at 408.94 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13579,7 +13803,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061451dbc")
 		(property "Reference" "#PWR0348"
-			(at 406.4 212.09 0)
+			(at 408.94 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,7 +13812,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 406.5016 210.9216 0)
+			(at 409.0416 196.9516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13596,7 +13820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 406.4 208.28 0)
+			(at 408.94 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13605,7 +13829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 406.4 208.28 0)
+			(at 408.94 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13614,7 +13838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 406.4 207.01 0)
+			(at 408.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,7 +13860,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 406.4 199.39 0)
+		(at 408.94 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13644,7 +13868,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061451dc2")
 		(property "Reference" "#PWR0349"
-			(at 406.4 201.93 0)
+			(at 408.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13653,7 +13877,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 406.4 192.405 0)
+			(at 408.94 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13661,7 +13885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 406.4 199.39 0)
+			(at 408.94 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13670,7 +13894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 406.4 199.39 0)
+			(at 408.94 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13679,7 +13903,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 406.4 199.39 0)
+			(at 408.94 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13701,7 +13925,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 411.48 204.47 0)
+		(at 414.02 190.5 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13710,7 +13934,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061451dce")
 		(property "Reference" "J17"
-			(at 411.48 207.01 0)
+			(at 414.02 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13718,7 +13942,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 409.3972 207.6704 0)
+			(at 411.9372 193.7004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13727,7 +13951,7 @@
 			)
 		)
 		(property "Footprint" "Don:Connector_Phoenix_1792229"
-			(at 411.48 204.47 0)
+			(at 414.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13736,7 +13960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 411.48 204.47 0)
+			(at 414.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13745,7 +13969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 411.48 204.47 0)
+			(at 414.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13754,7 +13978,7 @@
 			)
 		)
 		(property "Type" "Through-hole"
-			(at 411.48 204.47 0)
+			(at 414.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13763,7 +13987,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 411.48 204.47 0)
+			(at 414.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13772,7 +13996,7 @@
 			)
 		)
 		(property "Manufacturer" "Phoenix Contact"
-			(at 411.48 204.47 0)
+			(at 414.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13781,7 +14005,7 @@
 			)
 		)
 		(property "Part Number" "1792229"
-			(at 411.48 204.47 0)
+			(at 414.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14099,7 +14323,7 @@
 		(at 237.49 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061a96a4b")
@@ -14174,7 +14398,7 @@
 		(at 237.49 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061ad335c")
@@ -14408,7 +14632,7 @@
 		(at 288.29 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006349b0ee")
@@ -14483,7 +14707,7 @@
 		(at 288.29 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006349b0f5")
@@ -14558,7 +14782,7 @@
 		(at 275.59 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006349b0fc")
@@ -18190,6 +18414,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 365.76 212.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0816f70e-3a1b-4a22-97dc-d50f32bf9bf1")
+		(property "Reference" "#PWR045"
+			(at 365.76 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 365.633 216.4842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d5c0ef2-2077-44b1-ba13-39f752ac438d")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 190.5 30.48 180)
 		(unit 1)
@@ -18382,6 +18672,71 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 374.65 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e84aea5-023e-4ac4-b7d7-e18f4e400b69")
+		(property "Reference" "#PWR039"
+			(at 374.65 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 374.7516 218.5416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 374.65 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95677bcc-10b0-4b0f-b306-8d77bd6f4612")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18664,6 +19019,71 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 374.65 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2503dfe1-aae3-499f-8a3f-db1fc05c6920")
+		(property "Reference" "#PWR038"
+			(at 374.65 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 374.65 200.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 374.65 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9644e721-6816-4080-9897-12df3e4507b1")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -19340,6 +19760,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 374.65 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4031b014-5a11-4d16-b0c9-645911fcc7c2")
+		(property "Reference" "C2"
+			(at 375.92 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 373.38 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 375.6152 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 374.65 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 374.65 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 374.65 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 374.65 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98d394c7-235c-4a72-8b80-19f37b2bab7d")
+		)
+		(pin "2"
+			(uuid "ab1fe26c-88ba-4f51-96c6-9b7e362895a8")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 275.59 260.35 0)
 		(mirror y)
@@ -19538,6 +20052,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 365.76 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "54f3045e-e4d3-4505-9ec3-2dcc9524f375")
+		(property "Reference" "C75"
+			(at 359.41 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 361.95 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 366.7252 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 365.76 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 365.76 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 365.76 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "471747d8-19e4-4ff2-be03-f97bc222797c")
+		)
+		(pin "2"
+			(uuid "3ef1a6cd-1e0a-4146-b7e4-e3744afe874f")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 198.12 173.99 90)
 		(unit 1)
@@ -19694,6 +20302,71 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 365.76 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62602673-cd68-4680-b824-3e229d115be8")
+		(property "Reference" "#PWR040"
+			(at 365.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 365.6584 157.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77380fe3-a82c-4215-b919-6995979f5d6b")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -19936,6 +20609,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 405.13 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "6ccce22c-c1b4-44db-b27a-6028b3cecb62")
+		(property "Reference" "C71"
+			(at 406.4 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 403.86 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 406.0952 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 405.13 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 405.13 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 405.13 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 405.13 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 405.13 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7138a5c-0d1c-4360-af37-b16ebf2f29b3")
+		)
+		(pin "2"
+			(uuid "2c1b191c-0725-4bac-849d-654369d57cb0")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VD")
 		(at 215.9 26.67 0)
 		(unit 1)
@@ -19995,6 +20762,100 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 389.89 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "74d0323a-c45f-4683-b8df-b39a80d5c0bc")
+		(property "Reference" "C20"
+			(at 391.16 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 388.62 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 390.8552 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 389.89 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 389.89 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 389.89 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 389.89 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c26c129-b5f3-4b21-8b38-76a65761cf13")
+		)
+		(pin "2"
+			(uuid "f2d6d30c-a57f-4f9f-80dc-60d9c170083b")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -20063,7 +20924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD1001F"
+		(property "Part Number" "RK73H2ATTD2002F"
 			(at 207.01 195.58 0)
 			(effects
 				(font
@@ -20572,7 +21433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD1001F"
+		(property "Part Number" "RK73H2ATTD2002F"
 			(at 236.22 168.91 0)
 			(effects
 				(font
@@ -21161,6 +22022,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 400.05 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a2672376-5b59-435a-adbf-ddef12293654")
+		(property "Reference" "C70"
+			(at 401.32 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 398.78 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 401.0152 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 400.05 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 400.05 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 400.05 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 400.05 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 400.05 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b507a50-c597-46ea-b1f8-4a782239d360")
+		)
+		(pin "2"
+			(uuid "a7394226-31f8-47b9-93e6-8c7128246b6a")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 208.28 0)
 		(mirror y)
@@ -21289,7 +22244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD1001F"
+		(property "Part Number" "RK73H2ATTD2002F"
 			(at 220.98 166.37 0)
 			(effects
 				(font
@@ -21326,6 +22281,260 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 365.76 168.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a83443d1-86a0-46ee-8a97-0ab31aa1e0a3")
+		(property "Reference" "#PWR041"
+			(at 365.76 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 365.633 173.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "604fc000-e27b-46dd-9391-b444ba178249")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 379.73 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a8c8e153-2271-4d5f-99b8-1723be118ad6")
+		(property "Reference" "C3"
+			(at 381 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 378.46 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 380.6952 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8929dc07-b34a-4ca8-9f64-5d26d213e5fd")
+		)
+		(pin "2"
+			(uuid "db5e42c2-7d57-4901-a39e-4a4c832c6526")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 365.76 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b7146831-b242-47a4-888b-4a22f5890e70")
+		(property "Reference" "C74"
+			(at 359.41 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 361.95 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 366.7252 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 365.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 365.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 365.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6499a185-5496-4b7a-a815-d61a0abb2090")
+		)
+		(pin "2"
+			(uuid "5122e533-fed4-4a06-b71f-43f97ca08a5b")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -21391,6 +22600,71 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 365.76 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdbfdc34-0a3d-439e-98ca-957f47ea7474")
+		(property "Reference" "#PWR042"
+			(at 365.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 365.6584 178.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e301c20f-f562-436a-b61c-6c9f2c3ceae5")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -21529,6 +22803,288 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 365.76 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c1f305fc-483b-4842-912f-288cf32cd512")
+		(property "Reference" "C73"
+			(at 359.41 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 361.95 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 366.7252 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 365.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 365.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 365.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4905432a-bc26-46ee-a735-7f5acd1f3610")
+		)
+		(pin "2"
+			(uuid "de6b54d7-1430-46fe-90bc-deaae51e1c87")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 384.81 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c6f04f65-2d9c-47ae-ada2-139e509e04e0")
+		(property "Reference" "C10"
+			(at 386.08 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 383.54 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 385.7752 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 384.81 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 384.81 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 384.81 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 384.81 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 384.81 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c54fc64-8716-4860-8998-4104dc5c2066")
+		)
+		(pin "2"
+			(uuid "420a7b81-7b7d-4188-bbb9-d1bf5f00f5e1")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 410.21 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "cfd95533-190e-4506-af68-1fbb4c46f306")
+		(property "Reference" "C72"
+			(at 411.48 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 408.94 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 411.1752 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 410.21 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 410.21 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 410.21 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 410.21 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 410.21 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68ac63af-95f3-4150-bbca-d2d15403e12b")
+		)
+		(pin "2"
+			(uuid "c1713657-dcf2-48fb-82a8-103e6fff2a06")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 179.07 200.66 270)
 		(unit 1)
@@ -21627,6 +23183,137 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 365.76 190.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd1751a3-af4b-4b5d-97f1-d3d35e078e63")
+		(property "Reference" "#PWR043"
+			(at 365.76 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 365.633 194.8942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "439b2f88-f982-4e8f-9641-e4d525b42be6")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 365.76 204.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dedd188e-0b6f-45ba-a864-0f451be9e4ef")
+		(property "Reference" "#PWR044"
+			(at 365.76 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 365.6584 200.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eae52ba-a93e-499d-b7bc-b9428b0eb49e")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -21735,6 +23422,100 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 394.97 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ef22be34-b829-4612-a6cf-fa23b4e54f16")
+		(property "Reference" "C68"
+			(at 396.24 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 393.7 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 395.9352 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 394.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 394.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 394.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 394.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eefdc30-3f6c-4c86-a806-2940f676602d")
+		)
+		(pin "2"
+			(uuid "4bbc3a59-4c37-45bf-bf1b-60cd099a6d9b")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "C68")
 					(unit 1)
 				)
 			)
