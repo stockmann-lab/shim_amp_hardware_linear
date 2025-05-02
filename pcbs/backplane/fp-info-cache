@@ -1,4 +1,4 @@
-25084819088395794
+25086565135679197
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57293,6 +57293,13 @@ Molex 386608802 wire-to-board 2x1 connector, screw, 12.5 mm pitch, 45A 600V
 
 0
 2
+2
+Don
+Connector_Phoenix_1190363
+Phoenix 1792229 wire-to-board 2x1 connector, locking lever, 7.5 mm pitch, 41A 1kV
+
+0
+4
 2
 Don
 Connector_Phoenix_1792229

@@ -575,7 +575,7 @@
       "idf": "",
       "netlist": "",
       "plot": "manufacturing/",
-      "pos_files": "",
+      "pos_files": "manufacturing/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

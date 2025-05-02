@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "FPGA Board, Signal Distribution")
-		(rev "D1")
+		(rev "D2")
 		(company "Martinos Center @ MGH")
 		(comment 1 "Don Straney")
 	)
@@ -17544,7 +17544,7 @@
 		(at 154.94 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000611dc4b1")
@@ -19618,7 +19618,7 @@
 		(at 121.92 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613d2ec0")
@@ -26467,6 +26467,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMT"
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0be72cc3-262e-489a-8627-0d9f6cadd196")
 		)
@@ -27086,6 +27095,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "Through-hole"
+			(at 382.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2d42ed44-693a-42e9-9c2b-34d44f512b02")
 		)
@@ -27254,6 +27272,15 @@
 			)
 		)
 		(property "Part Number Alt." "MMBT3906,215"
+			(at 369.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
 			(at 369.57 132.08 0)
 			(effects
 				(font
@@ -27459,6 +27486,15 @@
 			)
 		)
 		(property "Part Number Alt." "MMBT3906,215"
+			(at 351.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
 			(at 351.79 119.38 0)
 			(effects
 				(font
@@ -27697,6 +27733,15 @@
 			)
 		)
 		(property "Part Number Alt." "501MILFT"
+			(at 285.75 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
 			(at 285.75 220.98 0)
 			(effects
 				(font
