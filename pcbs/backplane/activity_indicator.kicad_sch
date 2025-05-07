@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Activity Indicator")
+		(rev "D2")
 	)
 	(lib_symbols
 		(symbol "Device:C"

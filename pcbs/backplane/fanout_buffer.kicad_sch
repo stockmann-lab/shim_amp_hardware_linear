@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "1:8 LVDS Fanout Buffer")
-		(rev "D1")
+		(rev "D2")
 		(company "Martinos Center @ MGH")
 		(comment 1 "Don Straney")
 	)
