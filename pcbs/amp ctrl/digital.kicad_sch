@@ -872,7 +872,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Don:AD567x"
+		(symbol "shim:AD567x"
 			(pin_names
 				(offset 1.016)
 			)
@@ -895,7 +895,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Don_std:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 				(at 5.08 21.59 0)
 				(effects
 					(font
@@ -1453,7 +1453,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Martinos_std:VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+			(property "Footprint" "shim:VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 				(at -3.81 22.86 0)
 				(effects
 					(font
@@ -6183,7 +6183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 212.09 227.33 0)
 			(effects
 				(font
@@ -7980,7 +7980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 368.3 215.9 0)
 			(effects
 				(font
@@ -8148,7 +8148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 379.73 215.9 0)
 			(effects
 				(font
@@ -8902,7 +8902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 92.71 25.4 0)
 			(effects
 				(font
@@ -9493,7 +9493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 92.71 40.64 0)
 			(effects
 				(font
@@ -10084,7 +10084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 92.71 55.88 0)
 			(effects
 				(font
@@ -10675,7 +10675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 92.71 71.12 0)
 			(effects
 				(font
@@ -11266,7 +11266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 92.71 86.36 0)
 			(effects
 				(font
@@ -11857,7 +11857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 92.71 101.6 0)
 			(effects
 				(font
@@ -12448,7 +12448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 92.71 116.84 0)
 			(effects
 				(font
@@ -13039,7 +13039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 92.71 132.08 0)
 			(effects
 				(font
@@ -13630,7 +13630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 158.75 153.67 0)
 			(effects
 				(font
@@ -13798,7 +13798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 170.18 153.67 0)
 			(effects
 				(font
@@ -14296,7 +14296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Shield_Wurth_36107406S_Minimal-inside"
+		(property "Footprint" "shim:Shield_Wurth_36107406S_Minimal-inside"
 			(at 201.93 120.65 0)
 			(effects
 				(font
@@ -15188,7 +15188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Martinos_std:VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+		(property "Footprint" "shim:VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 			(at 323.85 135.89 0)
 			(effects
 				(font
@@ -15621,7 +15621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 312.42 111.76 0)
 			(effects
 				(font
@@ -17717,7 +17717,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Don:AD567x")
+		(lib_id "shim:AD567x")
 		(at 54.61 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17743,7 +17743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don_std:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 59.69 62.23 0)
 			(effects
 				(font

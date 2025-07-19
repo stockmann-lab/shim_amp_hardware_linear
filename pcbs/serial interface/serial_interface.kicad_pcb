@@ -262,7 +262,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Martinos:AFBR-xx2xZ"
+	(footprint "shim:AFBR-xx2xZ"
 		(layer "F.Cu")
 		(uuid "4884ad0a-e946-4ee2-92ef-9cb35ac3b1b1")
 		(at 165.00388 103.82 -90)
@@ -730,7 +730,7 @@
 			(uuid "9a920719-70eb-4501-af5c-a0c2bf3ce7b2")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:AFBR-1624Z.STEP"
+		(model ":shim:AFBR-1624Z.STEP"
 			(offset
 				(xyz 0 -5.6 0)
 			)
@@ -742,7 +742,7 @@
 			)
 		)
 	)
-	(footprint "Don:FTDI_UM232H"
+	(footprint "shim:FTDI_UM232H"
 		(layer "F.Cu")
 		(uuid "8742458e-d182-4324-be1c-c0da38c8b55f")
 		(at 137.25 108.25)
@@ -1293,7 +1293,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Martinos:AFBR-xx2xZ"
+	(footprint "shim:AFBR-xx2xZ"
 		(layer "F.Cu")
 		(uuid "8b2d9535-5db9-4e50-bbf5-feb5123e0c20")
 		(at 165.00388 114.07 -90)
@@ -1761,7 +1761,7 @@
 			(uuid "9d432cc0-84e4-4801-b74a-6d1d1c8e0f6e")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:AFBR-1624Z.STEP"
+		(model ":shim:AFBR-1624Z.STEP"
 			(offset
 				(xyz 0 -5.6 0)
 			)
@@ -1773,7 +1773,7 @@
 			)
 		)
 	)
-	(footprint "Martinos_std:LED_0805_2012Metric"
+	(footprint "shim:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b868d386-d2b0-4cda-a7b4-d89657ed325d")
 		(at 135.15 91.25)
@@ -4630,7 +4630,7 @@
 			)
 		)
 	)
-	(footprint "Martinos_std:SOT-23-5"
+	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "B.Cu")
 		(uuid "ac7177a9-58f0-4dbd-8287-2781f561b109")
 		(at 152.75 104.4)
@@ -4950,7 +4950,7 @@
 			)
 		)
 	)
-	(footprint "Martinos_std:SOT-23-5"
+	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "B.Cu")
 		(uuid "b0d0023b-21e3-425d-a324-5058d039801c")
 		(at 154.5 111.75 180)

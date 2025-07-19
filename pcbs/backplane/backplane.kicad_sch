@@ -12659,7 +12659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1792229"
+		(property "Footprint" "shim:Connector_Phoenix_1792229"
 			(at 422.91 320.04 0)
 			(effects
 				(font
@@ -12894,7 +12894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1792229"
+		(property "Footprint" "shim:Connector_Phoenix_1792229"
 			(at 434.34 320.04 0)
 			(effects
 				(font
@@ -13129,7 +13129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1792229"
+		(property "Footprint" "shim:Connector_Phoenix_1792229"
 			(at 422.91 341.63 0)
 			(effects
 				(font
@@ -13364,7 +13364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1792229"
+		(property "Footprint" "shim:Connector_Phoenix_1792229"
 			(at 434.34 341.63 0)
 			(effects
 				(font
@@ -13599,7 +13599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1792229"
+		(property "Footprint" "shim:Connector_Phoenix_1792229"
 			(at 445.77 320.04 0)
 			(effects
 				(font
@@ -13834,7 +13834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1792229"
+		(property "Footprint" "shim:Connector_Phoenix_1792229"
 			(at 445.77 341.63 0)
 			(effects
 				(font
@@ -14069,7 +14069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1792229"
+		(property "Footprint" "shim:Connector_Phoenix_1792229"
 			(at 457.2 320.04 0)
 			(effects
 				(font
@@ -14304,7 +14304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1792229"
+		(property "Footprint" "shim:Connector_Phoenix_1792229"
 			(at 457.2 341.63 0)
 			(effects
 				(font
@@ -15299,7 +15299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don:AFBR-xx2xZ"
+		(property "Footprint" "shim:AFBR-xx2xZ"
 			(at 210.82 152.4 0)
 			(effects
 				(font
@@ -15539,7 +15539,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Don:AFBR-xx2xZ"
+		(property "Footprint" "shim:AFBR-xx2xZ"
 			(at 57.15 171.45 0)
 			(effects
 				(font
@@ -16043,7 +16043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Don:AFBR-xx2xZ"
+		(property "Footprint" "shim:AFBR-xx2xZ"
 			(at 57.15 204.47 0)
 			(effects
 				(font
@@ -16547,7 +16547,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Don:AFBR-xx2xZ"
+		(property "Footprint" "shim:AFBR-xx2xZ"
 			(at 57.15 240.03 0)
 			(effects
 				(font
@@ -17777,7 +17777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don_std:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 173.99 137.16 0)
 			(effects
 				(font
@@ -18187,7 +18187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don_std:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 105.41 158.75 0)
 			(effects
 				(font
@@ -19123,7 +19123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1190363"
+		(property "Footprint" "shim:Connector_Phoenix_1190363"
 			(at 510.54 342.9 0)
 			(effects
 				(font
@@ -19422,7 +19422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don:L_Coilcraft_2929SQ-501"
+		(property "Footprint" "shim:L_Coilcraft_2929SQ-501"
 			(at 207.01 26.67 0)
 			(effects
 				(font
@@ -19770,7 +19770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1190363"
+		(property "Footprint" "shim:Connector_Phoenix_1190363"
 			(at 496.57 342.9 0)
 			(effects
 				(font
@@ -20401,7 +20401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1190363"
+		(property "Footprint" "shim:Connector_Phoenix_1190363"
 			(at 510.54 318.77 0)
 			(effects
 				(font
@@ -20506,7 +20506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1190363"
+		(property "Footprint" "shim:Connector_Phoenix_1190363"
 			(at 524.51 342.9 0)
 			(effects
 				(font
@@ -20885,7 +20885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1190363"
+		(property "Footprint" "shim:Connector_Phoenix_1190363"
 			(at 482.6 318.77 0)
 			(effects
 				(font
@@ -21667,7 +21667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1190363"
+		(property "Footprint" "shim:Connector_Phoenix_1190363"
 			(at 482.6 342.9 0)
 			(effects
 				(font
@@ -21903,7 +21903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1190363"
+		(property "Footprint" "shim:Connector_Phoenix_1190363"
 			(at 496.57 318.77 0)
 			(effects
 				(font
@@ -25214,7 +25214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Connector_Phoenix_1190363"
+		(property "Footprint" "shim:Connector_Phoenix_1190363"
 			(at 524.51 318.77 0)
 			(effects
 				(font
@@ -25515,7 +25515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Don:AFBR-xx2xZ"
+		(property "Footprint" "shim:AFBR-xx2xZ"
 			(at 177.8 297.18 0)
 			(effects
 				(font

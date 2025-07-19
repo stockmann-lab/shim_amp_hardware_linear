@@ -1,0 +1,287 @@
+(footprint "Connector_Phoenix_1190363"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Phoenix 1792229 wire-to-board 2x1 connector, locking lever, 7.5 mm pitch, 41A 1kV")
+	(property "Reference" "REF**"
+		(at 0.25 6.25 0)
+		(layer "F.SilkS")
+		(uuid "954b4688-f52c-4965-8234-26844af1df3f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Connector_Phoenix_1190363"
+		(at 0 -0.35 0)
+		(layer "F.Fab")
+		(uuid "98b4235e-5b89-4734-b77c-b85c6d07144b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "304e27b7-c344-443e-8c04-b7f19fe65bd7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4713db3c-9a55-4a6d-8f13-41b6fbfb4e4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bef02a7-a2ac-431a-ad83-9a746ffa7c2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.33 -16.15)
+		(end 6.17 -16.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "979a2de3-2f89-44e0-bb4f-94bfc1f757ca")
+	)
+	(fp_line
+		(start -5.33 5.2)
+		(end -5.33 -16.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8988d24-edfb-45eb-a25e-6833d5ec152b")
+	)
+	(fp_line
+		(start 6.17 -16.15)
+		(end 6.17 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2a3d3a8-cbba-4568-83ae-bb3b37f7b144")
+	)
+	(fp_line
+		(start 6.17 5.2)
+		(end -5.33 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "229263e3-46fb-4321-aa6a-be8a4c36052e")
+	)
+	(fp_line
+		(start -5.33 -16.15)
+		(end 6.17 -16.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b7795b4-0fd2-4e67-a268-d925021b414d")
+	)
+	(fp_line
+		(start -5.33 5.2)
+		(end -5.33 -16.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "032d5abe-5ddc-487c-bf27-ef24eb267a01")
+	)
+	(fp_line
+		(start -5.33 5.2)
+		(end 6.17 5.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "955dd5dc-0231-44df-931f-e9a82d681e07")
+	)
+	(fp_line
+		(start 0 1.95)
+		(end -0.3 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16b31b7a-3932-4036-888c-213f3fb4359d")
+	)
+	(fp_line
+		(start 0 1.95)
+		(end 0.3 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3099a98e-e4f9-47fd-a8d5-4d26092b3887")
+	)
+	(fp_line
+		(start 0 3.25)
+		(end 0 1.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ab5322f-992e-4c30-9254-06e6ba5ad36f")
+	)
+	(fp_line
+		(start 6.17 5.2)
+		(end 6.17 -16.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86b75161-4854-4f60-86f4-cbcab58d8581")
+	)
+	(fp_rect
+		(start -6.46 -15)
+		(end -5.33 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "495a3f8a-f60c-4e62-aeaf-3fdcfbec4ebd")
+	)
+	(fp_text user "1"
+		(at -2.5 -4.25 0)
+		(layer "B.SilkS")
+		(uuid "b4d8b753-3db6-4528-bafe-d0ffce77e391")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "2"
+		(at 2.5 -4.25 0)
+		(layer "B.SilkS")
+		(uuid "cb463392-7fea-434e-ab10-e3840313808f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "1"
+		(at -2.5 6.25 0)
+		(layer "F.SilkS")
+		(uuid "2efc5ac5-d8e5-4aaf-b148-fe0c774d1bad")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at 2.5 6.25 0)
+		(layer "F.SilkS")
+		(uuid "3172fecd-653a-4f4e-a441-5eb40ecdb91d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.75 0)
+		(layer "F.Fab")
+		(uuid "b031d585-ebb6-426b-900d-2e33332ebc59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 -8.2)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f02396d-96a9-40c8-a2c5-d3d42b30d447")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41cf5307-3b8b-4563-ba54-05f89e02fd1a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 -8.2)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f887d1bf-ace4-414b-bd7f-21410ba70dc6")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8e153d3-a5a9-48e2-a240-cb014d46d649")
+	)
+	(model "${DON}/Conn_Phoenix_1792229.stp"
+		(offset
+			(xyz -3.25 -13.6 28.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

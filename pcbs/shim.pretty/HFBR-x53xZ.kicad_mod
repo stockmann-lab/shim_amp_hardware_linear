@@ -1,0 +1,229 @@
+(footprint "HFBR-x53xZ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Broadcom HFBR-x53xZ series fiber optic receivers/transmitters (vertical)")
+	(tags "optical fiber receiver transmitter rx tx")
+	(property "Reference" "REF**"
+		(at 0 -11.5 180)
+		(layer "F.SilkS")
+		(uuid "8d2060eb-b747-4f59-8fe0-b463c74ea08b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HFBR-x53x"
+		(at 0 -9.47952 180)
+		(layer "F.Fab")
+		(uuid "a138fa17-014c-486f-b7f5-6fddd5acba5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 1.89 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b88a22a0-c85c-4b4c-a759-9584b516d9d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 1.89 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb39f8f2-59e2-455f-872b-cfdeb9f71fbd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 1.89 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6becb9a6-4c0a-4ae9-b912-f79230baac40")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.08 -9.5)
+		(end -5.08 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e05d576b-4515-44a9-94b3-bbf292438ef6")
+	)
+	(fp_line
+		(start -5.08 5.5)
+		(end 5.08 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f738b548-6918-4cdc-a368-8a343667121e")
+	)
+	(fp_line
+		(start 5.08 -4.75)
+		(end 7.08 -4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "66b2e09f-ef2f-4aac-8d9e-dab385f6c82a")
+	)
+	(fp_line
+		(start 5.08 5.5)
+		(end 5.08 -4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "548cfad8-1058-48c2-bcbd-9de32e976bfb")
+	)
+	(fp_line
+		(start 7.08 -9.5)
+		(end -5.08 -9.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d20adfd9-7c15-4f89-904e-964218f1f71d")
+	)
+	(fp_line
+		(start 7.08 -4.75)
+		(end 7.08 -9.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2814ea39-b8e8-46a0-a7c7-7d0ff85bfa62")
+	)
+	(fp_text user "1"
+		(at 7.25 -4 180)
+		(layer "F.SilkS")
+		(uuid "a5763743-1dd1-43b0-a057-466bb35a3439")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "#2 or M2.2 self-tapping"
+		(at -4.75 0.25 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "8df6f327-bdad-47ea-8df7-027d766aaa04")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "98450c8b-cf7f-4fc5-8a83-19dea33b7093")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.25 2.25)
+		(drill 2.25)
+		(layers "*.Mask")
+		(uuid "1d1474d3-859a-447c-8133-cdb77a4027e2")
+	)
+	(pad "1" thru_hole oval
+		(at 3.81 -3.81 180)
+		(size 1.5 2.6)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b368514-3b38-4c37-a245-02bce60c2be4")
+	)
+	(pad "2" thru_hole oval
+		(at 1.27 -3.81 180)
+		(size 1.5 2.6)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "791c40f5-90bf-4f49-a0e6-a31df5b8ea2b")
+	)
+	(pad "3" thru_hole oval
+		(at -1.27 -3.81 180)
+		(size 1.5 2.6)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c7b8c61-7899-4449-a196-51b685dbe656")
+	)
+	(pad "4" thru_hole oval
+		(at -3.81 -3.81 180)
+		(size 1.5 2.6)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee1c1a7a-4bd6-4b2d-9ff6-87b102566179")
+	)
+	(pad "5" thru_hole oval
+		(at -3.81 3.81 180)
+		(size 1.5 2.6)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ecd5e0ab-cd79-4168-bf86-857dbff596e1")
+	)
+	(pad "6" thru_hole oval
+		(at 3.81 3.81 180)
+		(size 1.5 2.6)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b2fb698-68b4-456c-ba54-1c15094fa1c3")
+	)
+	(model ":shim:AFBR-1624Z.STEP"
+		(offset
+			(xyz 0 -5.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

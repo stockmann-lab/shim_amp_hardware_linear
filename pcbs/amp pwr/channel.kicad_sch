@@ -5828,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+		(property "Footprint" "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 			(at 262.89 80.518 90)
 			(effects
 				(font
@@ -7482,7 +7482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+		(property "Footprint" "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 			(at 261.62 178.308 90)
 			(effects
 				(font

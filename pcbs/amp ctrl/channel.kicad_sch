@@ -2456,7 +2456,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Don:INA821_INA819"
+		(symbol "shim:INA821_INA819"
 			(pin_names
 				(offset 0.127)
 			)
@@ -2481,7 +2481,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Don_std:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 2.54 0 0)
 				(effects
 					(font
@@ -4430,7 +4430,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Martinos:TestPoint_2Pads_Pitch4mm_Drill1mm0.7mm"
+			(property "Footprint" "shim:TestPoint_2Pads_Pitch4mm_Drill1mm0.7mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8776,7 +8776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 167.64 59.69 0)
 			(effects
 				(font
@@ -9705,7 +9705,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Don:INA821_INA819")
+		(lib_id "shim:INA821_INA819")
 		(at 156.21 175.26 0)
 		(mirror y)
 		(unit 1)
@@ -9732,7 +9732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don_std:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 153.67 175.26 0)
 			(effects
 				(font
@@ -10750,7 +10750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:PinSocket_2x02_P2.54mm_Vertical_SMD_BotEntry_Pin"
+		(property "Footprint" "shim:PinSocket_2x02_P2.54mm_Vertical_SMD_BotEntry_Pin"
 			(at 303.53 181.61 0)
 			(effects
 				(font
@@ -11030,7 +11030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:PinSocket_2x10_P2.54mm_Vertical_SMD_BotEntry_Pin"
+		(property "Footprint" "shim:PinSocket_2x10_P2.54mm_Vertical_SMD_BotEntry_Pin"
 			(at 303.53 161.29 0)
 			(effects
 				(font
@@ -11480,7 +11480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:TestPoint_2Pads_Pitch4mm_Drill1mm0.7mm"
+		(property "Footprint" "shim:TestPoint_2Pads_Pitch4mm_Drill1mm0.7mm"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -11578,7 +11578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 99.06 76.2 0)
 			(effects
 				(font
@@ -13827,7 +13827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don_std:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 161.29 78.74 0)
 			(effects
 				(font
@@ -14829,7 +14829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:PinSocket_2x02_P2.54mm_Vertical_SMD_BotEntry_Pin"
+		(property "Footprint" "shim:PinSocket_2x02_P2.54mm_Vertical_SMD_BotEntry_Pin"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -16484,7 +16484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:TestPoint_2Pads_Pitch4mm_Drill1mm0.7mm"
+		(property "Footprint" "shim:TestPoint_2Pads_Pitch4mm_Drill1mm0.7mm"
 			(at 290.83 68.58 0)
 			(effects
 				(font
@@ -16675,7 +16675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 226.06 75.565 0)
 			(effects
 				(font
@@ -16823,7 +16823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 262.89 75.565 0)
 			(effects
 				(font
@@ -17216,7 +17216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 262.89 81.915 0)
 			(effects
 				(font
@@ -17364,7 +17364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 226.06 81.915 0)
 			(effects
 				(font
@@ -18192,7 +18192,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 256.54 60.96 0)
 			(effects
 				(font
@@ -18678,7 +18678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 256.54 96.52 0)
 			(effects
 				(font
@@ -19499,7 +19499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:D_SOD-123"
+		(property "Footprint" "shim:D_SOD-123"
 			(at 101.6 179.07 0)
 			(effects
 				(font
@@ -20212,7 +20212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 410.21 213.36 0)
 			(effects
 				(font
@@ -20436,7 +20436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 410.21 226.06 0)
 			(effects
 				(font
@@ -21093,7 +21093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 111.76 157.48 0)
 			(effects
 				(font
@@ -21527,7 +21527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don_std:SOT-563"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
 			(at 177.8 228.6 0)
 			(effects
 				(font
@@ -21680,7 +21680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:SOT-563"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
 			(at 157.48 228.6 0)
 			(effects
 				(font
@@ -21835,7 +21835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Don_std:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
 			(at 56.515 52.07 90)
 			(effects
 				(font
@@ -21990,7 +21990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
 			(at 93.98 51.435 90)
 			(effects
 				(font
@@ -22274,7 +22274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 53.34 39.37 0)
 			(effects
 				(font
@@ -22404,7 +22404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 92.71 39.37 0)
 			(effects
 				(font
@@ -22536,7 +22536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don_std:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 115.57 40.64 0)
 			(effects
 				(font
@@ -23081,7 +23081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don_std:D_SOD-323F"
+		(property "Footprint" "shim:D_SOD-323F"
 			(at 172.72 214.63 0)
 			(effects
 				(font
@@ -23695,7 +23695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 44.45 236.855 0)
 			(effects
 				(font
@@ -23935,7 +23935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:D_SOD-323F"
+		(property "Footprint" "shim:D_SOD-323F"
 			(at 48.26 243.84 0)
 			(effects
 				(font
@@ -24600,7 +24600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:D_SOD-323F"
+		(property "Footprint" "shim:D_SOD-323F"
 			(at 41.91 250.19 0)
 			(effects
 				(font
@@ -24750,7 +24750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don_std:D_SOD-323F"
+		(property "Footprint" "shim:D_SOD-323F"
 			(at 172.72 222.25 0)
 			(effects
 				(font

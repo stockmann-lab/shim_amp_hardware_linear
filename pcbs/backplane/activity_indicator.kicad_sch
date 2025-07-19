@@ -1021,7 +1021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don_std:TSOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 140.97 101.6 0)
 			(effects
 				(font

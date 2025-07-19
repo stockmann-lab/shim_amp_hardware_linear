@@ -1651,7 +1651,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Martinos:ODU-MAC_Zero_10x9"
+			(property "Footprint" "shim:ODU-MAC_Zero_10x9"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -10415,7 +10415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:ODU-MAC_Zero_10x9"
+		(property "Footprint" "shim:ODU-MAC_Zero_10x9"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -10746,7 +10746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos_std:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+		(property "Footprint" "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 			(at 220.98 121.92 0)
 			(effects
 				(font
@@ -10957,7 +10957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:ODU-MAC_Zero_10x9"
+		(property "Footprint" "shim:ODU-MAC_Zero_10x9"
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -11288,7 +11288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:ODU-MAC_Zero_10x9"
+		(property "Footprint" "shim:ODU-MAC_Zero_10x9"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -11619,7 +11619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:ODU-MAC_Zero_10x9"
+		(property "Footprint" "shim:ODU-MAC_Zero_10x9"
 			(at 85.09 43.18 0)
 			(effects
 				(font
@@ -11950,7 +11950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:ODU-MAC_Zero_10x9"
+		(property "Footprint" "shim:ODU-MAC_Zero_10x9"
 			(at 111.76 43.18 0)
 			(effects
 				(font
@@ -12281,7 +12281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:ODU-MAC_Zero_10x9"
+		(property "Footprint" "shim:ODU-MAC_Zero_10x9"
 			(at 138.43 43.18 0)
 			(effects
 				(font
@@ -12612,7 +12612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:ODU-MAC_Zero_10x9"
+		(property "Footprint" "shim:ODU-MAC_Zero_10x9"
 			(at 165.1 43.18 0)
 			(effects
 				(font
@@ -12943,7 +12943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:ODU-MAC_Zero_10x9"
+		(property "Footprint" "shim:ODU-MAC_Zero_10x9"
 			(at 191.77 43.18 0)
 			(effects
 				(font
@@ -13274,7 +13274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:ODU-MAC_Zero_10x9"
+		(property "Footprint" "shim:ODU-MAC_Zero_10x9"
 			(at 245.11 43.18 0)
 			(effects
 				(font
@@ -13605,7 +13605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos_std:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+		(property "Footprint" "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 			(at 72.39 121.92 0)
 			(effects
 				(font
@@ -13816,7 +13816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos_std:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+		(property "Footprint" "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 			(at 123.19 121.92 0)
 			(effects
 				(font
@@ -14027,7 +14027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos_std:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+		(property "Footprint" "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 			(at 172.72 121.92 0)
 			(effects
 				(font

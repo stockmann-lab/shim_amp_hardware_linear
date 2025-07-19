@@ -4426,7 +4426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 105.41 92.71 0)
 			(effects
 				(font
@@ -4580,7 +4580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 156.21 92.71 0)
 			(effects
 				(font
@@ -5013,7 +5013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 156.21 55.88 0)
 			(effects
 				(font
@@ -5899,7 +5899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Martinos_std:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -6075,7 +6075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Martinos_std:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 90.17 55.88 0)
 			(effects
 				(font
@@ -6251,7 +6251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Martinos_std:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 179.07 58.42 0)
 			(effects
 				(font
@@ -6427,7 +6427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Martinos_std:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 179.07 95.25 0)
 			(effects
 				(font
@@ -6605,7 +6605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 143.51 177.8 0)
 			(effects
 				(font
@@ -7554,7 +7554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 106.68 55.88 0)
 			(effects
 				(font
@@ -7706,7 +7706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:D_SOD-323F"
+		(property "Footprint" "shim:D_SOD-323F"
 			(at 209.55 58.42 0)
 			(effects
 				(font
@@ -7846,7 +7846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:D_SOD-323F"
+		(property "Footprint" "shim:D_SOD-323F"
 			(at 209.55 95.25 0)
 			(effects
 				(font
@@ -8286,7 +8286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:D_SOD-323F"
+		(property "Footprint" "shim:D_SOD-323F"
 			(at 209.55 33.02 0)
 			(effects
 				(font
@@ -8426,7 +8426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:D_SOD-323F"
+		(property "Footprint" "shim:D_SOD-323F"
 			(at 209.55 81.28 0)
 			(effects
 				(font

@@ -1684,7 +1684,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Don:ODU-MAC_Zero_6x7"
+		(symbol "shim:ODU-MAC_Zero_6x7"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1707,7 +1707,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Don:ODU-MAC_Zero_6x7"
+			(property "Footprint" "shim:ODU-MAC_Zero_6x7"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -6567,7 +6567,7 @@
 		(uuid "f5f30824-8e15-49bb-bf61-99ce68c2886b")
 	)
 	(symbol
-		(lib_id "Don:ODU-MAC_Zero_6x7")
+		(lib_id "shim:ODU-MAC_Zero_6x7")
 		(at 29.21 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6591,7 +6591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don:ODU-MAC_Zero_6x7"
+		(property "Footprint" "shim:ODU-MAC_Zero_6x7"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -6753,7 +6753,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Don:ODU-MAC_Zero_6x7")
+		(lib_id "shim:ODU-MAC_Zero_6x7")
 		(at 68.58 52.07 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -6777,7 +6777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don:ODU-MAC_Zero_6x7"
+		(property "Footprint" "shim:ODU-MAC_Zero_6x7"
 			(at 68.58 53.34 0)
 			(effects
 				(font
@@ -6939,7 +6939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Don:ODU-MAC_Zero_6x7")
+		(lib_id "shim:ODU-MAC_Zero_6x7")
 		(at 106.68 52.07 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -6963,7 +6963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don:ODU-MAC_Zero_6x7"
+		(property "Footprint" "shim:ODU-MAC_Zero_6x7"
 			(at 106.68 53.34 0)
 			(effects
 				(font
@@ -7150,7 +7150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos_std:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+		(property "Footprint" "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 			(at 45.72 120.65 0)
 			(effects
 				(font
@@ -7361,7 +7361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos_std:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+		(property "Footprint" "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 			(at 96.52 120.65 0)
 			(effects
 				(font

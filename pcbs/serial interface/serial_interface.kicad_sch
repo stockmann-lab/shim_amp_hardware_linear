@@ -448,7 +448,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Don:UM232H"
+		(symbol "shim:UM232H"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -468,7 +468,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Don:FTDI_UM232H"
+			(property "Footprint" "shim:FTDI_UM232H"
 				(at 0 8.89 0)
 				(effects
 					(font
@@ -1705,7 +1705,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Martinos:74LVC1G14"
+		(symbol "shim:74LVC1G14"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -4465,7 +4465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos:AFBR-xx2xZ"
+		(property "Footprint" "shim:AFBR-xx2xZ"
 			(at 247.65 76.2 0)
 			(effects
 				(font
@@ -4572,7 +4572,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Martinos_std:LED_0805_2012Metric"
+		(property "Footprint" "shim:LED_0805_2012Metric"
 			(at 149.86 171.45 0)
 			(effects
 				(font
@@ -4734,7 +4734,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Martinos:74LVC1G14")
+		(lib_id "shim:74LVC1G14")
 		(at 201.93 130.81 0)
 		(mirror y)
 		(unit 1)
@@ -4761,7 +4761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 201.93 130.81 0)
 			(effects
 				(font
@@ -5642,7 +5642,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Martinos:AFBR-xx2xZ"
+		(property "Footprint" "shim:AFBR-xx2xZ"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -5881,7 +5881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Don:UM232H")
+		(lib_id "shim:UM232H")
 		(at 71.12 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5905,7 +5905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don:FTDI_UM232H"
+		(property "Footprint" "shim:FTDI_UM232H"
 			(at 71.12 91.44 0)
 			(effects
 				(font
@@ -6370,7 +6370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Martinos:74LVC1G14")
+		(lib_id "shim:74LVC1G14")
 		(at 210.82 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6396,7 +6396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 210.82 60.96 0)
 			(effects
 				(font

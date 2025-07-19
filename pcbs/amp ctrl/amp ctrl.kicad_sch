@@ -3595,7 +3595,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Martinos_std:SOT-23"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8810,7 +8810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Connector_Combo_Molex_386608802_Phoenix_1792229"
+		(property "Footprint" "shim:Connector_Combo_Molex_386608802_Phoenix_1792229"
 			(at 34.29 41.91 0)
 			(effects
 				(font
@@ -8897,7 +8897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Martinos:LED_Kingbright_APA3010_3x2mm_Horizontal"
+		(property "Footprint" "shim:LED_Kingbright_APA3010_3x2mm_Horizontal"
 			(at 55.88 121.92 0)
 			(effects
 				(font
@@ -9407,7 +9407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Martinos:LED_Kingbright_APA3010_3x2mm_Horizontal"
+		(property "Footprint" "shim:LED_Kingbright_APA3010_3x2mm_Horizontal"
 			(at 39.37 121.92 0)
 			(effects
 				(font
@@ -9665,7 +9665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 72.39 74.93 0)
 			(effects
 				(font
@@ -9768,7 +9768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 45.72 217.17 0)
 			(effects
 				(font
@@ -9871,7 +9871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 54.61 217.17 0)
 			(effects
 				(font
@@ -9974,7 +9974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 63.5 217.17 0)
 			(effects
 				(font
@@ -10207,7 +10207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 365.76 60.96 0)
 			(effects
 				(font
@@ -10850,7 +10850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos_std:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+		(property "Footprint" "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 			(at 331.47 158.75 0)
 			(effects
 				(font
@@ -11183,7 +11183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:PinSocket_2x02_P2.54mm_Vertical_SMD_BotEntry_Pin"
+		(property "Footprint" "shim:PinSocket_2x02_P2.54mm_Vertical_SMD_BotEntry_Pin"
 			(at 49.53 74.93 0)
 			(effects
 				(font
@@ -11955,7 +11955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Martinos:Fuse_12.4x4.5mm_SMT"
+		(property "Footprint" "shim:Fuse_12.4x4.5mm_SMT"
 			(at 45.72 37.592 90)
 			(effects
 				(font
@@ -13023,7 +13023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Martinos_std:D_SMC"
+		(property "Footprint" "shim:D_SMC"
 			(at 58.42 40.64 0)
 			(effects
 				(font
@@ -13120,7 +13120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 256.54 57.15 0)
 			(effects
 				(font
@@ -13226,7 +13226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 262.89 57.15 0)
 			(effects
 				(font
@@ -13332,7 +13332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 256.54 85.09 0)
 			(effects
 				(font
@@ -13438,7 +13438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 262.89 85.09 0)
 			(effects
 				(font
@@ -13544,7 +13544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 256.54 114.3 0)
 			(effects
 				(font
@@ -13650,7 +13650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 262.89 114.3 0)
 			(effects
 				(font
@@ -13756,7 +13756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 256.54 142.24 0)
 			(effects
 				(font
@@ -13862,7 +13862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 262.89 142.24 0)
 			(effects
 				(font
@@ -13968,7 +13968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 256.54 170.18 0)
 			(effects
 				(font
@@ -14074,7 +14074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 262.89 170.18 0)
 			(effects
 				(font
@@ -14180,7 +14180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 256.54 198.12 0)
 			(effects
 				(font
@@ -14286,7 +14286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 262.89 198.12 0)
 			(effects
 				(font
@@ -14392,7 +14392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 256.54 226.06 0)
 			(effects
 				(font
@@ -14498,7 +14498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Martinos:Jumper_SMT_Gap-3mm"
+		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
 			(at 262.89 226.06 0)
 			(effects
 				(font
@@ -14727,7 +14727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Martinos_std:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 48.26 151.13 0)
 			(effects
 				(font
@@ -15277,7 +15277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don_std:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 73.66 149.86 0)
 			(effects
 				(font
@@ -15444,7 +15444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Martinos:LED_Kingbright_APA3010_3x2mm_Horizontal"
+		(property "Footprint" "shim:LED_Kingbright_APA3010_3x2mm_Horizontal"
 			(at 71.12 121.92 0)
 			(effects
 				(font

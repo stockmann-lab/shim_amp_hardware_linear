@@ -1487,7 +1487,7 @@
 			(uuid "ff822d3a-0fe7-4ebb-b05e-c20d9b2ee807")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1913,7 +1913,7 @@
 			(uuid "4d3893ad-1a95-4a86-9869-932949a8726b")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1925,7 +1925,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005efab377")
 		(at 149.54 63.425 90)
@@ -5577,7 +5577,7 @@
 			(uuid "62bad79b-1581-48df-84b8-85a4b3e905a5")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -7788,7 +7788,7 @@
 			(uuid "507e98e9-7dbe-4b88-aee9-da569b5727a6")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
+		(model ":shim:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -7800,7 +7800,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005efd31b7")
 		(at 137.25 102.25 -90)
@@ -12244,7 +12244,7 @@
 			(uuid "6bde0de9-8f21-45ab-84c9-28058dc1fbf5")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12670,7 +12670,7 @@
 			(uuid "cbb83def-0b26-48e3-a362-1a6f5d8dd6c8")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15046,7 +15046,7 @@
 			(uuid "c1f71305-eee7-4041-9981-065770bbe3d7")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15472,7 +15472,7 @@
 			(uuid "1a1e73f1-630c-49bd-9e9a-94fbcf364f2e")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17848,7 +17848,7 @@
 			(uuid "06d5ae36-176e-4e4a-b217-d1543410518c")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18274,7 +18274,7 @@
 			(uuid "0d275a19-8025-47f7-8fd9-23142a3b62bb")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20650,7 +20650,7 @@
 			(uuid "0b52948d-6ea9-4118-8d7f-199165b19092")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21076,7 +21076,7 @@
 			(uuid "24177bbc-a5b9-4e30-8f12-4a487a693a72")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23452,7 +23452,7 @@
 			(uuid "7e2036f6-601d-4dd0-833d-adf964f0f6ae")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23878,7 +23878,7 @@
 			(uuid "0695df24-12a4-4fb9-b061-e23f56c4fc88")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26254,7 +26254,7 @@
 			(uuid "38037684-0901-4e7f-8172-02d870e95528")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26680,7 +26680,7 @@
 			(uuid "f4897090-1648-4cd0-a854-3dc971f4eb93")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28861,7 +28861,7 @@
 			(uuid "8bd69146-ca70-49a7-a276-34d56f437db8")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29287,7 +29287,7 @@
 			(uuid "ad3e27fc-4264-4494-82b6-303e8ed0c70b")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:C_Elec_8x12_Nichicon_Polymer.stp"
+		(model ":shim:C_Elec_8x12_Nichicon_Polymer.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38609,7 +38609,7 @@
 			(uuid "2343d7e1-e897-46f6-8139-e451541f5ec6")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
+		(model ":shim:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -39016,7 +39016,7 @@
 			(uuid "c5ebf65e-fb9b-4542-9e7a-480ed3538d5d")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -40175,7 +40175,7 @@
 			(uuid "c2dcd8d5-c673-48bf-9edc-87927b49e2e6")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
+		(model ":shim:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -40582,7 +40582,7 @@
 			(uuid "07dc8ca7-d253-4f6f-aa52-34ae97c4d42e")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -41741,7 +41741,7 @@
 			(uuid "8300f8d3-1c2e-45c3-a92c-80338378692f")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
+		(model ":shim:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -42148,7 +42148,7 @@
 			(uuid "62c075a2-2e3e-4818-83b2-165bdeda6664")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -43307,7 +43307,7 @@
 			(uuid "7d570eb1-912c-43f4-9653-a83faf4860bd")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
+		(model ":shim:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -43714,7 +43714,7 @@
 			(uuid "049a2866-e04e-4423-a432-d24ad30c4f41")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -44873,7 +44873,7 @@
 			(uuid "b222ae7e-ec2d-4f11-8c85-d81230d263ea")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
+		(model ":shim:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -45280,7 +45280,7 @@
 			(uuid "348978cf-e8f4-4ba7-8b4e-49d3a30ed0f4")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -46439,7 +46439,7 @@
 			(uuid "fc418c9e-76f2-4d43-b483-1085f199d3a2")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
+		(model ":shim:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -46846,7 +46846,7 @@
 			(uuid "49e1b32c-7c5a-465e-8531-0ac720e2d7a1")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -48005,7 +48005,7 @@
 			(uuid "b9c4ab66-f05b-4b50-8441-aa92745a4f2e")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
+		(model ":shim:PinHeader_02x10_Vertical_SMT_Samtec_TSM-110-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -48412,7 +48412,7 @@
 			(uuid "69b3537e-ac30-4505-bae9-af1fd8e74b6c")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -49399,7 +49399,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef2da")
 		(at 164.5 102.25 -90)
@@ -49606,7 +49606,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef2ed")
 		(at 178.79 63.425 90)
@@ -51178,7 +51178,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef388")
 		(at 203.25 102.25 -90)
@@ -51385,7 +51385,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef39b")
 		(at 215.54 63.425 90)
@@ -52957,7 +52957,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef436")
 		(at 230.5 102.25 -90)
@@ -53164,7 +53164,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef449")
 		(at 244.79 63.425 90)
@@ -54736,7 +54736,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef4e4")
 		(at 269.25 102.25 -90)
@@ -54943,7 +54943,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef4f7")
 		(at 281.54 63.425 90)
@@ -56515,7 +56515,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef592")
 		(at 296.5 102.25 -90)
@@ -56722,7 +56722,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef5a5")
 		(at 310.79 63.425 90)
@@ -58294,7 +58294,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef640")
 		(at 335.25 102.25 -90)
@@ -58501,7 +58501,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef653")
 		(at 347.54 63.425 90)
@@ -59878,7 +59878,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef6ee")
 		(at 362.5 102.25 -90)
@@ -60085,7 +60085,7 @@
 			)
 		)
 	)
-	(footprint "Martinos:R_Shunt_Vishay_WSR5_KelvinConnection"
+	(footprint "shim:R_Shunt_Vishay_WSR5_KelvinConnection"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef701")
 		(at 376.79 63.425 90)
@@ -83162,7 +83162,7 @@
 			(uuid "53509643-7a09-44a8-939a-60ee3121735c")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -84237,7 +84237,7 @@
 			(uuid "502340f5-042b-40f5-9300-6d620a9c6a82")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -84643,7 +84643,7 @@
 			(uuid "8bc8832d-7f84-4adc-be90-4827d10147ad")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)
@@ -85049,7 +85049,7 @@
 			(uuid "57afc62b-e21c-4a86-a7fd-776a26f45f8a")
 		)
 		(embedded_fonts no)
-		(model ":Martinos:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
+		(model ":shim:PinHeader_02x02_Vertical_SMT_Samtec_TSM-102-03-F-DV.stp"
 			(offset
 				(xyz 0 0 2.55)
 			)

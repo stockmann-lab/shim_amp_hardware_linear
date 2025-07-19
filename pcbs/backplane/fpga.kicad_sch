@@ -3260,7 +3260,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Don:ICS501"
+		(symbol "shim:ICS501"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3280,7 +3280,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Don_std:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 1.27 0 0)
 				(effects
 					(font
@@ -6103,7 +6103,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Don:Snickerdoodle"
+			(property "Footprint" "shim:Snickerdoodle"
 				(at 0 8.89 0)
 				(effects
 					(font
@@ -14864,7 +14864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Conn_Samtec_TFM-115-x1,3-x-D-WT"
+		(property "Footprint" "shim:Conn_Samtec_TFM-115-x1,3-x-D-WT"
 			(at 384.81 50.8 0)
 			(effects
 				(font
@@ -15061,7 +15061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Conn_Samtec_TFM-120-x1,3-x-D-WT"
+		(property "Footprint" "shim:Conn_Samtec_TFM-120-x1,3-x-D-WT"
 			(at 53.34 55.88 0)
 			(effects
 				(font
@@ -15288,7 +15288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Conn_Samtec_TFM-120-x1,3-x-D-WT"
+		(property "Footprint" "shim:Conn_Samtec_TFM-120-x1,3-x-D-WT"
 			(at 109.22 55.88 0)
 			(effects
 				(font
@@ -15515,7 +15515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Conn_Samtec_TFM-120-x1,3-x-D-WT"
+		(property "Footprint" "shim:Conn_Samtec_TFM-120-x1,3-x-D-WT"
 			(at 165.1 55.88 0)
 			(effects
 				(font
@@ -15742,7 +15742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Conn_Samtec_TFM-120-x1,3-x-D-WT"
+		(property "Footprint" "shim:Conn_Samtec_TFM-120-x1,3-x-D-WT"
 			(at 220.98 55.88 0)
 			(effects
 				(font
@@ -15969,7 +15969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Conn_Samtec_TFM-120-x1,3-x-D-WT"
+		(property "Footprint" "shim:Conn_Samtec_TFM-120-x1,3-x-D-WT"
 			(at 276.86 55.88 0)
 			(effects
 				(font
@@ -16196,7 +16196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Don:Conn_Samtec_TFM-120-x1,3-x-D-WT"
+		(property "Footprint" "shim:Conn_Samtec_TFM-120-x1,3-x-D-WT"
 			(at 332.74 55.88 0)
 			(effects
 				(font
@@ -16423,7 +16423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don:CTS_745C"
+		(property "Footprint" "shim:CTS_745C"
 			(at 177.8 136.525 90)
 			(effects
 				(font
@@ -16541,7 +16541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:VSSOP-8_2.3x2mm_P0.5mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 265.43 187.96 0)
 			(effects
 				(font
@@ -17251,7 +17251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 170.18 232.41 0)
 			(effects
 				(font
@@ -17833,7 +17833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 86.36 168.91 0)
 			(effects
 				(font
@@ -18770,7 +18770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 149.86 168.91 0)
 			(effects
 				(font
@@ -22153,7 +22153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don:CTS_745C"
+		(property "Footprint" "shim:CTS_745C"
 			(at 177.8 167.005 90)
 			(effects
 				(font
@@ -22271,7 +22271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:VSSOP-8_2.3x2mm_P0.5mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 325.12 187.96 0)
 			(effects
 				(font
@@ -24860,7 +24860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:VSSOP-8_2.3x2mm_P0.5mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 325.12 237.49 0)
 			(effects
 				(font
@@ -25572,7 +25572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don:Snickerdoodle"
+		(property "Footprint" "shim:Snickerdoodle"
 			(at 222.25 12.7 0)
 			(effects
 				(font
@@ -26694,7 +26694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Don_std:D_SOD-323F"
+		(property "Footprint" "shim:D_SOD-323F"
 			(at 382.27 133.35 0)
 			(effects
 				(font
@@ -27723,7 +27723,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Don:ICS501")
+		(lib_id "shim:ICS501")
 		(at 285.75 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27747,7 +27747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don_std:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 287.02 220.98 0)
 			(effects
 				(font

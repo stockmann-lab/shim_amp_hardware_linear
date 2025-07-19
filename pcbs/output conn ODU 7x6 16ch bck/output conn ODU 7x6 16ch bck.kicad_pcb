@@ -185,7 +185,7 @@
 	(net 45 "unconnected-(J2-Pad25)")
 	(net 46 "unconnected-(J3-Pad26)")
 	(net 47 "unconnected-(J3-Pad25)")
-	(footprint "Martinos_std:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+	(footprint "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f5bd836")
 		(at 78.54 79.17 90)
@@ -1063,7 +1063,7 @@
 			(uuid "d8a68d17-1b55-47f5-accd-eed32c563444")
 		)
 		(embedded_fonts no)
-		(model ":Martinos_std:PinHeader_2x25_P2.54mm_Vertical_Shrouded_Sullins_SBH11-_ _ _C-D25-ST-_ _.STEP"
+		(model ":shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded_Sullins_SBH11-_ _ _C-D25-ST-_ _.STEP"
 			(offset
 				(xyz 2.75 0 -3)
 			)
@@ -1075,7 +1075,7 @@
 			)
 		)
 	)
-	(footprint "Martinos_std:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+	(footprint "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f5bd87e")
 		(at 139.48 161.71 -90)
@@ -1953,7 +1953,7 @@
 			(uuid "704da303-ec9c-4d91-8159-33000b992576")
 		)
 		(embedded_fonts no)
-		(model ":Martinos_std:PinHeader_2x25_P2.54mm_Vertical_Shrouded_Sullins_SBH11-_ _ _C-D25-ST-_ _.STEP"
+		(model ":shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded_Sullins_SBH11-_ _ _C-D25-ST-_ _.STEP"
 			(offset
 				(xyz 2.75 0 -3)
 			)
@@ -9497,7 +9497,7 @@
 			)
 		)
 	)
-	(footprint "Don:ODU-MAC_Zero_6x7"
+	(footprint "shim:ODU-MAC_Zero_6x7"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-00005f5bd7ee")
 		(at 109 119 180)
