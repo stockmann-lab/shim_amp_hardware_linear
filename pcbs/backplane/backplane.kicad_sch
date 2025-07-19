@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4cff6540-dfbc-472e-b6ee-b480e176be3d")
 	(paper "C")
 	(title_block
@@ -12,9 +12,13 @@
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Flag"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -124,10 +128,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -194,14 +201,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -216,14 +223,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -263,9 +270,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -338,7 +348,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -350,7 +360,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -399,11 +409,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -470,32 +485,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -507,8 +498,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -556,11 +571,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -628,10 +648,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -652,7 +684,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -664,22 +696,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -725,9 +745,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Polyfuse"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -797,6 +820,18 @@
 				)
 			)
 			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -0.762 2.54)
 					(end 0.762 -2.54)
@@ -811,18 +846,6 @@
 				(polyline
 					(pts
 						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -871,9 +894,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -992,6 +1018,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Fiber_Optic:AFBR-1624Z"
 			(exclude_from_sim no)
@@ -1084,42 +1111,6 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 -2.54) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -2.54) (xy 6.35 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 6.35 3.81) (xy 3.81 1.27)
 					)
 					(stroke
@@ -1156,6 +1147,42 @@
 				)
 				(polyline
 					(pts
+						(xy 6.35 -2.54) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy 6.35 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 7.62 5.08) (xy 2.54 5.08) (xy 2.54 -1.27) (xy 2.54 -6.35) (xy 7.62 -6.35)
 					)
 					(stroke
@@ -1168,60 +1195,6 @@
 				)
 			)
 			(symbol "AFBR-1624Z_1_1"
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VCCT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 5.08 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "VEET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -10.16 0 0)
 					(length 2.54)
@@ -1233,6 +1206,25 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1260,7 +1252,8 @@
 				)
 				(pin passive line
 					(at -2.54 -10.16 90)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "HP"
 						(effects
 							(font
@@ -1276,7 +1269,44 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCCT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "VEET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Fiber_Optic:AFBR-2624Z"
 			(exclude_from_sim no)
@@ -1358,31 +1388,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 -1.27) (xy -6.35 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -5.08 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -3.81 -2.54)
+						(xy -7.62 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -7.62 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -1430,7 +1436,31 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -7.62 -5.08)
+						(xy -3.81 -1.27) (xy -6.35 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -3.81 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1442,42 +1472,6 @@
 				)
 			)
 			(symbol "AFBR-2624Z_1_1"
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "Data_Out"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "VEER"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
@@ -1496,17 +1490,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 7.62 5.08 180)
-					(length 2.54) hide
-					(name "NC"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "VEER"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1534,7 +1528,8 @@
 				)
 				(pin passive line
 					(at 2.54 -10.16 90)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "HP"
 						(effects
 							(font
@@ -1550,12 +1545,54 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Data_Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1653,10 +1690,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:MMBT3904"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1729,6 +1769,18 @@
 			(symbol "MMBT3904_0_1"
 				(polyline
 					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
@@ -1751,12 +1803,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1775,17 +1826,6 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "MMBT3904_1_1"
 				(pin input line
@@ -1799,24 +1839,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1842,7 +1864,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "backplane-rescue:+2.5V-Martinos"
 			(power)
@@ -1911,7 +1952,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1923,7 +1964,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1937,7 +1978,8 @@
 			(symbol "+2.5V-Martinos_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+2.5V"
 						(effects
 							(font
@@ -1954,6 +1996,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "backplane-rescue:+3.3V-power"
 			(power)
@@ -2022,7 +2065,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2034,7 +2077,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2048,7 +2091,8 @@
 			(symbol "+3.3V-power_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -2065,10 +2109,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "backplane-rescue:74LVC1G14-Martinos"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2127,18 +2174,6 @@
 			(symbol "74LVC1G14-Martinos_0_1"
 				(polyline
 					(pts
-						(xy -1.905 -0.635) (xy -1.27 -0.635) (xy -1.27 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 2.54 0) (xy -3.81 2.54)
 					)
 					(stroke
@@ -2161,6 +2196,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy -1.27 -0.635) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "74LVC1G14-Martinos_1_1"
 				(pin input line
@@ -2174,6 +2221,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 90)
+					(length 0)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2217,30 +2282,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 2.54 90)
-					(length 0)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "backplane-rescue:CP1-Device"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2336,9 +2388,9 @@
 					)
 				)
 				(arc
-					(start 2.032 -1.27)
+					(start -2.032 -1.27)
 					(mid 0 -0.5572)
-					(end -2.032 -1.27)
+					(end 2.032 -1.27)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -2386,11 +2438,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "backplane-rescue:D_Schottky_ALT-Device"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2449,10 +2506,10 @@
 			(symbol "D_Schottky_ALT-Device_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2473,10 +2530,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2522,6 +2579,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+VDC"
 			(power)
@@ -2597,12 +2655,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
+				(circle
+					(center 0 3.175)
+					(radius 1.905)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2621,11 +2678,12 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 3.175)
-					(radius 1.905)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2636,7 +2694,8 @@
 			(symbol "+VDC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+VDC"
 						(effects
 							(font
@@ -2653,6 +2712,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -2732,7 +2792,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -2749,6 +2810,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDPWR"
 			(power)
@@ -2814,18 +2876,6 @@
 			(symbol "GNDPWR_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
 					)
 					(stroke
@@ -2842,6 +2892,18 @@
 					)
 					(stroke
 						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2900,7 +2962,8 @@
 			(symbol "GNDPWR_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GNDPWR"
 						(effects
 							(font
@@ -2917,6 +2980,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VD"
 			(power)
@@ -2994,7 +3058,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3006,7 +3070,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3020,7 +3084,8 @@
 			(symbol "VD_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VD"
 						(effects
 							(font
@@ -3037,7 +3102,514 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Digital power regulated from amp. power"
+		(exclude_from_sim no)
+		(at 106.68 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00239ab5-51f6-48d6-b6f3-d49a7e2a8a4e")
+	)
+	(text "Scanner\n10 Mhz Clk\nSync Input"
+		(exclude_from_sim no)
+		(at 49.53 220.98 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c5adfdf-ed33-42d7-bcfb-20e7a453b4c5")
+	)
+	(text "1.75V @ 1 mA"
+		(exclude_from_sim no)
+		(at 209.55 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "132790cd-9cfd-46c8-bfbd-afcb9397ca80")
+	)
+	(text "50 mW max."
+		(exclude_from_sim no)
+		(at 76.2 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dfc8182-d563-4600-9b91-a522208115a6")
+	)
+	(text "Noise filter,\n160 kHz LPF"
+		(exclude_from_sim no)
+		(at 187.96 269.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27d3fb4e-13f9-465e-b7a8-ccee0966dd7c")
+	)
+	(text "Noise filter,\n160 kHz LPF"
+		(exclude_from_sim no)
+		(at 74.93 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a2d31e6-32fb-4ef9-a53c-3fd672bb7a14")
+	)
+	(text "UART\nRx (FPGA),\nTx (Host)"
+		(exclude_from_sim no)
+		(at 48.26 153.67 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a3af773-1e4e-4ff6-b52a-5f562adc2bea")
+	)
+	(text "Noise filter,\n225 kHz LPF"
+		(exclude_from_sim no)
+		(at 207.01 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a6a0d10-8a59-44de-9256-fc3f33918298")
+	)
+	(text "22 mW @ 150 mA"
+		(exclude_from_sim no)
+		(at 190.5 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c5b7d47-12eb-4b0f-a1a3-119c7c5956bd")
+	)
+	(text "1.95V @ 1mA"
+		(exclude_from_sim no)
+		(at 229.87 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "391f8e4a-e2fc-4b1d-be15-8c47a65d99b0")
+	)
+	(text "20 mA typ., 30 mA max."
+		(exclude_from_sim no)
+		(at 63.5 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ecec2f7-2107-4896-aa65-93933b8672a4")
+	)
+	(text "Global shutdown\n(external)"
+		(exclude_from_sim no)
+		(at 213.36 288.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "442b6406-e3f1-47f0-b1ff-b48b1968ce64")
+	)
+	(text "1.95V @ 1mA"
+		(exclude_from_sim no)
+		(at 59.69 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "470af026-410d-465a-bfa7-2b3efc70f735")
+	)
+	(text "20 mA typ., 30 mA max."
+		(exclude_from_sim no)
+		(at 63.5 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52c2db2f-0c20-455e-bf1e-93083f871473")
+	)
+	(text "20 mA typ.,\n30 mA max."
+		(exclude_from_sim no)
+		(at 165.1 297.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53678c27-7004-4a6c-ad89-60c7f3bdaf2c")
+	)
+	(text "Power connections to amp boards"
+		(exclude_from_sim no)
+		(at 466.09 290.83 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "5f420ffb-fd48-4ad8-bf4c-e11b81e843ee")
+	)
+	(text "UART signals are inverted at both ends\nso that they idle low, and save LED power"
+		(exclude_from_sim no)
+		(at 109.22 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6229f956-a125-4dce-a211-50b0cbc53a82")
+	)
+	(text "Digital power regulated from\nseparate low-voltage control power"
+		(exclude_from_sim no)
+		(at 102.87 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b1a1ded-47c6-4a09-bd17-c23c5aaa7fe6")
+	)
+	(text "UART\nTx (FPGA),\nRx (Host)"
+		(exclude_from_sim no)
+		(at 223.52 132.08 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "70c47d8d-d622-45b0-94c7-fc28391fea4c")
+	)
+	(text "Scanner\nTrigger Input"
+		(exclude_from_sim no)
+		(at 49.53 186.69 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b1cbd70-5b01-4a5d-aae3-dc29ffbd5f98")
+	)
+	(text "Power input"
+		(exclude_from_sim no)
+		(at 29.21 22.86 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e8ba4c5-7026-4f64-8601-75cf8e0dd7a9")
+	)
+	(text "Ring or spade terminals\nattach with screw"
+		(exclude_from_sim no)
+		(at 29.21 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ea5bd22-949f-4ae8-9e59-09d357ae671e")
+	)
+	(text "LEDs light on rising edges as signal-activity indicators"
+		(exclude_from_sim no)
+		(at 95.25 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7e43529-b6d2-4561-ac86-64bdc823a97c")
+	)
+	(text "Noise filter,\n160 kHz LPF"
+		(exclude_from_sim no)
+		(at 200.66 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab2f6519-cee9-4d33-8d03-891d62250ff4")
+	)
+	(text "UART signals are inverted at both ends\nso that they idle low, and save LED power"
+		(exclude_from_sim no)
+		(at 172.72 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab69aa2b-300d-4aaa-bc54-002575701233")
+	)
+	(text "1.75V @ 1 mA"
+		(exclude_from_sim no)
+		(at 207.01 278.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad56812b-9832-4f75-881b-85b19dd0b096")
+	)
+	(text "Manual\nEnable\nInput"
+		(exclude_from_sim no)
+		(at 170.18 278.13 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify right bottom)
+		)
+		(uuid "c32621cd-a28c-45a7-a72c-7cedfeb3b5a8")
+	)
+	(text "21 mA typ., 31 mA max."
+		(exclude_from_sim no)
+		(at 212.09 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c89d15f4-925a-4ba9-a060-9d3d5fd4992e")
+	)
+	(text "Noise filter,\n160 kHz LPF"
+		(exclude_from_sim no)
+		(at 74.93 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6c23b48-ba39-4151-be6c-3f6c19b199a6")
+	)
+	(text "Mounting holes"
+		(exclude_from_sim no)
+		(at 86.36 373.38 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "d6eb32da-2e39-4195-80af-55c0a8a034cd")
+	)
+	(text "20 mA typ., 30 mA max."
+		(exclude_from_sim no)
+		(at 63.5 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6d32e49-4d0f-4209-baf3-27035aaba615")
+	)
+	(text "1.95V @ 1mA"
+		(exclude_from_sim no)
+		(at 229.87 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7ab581a-e111-4c0a-be45-f3d39dc77ca2")
+	)
+	(text "Global shutdown\n(FPGA)"
+		(exclude_from_sim no)
+		(at 209.55 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f14ba12c-5463-435d-a734-7e760ce178bf")
+	)
+	(text "Noise filter,\n160 kHz LPF"
+		(exclude_from_sim no)
+		(at 74.93 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f46b1b39-4244-4784-afc6-a5981f949cf4")
+	)
+	(text_box "Optional common-mode filtering to enclosure through standoffs"
+		(exclude_from_sim no)
+		(at 246.38 339.09 0)
+		(size 25.4 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 147 255 229 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1b5a448c-75de-411d-bfa2-979493ec693d")
+	)
+	(text_box "Optional differential-mode power filtering at each amp board's power connection"
+		(exclude_from_sim no)
+		(at 283.21 373.38 0)
+		(size 30.48 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 147 255 229 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "58c97de8-fc04-45f7-8005-a46657ba415a")
+	)
+	(text_box "Forces all amplifiers into shutdown unless \"manual enable input\" sensor sees light"
+		(exclude_from_sim no)
+		(at 231.14 214.63 0)
+		(size 22.86 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 147 255 229 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "70f8cf7b-72c5-43cf-8269-98266c66b432")
+	)
+	(text_box "Resistor divider translates from 3.3V receiver logic level to 2.5V FPGA logic level"
+		(exclude_from_sim no)
+		(at 187.96 213.36 0)
+		(size 22.86 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 147 255 229 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7295685f-16da-4dab-8868-f3dd828ad608")
+	)
+	(text_box "Old connectors (Phoenix 1792229)"
+		(exclude_from_sim no)
+		(at 426.72 299.72 0)
+		(size 21.59 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 147 255 229 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bbe7e2f0-012c-43e3-9338-ce9f2ae9da6a")
+	)
+	(text_box "New connectors (Phoenix 1190363)"
+		(exclude_from_sim no)
+		(at 485.14 299.72 0)
+		(size 21.59 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 147 255 229 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d7ad4196-e07b-4472-855a-5f57179a0945")
 	)
 	(junction
 		(at 104.14 191.77)
@@ -6590,506 +7162,6 @@
 			(type default)
 		)
 		(uuid "fff74f7b-50fc-4f2b-b6a0-ab295f8b09c0")
-	)
-	(text_box "Optional common-mode filtering to enclosure through standoffs"
-		(exclude_from_sim no)
-		(at 246.38 339.09 0)
-		(size 25.4 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 147 255 229 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "1b5a448c-75de-411d-bfa2-979493ec693d")
-	)
-	(text_box "Optional differential-mode power filtering at each amp board's power connection"
-		(exclude_from_sim no)
-		(at 283.21 373.38 0)
-		(size 30.48 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 147 255 229 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "58c97de8-fc04-45f7-8005-a46657ba415a")
-	)
-	(text_box "Forces all amplifiers into shutdown unless \"manual enable input\" sensor sees light"
-		(exclude_from_sim no)
-		(at 231.14 214.63 0)
-		(size 22.86 11.43)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 147 255 229 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "70f8cf7b-72c5-43cf-8269-98266c66b432")
-	)
-	(text_box "Resistor divider translates from 3.3V receiver logic level to 2.5V FPGA logic level"
-		(exclude_from_sim no)
-		(at 187.96 213.36 0)
-		(size 22.86 11.43)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 147 255 229 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7295685f-16da-4dab-8868-f3dd828ad608")
-	)
-	(text_box "Old connectors (Phoenix 1792229)"
-		(exclude_from_sim no)
-		(at 426.72 299.72 0)
-		(size 21.59 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 147 255 229 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "bbe7e2f0-012c-43e3-9338-ce9f2ae9da6a")
-	)
-	(text_box "New connectors (Phoenix 1190363)"
-		(exclude_from_sim no)
-		(at 485.14 299.72 0)
-		(size 21.59 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 147 255 229 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d7ad4196-e07b-4472-855a-5f57179a0945")
-	)
-	(text "Digital power regulated from amp. power"
-		(exclude_from_sim no)
-		(at 106.68 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00239ab5-51f6-48d6-b6f3-d49a7e2a8a4e")
-	)
-	(text "Scanner\n10 Mhz Clk\nSync Input"
-		(exclude_from_sim no)
-		(at 49.53 220.98 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify right bottom)
-		)
-		(uuid "0c5adfdf-ed33-42d7-bcfb-20e7a453b4c5")
-	)
-	(text "1.75V @ 1 mA"
-		(exclude_from_sim no)
-		(at 209.55 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "132790cd-9cfd-46c8-bfbd-afcb9397ca80")
-	)
-	(text "50 mW max."
-		(exclude_from_sim no)
-		(at 76.2 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1dfc8182-d563-4600-9b91-a522208115a6")
-	)
-	(text "Noise filter,\n160 kHz LPF"
-		(exclude_from_sim no)
-		(at 187.96 269.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27d3fb4e-13f9-465e-b7a8-ccee0966dd7c")
-	)
-	(text "Noise filter,\n160 kHz LPF"
-		(exclude_from_sim no)
-		(at 74.93 212.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a2d31e6-32fb-4ef9-a53c-3fd672bb7a14")
-	)
-	(text "UART\nRx (FPGA),\nTx (Host)"
-		(exclude_from_sim no)
-		(at 48.26 153.67 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a3af773-1e4e-4ff6-b52a-5f562adc2bea")
-	)
-	(text "Noise filter,\n225 kHz LPF"
-		(exclude_from_sim no)
-		(at 207.01 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a6a0d10-8a59-44de-9256-fc3f33918298")
-	)
-	(text "22 mW @ 150 mA"
-		(exclude_from_sim no)
-		(at 190.5 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c5b7d47-12eb-4b0f-a1a3-119c7c5956bd")
-	)
-	(text "1.95V @ 1mA"
-		(exclude_from_sim no)
-		(at 229.87 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "391f8e4a-e2fc-4b1d-be15-8c47a65d99b0")
-	)
-	(text "20 mA typ., 30 mA max."
-		(exclude_from_sim no)
-		(at 63.5 201.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ecec2f7-2107-4896-aa65-93933b8672a4")
-	)
-	(text "Global shutdown\n(external)"
-		(exclude_from_sim no)
-		(at 213.36 288.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "442b6406-e3f1-47f0-b1ff-b48b1968ce64")
-	)
-	(text "1.95V @ 1mA"
-		(exclude_from_sim no)
-		(at 59.69 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "470af026-410d-465a-bfa7-2b3efc70f735")
-	)
-	(text "20 mA typ., 30 mA max."
-		(exclude_from_sim no)
-		(at 63.5 237.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52c2db2f-0c20-455e-bf1e-93083f871473")
-	)
-	(text "20 mA typ.,\n30 mA max."
-		(exclude_from_sim no)
-		(at 165.1 297.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53678c27-7004-4a6c-ad89-60c7f3bdaf2c")
-	)
-	(text "Power connections to amp boards"
-		(exclude_from_sim no)
-		(at 466.09 290.83 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-		)
-		(uuid "5f420ffb-fd48-4ad8-bf4c-e11b81e843ee")
-	)
-	(text "UART signals are inverted at both ends\nso that they idle low, and save LED power"
-		(exclude_from_sim no)
-		(at 109.22 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6229f956-a125-4dce-a211-50b0cbc53a82")
-	)
-	(text "Digital power regulated from\nseparate low-voltage control power"
-		(exclude_from_sim no)
-		(at 102.87 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b1a1ded-47c6-4a09-bd17-c23c5aaa7fe6")
-	)
-	(text "UART\nTx (FPGA),\nRx (Host)"
-		(exclude_from_sim no)
-		(at 223.52 132.08 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "70c47d8d-d622-45b0-94c7-fc28391fea4c")
-	)
-	(text "Scanner\nTrigger Input"
-		(exclude_from_sim no)
-		(at 49.53 186.69 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify right bottom)
-		)
-		(uuid "7b1cbd70-5b01-4a5d-aae3-dc29ffbd5f98")
-	)
-	(text "Power input"
-		(exclude_from_sim no)
-		(at 29.21 22.86 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e8ba4c5-7026-4f64-8601-75cf8e0dd7a9")
-	)
-	(text "Ring or spade terminals\nattach with screw"
-		(exclude_from_sim no)
-		(at 29.21 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ea5bd22-949f-4ae8-9e59-09d357ae671e")
-	)
-	(text "LEDs light on rising edges as signal-activity indicators"
-		(exclude_from_sim no)
-		(at 95.25 274.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7e43529-b6d2-4561-ac86-64bdc823a97c")
-	)
-	(text "Noise filter,\n160 kHz LPF"
-		(exclude_from_sim no)
-		(at 200.66 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab2f6519-cee9-4d33-8d03-891d62250ff4")
-	)
-	(text "UART signals are inverted at both ends\nso that they idle low, and save LED power"
-		(exclude_from_sim no)
-		(at 172.72 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ab69aa2b-300d-4aaa-bc54-002575701233")
-	)
-	(text "1.75V @ 1 mA"
-		(exclude_from_sim no)
-		(at 207.01 278.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad56812b-9832-4f75-881b-85b19dd0b096")
-	)
-	(text "Manual\nEnable\nInput"
-		(exclude_from_sim no)
-		(at 170.18 278.13 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify right bottom)
-		)
-		(uuid "c32621cd-a28c-45a7-a72c-7cedfeb3b5a8")
-	)
-	(text "21 mA typ., 31 mA max."
-		(exclude_from_sim no)
-		(at 212.09 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c89d15f4-925a-4ba9-a060-9d3d5fd4992e")
-	)
-	(text "Noise filter,\n160 kHz LPF"
-		(exclude_from_sim no)
-		(at 74.93 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d6c23b48-ba39-4151-be6c-3f6c19b199a6")
-	)
-	(text "Mounting holes"
-		(exclude_from_sim no)
-		(at 86.36 373.38 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-		)
-		(uuid "d6eb32da-2e39-4195-80af-55c0a8a034cd")
-	)
-	(text "20 mA typ., 30 mA max."
-		(exclude_from_sim no)
-		(at 63.5 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6d32e49-4d0f-4209-baf3-27035aaba615")
-	)
-	(text "1.95V @ 1mA"
-		(exclude_from_sim no)
-		(at 229.87 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7ab581a-e111-4c0a-be45-f3d39dc77ca2")
-	)
-	(text "Global shutdown\n(FPGA)"
-		(exclude_from_sim no)
-		(at 209.55 201.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "f14ba12c-5463-435d-a734-7e760ce178bf")
-	)
-	(text "Noise filter,\n160 kHz LPF"
-		(exclude_from_sim no)
-		(at 74.93 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f46b1b39-4244-4784-afc6-a5981f949cf4")
 	)
 	(label "~{LDAC+4}"
 		(at 425.45 144.78 0)
@@ -25686,6 +25758,10 @@
 	(sheet
 		(at 391.16 34.29)
 		(size 27.94 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -25715,233 +25791,233 @@
 		)
 		(pin "Shutdown_Force" input
 			(at 391.16 36.83 180)
+			(uuid "cdb86f12-6e76-4dbe-8d79-81604f020463")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cdb86f12-6e76-4dbe-8d79-81604f020463")
 		)
 		(pin "SDA" bidirectional
 			(at 391.16 44.45 180)
+			(uuid "5afede36-caf8-4b67-9b21-a1bf066544a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5afede36-caf8-4b67-9b21-a1bf066544a3")
 		)
 		(pin "Shutdown_Sense_Latched" output
 			(at 391.16 39.37 180)
+			(uuid "e03f5a01-e80b-491f-a566-acf187d66836")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e03f5a01-e80b-491f-a566-acf187d66836")
 		)
 		(pin "SCL" input
 			(at 391.16 46.99 180)
+			(uuid "d74e72ca-2f7f-40b2-9d03-ffd315ef3647")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d74e72ca-2f7f-40b2-9d03-ffd315ef3647")
 		)
 		(pin "~{ADC_CS-}" input
 			(at 391.16 53.34 180)
+			(uuid "21729780-1d63-4203-bdce-1fc755e48062")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "21729780-1d63-4203-bdce-1fc755e48062")
 		)
 		(pin "~{ADC_CS+}" input
 			(at 391.16 50.8 180)
+			(uuid "888f1ab0-c979-4a5e-9584-d01b3c35823d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "888f1ab0-c979-4a5e-9584-d01b3c35823d")
 		)
 		(pin "ADC_MOSI-" input
 			(at 391.16 58.42 180)
+			(uuid "9be5c706-a99e-4068-8e66-3bd157903183")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9be5c706-a99e-4068-8e66-3bd157903183")
 		)
 		(pin "ADC_MOSI+" input
 			(at 391.16 55.88 180)
+			(uuid "146432d8-dbf2-4979-9ab8-d09cf5715798")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "146432d8-dbf2-4979-9ab8-d09cf5715798")
 		)
 		(pin "ADC_MISO+" output
 			(at 391.16 60.96 180)
+			(uuid "a5f6c497-c039-46ab-9dbf-f78a01175950")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a5f6c497-c039-46ab-9dbf-f78a01175950")
 		)
 		(pin "ADC_MISO-" output
 			(at 391.16 63.5 180)
+			(uuid "da59ce75-0c0a-47c9-9e80-d32300407bc6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "da59ce75-0c0a-47c9-9e80-d32300407bc6")
 		)
 		(pin "SCKO+" output
 			(at 391.16 66.04 180)
+			(uuid "45b88465-3cf0-488a-86a8-2a9eb87d1efe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "45b88465-3cf0-488a-86a8-2a9eb87d1efe")
 		)
 		(pin "SCKO-" output
 			(at 391.16 68.58 180)
+			(uuid "086402d2-3e5b-4375-9fe4-14b58f09c9c2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "086402d2-3e5b-4375-9fe4-14b58f09c9c2")
 		)
 		(pin "DAC_MISO+" output
 			(at 391.16 71.12 180)
+			(uuid "a062b5b1-635d-47e2-8848-062f07add18f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a062b5b1-635d-47e2-8848-062f07add18f")
 		)
 		(pin "DAC_MISO-" output
 			(at 391.16 73.66 180)
+			(uuid "2dbd7396-b7ee-43a4-bbb2-11a70d90b1bc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2dbd7396-b7ee-43a4-bbb2-11a70d90b1bc")
 		)
 		(pin "~{LDAC+}" input
 			(at 391.16 76.2 180)
+			(uuid "26361f83-d1dd-429c-be3a-1586d5ca7669")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "26361f83-d1dd-429c-be3a-1586d5ca7669")
 		)
 		(pin "~{LDAC-}" input
 			(at 391.16 78.74 180)
+			(uuid "3bd02751-67dd-4d5b-b73c-fc68ce76f32f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3bd02751-67dd-4d5b-b73c-fc68ce76f32f")
 		)
 		(pin "~{DAC_CS+}" input
 			(at 391.16 81.28 180)
+			(uuid "467913d0-de54-47fa-a95b-05581473bbca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "467913d0-de54-47fa-a95b-05581473bbca")
 		)
 		(pin "DAC_MOSI-" input
 			(at 391.16 88.9 180)
+			(uuid "1f3dfa7d-6d79-49c3-9b23-a3d9574017cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1f3dfa7d-6d79-49c3-9b23-a3d9574017cc")
 		)
 		(pin "~{DAC_CS-}" input
 			(at 391.16 83.82 180)
+			(uuid "8fc30ac1-2f92-4310-8848-9f69835b66d6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8fc30ac1-2f92-4310-8848-9f69835b66d6")
 		)
 		(pin "SCKI+" input
 			(at 391.16 91.44 180)
+			(uuid "21025b0b-320f-4010-b133-c38a3071a00e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "21025b0b-320f-4010-b133-c38a3071a00e")
 		)
 		(pin "SCKI-" input
 			(at 391.16 93.98 180)
+			(uuid "77f81a8e-41a7-4363-8892-b796b81eaa12")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "77f81a8e-41a7-4363-8892-b796b81eaa12")
 		)
 		(pin "DAC_MOSI+" input
 			(at 391.16 86.36 180)
+			(uuid "97f46441-2305-4320-b8d1-741358ae4704")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "97f46441-2305-4320-b8d1-741358ae4704")
 		)
 		(pin "Shutdown_Reset" input
 			(at 391.16 41.91 180)
+			(uuid "e855610a-29be-4ed7-8fe3-930bc706ff7b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e855610a-29be-4ed7-8fe3-930bc706ff7b")
 		)
 		(instances
 			(project "backplane"
@@ -25954,6 +26030,10 @@
 	(sheet
 		(at 113.03 134.62)
 		(size 38.1 101.6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -25983,293 +26063,293 @@
 		)
 		(pin "SCKI+[0..7]" output
 			(at 151.13 184.15 0)
+			(uuid "d7688336-025a-4927-8988-2f7856732cee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d7688336-025a-4927-8988-2f7856732cee")
 		)
 		(pin "SCKI-[0..7]" output
 			(at 151.13 186.69 0)
+			(uuid "b878df5a-7428-423c-8e7c-b6239be5d2cf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b878df5a-7428-423c-8e7c-b6239be5d2cf")
 		)
 		(pin "~{ADC_CS+[0..7]}" output
 			(at 151.13 143.51 0)
+			(uuid "7cc5d73e-0e5d-47d9-a2f4-befa38d0428b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7cc5d73e-0e5d-47d9-a2f4-befa38d0428b")
 		)
 		(pin "~{ADC_CS-[0..7]}" output
 			(at 151.13 146.05 0)
+			(uuid "78d9ecac-37b6-42d2-a639-17c78993eb26")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "78d9ecac-37b6-42d2-a639-17c78993eb26")
 		)
 		(pin "ADC_MOSI+[0..7]" output
 			(at 151.13 148.59 0)
+			(uuid "8ab6da50-aa03-4974-81de-c6162bfbf73f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8ab6da50-aa03-4974-81de-c6162bfbf73f")
 		)
 		(pin "ADC_MOSI-[0..7]" output
 			(at 151.13 151.13 0)
+			(uuid "a433ef44-1b09-4d6d-934c-fd792434ac46")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a433ef44-1b09-4d6d-934c-fd792434ac46")
 		)
 		(pin "ADC_MISO+[0..7]" input
 			(at 151.13 153.67 0)
+			(uuid "d43778c7-a69f-4ea0-939c-09752c14fbc8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d43778c7-a69f-4ea0-939c-09752c14fbc8")
 		)
 		(pin "ADC_MISO-[0..7]" input
 			(at 151.13 156.21 0)
+			(uuid "df299517-4ae6-491a-9f82-1d89f80d2690")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "df299517-4ae6-491a-9f82-1d89f80d2690")
 		)
 		(pin "SCKO+[0..7]" input
 			(at 151.13 158.75 0)
+			(uuid "0f1d0d00-d625-406e-b81f-06892c9ee447")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0f1d0d00-d625-406e-b81f-06892c9ee447")
 		)
 		(pin "SCKO-[0..7]" input
 			(at 151.13 161.29 0)
+			(uuid "17c5aa60-0f7b-40d4-ad00-8d52eb688999")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "17c5aa60-0f7b-40d4-ad00-8d52eb688999")
 		)
 		(pin "DAC_MISO+[0..7]" input
 			(at 151.13 163.83 0)
+			(uuid "5178a9ca-4178-42be-95dd-45cd2e2e39e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5178a9ca-4178-42be-95dd-45cd2e2e39e1")
 		)
 		(pin "DAC_MISO-[0..7]" input
 			(at 151.13 166.37 0)
+			(uuid "966d96ab-211b-4f38-878c-47bdfb97fb97")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "966d96ab-211b-4f38-878c-47bdfb97fb97")
 		)
 		(pin "~{LDAC+[0..7]}" output
 			(at 151.13 168.91 0)
+			(uuid "dac84220-5168-4e29-987e-97c34864d921")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dac84220-5168-4e29-987e-97c34864d921")
 		)
 		(pin "~{LDAC-[0..7]}" output
 			(at 151.13 171.45 0)
+			(uuid "719815dc-3130-4b53-8f10-028dd5dd4fdb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "719815dc-3130-4b53-8f10-028dd5dd4fdb")
 		)
 		(pin "~{DAC_CS+[0..7]}" output
 			(at 151.13 173.99 0)
+			(uuid "8d84b192-13b5-447d-b729-a3480e03daa8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8d84b192-13b5-447d-b729-a3480e03daa8")
 		)
 		(pin "~{DAC_CS-[0..7]}" output
 			(at 151.13 176.53 0)
+			(uuid "bae15345-125e-45d5-b583-b180228aa001")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bae15345-125e-45d5-b583-b180228aa001")
 		)
 		(pin "DAC_MOSI+[0..7]" output
 			(at 151.13 179.07 0)
+			(uuid "49c1d53f-81bf-454f-8eaa-149e8783c089")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "49c1d53f-81bf-454f-8eaa-149e8783c089")
 		)
 		(pin "DAC_MOSI-[0..7]" output
 			(at 151.13 181.61 0)
+			(uuid "8c75293f-abd4-4537-8431-1a04cc616176")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8c75293f-abd4-4537-8431-1a04cc616176")
 		)
 		(pin "Shutdown_Sense[0..7]" input
 			(at 151.13 193.04 0)
+			(uuid "ee3d4f55-4839-4da2-9f37-cf5813bb2380")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ee3d4f55-4839-4da2-9f37-cf5813bb2380")
 		)
 		(pin "Shutdown_Reset" output
 			(at 151.13 195.58 0)
+			(uuid "d23a8e96-44c8-4010-94c7-7bbc386170c9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d23a8e96-44c8-4010-94c7-7bbc386170c9")
 		)
 		(pin "Power_Enable_FPGA" output
 			(at 151.13 198.12 0)
+			(uuid "050a63a1-f18e-47dd-b27a-c8e560c5e72b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "050a63a1-f18e-47dd-b27a-c8e560c5e72b")
 		)
 		(pin "SDA[0..7]" bidirectional
 			(at 151.13 204.47 0)
+			(uuid "fc3e889f-e79b-4b8b-9c8d-105725ec1f1c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fc3e889f-e79b-4b8b-9c8d-105725ec1f1c")
 		)
 		(pin "SCL[0..7]" output
 			(at 151.13 207.01 0)
+			(uuid "57cc4a17-ee65-4460-857f-9b3a753397bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "57cc4a17-ee65-4460-857f-9b3a753397bd")
 		)
 		(pin "Trigger" input
 			(at 113.03 191.77 180)
+			(uuid "5e660363-baa3-4105-a79b-1343e283eb4d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5e660363-baa3-4105-a79b-1343e283eb4d")
 		)
 		(pin "10Mhz" input
 			(at 113.03 227.33 180)
+			(uuid "863545a9-73d4-4adb-b3ef-21c689f7d73d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "863545a9-73d4-4adb-b3ef-21c689f7d73d")
 		)
 		(pin "UART_Tx_FPGA" output
 			(at 151.13 137.16 0)
+			(uuid "4068c163-d535-42b2-a74c-34dea6b6f7d8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4068c163-d535-42b2-a74c-34dea6b6f7d8")
 		)
 		(pin "UART_Rx_FPGA" input
 			(at 113.03 158.75 180)
+			(uuid "5612424e-c93b-4b3d-a20f-3f1eb96eaf60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5612424e-c93b-4b3d-a20f-3f1eb96eaf60")
 		)
 		(pin "Power_Enable_Ext_Sense" input
 			(at 151.13 200.66 0)
+			(uuid "1fde49c5-c262-4b20-8d29-73276c3d1246")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1fde49c5-c262-4b20-8d29-73276c3d1246")
 		)
 		(pin "~{FPGA_Rst}" output
 			(at 151.13 212.09 0)
+			(uuid "13c0ce7b-b0c3-4228-b429-435d90dcafb9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "13c0ce7b-b0c3-4228-b429-435d90dcafb9")
 		)
 		(instances
 			(project "backplane"
@@ -26282,6 +26362,10 @@
 	(sheet
 		(at 391.16 102.87)
 		(size 27.94 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -26311,233 +26395,233 @@
 		)
 		(pin "Shutdown_Force" input
 			(at 391.16 105.41 180)
+			(uuid "bba5306c-22d0-4e6f-81a5-080fe0e2bfdd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bba5306c-22d0-4e6f-81a5-080fe0e2bfdd")
 		)
 		(pin "SDA" bidirectional
 			(at 391.16 113.03 180)
+			(uuid "aba52093-63b9-4610-8df9-a9e7aea3a6d8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aba52093-63b9-4610-8df9-a9e7aea3a6d8")
 		)
 		(pin "Shutdown_Sense_Latched" output
 			(at 391.16 107.95 180)
+			(uuid "1ecbdbf5-d8ad-44f6-a459-847d06f4a457")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1ecbdbf5-d8ad-44f6-a459-847d06f4a457")
 		)
 		(pin "SCL" input
 			(at 391.16 115.57 180)
+			(uuid "294bec70-113f-47d8-bf50-70d9010ab12d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "294bec70-113f-47d8-bf50-70d9010ab12d")
 		)
 		(pin "~{ADC_CS-}" input
 			(at 391.16 121.92 180)
+			(uuid "a26e727e-768d-490c-a32e-7b8447d8527a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a26e727e-768d-490c-a32e-7b8447d8527a")
 		)
 		(pin "~{ADC_CS+}" input
 			(at 391.16 119.38 180)
+			(uuid "7f7c39a4-519d-424c-9ee3-7df91a1c4433")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7f7c39a4-519d-424c-9ee3-7df91a1c4433")
 		)
 		(pin "ADC_MOSI-" input
 			(at 391.16 127 180)
+			(uuid "e57a0b0c-7557-427d-a4a3-c5c69ea6ea01")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e57a0b0c-7557-427d-a4a3-c5c69ea6ea01")
 		)
 		(pin "ADC_MOSI+" input
 			(at 391.16 124.46 180)
+			(uuid "e85c10ca-26dd-4f10-af59-6e4c32e4df73")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e85c10ca-26dd-4f10-af59-6e4c32e4df73")
 		)
 		(pin "ADC_MISO+" output
 			(at 391.16 129.54 180)
+			(uuid "d10d8c83-8edf-4350-bba9-5694a6581909")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d10d8c83-8edf-4350-bba9-5694a6581909")
 		)
 		(pin "ADC_MISO-" output
 			(at 391.16 132.08 180)
+			(uuid "2be4e525-6eb4-4db1-8321-cc9f317c7099")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2be4e525-6eb4-4db1-8321-cc9f317c7099")
 		)
 		(pin "SCKO+" output
 			(at 391.16 134.62 180)
+			(uuid "fa631c43-b8c4-4c66-a763-e5e3e6aec182")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fa631c43-b8c4-4c66-a763-e5e3e6aec182")
 		)
 		(pin "SCKO-" output
 			(at 391.16 137.16 180)
+			(uuid "5f5d7f56-1d4f-42f1-a979-183ae1d4eddc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5f5d7f56-1d4f-42f1-a979-183ae1d4eddc")
 		)
 		(pin "DAC_MISO+" output
 			(at 391.16 139.7 180)
+			(uuid "5bfe5957-8621-4c69-88d0-85a50e49c041")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5bfe5957-8621-4c69-88d0-85a50e49c041")
 		)
 		(pin "DAC_MISO-" output
 			(at 391.16 142.24 180)
+			(uuid "eb9ac5f4-e2b3-4d55-9b84-cd11a632a185")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "eb9ac5f4-e2b3-4d55-9b84-cd11a632a185")
 		)
 		(pin "~{LDAC+}" input
 			(at 391.16 144.78 180)
+			(uuid "dd664ea2-8705-47ff-9f57-fd94c77c610c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dd664ea2-8705-47ff-9f57-fd94c77c610c")
 		)
 		(pin "~{LDAC-}" input
 			(at 391.16 147.32 180)
+			(uuid "ea428425-3755-40ba-890e-e7354263e726")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ea428425-3755-40ba-890e-e7354263e726")
 		)
 		(pin "~{DAC_CS+}" input
 			(at 391.16 149.86 180)
+			(uuid "dc7f6c1a-12ad-4b80-bde1-a540b94f90fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dc7f6c1a-12ad-4b80-bde1-a540b94f90fb")
 		)
 		(pin "DAC_MOSI-" input
 			(at 391.16 157.48 180)
+			(uuid "5e2a5f72-da07-4ab1-ba7e-3ca03fd598ae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5e2a5f72-da07-4ab1-ba7e-3ca03fd598ae")
 		)
 		(pin "~{DAC_CS-}" input
 			(at 391.16 152.4 180)
+			(uuid "579f4af1-d92d-4a46-a8b7-0bce740b883f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "579f4af1-d92d-4a46-a8b7-0bce740b883f")
 		)
 		(pin "SCKI+" input
 			(at 391.16 160.02 180)
+			(uuid "e2d8d4b7-3ee9-4152-8afe-c333491e5c3b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e2d8d4b7-3ee9-4152-8afe-c333491e5c3b")
 		)
 		(pin "SCKI-" input
 			(at 391.16 162.56 180)
+			(uuid "0a47bbfa-13e2-4629-a32b-5aa914a496fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0a47bbfa-13e2-4629-a32b-5aa914a496fd")
 		)
 		(pin "DAC_MOSI+" input
 			(at 391.16 154.94 180)
+			(uuid "b4c52b9b-891b-4b0c-ae8e-2ae25270e1d3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b4c52b9b-891b-4b0c-ae8e-2ae25270e1d3")
 		)
 		(pin "Shutdown_Reset" input
 			(at 391.16 110.49 180)
+			(uuid "966532fc-f8c1-405b-ab2a-567e5b1f0206")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "966532fc-f8c1-405b-ab2a-567e5b1f0206")
 		)
 		(instances
 			(project "backplane"
@@ -26550,6 +26634,10 @@
 	(sheet
 		(at 391.16 171.45)
 		(size 27.94 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -26579,233 +26667,233 @@
 		)
 		(pin "Shutdown_Force" input
 			(at 391.16 173.99 180)
+			(uuid "29b00970-21d1-436c-aedd-06d42d3f0c80")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "29b00970-21d1-436c-aedd-06d42d3f0c80")
 		)
 		(pin "SDA" bidirectional
 			(at 391.16 181.61 180)
+			(uuid "47db3f4a-bcb7-4fa8-a876-5ff5c5565c96")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "47db3f4a-bcb7-4fa8-a876-5ff5c5565c96")
 		)
 		(pin "Shutdown_Sense_Latched" output
 			(at 391.16 176.53 180)
+			(uuid "3f77b8c9-e2c3-4c26-bd3d-44abfcab05fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3f77b8c9-e2c3-4c26-bd3d-44abfcab05fc")
 		)
 		(pin "SCL" input
 			(at 391.16 184.15 180)
+			(uuid "ba14d972-af48-4ffa-8206-76f53f0b8b81")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ba14d972-af48-4ffa-8206-76f53f0b8b81")
 		)
 		(pin "~{ADC_CS-}" input
 			(at 391.16 190.5 180)
+			(uuid "d7593b4b-3b75-4e2d-8878-7b460fad873d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d7593b4b-3b75-4e2d-8878-7b460fad873d")
 		)
 		(pin "~{ADC_CS+}" input
 			(at 391.16 187.96 180)
+			(uuid "978aabd4-f29e-4573-aed5-4b6bf0e688fa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "978aabd4-f29e-4573-aed5-4b6bf0e688fa")
 		)
 		(pin "ADC_MOSI-" input
 			(at 391.16 195.58 180)
+			(uuid "f4e3a026-2381-446a-9814-9786a8834667")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f4e3a026-2381-446a-9814-9786a8834667")
 		)
 		(pin "ADC_MOSI+" input
 			(at 391.16 193.04 180)
+			(uuid "f4a178a4-3bf0-4052-8273-5de1c84a9622")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f4a178a4-3bf0-4052-8273-5de1c84a9622")
 		)
 		(pin "ADC_MISO+" output
 			(at 391.16 198.12 180)
+			(uuid "a5d8aaed-b2fd-4824-b1ff-407ea9b1cfc5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a5d8aaed-b2fd-4824-b1ff-407ea9b1cfc5")
 		)
 		(pin "ADC_MISO-" output
 			(at 391.16 200.66 180)
+			(uuid "d29a1884-2a5b-4dbc-83fc-201a01b10976")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d29a1884-2a5b-4dbc-83fc-201a01b10976")
 		)
 		(pin "SCKO+" output
 			(at 391.16 203.2 180)
+			(uuid "634b5ae4-6bae-44e4-b318-a6d0f245d222")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "634b5ae4-6bae-44e4-b318-a6d0f245d222")
 		)
 		(pin "SCKO-" output
 			(at 391.16 205.74 180)
+			(uuid "40517013-13b5-4032-b946-dae039170206")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "40517013-13b5-4032-b946-dae039170206")
 		)
 		(pin "DAC_MISO+" output
 			(at 391.16 208.28 180)
+			(uuid "3e760a82-5d5e-4d38-bf94-f5f311acc637")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3e760a82-5d5e-4d38-bf94-f5f311acc637")
 		)
 		(pin "DAC_MISO-" output
 			(at 391.16 210.82 180)
+			(uuid "19563b81-2490-4d5c-8e21-dfdaad9fdfb2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "19563b81-2490-4d5c-8e21-dfdaad9fdfb2")
 		)
 		(pin "~{LDAC+}" input
 			(at 391.16 213.36 180)
+			(uuid "1620973c-8a01-4b23-96c0-03fadb2096c3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1620973c-8a01-4b23-96c0-03fadb2096c3")
 		)
 		(pin "~{LDAC-}" input
 			(at 391.16 215.9 180)
+			(uuid "af5e700b-5b7c-4974-8b80-a99fb499bb41")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "af5e700b-5b7c-4974-8b80-a99fb499bb41")
 		)
 		(pin "~{DAC_CS+}" input
 			(at 391.16 218.44 180)
+			(uuid "ec38f374-31c8-488c-913b-2b3aa630b469")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ec38f374-31c8-488c-913b-2b3aa630b469")
 		)
 		(pin "DAC_MOSI-" input
 			(at 391.16 226.06 180)
+			(uuid "fb97eb45-17e8-4633-9eb5-07a9ff1430c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fb97eb45-17e8-4633-9eb5-07a9ff1430c1")
 		)
 		(pin "~{DAC_CS-}" input
 			(at 391.16 220.98 180)
+			(uuid "c21c10bc-c2cf-4463-a28f-b6f4a7ee98e6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c21c10bc-c2cf-4463-a28f-b6f4a7ee98e6")
 		)
 		(pin "SCKI+" input
 			(at 391.16 228.6 180)
+			(uuid "54fd8c5f-0ae8-4ec9-8607-2b372a1891ff")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "54fd8c5f-0ae8-4ec9-8607-2b372a1891ff")
 		)
 		(pin "SCKI-" input
 			(at 391.16 231.14 180)
+			(uuid "5fe809de-7a5c-4eac-9870-2e2194d80570")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5fe809de-7a5c-4eac-9870-2e2194d80570")
 		)
 		(pin "DAC_MOSI+" input
 			(at 391.16 223.52 180)
+			(uuid "d08e5341-53f8-4e6d-8116-9257aadc7a4b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d08e5341-53f8-4e6d-8116-9257aadc7a4b")
 		)
 		(pin "Shutdown_Reset" input
 			(at 391.16 179.07 180)
+			(uuid "917499e6-00e7-4fa9-b9c8-4352da3238a9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "917499e6-00e7-4fa9-b9c8-4352da3238a9")
 		)
 		(instances
 			(project "backplane"
@@ -26818,6 +26906,10 @@
 	(sheet
 		(at 443.23 171.45)
 		(size 27.94 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -26847,233 +26939,233 @@
 		)
 		(pin "Shutdown_Force" input
 			(at 443.23 173.99 180)
+			(uuid "2f8ae00a-4d5a-4704-95ee-985f81a49f95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2f8ae00a-4d5a-4704-95ee-985f81a49f95")
 		)
 		(pin "SDA" bidirectional
 			(at 443.23 181.61 180)
+			(uuid "aa06f223-0113-49e2-9384-a38d2edb26e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aa06f223-0113-49e2-9384-a38d2edb26e4")
 		)
 		(pin "Shutdown_Sense_Latched" output
 			(at 443.23 176.53 180)
+			(uuid "847326ff-ab92-4110-8bea-b35256095aa9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "847326ff-ab92-4110-8bea-b35256095aa9")
 		)
 		(pin "SCL" input
 			(at 443.23 184.15 180)
+			(uuid "001fb097-54a2-443a-8571-b801b3228390")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "001fb097-54a2-443a-8571-b801b3228390")
 		)
 		(pin "~{ADC_CS-}" input
 			(at 443.23 190.5 180)
+			(uuid "af86ff63-86b0-4198-b532-1484a3e5a69e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "af86ff63-86b0-4198-b532-1484a3e5a69e")
 		)
 		(pin "~{ADC_CS+}" input
 			(at 443.23 187.96 180)
+			(uuid "47fba34d-fecf-415c-84e2-93f4b4d81ed5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "47fba34d-fecf-415c-84e2-93f4b4d81ed5")
 		)
 		(pin "ADC_MOSI-" input
 			(at 443.23 195.58 180)
+			(uuid "f28cd212-5065-4093-9d52-df5665644f34")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f28cd212-5065-4093-9d52-df5665644f34")
 		)
 		(pin "ADC_MOSI+" input
 			(at 443.23 193.04 180)
+			(uuid "41b3a864-dae3-4417-a381-4bfa1b27e2e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "41b3a864-dae3-4417-a381-4bfa1b27e2e9")
 		)
 		(pin "ADC_MISO+" output
 			(at 443.23 198.12 180)
+			(uuid "4a4b86df-3ca3-456f-b5fb-5a28bbbf6588")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4a4b86df-3ca3-456f-b5fb-5a28bbbf6588")
 		)
 		(pin "ADC_MISO-" output
 			(at 443.23 200.66 180)
+			(uuid "1613c8a8-5c78-4178-bf28-0897caaec2c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1613c8a8-5c78-4178-bf28-0897caaec2c0")
 		)
 		(pin "SCKO+" output
 			(at 443.23 203.2 180)
+			(uuid "543efc0a-6224-4314-80ae-aa498baef6e7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "543efc0a-6224-4314-80ae-aa498baef6e7")
 		)
 		(pin "SCKO-" output
 			(at 443.23 205.74 180)
+			(uuid "daf19b18-4243-48d5-bb00-cd9c4f830b5b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "daf19b18-4243-48d5-bb00-cd9c4f830b5b")
 		)
 		(pin "DAC_MISO+" output
 			(at 443.23 208.28 180)
+			(uuid "dd4e7cee-3133-4fa5-9839-376de9e2e53f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dd4e7cee-3133-4fa5-9839-376de9e2e53f")
 		)
 		(pin "DAC_MISO-" output
 			(at 443.23 210.82 180)
+			(uuid "6c0660ad-273f-4580-afea-b7099f401db8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6c0660ad-273f-4580-afea-b7099f401db8")
 		)
 		(pin "~{LDAC+}" input
 			(at 443.23 213.36 180)
+			(uuid "7a4ef112-51d4-4b6a-a03e-ce802dd4fdaf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7a4ef112-51d4-4b6a-a03e-ce802dd4fdaf")
 		)
 		(pin "~{LDAC-}" input
 			(at 443.23 215.9 180)
+			(uuid "8a9605a3-cd32-4d4e-b09c-bac1768c7b63")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8a9605a3-cd32-4d4e-b09c-bac1768c7b63")
 		)
 		(pin "~{DAC_CS+}" input
 			(at 443.23 218.44 180)
+			(uuid "dbf21c0d-24c6-43b3-9e03-530dda6fa49e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dbf21c0d-24c6-43b3-9e03-530dda6fa49e")
 		)
 		(pin "DAC_MOSI-" input
 			(at 443.23 226.06 180)
+			(uuid "59139815-97c6-498c-b010-5eeea244cb38")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "59139815-97c6-498c-b010-5eeea244cb38")
 		)
 		(pin "~{DAC_CS-}" input
 			(at 443.23 220.98 180)
+			(uuid "473070ec-4537-4b21-b1ef-3cce48e5f1e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "473070ec-4537-4b21-b1ef-3cce48e5f1e1")
 		)
 		(pin "SCKI+" input
 			(at 443.23 228.6 180)
+			(uuid "563e810c-e985-4268-bd76-70f4a6370aec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "563e810c-e985-4268-bd76-70f4a6370aec")
 		)
 		(pin "SCKI-" input
 			(at 443.23 231.14 180)
+			(uuid "4bb5536e-b82a-4a34-84c9-8b04827723a0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4bb5536e-b82a-4a34-84c9-8b04827723a0")
 		)
 		(pin "DAC_MOSI+" input
 			(at 443.23 223.52 180)
+			(uuid "32e98a51-83ac-4e32-acfe-73fd3f68e4e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "32e98a51-83ac-4e32-acfe-73fd3f68e4e0")
 		)
 		(pin "Shutdown_Reset" input
 			(at 443.23 179.07 180)
+			(uuid "45fcda61-d263-4736-b1e3-b17ad29b176a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "45fcda61-d263-4736-b1e3-b17ad29b176a")
 		)
 		(instances
 			(project "backplane"
@@ -27086,6 +27178,10 @@
 	(sheet
 		(at 443.23 102.87)
 		(size 27.94 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -27115,233 +27211,233 @@
 		)
 		(pin "Shutdown_Force" input
 			(at 443.23 105.41 180)
+			(uuid "26d70a2a-832c-493f-8c09-6e4b39a0257a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "26d70a2a-832c-493f-8c09-6e4b39a0257a")
 		)
 		(pin "SDA" bidirectional
 			(at 443.23 113.03 180)
+			(uuid "ed4823e9-3984-474b-8320-f1792fec92ad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ed4823e9-3984-474b-8320-f1792fec92ad")
 		)
 		(pin "Shutdown_Sense_Latched" output
 			(at 443.23 107.95 180)
+			(uuid "8bc63b28-b110-497e-8bce-4db90a9bf3ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8bc63b28-b110-497e-8bce-4db90a9bf3ba")
 		)
 		(pin "SCL" input
 			(at 443.23 115.57 180)
+			(uuid "75bf0deb-4aff-47d3-8b18-389faeab80f9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "75bf0deb-4aff-47d3-8b18-389faeab80f9")
 		)
 		(pin "~{ADC_CS-}" input
 			(at 443.23 121.92 180)
+			(uuid "36312931-c163-4076-b925-d0f405d11fe2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "36312931-c163-4076-b925-d0f405d11fe2")
 		)
 		(pin "~{ADC_CS+}" input
 			(at 443.23 119.38 180)
+			(uuid "4481cf9a-fa55-4149-a52f-73d5cb43890a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4481cf9a-fa55-4149-a52f-73d5cb43890a")
 		)
 		(pin "ADC_MOSI-" input
 			(at 443.23 127 180)
+			(uuid "02551711-6990-436d-986f-8bc82382d311")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "02551711-6990-436d-986f-8bc82382d311")
 		)
 		(pin "ADC_MOSI+" input
 			(at 443.23 124.46 180)
+			(uuid "95750706-8790-49d9-a66a-18d3b2cab548")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "95750706-8790-49d9-a66a-18d3b2cab548")
 		)
 		(pin "ADC_MISO+" output
 			(at 443.23 129.54 180)
+			(uuid "6f77cfdc-c85d-40c7-9d4c-c3f6edbd2e82")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6f77cfdc-c85d-40c7-9d4c-c3f6edbd2e82")
 		)
 		(pin "ADC_MISO-" output
 			(at 443.23 132.08 180)
+			(uuid "91f3c1b5-1c4f-42ef-a83b-4d13ab47b7b0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "91f3c1b5-1c4f-42ef-a83b-4d13ab47b7b0")
 		)
 		(pin "SCKO+" output
 			(at 443.23 134.62 180)
+			(uuid "fce3133d-e252-4e93-8ebe-42d3d43edbe5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fce3133d-e252-4e93-8ebe-42d3d43edbe5")
 		)
 		(pin "SCKO-" output
 			(at 443.23 137.16 180)
+			(uuid "522734ec-7c22-4c2f-934f-577b383332ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "522734ec-7c22-4c2f-934f-577b383332ef")
 		)
 		(pin "DAC_MISO+" output
 			(at 443.23 139.7 180)
+			(uuid "529725dd-3f18-45d2-ad82-e5f2ff5d04f5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "529725dd-3f18-45d2-ad82-e5f2ff5d04f5")
 		)
 		(pin "DAC_MISO-" output
 			(at 443.23 142.24 180)
+			(uuid "be532fc6-0d01-4f3b-8351-632b0b5fc8e5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "be532fc6-0d01-4f3b-8351-632b0b5fc8e5")
 		)
 		(pin "~{LDAC+}" input
 			(at 443.23 144.78 180)
+			(uuid "c191b91d-cbd9-4427-88c4-39994418ef75")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c191b91d-cbd9-4427-88c4-39994418ef75")
 		)
 		(pin "~{LDAC-}" input
 			(at 443.23 147.32 180)
+			(uuid "e8755c2c-ce6e-4fab-aa7a-ac537494cf1d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e8755c2c-ce6e-4fab-aa7a-ac537494cf1d")
 		)
 		(pin "~{DAC_CS+}" input
 			(at 443.23 149.86 180)
+			(uuid "4b1c3dbe-3aef-40f3-bd88-51e42b0090b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4b1c3dbe-3aef-40f3-bd88-51e42b0090b8")
 		)
 		(pin "DAC_MOSI-" input
 			(at 443.23 157.48 180)
+			(uuid "804857f8-c4b3-4972-b942-079e4625d72c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "804857f8-c4b3-4972-b942-079e4625d72c")
 		)
 		(pin "~{DAC_CS-}" input
 			(at 443.23 152.4 180)
+			(uuid "04468692-cbef-47c1-8c62-a2c65cd3618f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "04468692-cbef-47c1-8c62-a2c65cd3618f")
 		)
 		(pin "SCKI+" input
 			(at 443.23 160.02 180)
+			(uuid "3d44a1cc-8a4f-45ec-8c01-872ecf103c35")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3d44a1cc-8a4f-45ec-8c01-872ecf103c35")
 		)
 		(pin "SCKI-" input
 			(at 443.23 162.56 180)
+			(uuid "e5bc98c1-02a6-4514-8ec2-a5b71cc66cb8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e5bc98c1-02a6-4514-8ec2-a5b71cc66cb8")
 		)
 		(pin "DAC_MOSI+" input
 			(at 443.23 154.94 180)
+			(uuid "8a68e51f-175b-458e-976c-0636bd7df6c6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8a68e51f-175b-458e-976c-0636bd7df6c6")
 		)
 		(pin "Shutdown_Reset" input
 			(at 443.23 110.49 180)
+			(uuid "5e41f448-7e4c-4d2d-a4fd-34b7f1d8cf4c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5e41f448-7e4c-4d2d-a4fd-34b7f1d8cf4c")
 		)
 		(instances
 			(project "backplane"
@@ -27354,6 +27450,10 @@
 	(sheet
 		(at 443.23 34.29)
 		(size 27.94 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -27383,233 +27483,233 @@
 		)
 		(pin "Shutdown_Force" input
 			(at 443.23 36.83 180)
+			(uuid "45defc89-566b-42bd-b929-40f3247ab622")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "45defc89-566b-42bd-b929-40f3247ab622")
 		)
 		(pin "SDA" bidirectional
 			(at 443.23 44.45 180)
+			(uuid "80ebc2b7-e146-41b1-a969-7f31292125fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "80ebc2b7-e146-41b1-a969-7f31292125fb")
 		)
 		(pin "Shutdown_Sense_Latched" output
 			(at 443.23 39.37 180)
+			(uuid "15051bd0-0b3f-404e-b048-b6107879e1aa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "15051bd0-0b3f-404e-b048-b6107879e1aa")
 		)
 		(pin "SCL" input
 			(at 443.23 46.99 180)
+			(uuid "bb2b010a-1139-4a52-aa98-0eb1a2f4604f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bb2b010a-1139-4a52-aa98-0eb1a2f4604f")
 		)
 		(pin "~{ADC_CS-}" input
 			(at 443.23 53.34 180)
+			(uuid "666558be-d48d-4c39-8c07-420099292e0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "666558be-d48d-4c39-8c07-420099292e0d")
 		)
 		(pin "~{ADC_CS+}" input
 			(at 443.23 50.8 180)
+			(uuid "1ca4a0f5-2d6b-43e6-9df4-1f01f5e5d9ab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1ca4a0f5-2d6b-43e6-9df4-1f01f5e5d9ab")
 		)
 		(pin "ADC_MOSI-" input
 			(at 443.23 58.42 180)
+			(uuid "76a7c9fa-97da-4b0d-8988-aeedea2c84a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "76a7c9fa-97da-4b0d-8988-aeedea2c84a3")
 		)
 		(pin "ADC_MOSI+" input
 			(at 443.23 55.88 180)
+			(uuid "1009ded2-f411-4417-a657-35d0035af2cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1009ded2-f411-4417-a657-35d0035af2cc")
 		)
 		(pin "ADC_MISO+" output
 			(at 443.23 60.96 180)
+			(uuid "ffee8617-63b9-4202-b4cf-7d104160d380")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ffee8617-63b9-4202-b4cf-7d104160d380")
 		)
 		(pin "ADC_MISO-" output
 			(at 443.23 63.5 180)
+			(uuid "1761fd39-266b-452b-9112-b52d1a367b56")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1761fd39-266b-452b-9112-b52d1a367b56")
 		)
 		(pin "SCKO+" output
 			(at 443.23 66.04 180)
+			(uuid "8436707f-4ee1-4589-8dfd-e7f3d57db301")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8436707f-4ee1-4589-8dfd-e7f3d57db301")
 		)
 		(pin "SCKO-" output
 			(at 443.23 68.58 180)
+			(uuid "99f73c1e-25ef-490c-b93c-929ba0116573")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "99f73c1e-25ef-490c-b93c-929ba0116573")
 		)
 		(pin "DAC_MISO+" output
 			(at 443.23 71.12 180)
+			(uuid "3f7f564e-e9b1-4e4b-bdcb-662ebf86e286")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3f7f564e-e9b1-4e4b-bdcb-662ebf86e286")
 		)
 		(pin "DAC_MISO-" output
 			(at 443.23 73.66 180)
+			(uuid "37ed5dd3-27e4-420c-92cc-706ae2bf12bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "37ed5dd3-27e4-420c-92cc-706ae2bf12bb")
 		)
 		(pin "~{LDAC+}" input
 			(at 443.23 76.2 180)
+			(uuid "bf2c4599-b055-46bb-8b1a-0ac808fdb793")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bf2c4599-b055-46bb-8b1a-0ac808fdb793")
 		)
 		(pin "~{LDAC-}" input
 			(at 443.23 78.74 180)
+			(uuid "f40ceca9-663d-4534-9a4b-2f07c5d2972b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f40ceca9-663d-4534-9a4b-2f07c5d2972b")
 		)
 		(pin "~{DAC_CS+}" input
 			(at 443.23 81.28 180)
+			(uuid "96210876-5a58-4f8e-b779-dfc3b25cf113")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "96210876-5a58-4f8e-b779-dfc3b25cf113")
 		)
 		(pin "DAC_MOSI-" input
 			(at 443.23 88.9 180)
+			(uuid "9acde883-8d21-4c17-b93c-660a9fd82071")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9acde883-8d21-4c17-b93c-660a9fd82071")
 		)
 		(pin "~{DAC_CS-}" input
 			(at 443.23 83.82 180)
+			(uuid "0fb8114e-0b51-46fc-8a82-642015943986")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0fb8114e-0b51-46fc-8a82-642015943986")
 		)
 		(pin "SCKI+" input
 			(at 443.23 91.44 180)
+			(uuid "9cabf961-d52c-4a2d-942e-253362a8ee3e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9cabf961-d52c-4a2d-942e-253362a8ee3e")
 		)
 		(pin "SCKI-" input
 			(at 443.23 93.98 180)
+			(uuid "ec9d33b4-d5a4-44b8-b740-2634db1a2ad9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ec9d33b4-d5a4-44b8-b740-2634db1a2ad9")
 		)
 		(pin "DAC_MOSI+" input
 			(at 443.23 86.36 180)
+			(uuid "4e606ed4-60d1-48d2-b462-4039e94be6fa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4e606ed4-60d1-48d2-b462-4039e94be6fa")
 		)
 		(pin "Shutdown_Reset" input
 			(at 443.23 41.91 180)
+			(uuid "df09f78c-7aa1-423b-b29c-6d3672e2c7a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "df09f78c-7aa1-423b-b29c-6d3672e2c7a4")
 		)
 		(instances
 			(project "backplane"
@@ -27622,6 +27722,10 @@
 	(sheet
 		(at 492.76 34.29)
 		(size 27.94 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -27651,233 +27755,233 @@
 		)
 		(pin "Shutdown_Force" input
 			(at 492.76 36.83 180)
+			(uuid "1d2e131f-7203-4b32-a04e-ca1cacefbf8b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1d2e131f-7203-4b32-a04e-ca1cacefbf8b")
 		)
 		(pin "SDA" bidirectional
 			(at 492.76 44.45 180)
+			(uuid "1664dfc8-a5ef-43c6-8e43-c0bd69625e28")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1664dfc8-a5ef-43c6-8e43-c0bd69625e28")
 		)
 		(pin "Shutdown_Sense_Latched" output
 			(at 492.76 39.37 180)
+			(uuid "4734a384-123b-4cbc-86bb-396af19fc22a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4734a384-123b-4cbc-86bb-396af19fc22a")
 		)
 		(pin "SCL" input
 			(at 492.76 46.99 180)
+			(uuid "abae972d-84d1-4185-ba4c-6ba88796ebb4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "abae972d-84d1-4185-ba4c-6ba88796ebb4")
 		)
 		(pin "~{ADC_CS-}" input
 			(at 492.76 53.34 180)
+			(uuid "4a5b52ea-c7b1-4866-820e-17c9ff98f11a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4a5b52ea-c7b1-4866-820e-17c9ff98f11a")
 		)
 		(pin "~{ADC_CS+}" input
 			(at 492.76 50.8 180)
+			(uuid "26df3a48-5833-45ef-95f0-23f3725e9838")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "26df3a48-5833-45ef-95f0-23f3725e9838")
 		)
 		(pin "ADC_MOSI-" input
 			(at 492.76 58.42 180)
+			(uuid "345f31b7-505f-4ff1-ad66-eb8543fd3dd8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "345f31b7-505f-4ff1-ad66-eb8543fd3dd8")
 		)
 		(pin "ADC_MOSI+" input
 			(at 492.76 55.88 180)
+			(uuid "52e1f206-17b7-4b6a-9ca1-2a9a066302d3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "52e1f206-17b7-4b6a-9ca1-2a9a066302d3")
 		)
 		(pin "ADC_MISO+" output
 			(at 492.76 60.96 180)
+			(uuid "013bb741-3522-42b1-9464-c51d8a172c19")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "013bb741-3522-42b1-9464-c51d8a172c19")
 		)
 		(pin "ADC_MISO-" output
 			(at 492.76 63.5 180)
+			(uuid "bc4a9178-7453-4343-b37f-77f09a1c391d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bc4a9178-7453-4343-b37f-77f09a1c391d")
 		)
 		(pin "SCKO+" output
 			(at 492.76 66.04 180)
+			(uuid "8797104e-e481-4fd8-a1c3-f81ebe1a3ed8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8797104e-e481-4fd8-a1c3-f81ebe1a3ed8")
 		)
 		(pin "SCKO-" output
 			(at 492.76 68.58 180)
+			(uuid "6d19f711-b1b6-46cd-913b-2932de29a47b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6d19f711-b1b6-46cd-913b-2932de29a47b")
 		)
 		(pin "DAC_MISO+" output
 			(at 492.76 71.12 180)
+			(uuid "a57af4ae-3824-4ee5-8ba2-c149cacf3699")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a57af4ae-3824-4ee5-8ba2-c149cacf3699")
 		)
 		(pin "DAC_MISO-" output
 			(at 492.76 73.66 180)
+			(uuid "2a83d271-a7c0-405c-ac96-42a86d82cc3a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2a83d271-a7c0-405c-ac96-42a86d82cc3a")
 		)
 		(pin "~{LDAC+}" input
 			(at 492.76 76.2 180)
+			(uuid "b25398e8-e4f7-4e82-8329-fb69ea80ab7d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b25398e8-e4f7-4e82-8329-fb69ea80ab7d")
 		)
 		(pin "~{LDAC-}" input
 			(at 492.76 78.74 180)
+			(uuid "ed87ccf0-1726-4dec-b7d8-2039388a239f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ed87ccf0-1726-4dec-b7d8-2039388a239f")
 		)
 		(pin "~{DAC_CS+}" input
 			(at 492.76 81.28 180)
+			(uuid "c21b9487-5663-4893-924a-224368cb79e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c21b9487-5663-4893-924a-224368cb79e8")
 		)
 		(pin "DAC_MOSI-" input
 			(at 492.76 88.9 180)
+			(uuid "75e7790f-ca03-4c36-8978-ef337faba6a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "75e7790f-ca03-4c36-8978-ef337faba6a3")
 		)
 		(pin "~{DAC_CS-}" input
 			(at 492.76 83.82 180)
+			(uuid "aaa568c4-c281-4203-a13f-de3301814df3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aaa568c4-c281-4203-a13f-de3301814df3")
 		)
 		(pin "SCKI+" input
 			(at 492.76 91.44 180)
+			(uuid "7a5f04c5-0487-4ed2-a198-eb5cabbb65a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7a5f04c5-0487-4ed2-a198-eb5cabbb65a4")
 		)
 		(pin "SCKI-" input
 			(at 492.76 93.98 180)
+			(uuid "a456db86-6729-4e75-a2c4-c9a2eef4c2b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a456db86-6729-4e75-a2c4-c9a2eef4c2b8")
 		)
 		(pin "DAC_MOSI+" input
 			(at 492.76 86.36 180)
+			(uuid "45fc8c76-83a0-402a-ab02-3c0140c4874d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "45fc8c76-83a0-402a-ab02-3c0140c4874d")
 		)
 		(pin "Shutdown_Reset" input
 			(at 492.76 41.91 180)
+			(uuid "97e02945-d40c-414a-a16a-3cd004fcdcdb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "97e02945-d40c-414a-a16a-3cd004fcdcdb")
 		)
 		(instances
 			(project "backplane"
@@ -27890,6 +27994,10 @@
 	(sheet
 		(at 492.76 102.87)
 		(size 27.94 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -27919,233 +28027,233 @@
 		)
 		(pin "Shutdown_Force" input
 			(at 492.76 105.41 180)
+			(uuid "6168cc85-c7e7-4581-bbe4-f00c39ab8b55")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6168cc85-c7e7-4581-bbe4-f00c39ab8b55")
 		)
 		(pin "SDA" bidirectional
 			(at 492.76 113.03 180)
+			(uuid "f640e817-14c4-4e62-94f5-55d799ec9dd6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f640e817-14c4-4e62-94f5-55d799ec9dd6")
 		)
 		(pin "Shutdown_Sense_Latched" output
 			(at 492.76 107.95 180)
+			(uuid "a5f4260e-fa57-4570-b410-4b27cbefc7cf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a5f4260e-fa57-4570-b410-4b27cbefc7cf")
 		)
 		(pin "SCL" input
 			(at 492.76 115.57 180)
+			(uuid "dc41e582-5b94-4269-ac56-2e1267e588cb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dc41e582-5b94-4269-ac56-2e1267e588cb")
 		)
 		(pin "~{ADC_CS-}" input
 			(at 492.76 121.92 180)
+			(uuid "fb518612-b267-4209-bf44-dd76d7d97399")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fb518612-b267-4209-bf44-dd76d7d97399")
 		)
 		(pin "~{ADC_CS+}" input
 			(at 492.76 119.38 180)
+			(uuid "3cd9d7f8-f2b6-4c77-9dbc-e30f20ecab68")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3cd9d7f8-f2b6-4c77-9dbc-e30f20ecab68")
 		)
 		(pin "ADC_MOSI-" input
 			(at 492.76 127 180)
+			(uuid "3875865f-9657-4fad-806a-497f09ec9799")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3875865f-9657-4fad-806a-497f09ec9799")
 		)
 		(pin "ADC_MOSI+" input
 			(at 492.76 124.46 180)
+			(uuid "b0bc4477-226a-4678-85bf-9d07ac901edb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b0bc4477-226a-4678-85bf-9d07ac901edb")
 		)
 		(pin "ADC_MISO+" output
 			(at 492.76 129.54 180)
+			(uuid "a4865999-cfe0-466c-b963-ce446eeadc0a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a4865999-cfe0-466c-b963-ce446eeadc0a")
 		)
 		(pin "ADC_MISO-" output
 			(at 492.76 132.08 180)
+			(uuid "ed769864-a03a-4048-afe6-0a374c1cbc12")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ed769864-a03a-4048-afe6-0a374c1cbc12")
 		)
 		(pin "SCKO+" output
 			(at 492.76 134.62 180)
+			(uuid "2a70aba3-991b-425d-9d10-d6359dc5c375")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2a70aba3-991b-425d-9d10-d6359dc5c375")
 		)
 		(pin "SCKO-" output
 			(at 492.76 137.16 180)
+			(uuid "1656697d-63c4-4b57-8bbf-b6f9f9b861c7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1656697d-63c4-4b57-8bbf-b6f9f9b861c7")
 		)
 		(pin "DAC_MISO+" output
 			(at 492.76 139.7 180)
+			(uuid "be7de584-e806-4a11-9319-4d069f7eb0cb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "be7de584-e806-4a11-9319-4d069f7eb0cb")
 		)
 		(pin "DAC_MISO-" output
 			(at 492.76 142.24 180)
+			(uuid "d26f8d30-5d34-4b5c-a04d-ed830f400167")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d26f8d30-5d34-4b5c-a04d-ed830f400167")
 		)
 		(pin "~{LDAC+}" input
 			(at 492.76 144.78 180)
+			(uuid "16d899c5-7659-4c92-a6d1-346083a45ff6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "16d899c5-7659-4c92-a6d1-346083a45ff6")
 		)
 		(pin "~{LDAC-}" input
 			(at 492.76 147.32 180)
+			(uuid "8bb5472e-e43d-4004-89c4-3643494bd68d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8bb5472e-e43d-4004-89c4-3643494bd68d")
 		)
 		(pin "~{DAC_CS+}" input
 			(at 492.76 149.86 180)
+			(uuid "0465ce3e-6aa6-4506-91b4-3f8596304609")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0465ce3e-6aa6-4506-91b4-3f8596304609")
 		)
 		(pin "DAC_MOSI-" input
 			(at 492.76 157.48 180)
+			(uuid "c41a3e45-0ffb-4537-8901-2f2170dc49d5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c41a3e45-0ffb-4537-8901-2f2170dc49d5")
 		)
 		(pin "~{DAC_CS-}" input
 			(at 492.76 152.4 180)
+			(uuid "3cff69eb-dee0-4226-ab40-3c8e571eca2f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3cff69eb-dee0-4226-ab40-3c8e571eca2f")
 		)
 		(pin "SCKI+" input
 			(at 492.76 160.02 180)
+			(uuid "530c12d4-fdcc-4786-b1d7-6c8c9bed1a7b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "530c12d4-fdcc-4786-b1d7-6c8c9bed1a7b")
 		)
 		(pin "SCKI-" input
 			(at 492.76 162.56 180)
+			(uuid "1175dca7-8e2e-4725-a2c7-eabb33b3608c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1175dca7-8e2e-4725-a2c7-eabb33b3608c")
 		)
 		(pin "DAC_MOSI+" input
 			(at 492.76 154.94 180)
+			(uuid "882b1e22-88e9-4c5e-81c8-6969e8fb177d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "882b1e22-88e9-4c5e-81c8-6969e8fb177d")
 		)
 		(pin "Shutdown_Reset" input
 			(at 492.76 110.49 180)
+			(uuid "d3fb33a5-d393-47fd-a70f-5014c14ee80a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d3fb33a5-d393-47fd-a70f-5014c14ee80a")
 		)
 		(instances
 			(project "backplane"
@@ -28158,6 +28266,10 @@
 	(sheet
 		(at 114.3 243.84)
 		(size 33.02 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -28187,13 +28299,13 @@
 		)
 		(pin "In" input
 			(at 114.3 246.38 180)
+			(uuid "c3505859-6ffb-4fe3-9db4-30e87e94b344")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c3505859-6ffb-4fe3-9db4-30e87e94b344")
 		)
 		(instances
 			(project "backplane"
@@ -28206,6 +28318,10 @@
 	(sheet
 		(at 114.3 254)
 		(size 33.02 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -28235,13 +28351,13 @@
 		)
 		(pin "In" input
 			(at 114.3 256.54 180)
+			(uuid "838ac6fb-91a7-4fc4-8a72-2891bed7bfd4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "838ac6fb-91a7-4fc4-8a72-2891bed7bfd4")
 		)
 		(instances
 			(project "backplane"
@@ -28254,6 +28370,10 @@
 	(sheet
 		(at 114.3 264.16)
 		(size 33.02 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -28283,13 +28403,13 @@
 		)
 		(pin "In" input
 			(at 114.3 266.7 180)
+			(uuid "5c163aad-8ea3-4b0f-884a-638ca77d5170")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5c163aad-8ea3-4b0f-884a-638ca77d5170")
 		)
 		(instances
 			(project "backplane"
@@ -28302,6 +28422,10 @@
 	(sheet
 		(at 198.12 157.48)
 		(size 33.02 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -28331,13 +28455,13 @@
 		)
 		(pin "In" input
 			(at 198.12 160.02 180)
+			(uuid "a853e9f9-99ab-414b-a70c-943ad909d236")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a853e9f9-99ab-414b-a70c-943ad909d236")
 		)
 		(instances
 			(project "backplane"
@@ -28352,4 +28476,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
