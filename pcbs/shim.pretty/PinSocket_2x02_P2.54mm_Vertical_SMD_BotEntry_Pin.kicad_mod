@@ -61,7 +61,7 @@
   (pad "" np_thru_hole circle (at -1.27 1.27) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 1.27 1.27) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 1.27 -1.27) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
-  (model ${DON}/PinSocket_02x02_Vertical_SMT_Small_Pin_Harwin_M20-7810245.stp
+  (model ${SHIM}/PinSocket_02x02_Vertical_SMT_Small_Pin_Harwin_M20-7810245.stp
     (offset (xyz 0 1.27 0.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

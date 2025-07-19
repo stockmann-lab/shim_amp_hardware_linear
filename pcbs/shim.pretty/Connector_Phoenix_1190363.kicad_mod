@@ -273,7 +273,7 @@
 		(remove_unused_layers no)
 		(uuid "c8e153d3-a5a9-48e2-a240-cb014d46d649")
 	)
-	(model "${DON}/Conn_Phoenix_1792229.stp"
+	(model "${SHIM}/Conn_Phoenix_1792229.stp"
 		(offset
 			(xyz -3.25 -13.6 28.5)
 		)

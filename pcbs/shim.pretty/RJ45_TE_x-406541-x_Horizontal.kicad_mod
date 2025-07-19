@@ -53,7 +53,7 @@
   (pad "" np_thru_hole circle (at -6.35 4.32) (size 3.25 3.25) (drill 3.25) (layers *.Cu *.Mask))
   (pad SH thru_hole circle (at 8.13 0.89 180) (size 2.8 2.8) (drill 1.57) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 6.35 4.32 180) (size 3.25 3.25) (drill 3.25) (layers *.Cu *.Mask))
-  (model ${DON}/RJ45_TE_x-406541-x_Horizontal.stp
+  (model ${SHIM}/RJ45_TE_x-406541-x_Horizontal.stp
     (offset (xyz 0 -9.6 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

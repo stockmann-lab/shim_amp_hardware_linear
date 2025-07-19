@@ -109,7 +109,7 @@
   (pad 48 thru_hole oval (at 2.54 58.42) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 49 thru_hole oval (at 0 60.96) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 50 thru_hole oval (at 2.54 60.96) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model "${DON_STD}/PinHeader_2x25_P2.54mm_Vertical_Shrouded_Sullins_SBH11-_ _ _C-D25-ST-_ _.STEP"
+  (model "${SHIM}/PinHeader_2x25_P2.54mm_Vertical_Shrouded_Sullins_SBH11-_ _ _C-D25-ST-_ _.STEP"
     (offset (xyz 2.75 0 -3))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

@@ -158,7 +158,7 @@
   (pad "" np_thru_hole circle (at -1.27 1.27) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -1.27 -1.27) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -1.27 -3.81) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
-  (model ${DON}/PinSocket_02x10_Vertical_SMT_Small_Pin_Samtec_HLE-110-02-F-DV-A.stp
+  (model ${SHIM}/PinSocket_02x10_Vertical_SMT_Small_Pin_Samtec_HLE-110-02-F-DV-A.stp
     (offset (xyz 0 0 0.15))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

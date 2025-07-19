@@ -87,7 +87,7 @@
   (pad 28 thru_hole circle (at 0.635 7.62) (size 1.05 1.05) (drill 0.635) (layers *.Cu *.Mask))
   (pad 29 thru_hole circle (at -0.635 8.89) (size 1.05 1.05) (drill 0.635) (layers *.Cu *.Mask))
   (pad 30 thru_hole circle (at 0.635 8.89) (size 1.05 1.05) (drill 0.635) (layers *.Cu *.Mask))
-  (model ${DON}/Conn_Samtec_TFM-115-01-L-D-WT.stp
+  (model ${SHIM}/Conn_Samtec_TFM-115-01-L-D-WT.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

@@ -2133,7 +2133,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Martinos_std:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 25.4 -24.13 0)
 				(effects
 					(font
