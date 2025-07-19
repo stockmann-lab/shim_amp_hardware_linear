@@ -8681,7 +8681,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5019_Minature"
+	(footprint "TestPoint:TestPoint_Keystone_5019_Miniature"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f03539d")
 		(at 125.25 123 180)
@@ -62335,7 +62335,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5019_Minature"
+	(footprint "TestPoint:TestPoint_Keystone_5019_Miniature"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef8f7")
 		(at 258.25 122.75)
@@ -64402,7 +64402,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5019_Minature"
+	(footprint "TestPoint:TestPoint_Keystone_5019_Miniature"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3efa0f")
 		(at 324.75 122.75)
@@ -66469,7 +66469,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5019_Minature"
+	(footprint "TestPoint:TestPoint_Keystone_5019_Miniature"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3efb27")
 		(at 391.5 122.75)
@@ -75366,7 +75366,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5019_Minature"
+	(footprint "TestPoint:TestPoint_Keystone_5019_Miniature"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3f490c")
 		(at 192.75 122.75)

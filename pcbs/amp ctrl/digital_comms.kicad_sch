@@ -2527,7 +2527,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Martinos_std:TSSOP-16_4.4x5mm_P0.65mm"
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 				(at -2.54 -24.13 0)
 				(effects
 					(font
@@ -9424,7 +9424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Martinos_std:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 264.16 88.9 0)
 			(effects
 				(font
