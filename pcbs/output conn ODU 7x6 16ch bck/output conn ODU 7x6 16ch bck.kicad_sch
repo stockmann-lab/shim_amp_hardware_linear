@@ -8733,7 +8733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don:ODU-MAC_Zero_6x7"
+		(property "Footprint" "shim_amp_linear:ODU-MAC_Zero_6x7_bck"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -8920,7 +8920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don:ODU-MAC_Zero_6x7"
+		(property "Footprint" "shim_amp_linear:ODU-MAC_Zero_6x7_bck"
 			(at 68.58 53.34 0)
 			(effects
 				(font
@@ -9107,7 +9107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Don:ODU-MAC_Zero_6x7"
+		(property "Footprint" "shim_amp_linear:ODU-MAC_Zero_6x7_bck"
 			(at 106.68 53.34 0)
 			(effects
 				(font
