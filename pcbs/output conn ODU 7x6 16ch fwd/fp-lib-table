@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "shim_amp_linear")(type "KiCad")(uri "C:/Users/danie/Documents/shim_amp_hardware_linear/pcbs/footprints/shim_amp_linear.pretty")(options "")(descr ""))
+)
