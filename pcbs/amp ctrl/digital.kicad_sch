@@ -12,6 +12,161 @@
 		(comment 1 "Don Straney")
 	)
 	(lib_symbols
+		(symbol "74xGxx:74LVC1G04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G04"
+				(at 5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single NOT Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate NOT LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G04_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G04_1_1"
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Amplifier_Operational:ADA4841-1YRJ"
 			(pin_names
 				(offset 0.127)
@@ -862,451 +1017,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "shim:AD567x"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 8.89 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AD567x"
-				(at 11.43 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
-				(at 5.08 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "12-/16-bit voltage-output DAC with SPI interface"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Type" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dac spi"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AD567x_0_1"
-				(rectangle
-					(start -13.97 16.51)
-					(end 12.7 -19.05)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AD567x_1_1"
-				(pin input line
-					(at -16.51 13.97 0)
-					(length 2.54)
-					(name "~{LDAC}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 11.43 0)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 3.81 0)
-					(length 2.54)
-					(name "~{SYNC}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 1.27 0)
-					(length 2.54)
-					(name "SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -16.51 -1.27 0)
-					(length 2.54)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 -3.81 0)
-					(length 2.54)
-					(name "SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -11.43 0)
-					(length 2.54)
-					(name "VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 -13.97 0)
-					(length 2.54)
-					(name "GAIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 -16.51 0)
-					(length 2.54)
-					(name "RSTSEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 19.05 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -21.59 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 19.05 270)
-					(length 2.54)
-					(name "VLOGIC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 13.97 180)
-					(length 2.54)
-					(name "Vout0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 11.43 180)
-					(length 2.54)
-					(name "Vout1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 8.89 180)
-					(length 2.54)
-					(name "Vout2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 6.35 180)
-					(length 2.54)
-					(name "Vout3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 3.81 180)
-					(length 2.54)
-					(name "Vout4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 1.27 180)
-					(length 2.54)
-					(name "Vout5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -1.27 180)
-					(length 2.54)
-					(name "Vout6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -3.81 180)
-					(length 2.54)
-					(name "Vout7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2685,6 +2395,451 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "shim:AD567x"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 8.89 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AD567x"
+				(at 11.43 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+				(at 5.08 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12-/16-bit voltage-output DAC with SPI interface"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dac spi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AD567x_0_1"
+				(rectangle
+					(start -13.97 16.51)
+					(end 12.7 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AD567x_1_1"
+				(pin input line
+					(at -16.51 13.97 0)
+					(length 2.54)
+					(name "~{LDAC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 11.43 0)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 3.81 0)
+					(length 2.54)
+					(name "~{SYNC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 1.27 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -1.27 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -3.81 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -11.43 0)
+					(length 2.54)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -13.97 0)
+					(length 2.54)
+					(name "GAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -16.51 0)
+					(length 2.54)
+					(name "RSTSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 19.05 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -21.59 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 19.05 270)
+					(length 2.54)
+					(name "VLOGIC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 13.97 180)
+					(length 2.54)
+					(name "Vout0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 11.43 180)
+					(length 2.54)
+					(name "Vout1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 8.89 180)
+					(length 2.54)
+					(name "Vout2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 6.35 180)
+					(length 2.54)
+					(name "Vout3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 3.81 180)
+					(length 2.54)
+					(name "Vout4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 1.27 180)
+					(length 2.54)
+					(name "Vout5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -1.27 180)
+					(length 2.54)
+					(name "Vout6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -3.81 180)
+					(length 2.54)
+					(name "Vout7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "No LPF by default"
 		(exclude_from_sim no)
@@ -2712,7 +2867,7 @@
 	)
 	(text "Either 1 Msps (ADS8168) or 500 ksps (ADS8167) variant works,\nbut 250 ksps (ADS8166) is too slow for target sample rate"
 		(exclude_from_sim no)
-		(at 339.09 189.23 0)
+		(at 307.34 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2918,6 +3073,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1386e062-d649-4673-a300-3f22003016d4")
+	)
+	(junction
+		(at 381 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "153dc9b2-631c-4cc6-9d60-acf6db6b8ee5")
 	)
 	(junction
 		(at 87.63 86.36)
@@ -3633,16 +3794,6 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 138.43) (xy 392.43 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a07a0dc-e274-4b50-84e7-d2efbc88394c")
-	)
-	(wire
-		(pts
 			(xy 146.05 55.88) (xy 152.4 55.88)
 		)
 		(stroke
@@ -4243,6 +4394,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 168.91) (xy 381 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e208142-a0c6-418f-be8f-c55a9dfb56eb")
+	)
+	(wire
+		(pts
 			(xy 320.04 135.89) (xy 320.04 133.35)
 		)
 		(stroke
@@ -4363,13 +4524,13 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 151.13) (xy 358.14 151.13)
+			(xy 346.71 151.13) (xy 398.78 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "819e3d89-0fc0-4e59-b68e-4a1644839fe6")
+		(uuid "80337084-ca42-4a1b-9563-0b386ae40aba")
 	)
 	(wire
 		(pts
@@ -4983,6 +5144,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 163.83) (xy 381 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe8bca5-aace-49ba-856d-4692730634dd")
+	)
+	(wire
+		(pts
 			(xy 346.71 153.67) (xy 358.14 153.67)
 		)
 		(stroke
@@ -5120,6 +5291,16 @@
 			(type default)
 		)
 		(uuid "df1c60a8-637a-42fc-9bf0-13f9379fd907")
+	)
+	(wire
+		(pts
+			(xy 367.03 179.07) (xy 370.84 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a8cf91-5187-4607-9ce7-27bd83286889")
 	)
 	(wire
 		(pts
@@ -5261,6 +5442,16 @@
 		)
 		(uuid "fc550a3f-d762-46a6-a3fa-1fd16dd45c42")
 	)
+	(wire
+		(pts
+			(xy 398.78 151.13) (xy 398.78 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff39f07c-493f-4cd3-8642-9c173217f93d")
+	)
 	(label "ADC_Driver_Out"
 		(at 335.28 96.52 180)
 		(effects
@@ -5356,12 +5547,12 @@
 	)
 	(hierarchical_label "ADC_SCKI"
 		(shape input)
-		(at 358.14 151.13 0)
+		(at 367.03 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3cf9398e-93c5-49e3-a2bb-67ae0ea97c34")
 	)
@@ -5779,7 +5970,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 392.43 142.24 0)
+		(at 392.43 139.7 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5788,7 +5979,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a02edf")
 		(property "Reference" "C59"
-			(at 398.8308 142.24 90)
+			(at 398.8308 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +5987,7 @@
 			)
 		)
 		(property "Value" "1uF 16V X7R"
-			(at 396.24 146.05 90)
+			(at 396.24 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +5995,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 393.3952 138.43 0)
+			(at 393.3952 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +6004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 392.43 142.24 0)
+			(at 392.43 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +6013,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.43 142.24 0)
+			(at 392.43 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,7 +6022,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 392.43 142.24 0)
+			(at 392.43 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +6031,7 @@
 			)
 		)
 		(property "Part Number" "C0603C105K4RACTU"
-			(at 392.43 142.24 0)
+			(at 392.43 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +6040,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 392.43 142.24 0)
+			(at 392.43 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 392.43 146.05 0)
+		(at 392.43 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8298,7 +8489,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060c4f103")
 		(property "Reference" "#PWR0173"
-			(at 392.43 152.4 0)
+			(at 392.43 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 393.7 149.86 0)
+			(at 393.7 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 392.43 146.05 0)
+			(at 392.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.43 146.05 0)
+			(at 392.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +8525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.43 146.05 0)
+			(at 392.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15173,7 +15364,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000620bffb3")
 		(property "Reference" "U90"
-			(at 353.06 179.07 0)
+			(at 341.63 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15181,7 +15372,7 @@
 			)
 		)
 		(property "Value" "ADS8168/ADS8167"
-			(at 354.33 181.61 0)
+			(at 342.9 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17585,6 +17776,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 372.11 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "256bc99d-74fb-4bda-bb36-14ccd6f3e9e2")
+		(property "Reference" "#PWR0556"
+			(at 372.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.237 173.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c56bd77d-b0ec-4791-809f-cb863eab5e75")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "#PWR0556")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 375.92 168.91 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b2b9414-5ac6-49f2-9697-ae3cff577fee")
+		(property "Reference" "C282"
+			(at 375.92 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 370.84 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 372.11 167.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 375.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 375.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K5RACTU"
+			(at 375.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67af07f7-086d-4dec-8765-5ad14a22ae16")
+		)
+		(pin "2"
+			(uuid "9a6dca25-486a-458b-86e2-48178f6012e9")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "C282")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "amp-ctrl-rescue:+3.3V-power")
 		(at 392.43 101.6 0)
 		(mirror y)
@@ -17886,6 +18237,72 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:+3.3V-power")
+		(at 381 163.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fc7e894-fbf5-4656-a503-0b2d29d3fd82")
+		(property "Reference" "#PWR0555"
+			(at 381 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 381 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 381 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6544fb0b-e9ee-4c24-9085-6461eb41bc08")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "#PWR0555")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:+3.3V-power")
 		(at 21.59 97.79 90)
 		(mirror x)
 		(unit 1)
@@ -18171,6 +18588,144 @@
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
 					(reference "C202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 381 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9c43e28-4dc5-45ce-b3c6-f53e7d039118")
+		(property "Reference" "#PWR0554"
+			(at 381 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 381.127 193.6242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 381 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0278d23d-8ed0-456f-a0cf-366d4e3cfcd4")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "#PWR0554")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G04")
+		(at 386.08 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd16c293-fbed-43d7-ac95-cbeb922d3e28")
+		(property "Reference" "U12"
+			(at 387.35 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04"
+			(at 387.35 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 386.08 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 386.08 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single NOT Gate, Low-Voltage CMOS"
+			(at 386.08 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f344541c-f7fa-48b0-8370-20c0d0314688")
+		)
+		(pin "2"
+			(uuid "7b659bfa-13af-467d-acfc-dfec0f06af1d")
+		)
+		(pin "5"
+			(uuid "4086262d-6029-4b95-b1b6-29f86d6f0059")
+		)
+		(pin "4"
+			(uuid "d3cd777c-1963-4918-b2ff-09ecc5b96f20")
+		)
+		(instances
+			(project ""
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "U12")
 					(unit 1)
 				)
 			)
