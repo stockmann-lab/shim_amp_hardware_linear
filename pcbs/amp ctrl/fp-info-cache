@@ -1,4 +1,4 @@
-26606465820540621
+26613970049350717
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59598,6 +59598,13 @@ capacitor array pack
 8
 8
 Don
+C_Kemet-ALS_NT-A_PCB
+Kemet ALS-series aluminum capacitor mounted to PCB, NT case size & termination style A
+
+0
+18
+2
+Don
 C_Radial_TDK_B25620B-116mmD
 TDK B25620B series, 116 mm diameter, M6 terminals
 cap radial film
@@ -60732,6 +60739,13 @@ Untitled
 0
 0
 Don
+Untitled_1
+
+
+0
+0
+0
+Don
 VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm
 QFN, 32-Leads, Body 5x5x1mm, Pitch 0.5mm, Thermal Pad 3.45x3.45mm; (see Texas Instruments CDCUN1208LP)
 WQFN 0.5
@@ -60787,6 +60801,20 @@ transformer gate drive smt smd
 0
 8
 8
+Don_gfx
+clover
+
+
+0
+0
+0
+Don_gfx
+horseshoe-magnet
+
+
+0
+0
+0
 Don_std
 CP_EIA-7343-43_Kemet-X
 Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator

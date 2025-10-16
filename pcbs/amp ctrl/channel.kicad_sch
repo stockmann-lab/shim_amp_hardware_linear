@@ -8804,14 +8804,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 170.18 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Type" "SMT"
 			(at 167.64 59.69 0)
 			(effects
@@ -8934,7 +8926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0805C105K3RACTU"
+		(property "Type" "SMT"
 			(at 154.94 48.26 0)
 			(effects
 				(font
@@ -8943,8 +8935,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 154.94 48.26 0)
+		(property "MPN" "C0805C105K3RACTU"
+			(at 154.94 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,7 +9060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD1000F"
+		(property "MPN" "RK73H2ATTD1000F"
 			(at 137.16 104.14 0)
 			(effects
 				(font
@@ -9173,14 +9165,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 116.84 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Type" "SMT"
@@ -9288,14 +9272,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 115.57 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Type" "SMT"
 			(at 120.65 104.14 0)
 			(effects
@@ -9398,14 +9374,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 163.83 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Type" "SMT"
@@ -9530,7 +9498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C820J5GACTU"
+		(property "MPN" "C0603C820J5GACTU"
 			(at 153.67 115.57 0)
 			(effects
 				(font
@@ -9652,7 +9620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE2002F"
+		(property "MPN" "RK73H2ATTE2002F"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -9768,15 +9736,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "INA821ID"
-			(at 156.21 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 156.21 175.26 0)
 			(effects
@@ -9795,7 +9754,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "INA821IDR, INA819ID, INA819IDR"
+		(property "MPN" "INA821ID"
+			(at 156.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "INA821IDR, INA819ID, INA819IDR"
 			(at 156.21 175.26 0)
 			(effects
 				(font
@@ -9937,7 +9905,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "TNPW080516K2BEEN"
+		(property "MPN" "TNPW080516K2BEEA"
+			(at 173.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "TNPW080516K2BEEN"
+			(at 173.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alt." "Vishay"
 			(at 173.99 175.26 0)
 			(effects
 				(font
@@ -10052,7 +10038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0805C105K3RACTU"
+		(property "Type" "SMT"
 			(at 162.56 163.83 0)
 			(effects
 				(font
@@ -10061,8 +10047,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 162.56 163.83 0)
+		(property "MPN" "C0805C105K3RACTU"
+			(at 162.56 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10269,7 +10255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "132134"
+		(property "Type" "Through-hole"
 			(at 21.59 36.83 0)
 			(effects
 				(font
@@ -10278,15 +10264,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 17.78 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "Through-hole"
+		(property "MPN" "132134"
 			(at 21.59 36.83 0)
 			(effects
 				(font
@@ -10400,7 +10378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "132134"
+		(property "Type" "Through-hole"
 			(at 96.52 157.48 0)
 			(effects
 				(font
@@ -10409,15 +10387,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 91.44 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "Through-hole"
+		(property "MPN" "132134"
 			(at 96.52 157.48 0)
 			(effects
 				(font
@@ -10540,21 +10510,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD1000F"
-			(at 133.35 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
+		(property "MPN" "RK73H2ATTD1000F"
 			(at 133.35 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10670,8 +10632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD1000F"
-			(at 179.07 78.74 0)
+		(property "MPN" "RK73H2ATTD1000F"
+			(at 179.07 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10804,25 +10766,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "M20-7810245 / M20-7810245R"
-			(at 303.53 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "HLE-102-02-L-DV / HLE-102-02-F-DV / HLE-102-02-G-DV / HLE-102-02-S-DV / HLE-102-02-SM-DV / HLE-102-02-H-DV"
-			(at 303.53 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Notes" ""
+			(at 303.53 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "M20-7810245 / M20-7810245R"
+			(at 303.53 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "HLE-102-02-L-DV / HLE-102-02-F-DV / HLE-102-02-G-DV / HLE-102-02-S-DV / HLE-102-02-SM-DV / HLE-102-02-H-DV"
 			(at 303.53 181.61 0)
 			(effects
 				(font
@@ -10952,7 +10914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD1000F"
+		(property "MPN" "RK73H2ATTD1000F"
 			(at 210.82 175.26 0)
 			(effects
 				(font
@@ -11093,7 +11055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "M20-7811045 / M20-7811045R"
+		(property "MPN" "M20-7811045 / M20-7811045R"
 			(at 303.53 161.29 0)
 			(effects
 				(font
@@ -11102,7 +11064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "HLE-110-02-S-DV-A-K / HLE-110-02-L-DV-A-K / HLE-110-02-SM-DV-A-K / HLE-110-02-L-DV-A / HLE-110-02-S-DV-A / HLE-110-02-G-DV-A / HLE-110-02-H-DV-A"
+		(property "MPN Alt." "HLE-110-02-S-DV-A-K / HLE-110-02-L-DV-A-K / HLE-110-02-SM-DV-A-K / HLE-110-02-L-DV-A / HLE-110-02-S-DV-A / HLE-110-02-G-DV-A / HLE-110-02-H-DV-A"
 			(at 303.53 161.29 0)
 			(effects
 				(font
@@ -11279,8 +11241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MCU08050D1001BP500"
-			(at 130.81 175.26 0)
+		(property "MPN" "MCU08050D1001BP500"
+			(at 130.81 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11401,7 +11363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C102J5GACTU"
+		(property "MPN" "C0603C102J5GACTU"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -11623,16 +11585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
-			(at 93.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
+		(property "MPN" "5019"
 			(at 93.98 76.2 0)
 			(effects
 				(font
@@ -11743,7 +11696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "132134"
+		(property "Type" "Through-hole"
 			(at 121.92 129.54 0)
 			(effects
 				(font
@@ -11752,15 +11705,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 118.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "Through-hole"
+		(property "MPN" "132134"
 			(at 121.92 129.54 0)
 			(effects
 				(font
@@ -11857,15 +11802,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
 			(at 132.08 129.54 0)
 			(effects
 				(font
@@ -11978,14 +11914,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 340.36 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Type" "SMT"
 			(at 340.36 97.79 0)
 			(effects
@@ -12088,14 +12016,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 342.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Type" "SMT"
@@ -13624,8 +13544,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD1000F"
-			(at 196.85 170.18 0)
+		(property "MPN" "RK73H2ATTD1000F"
+			(at 196.85 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13748,8 +13668,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD1000F"
-			(at 196.85 180.34 0)
+		(property "MPN" "RK73H2ATTD1000F"
+			(at 196.85 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13882,7 +13802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "OPA37GU/2K5"
+		(property "MPN" "OPA37GU/2K5"
 			(at 161.29 78.74 0)
 			(effects
 				(font
@@ -13891,7 +13811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "OPA37GU"
+		(property "MPN Alt." "OPA37GU"
 			(at 161.29 78.74 0)
 			(effects
 				(font
@@ -14031,7 +13951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C221J5GACTU"
+		(property "MPN" "C0603C221J5GACTU"
 			(at 190.5 82.55 0)
 			(effects
 				(font
@@ -14339,7 +14259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C101J5GACTU"
+		(property "MPN" "C0603C101J5GACTU"
 			(at 182.88 175.26 0)
 			(effects
 				(font
@@ -14444,15 +14364,6 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 182.88 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
 			(at 182.88 184.15 0)
 			(effects
 				(font
@@ -14650,15 +14561,6 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 182.88 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
 			(at 182.88 166.37 0)
 			(effects
 				(font
@@ -14874,15 +14776,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "M20-7810245 / M20-7810245R"
-			(at 142.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 142.24 111.76 0)
 			(effects
@@ -14901,7 +14794,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "HLE-102-02-G-DV-BE / HLE-102-02-F-DV-BE / HLE-102-02-L-DV-BE / HLE-102-02-S-DV-BE"
+		(property "MPN" "M20-7810245 / M20-7810245R"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "HLE-102-02-G-DV-BE / HLE-102-02-F-DV-BE / HLE-102-02-L-DV-BE / HLE-102-02-S-DV-BE"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -15038,8 +14940,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "3413.0223.22"
-			(at 353.06 93.98 0)
+		(property "MPN" "3413.0223.22"
+			(at 353.06 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15047,8 +14949,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "C1Q 5"
-			(at 353.06 93.98 0)
+		(property "MPN Alt." "C1Q 5"
+			(at 353.06 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15178,8 +15080,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "3413.0223.22"
-			(at 353.06 113.03 0)
+		(property "MPN" "3413.0223.22"
+			(at 353.06 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15187,8 +15089,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "C1Q 5"
-			(at 353.06 113.03 0)
+		(property "MPN Alt." "C1Q 5"
+			(at 353.06 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15390,14 +15292,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 375.92 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Type" "Through-hole"
 			(at 368.3 88.9 0)
 			(effects
@@ -15514,24 +15408,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "39281023"
-			(at 393.7 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "39288020, 39293026, 39310020"
-			(at 393.7 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Molex"
 			(at 393.7 102.87 0)
 			(effects
@@ -15541,15 +15417,25 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 393.7 107.95 0)
+		(property "Type" "Through-hole"
+			(at 393.7 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Type" "Through-hole"
+		(property "MPN" "39281023"
+			(at 393.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "39288020, 39293026, 39310020"
 			(at 393.7 102.87 0)
 			(effects
 				(font
@@ -16723,15 +16609,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MMBT3904-7-F"
-			(at 231.14 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Nexperia"
 			(at 231.14 73.66 0)
 			(effects
@@ -16741,7 +16618,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "MMBT3904,215"
+		(property "MPN" "MMBT3904-7-F"
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "MMBT3904,215"
 			(at 231.14 73.66 0)
 			(effects
 				(font
@@ -16871,15 +16757,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MMBT3904-7-F"
-			(at 257.81 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Nexperia"
 			(at 257.81 73.66 0)
 			(effects
@@ -16889,7 +16766,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "MMBT3904,215"
+		(property "MPN" "MMBT3904-7-F"
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "MMBT3904,215"
 			(at 257.81 73.66 0)
 			(effects
 				(font
@@ -17014,8 +16900,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
-			(at 245.11 73.66 0)
+		(property "MPN" "RK73H2ATTD1002F"
+			(at 245.11 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17136,8 +17022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C101J5GACTU"
-			(at 245.11 64.77 0)
+		(property "MPN" "C0603C101J5GACTU"
+			(at 245.11 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17264,15 +17150,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MMBT3906-7-F"
-			(at 257.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Nexperia"
 			(at 257.81 83.82 0)
 			(effects
@@ -17282,7 +17159,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "MMBT3906,215"
+		(property "MPN" "MMBT3906-7-F"
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "MMBT3906,215"
 			(at 257.81 83.82 0)
 			(effects
 				(font
@@ -17412,15 +17298,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MMBT3906-7-F"
-			(at 231.14 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Nexperia"
 			(at 231.14 83.82 0)
 			(effects
@@ -17430,7 +17307,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "MMBT3906,215"
+		(property "MPN" "MMBT3906-7-F"
+			(at 231.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "MMBT3906,215"
 			(at 231.14 83.82 0)
 			(effects
 				(font
@@ -17556,8 +17442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
-			(at 245.11 83.82 0)
+		(property "MPN" "RK73H2ATTD1002F"
+			(at 245.11 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17679,8 +17565,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C101J5GACTU"
-			(at 245.11 92.71 0)
+		(property "MPN" "C0603C101J5GACTU"
+			(at 245.11 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17802,7 +17688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
+		(property "MPN" "RK73H2ATTD1002F"
 			(at 228.6 92.71 0)
 			(effects
 				(font
@@ -17925,7 +17811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
+		(property "MPN" "RK73H2ATTD1002F"
 			(at 228.6 64.77 0)
 			(effects
 				(font
@@ -18248,8 +18134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "TLVH431IDBZR"
-			(at 260.35 60.96 0)
+		(property "MPN" "TLVH431IDBZR"
+			(at 260.35 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18257,8 +18143,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "TLVH431QDBZR, TLVH431CDBZR"
-			(at 260.35 60.96 0)
+		(property "MPN Alt." "TLVH431QDBZR, TLVH431CDBZR"
+			(at 260.35 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18382,7 +18268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
+		(property "MPN" "RK73H2ATTD1002F"
 			(at 262.89 57.15 0)
 			(effects
 				(font
@@ -18504,7 +18390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD8201F"
+		(property "MPN" "RK73H2ATTD8201F"
 			(at 262.89 64.77 0)
 			(effects
 				(font
@@ -18734,8 +18620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "TLVH431IDBZR"
-			(at 260.35 96.52 0)
+		(property "MPN" "TLVH431IDBZR"
+			(at 260.35 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18743,8 +18629,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "TLVH431QDBZR, TLVH431CDBZR"
-			(at 260.35 96.52 0)
+		(property "MPN Alt." "TLVH431QDBZR, TLVH431CDBZR"
+			(at 260.35 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18868,7 +18754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
+		(property "MPN" "RK73H2ATTD1002F"
 			(at 262.89 92.71 0)
 			(effects
 				(font
@@ -18990,7 +18876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD8201F"
+		(property "MPN" "RK73H2ATTD8201F"
 			(at 262.89 100.33 0)
 			(effects
 				(font
@@ -19205,7 +19091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1302F"
+		(property "MPN" "RK73H2ATTD1302F"
 			(at 276.86 85.09 0)
 			(effects
 				(font
@@ -19327,7 +19213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C101J5GACTU"
+		(property "MPN" "C0603C101J5GACTU"
 			(at 289.56 82.55 0)
 			(effects
 				(font
@@ -19535,8 +19421,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BZT52C6V2-7-F"
-			(at 101.6 179.07 90)
+		(property "Type" "SMT"
+			(at 101.6 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19544,16 +19430,8 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 105.41 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "SMT"
-			(at 101.6 179.07 0)
+		(property "MPN" "BZT52C6V2-7-F"
+			(at 101.6 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19768,23 +19646,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 109.22 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 109.22 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "174dce8b-f3a6-4586-a859-58538b2380f5")
 		)
@@ -19899,23 +19760,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 30.48 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 30.48 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "454a51a6-01e4-4e92-a10f-cda8d492159c")
 		)
@@ -20022,7 +19866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0805C475K4RACTU"
+		(property "Type" "SMT"
 			(at 148.59 186.69 0)
 			(effects
 				(font
@@ -20031,15 +19875,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 143.51 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "SMT"
+		(property "MPN" "C0805C475K4RACTU"
 			(at 148.59 186.69 0)
 			(effects
 				(font
@@ -20257,16 +20093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
-			(at 405.13 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
+		(property "MPN" "5019"
 			(at 405.13 213.36 0)
 			(effects
 				(font
@@ -20481,16 +20308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
-			(at 405.13 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
+		(property "MPN" "5019"
 			(at 405.13 226.06 0)
 			(effects
 				(font
@@ -20789,15 +20607,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GCM32EC71H106KA03L"
-			(at 330.2 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 330.2 30.48 0)
 			(effects
@@ -20816,7 +20625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "GRM32EC72A106KE05L"
+		(property "Notes" "Alternate part is 10uF 100V X7S"
 			(at 330.2 30.48 0)
 			(effects
 				(font
@@ -20825,7 +20634,16 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Alternate part is 10uF 100V X7S"
+		(property "MPN" "GCM32EC71H106KA03L"
+			(at 330.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "GRM32EC72A106KE05L"
 			(at 330.2 30.48 0)
 			(effects
 				(font
@@ -21138,16 +20956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
-			(at 116.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
+		(property "MPN" "5019"
 			(at 116.84 157.48 0)
 			(effects
 				(font
@@ -21260,15 +21069,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GCM32EC71H106KA03L"
-			(at 271.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 271.78 60.96 0)
 			(effects
@@ -21287,7 +21087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "GRM32EC72A106KE05L"
+		(property "Notes" "Alternate part is 10uF 100V X7S"
 			(at 271.78 60.96 0)
 			(effects
 				(font
@@ -21296,7 +21096,16 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Alternate part is 10uF 100V X7S"
+		(property "MPN" "GCM32EC71H106KA03L"
+			(at 271.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "GRM32EC72A106KE05L"
 			(at 271.78 60.96 0)
 			(effects
 				(font
@@ -21412,15 +21221,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GCM32EC71H106KA03L"
-			(at 271.78 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 271.78 96.52 0)
 			(effects
@@ -21439,7 +21239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "GRM32EC72A106KE05L"
+		(property "Notes" "Alternate part is 10uF 100V X7S"
 			(at 271.78 96.52 0)
 			(effects
 				(font
@@ -21448,7 +21248,16 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Alternate part is 10uF 100V X7S"
+		(property "MPN" "GCM32EC71H106KA03L"
+			(at 271.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "GRM32EC72A106KE05L"
 			(at 271.78 96.52 0)
 			(effects
 				(font
@@ -21572,26 +21381,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "2N7002VC-7"
-			(at 177.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "2N7002V, CMLDM7002AJ TR PBFREE"
-			(at 177.8 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 177.8 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002VC-7"
+			(at 177.8 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "2N7002V, CMLDM7002AJ TR PBFREE"
+			(at 177.8 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21725,26 +21534,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "2N7002VC-7"
-			(at 157.48 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "2N7002V, CMLDM7002AJ TR PBFREE"
-			(at 157.48 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 157.48 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002VC-7"
+			(at 157.48 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "2N7002V, CMLDM7002AJ TR PBFREE"
+			(at 157.48 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21871,25 +21680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ACASN1002S1002P1AT"
-			(at 60.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Vishay"
-			(at 60.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "ACASN5002S5002P1AT, ACASN2002S2002P1AT, ACASN1003E1003P1AT"
 			(at 60.96 52.07 0)
 			(effects
 				(font
@@ -21907,13 +21698,22 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 65.532 54.3814 0)
+		(property "MPN" "ACASN1002S1002P1AT"
+			(at 60.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "ACASN5002S5002P1AT, ACASN2002S2002P1AT, ACASN1003E1003P1AT"
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22026,25 +21826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ACASN1002S1002P1AT"
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Vishay"
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "ACASN5002S5002P1AT, ACASN2002S2002P1AT, ACASN1003E1003P1AT"
 			(at 93.98 55.88 0)
 			(effects
 				(font
@@ -22062,12 +21844,22 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 93.98 66.04 90)
+		(property "MPN" "ACASN1002S1002P1AT"
+			(at 93.98 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "ACASN5002S5002P1AT, ACASN2002S2002P1AT, ACASN1003E1003P1AT"
+			(at 93.98 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22189,21 +21981,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C101J5GACTU"
+		(property "MPN" "C0603C101J5GACTU"
 			(at 162.56 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 162.56 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -22299,14 +22083,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 55.88 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Type" "SMT"
@@ -22431,14 +22207,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 92.71 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Type" "SMT"
 			(at 92.71 39.37 0)
 			(effects
@@ -22561,15 +22329,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 114.5032 42.9514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Type" "SMT"
@@ -22798,15 +22557,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0805C105K3RACTU"
-			(at 116.84 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 116.84 33.02 0)
 			(effects
@@ -22816,12 +22566,13 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 121.92 31.75 90)
+		(property "MPN" "C0805C105K3RACTU"
+			(at 116.84 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23117,15 +22868,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "UDZVTE-1716B"
-			(at 172.72 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 172.72 214.63 0)
 			(effects
@@ -23144,7 +22886,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "MM3Z16VB"
+		(property "MPN" "UDZVTE-1716B"
+			(at 172.72 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "MM3Z16VB"
 			(at 172.72 214.63 90)
 			(effects
 				(font
@@ -23266,7 +23017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4703F"
+		(property "MPN" "RK73H2ATTD4703F"
 			(at 165.1 219.71 0)
 			(effects
 				(font
@@ -23389,8 +23140,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1003F"
-			(at 140.97 210.82 0)
+		(property "MPN" "RK73H2ATTD1003F"
+			(at 140.97 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23608,23 +23359,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 41.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 41.91 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "cc22ec4f-0e03-4bdd-9512-2509557617ea")
 		)
@@ -23743,15 +23477,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MMBT3904-7-F"
-			(at 39.37 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Nexperia"
 			(at 39.37 234.95 0)
 			(effects
@@ -23761,7 +23486,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "MMBT3904,215"
+		(property "MPN" "MMBT3904-7-F"
+			(at 39.37 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "MMBT3904,215"
 			(at 39.37 234.95 0)
 			(effects
 				(font
@@ -23980,25 +23714,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BAS16J,115 / BAS16J,135"
-			(at 48.26 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
-			(at 48.26 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
+			(at 48.26 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS16J,115 / BAS16J,135"
+			(at 48.26 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
 			(at 48.26 243.84 90)
 			(effects
 				(font
@@ -24112,7 +23846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 55.88 143.51 0)
 			(effects
 				(font
@@ -24121,7 +23855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 55.88 143.51 0)
 			(effects
 				(font
@@ -24244,7 +23978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4641F"
+		(property "MPN" "RK73H2ATTD4641F"
 			(at 132.08 111.76 0)
 			(effects
 				(font
@@ -24645,33 +24379,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BAS16J,115 / BAS16J,135"
-			(at 41.91 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
-			(at 41.91 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 44.45 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Type" "SMT"
+			(at 41.91 250.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS16J,115 / BAS16J,135"
+			(at 41.91 250.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
 			(at 41.91 250.19 90)
 			(effects
 				(font
@@ -24786,15 +24512,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "UDZVTE-1716B"
-			(at 172.72 222.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 172.72 222.25 0)
 			(effects
@@ -24813,7 +24530,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "MM3Z16VB"
+		(property "MPN" "UDZVTE-1716B"
+			(at 172.72 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "MM3Z16VB"
 			(at 172.72 222.25 90)
 			(effects
 				(font
@@ -25218,23 +24944,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 63.5 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 63.5 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ddea7e3a-4003-4791-aed1-7369c9e0c0e9")
 		)
@@ -25328,14 +25037,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 97.79 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Type" "SMT"
@@ -25461,7 +25162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4700F"
+		(property "MPN" "RK73H2ATTD4700F"
 			(at 41.91 224.79 0)
 			(effects
 				(font

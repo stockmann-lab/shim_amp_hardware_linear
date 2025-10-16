@@ -3063,18 +3063,6 @@
 		(uuid "0ddde811-44a5-4f95-ac47-7a847e8d80fe")
 	)
 	(junction
-		(at 270.51 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f6fe924-f05b-4fd0-b4e9-c4f4a293fa78")
-	)
-	(junction
-		(at 259.08 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1386e062-d649-4673-a300-3f22003016d4")
-	)
-	(junction
 		(at 381 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3099,12 +3087,6 @@
 		(uuid "1d599399-87fa-4e07-bb13-2ebaeede9fe2")
 	)
 	(junction
-		(at 266.7 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "225fa217-ffb7-4859-b74d-3ce8bdaeff9a")
-	)
-	(junction
 		(at 351.79 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3115,6 +3097,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25bec5c3-18f9-4e90-adc6-84955c10009e")
+	)
+	(junction
+		(at 266.7 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29e9ad1d-3576-4c75-a4d9-367cde531afc")
 	)
 	(junction
 		(at 87.63 40.64)
@@ -3141,10 +3129,10 @@
 		(uuid "2f62a8de-bc01-4c1c-89d9-5be132f84fde")
 	)
 	(junction
-		(at 266.7 110.49)
+		(at 262.89 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "30f58f46-3707-4bd2-9725-80dc828c95bc")
+		(uuid "2fcca126-5e6d-4c65-8bb9-7a6204330a9f")
 	)
 	(junction
 		(at 281.94 203.2)
@@ -3243,12 +3231,6 @@
 		(uuid "6e1b0e29-ed48-4b5d-9a24-a9222ab3871a")
 	)
 	(junction
-		(at 262.89 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e5cbbe2-d61b-4093-8fcb-51bb862a4d76")
-	)
-	(junction
 		(at 87.63 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3261,22 +3243,22 @@
 		(uuid "739a0fe4-ea5a-4c96-a424-b1fc16c6444e")
 	)
 	(junction
-		(at 262.89 124.46)
+		(at 262.89 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b7b4791-e13d-4a50-a975-2ce06592840c")
+		(uuid "75afaf73-6abb-4475-9cdb-4e6b1fc85441")
+	)
+	(junction
+		(at 259.08 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78b3fc40-6085-4be8-a69e-a0197e49be3f")
 	)
 	(junction
 		(at 63.5 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bbd4410-eba2-49c7-b759-a6935e224fd5")
-	)
-	(junction
-		(at 259.08 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dbdfbe7-06a8-464f-891d-a79622fadfac")
 	)
 	(junction
 		(at 107.95 55.88)
@@ -3297,12 +3279,6 @@
 		(uuid "90cb6b7a-289e-4b88-bcf2-00013728bd1f")
 	)
 	(junction
-		(at 270.51 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "947b5f4e-564c-4617-b341-7c667c8ce44b")
-	)
-	(junction
 		(at 247.65 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3313,6 +3289,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "999ba072-04b7-4a3a-aa10-7ce3ea1adb33")
+	)
+	(junction
+		(at 270.51 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dc164c6-0038-4e20-817a-a6f4c76f8ae1")
 	)
 	(junction
 		(at 87.63 116.84)
@@ -3429,6 +3411,12 @@
 		(uuid "e6eae575-cbe4-4e16-9416-91fd410b07be")
 	)
 	(junction
+		(at 266.7 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea6d2c23-9c56-47ed-86da-3242e42d4ed2")
+	)
+	(junction
 		(at 247.65 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3447,6 +3435,12 @@
 		(uuid "f575b851-3128-4b26-98e5-41a0ba96dc10")
 	)
 	(junction
+		(at 259.08 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5aca7b0-c3f3-47c9-8898-56bb7bdf8fd4")
+	)
+	(junction
 		(at 328.93 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3457,6 +3451,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fccb7758-d515-4500-83e3-127f97dcd351")
+	)
+	(junction
+		(at 270.51 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fded3aa5-edd9-4945-ac4f-fa879c9ea2a3")
 	)
 	(no_connect
 		(at 346.71 171.45)
@@ -5944,8 +5944,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C104K5RACTU"
-			(at 41.91 35.56 0)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 41.91 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 392.43 139.7 0)
 			(effects
 				(font
@@ -6039,8 +6039,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 392.43 139.7 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 392.43 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,8 +6133,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD10R0F"
-			(at 31.75 29.21 0)
+		(property "MPN" "RK73H2ATTD10R0F"
+			(at 31.75 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,8 +6227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD10R0F"
-			(at 392.43 130.81 0)
+		(property "MPN" "RK73H2ATTD10R0F"
+			(at 392.43 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 41.91 29.21 0)
 			(effects
 				(font
@@ -6322,8 +6322,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 41.91 29.21 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 41.91 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "LT1880IS5#TRMPBF"
+		(property "Type" "SMT"
 			(at 212.09 227.33 0)
 			(effects
 				(font
@@ -6420,7 +6420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "LT1880IS5#TRMPBF"
 			(at 212.09 227.33 0)
 			(effects
 				(font
@@ -6514,7 +6514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 218.44 217.17 0)
 			(effects
 				(font
@@ -6523,8 +6523,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 218.44 217.17 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 218.44 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,8 +6683,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5106"
-			(at 213.36 245.11 0)
+		(property "MPN" "5106"
+			(at 213.36 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,14 +6759,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 219.71 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Type" "SMT"
 			(at 219.71 248.92 0)
 			(effects
@@ -6786,542 +6778,6 @@
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060a864d5")
-		(property "Reference" "TP48"
-			(at 267.97 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 277.114 96.4438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 275.59 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b962f15-e3aa-4187-9425-6af3b10ae8d5")
-		)
-		(instances
-			(project "amp ctrl"
-				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
-					(reference "TP48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 266.7 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060a89a39")
-		(property "Reference" "TP46"
-			(at 264.16 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 273.304 110.4138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 271.78 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de0fc992-ea22-4281-a5a4-293c0af3ce2f")
-		)
-		(instances
-			(project "amp ctrl"
-				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
-					(reference "TP46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 262.89 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060a8c1e3")
-		(property "Reference" "TP44"
-			(at 260.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 269.494 124.3838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 267.97 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88397eab-3499-423a-9e50-124b71686bc3")
-		)
-		(instances
-			(project "amp ctrl"
-				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
-					(reference "TP44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 259.08 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060a8c809")
-		(property "Reference" "TP42"
-			(at 256.54 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 265.684 138.3538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 264.16 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a5ad152-d56a-4534-80a0-1dfea0d217c9")
-		)
-		(instances
-			(project "amp ctrl"
-				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
-					(reference "TP42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 259.08 152.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060a8cf11")
-		(property "Reference" "TP43"
-			(at 261.62 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 252.476 152.4762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 254 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "489444b6-22cc-44ee-bd34-b860596cd214")
-		)
-		(instances
-			(project "amp ctrl"
-				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
-					(reference "TP43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 262.89 166.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060a8fa07")
-		(property "Reference" "TP45"
-			(at 265.43 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 256.286 166.4462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 257.81 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1cbbd29-66fb-4bfa-aef5-d8fd2c1fa322")
-		)
-		(instances
-			(project "amp ctrl"
-				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
-					(reference "TP45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 266.7 180.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060a911e9")
-		(property "Reference" "TP47"
-			(at 269.24 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 260.096 180.4162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 261.62 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c9ab133-c88d-4f2c-a217-f4b033f358ed")
-		)
-		(instances
-			(project "amp ctrl"
-				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
-					(reference "TP47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 194.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060a917c0")
-		(property "Reference" "TP49"
-			(at 273.05 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 263.906 194.3862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 265.43 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9008ac10-396b-412a-a317-7232d71e4d77")
-		)
-		(instances
-			(project "amp ctrl"
-				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
-					(reference "TP49")
 					(unit 1)
 				)
 			)
@@ -7397,21 +6853,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 247.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 242.57 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7499,21 +6947,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 247.65 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 242.57 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7601,21 +7041,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 247.65 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 242.57 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7703,21 +7135,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 247.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 242.57 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7805,21 +7229,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 247.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 242.57 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7907,21 +7323,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 247.65 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 242.57 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8009,21 +7417,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 247.65 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 242.57 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8111,21 +7511,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 247.65 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 242.57 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8216,16 +7608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
-			(at 363.22 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
+		(property "MPN" "5019"
 			(at 363.22 215.9 0)
 			(effects
 				(font
@@ -8384,16 +7767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
-			(at 374.65 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
+		(property "MPN" "5019"
 			(at 374.65 215.9 0)
 			(effects
 				(font
@@ -9129,7 +8503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
+		(property "MPN" "5019"
 			(at 87.63 25.4 0)
 			(effects
 				(font
@@ -9220,8 +8594,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 100.33 25.4 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 100.33 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +8688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 107.95 29.21 0)
 			(effects
 				(font
@@ -9473,8 +8847,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 119.38 25.4 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 119.38 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,7 +8941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 127 29.21 0)
 			(effects
 				(font
@@ -9720,7 +9094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
+		(property "MPN" "5019"
 			(at 87.63 40.64 0)
 			(effects
 				(font
@@ -9811,8 +9185,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 100.33 40.64 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 100.33 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +9279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -10064,8 +9438,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 119.38 40.64 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 119.38 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10158,7 +9532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 127 44.45 0)
 			(effects
 				(font
@@ -10311,7 +9685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
+		(property "MPN" "5019"
 			(at 87.63 55.88 0)
 			(effects
 				(font
@@ -10402,8 +9776,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 100.33 55.88 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 100.33 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10496,7 +9870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 107.95 59.69 0)
 			(effects
 				(font
@@ -10655,8 +10029,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 119.38 55.88 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 119.38 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10749,7 +10123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 127 59.69 0)
 			(effects
 				(font
@@ -10902,7 +10276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
+		(property "MPN" "5019"
 			(at 87.63 71.12 0)
 			(effects
 				(font
@@ -10993,8 +10367,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 100.33 71.12 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 100.33 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11087,7 +10461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 107.95 74.93 0)
 			(effects
 				(font
@@ -11246,8 +10620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 119.38 71.12 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 119.38 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,7 +10714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 127 74.93 0)
 			(effects
 				(font
@@ -11493,7 +10867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
+		(property "MPN" "5019"
 			(at 87.63 86.36 0)
 			(effects
 				(font
@@ -11584,8 +10958,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 100.33 86.36 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 100.33 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11678,7 +11052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 107.95 90.17 0)
 			(effects
 				(font
@@ -11837,8 +11211,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 119.38 86.36 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 119.38 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11931,7 +11305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 127 90.17 0)
 			(effects
 				(font
@@ -12084,7 +11458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
+		(property "MPN" "5019"
 			(at 87.63 101.6 0)
 			(effects
 				(font
@@ -12175,8 +11549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 100.33 101.6 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 100.33 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12269,7 +11643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 107.95 105.41 0)
 			(effects
 				(font
@@ -12428,8 +11802,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 119.38 101.6 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 119.38 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12522,7 +11896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 127 105.41 0)
 			(effects
 				(font
@@ -12675,7 +12049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
+		(property "MPN" "5019"
 			(at 87.63 116.84 0)
 			(effects
 				(font
@@ -12766,8 +12140,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 100.33 116.84 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 100.33 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12860,7 +12234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 107.95 120.65 0)
 			(effects
 				(font
@@ -13019,8 +12393,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 119.38 116.84 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 119.38 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13113,7 +12487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -13266,7 +12640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
+		(property "MPN" "5019"
 			(at 87.63 132.08 0)
 			(effects
 				(font
@@ -13357,8 +12731,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 100.33 132.08 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 100.33 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13451,7 +12825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 107.95 135.89 0)
 			(effects
 				(font
@@ -13610,8 +12984,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
-			(at 119.38 132.08 0)
+		(property "MPN" "RK73H2ATTD1001F"
+			(at 119.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13704,7 +13078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 127 135.89 0)
 			(effects
 				(font
@@ -13866,16 +13240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
-			(at 153.67 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
+		(property "MPN" "5019"
 			(at 153.67 153.67 0)
 			(effects
 				(font
@@ -14034,16 +13399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5019"
-			(at 165.1 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
+		(property "MPN" "5019"
 			(at 165.1 153.67 0)
 			(effects
 				(font
@@ -14523,7 +13879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "36107406S, 36007400S"
+		(property "Type" "SMT"
 			(at 201.93 118.11 0)
 			(effects
 				(font
@@ -14532,7 +13888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "36107406S, 36007400S"
 			(at 201.93 118.11 0)
 			(effects
 				(font
@@ -14738,15 +14094,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" ""
-			(at 199.39 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e931567c-dba6-4102-8818-b03d957c0137")
 		)
@@ -14803,15 +14150,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
 			(at 146.05 33.02 0)
 			(effects
 				(font
@@ -14896,15 +14234,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 146.05 48.26 0)
 			(effects
@@ -14973,15 +14302,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
 			(at 146.05 63.5 0)
 			(effects
 				(font
@@ -15066,15 +14386,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 146.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 146.05 78.74 0)
 			(effects
@@ -15143,15 +14454,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
 			(at 146.05 93.98 0)
 			(effects
 				(font
@@ -15236,15 +14538,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 146.05 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 146.05 109.22 0)
 			(effects
@@ -15313,15 +14606,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
 			(at 146.05 124.46 0)
 			(effects
 				(font
@@ -15415,15 +14699,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ADS8168IRHBT"
-			(at 327.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Texas Instruments"
 			(at 327.66 158.75 0)
 			(effects
@@ -15433,7 +14708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "ADS8168IRHBR, ADS8167IRHBT, ADS8167IRHBR"
+		(property "Type" "SMT"
 			(at 327.66 158.75 0)
 			(effects
 				(font
@@ -15442,7 +14717,16 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "ADS8168IRHBT"
+			(at 327.66 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "ADS8168IRHBR, ADS8167IRHBT, ADS8167IRHBR"
 			(at 327.66 158.75 0)
 			(effects
 				(font
@@ -15686,7 +14970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 392.43 109.22 0)
 			(effects
 				(font
@@ -15695,8 +14979,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 392.43 109.22 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 392.43 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15848,15 +15132,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "LT6220CS5#TRMPBF"
-			(at 312.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Analog Devices"
 			(at 312.42 96.52 0)
 			(effects
@@ -15866,7 +15141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "LT6220CS5#TRPBF, LT6220IS5#TRMPBF, LT6202HS5#TRMPBF, LT6202CS5#TRMPBF, LT6202IS5#TRPBF, LT6202IS5#TRMPBF"
+		(property "Type" "SMT"
 			(at 312.42 96.52 0)
 			(effects
 				(font
@@ -15875,7 +15150,16 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "LT6220CS5#TRMPBF"
+			(at 312.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "LT6220CS5#TRPBF, LT6220IS5#TRMPBF, LT6202HS5#TRMPBF, LT6202CS5#TRMPBF, LT6202IS5#TRPBF, LT6202IS5#TRMPBF"
 			(at 312.42 96.52 0)
 			(effects
 				(font
@@ -16037,7 +15321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 320.04 189.23 0)
 			(effects
 				(font
@@ -16046,7 +15330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 320.04 189.23 0)
 			(effects
 				(font
@@ -16196,7 +15480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 294.64 175.26 0)
 			(effects
 				(font
@@ -16205,8 +15489,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 294.64 175.26 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 294.64 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16356,7 +15640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 287.02 207.01 0)
 			(effects
 				(font
@@ -16365,7 +15649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 287.02 207.01 0)
 			(effects
 				(font
@@ -16725,8 +16009,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H122JA01J"
-			(at 351.79 121.92 0)
+		(property "MPN" "GRM1885C1H122JA01J"
+			(at 351.79 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16885,8 +16169,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD30R0F"
-			(at 344.17 121.92 0)
+		(property "MPN" "RK73H2ATTD30R0F"
+			(at 344.17 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16980,8 +16264,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H122JA01J"
-			(at 351.79 100.33 0)
+		(property "MPN" "GRM1885C1H122JA01J"
+			(at 351.79 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17140,8 +16424,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD30R0F"
-			(at 340.36 96.52 0)
+		(property "MPN" "RK73H2ATTD30R0F"
+			(at 340.36 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17423,7 +16707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 302.26 85.09 0)
 			(effects
 				(font
@@ -17432,8 +16716,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 302.26 85.09 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 302.26 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17657,8 +16941,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "5106"
-			(at 34.29 95.25 0)
+		(property "MPN" "5106"
+			(at 34.29 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17742,7 +17026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0805C106M4PACTU"
+		(property "Type" "SMT"
 			(at 302.26 189.23 0)
 			(effects
 				(font
@@ -17751,7 +17035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "C0805C106M4PACTU"
 			(at 302.26 189.23 0)
 			(effects
 				(font
@@ -17770,6 +17054,91 @@
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
 					(reference "C203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 266.7 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20859f79-34e3-4860-aa84-1a62a7fffd2f")
+		(property "Reference" "TP47"
+			(at 265.43 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 260.096 180.4162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 261.62 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 266.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 266.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da2cdd1c-7ae0-402e-97b0-b067ea343250")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "TP47")
 					(unit 1)
 				)
 			)
@@ -17911,8 +17280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C104K5RACTU"
-			(at 375.92 168.91 0)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 375.92 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18068,6 +17437,349 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 259.08 138.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91cf2878-c4de-47c0-884c-c9d30fdf5bdc")
+		(property "Reference" "TP42"
+			(at 257.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 252.476 138.3538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 254 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 259.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 259.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ee1b163-12e1-4595-9542-2b7dcf1a16be")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "TP42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 270.51 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94b4eee4-46a5-4823-90ed-91b990110cb2")
+		(property "Reference" "TP48"
+			(at 269.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 263.906 96.4438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 265.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 270.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 270.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb607c49-6604-42a0-b67c-3451cb103908")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "TP48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 262.89 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95f5389a-f0c3-4ecd-bc22-c845f5517bf6")
+		(property "Reference" "TP45"
+			(at 261.62 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 256.286 166.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 257.81 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 262.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 262.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2628498e-d919-4528-b253-296d0513bb89")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "TP45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 266.7 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "985c33c2-1b83-4b20-88d6-9007271b0640")
+		(property "Reference" "TP46"
+			(at 265.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 260.096 110.4138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 266.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 266.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e762cde3-af73-4ae1-bff9-0df777ac53e9")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "TP46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "shim:AD567x")
 		(at 54.61 83.82 0)
 		(unit 1)
@@ -18139,15 +17851,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AD5676ARUZ-REEL7"
-			(at 54.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Analog Devices"
 			(at 54.61 83.82 0)
 			(effects
@@ -18157,7 +17860,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "AD5676ARUZ, AD5676BRUZ-REEL7, AD5676BRUZ"
+		(property "MPN" "AD5676ARUZ-REEL7"
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "AD5676ARUZ, AD5676BRUZ-REEL7, AD5676BRUZ"
 			(at 54.61 83.82 0)
 			(effects
 				(font
@@ -18433,6 +18145,262 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 259.08 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5b1b0f1-f86c-4c9a-b93d-e7308fc73cc1")
+		(property "Reference" "TP43"
+			(at 257.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 252.476 152.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 254 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "899bf1c8-271f-407c-834e-b694cadf699d")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "TP43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 262.89 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4e89495-82a7-45a6-9337-23f4f5db4120")
+		(property "Reference" "TP44"
+			(at 261.62 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 256.286 124.3838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 257.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 262.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 262.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85e13e48-e317-4b12-98c5-0f6ac6775afe")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "TP44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 270.51 194.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7c1f8ba-a5fb-45fe-8914-186f779b110e")
+		(property "Reference" "TP49"
+			(at 269.24 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 263.906 194.3862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 265.43 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 270.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 270.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "736a4dd7-d3bc-407c-888c-c932426b0fef")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000609654e7"
+					(reference "TP49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "amp-ctrl-rescue:+3.3V-power")
 		(at 63.5 38.1 0)
 		(mirror y)
@@ -18560,7 +18528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -18569,8 +18537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 63.5 45.72 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 63.5 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18702,6 +18670,24 @@
 			)
 		)
 		(property "Description" "Single NOT Gate, Low-Voltage CMOS"
+			(at 386.08 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 386.08 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC1G04DBVR"
 			(at 386.08 179.07 0)
 			(effects
 				(font

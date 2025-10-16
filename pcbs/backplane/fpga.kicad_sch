@@ -4554,6 +4554,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "VD_1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VD_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VD_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "amp-ctrl-rescue:D_Zener_ALT-Device"
 			(pin_numbers
 				(hide yes)
@@ -7197,6 +7322,12 @@
 		(uuid "dab881e2-46b2-45a6-a517-acd3439f11b2")
 	)
 	(junction
+		(at 381 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbfb4881-6a5c-4cc3-ae2e-bdfc34453af9")
+	)
+	(junction
 		(at 33.02 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8340,7 +8471,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 101.6) (xy 387.35 101.6)
+			(xy 368.3 101.6) (xy 381 101.6)
 		)
 		(stroke
 			(width 0)
@@ -10237,6 +10368,16 @@
 			(type default)
 		)
 		(uuid "8a6ff71a-6a8a-4a95-8770-93312a89dccc")
+	)
+	(wire
+		(pts
+			(xy 381 101.6) (xy 387.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aae7e8a-5845-489d-a6a7-0f59527b8dd3")
 	)
 	(wire
 		(pts
@@ -13677,16 +13818,6 @@
 			(justify left bottom)
 		)
 		(uuid "93d09288-f4d0-4e8a-988c-f139c1c718e7")
-	)
-	(label "FPGA_Vin"
-		(at 377.19 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "941cffe4-24bc-4184-901b-24d4d79df61c")
 	)
 	(label "SDA2"
 		(at 80.01 149.86 180)
@@ -27334,6 +27465,72 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d/00000000-0000-0000-0000-000060af9c81"
 					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VD_1")
+		(lib_id "power:VD")
+		(at 381 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "609d343c-d825-4c6d-b64d-6c143f280128")
+		(property "Reference" "#PWR024"
+			(at 381 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FPGA_Vin"
+			(at 381 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VD\""
+			(at 381 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65f63c26-8701-4a05-968d-691d57e07186")
+		)
+		(instances
+			(project ""
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d/00000000-0000-0000-0000-000060af9c81"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

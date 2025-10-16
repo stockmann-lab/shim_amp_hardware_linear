@@ -1377,7 +1377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1885C1H103JA01D"
+		(property "MPN" "GRM1885C1H103JA01D"
 			(at 156.21 106.68 0)
 			(effects
 				(font
@@ -1491,25 +1491,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "M20-7810245 / M20-7810245R"
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "HLE-102-02-L-DV / HLE-102-02-F-DV / HLE-102-02-G-DV / HLE-102-02-S-DV / HLE-102-02-SM-DV / HLE-102-02-H-DV"
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Notes" ""
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "M20-7810245 / M20-7810245R"
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "HLE-102-02-L-DV / HLE-102-02-F-DV / HLE-102-02-G-DV / HLE-102-02-S-DV / HLE-102-02-SM-DV / HLE-102-02-H-DV"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1618,7 +1618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD3301F"
+		(property "MPN" "RK73H2ATTD3301F"
 			(at 127 102.87 0)
 			(effects
 				(font
@@ -1858,7 +1858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 137.16 99.06 0)
 			(effects
 				(font
@@ -1867,7 +1867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 137.16 99.06 0)
 			(effects
 				(font
@@ -2043,7 +2043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD1000F"
+		(property "MPN" "RK73H2ATTD1000F"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -2210,7 +2210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -2219,7 +2219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -2386,7 +2386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 187.96 81.28 0)
 			(effects
 				(font
@@ -2395,7 +2395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 187.96 81.28 0)
 			(effects
 				(font
@@ -2561,7 +2561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ADC081C021CIMM/NOPB"
+		(property "Type" "SMT"
 			(at 181.61 97.79 0)
 			(effects
 				(font
@@ -2570,7 +2570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "ADC081C021CIMM/NOPB"
 			(at 181.61 97.79 0)
 			(effects
 				(font

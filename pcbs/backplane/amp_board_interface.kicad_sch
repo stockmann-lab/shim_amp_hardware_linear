@@ -2109,17 +2109,6 @@
 		)
 		(uuid "d4ec97d1-a24c-4f99-b206-45cfd9be0e48")
 	)
-	(text "Driven by 2.5V logic from FPGA\n~100µA base current"
-		(exclude_from_sim no)
-		(at 60.96 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e80e7529-de66-4fdf-a6e5-b4568afe625e")
-	)
 	(text "Connectors"
 		(exclude_from_sim no)
 		(at 137.16 100.33 0)
@@ -2153,6 +2142,26 @@
 			(justify left top)
 		)
 		(uuid "349ef1c9-dd1b-4203-95a5-86a7e9b840ba")
+	)
+	(text_box "Shutdown_Force has 20K to transistor base here, and 100K to transistor base on amp control board; equiv. total 16.7K to ground per channel"
+		(exclude_from_sim no)
+		(at 59.69 62.23 0)
+		(size 30.48 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dce09f81-73ef-4130-b42d-b44089eebdb6")
 	)
 	(junction
 		(at 193.04 21.59)
