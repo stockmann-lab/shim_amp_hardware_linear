@@ -478,6 +478,125 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Flag"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 3.429 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Flag"
+				(at 3.302 4.191 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative flag-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Flag_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.889 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.889 2.794)
+					(end 5.842 0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Flag_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1248,6 +1367,206 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, both open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Open_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_0_1"
+				(arc
+					(start -3.048 1.016)
+					(mid -1.651 1.4992)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.651 1.4992)
+					(end 3.048 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3865,6 +4184,12 @@
 		(uuid "260a8fc3-e6c0-494b-b519-6f36e6a9dd27")
 	)
 	(junction
+		(at 292.1 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "298d903e-d61b-4e27-84b3-fa42379f78d6")
+	)
+	(junction
 		(at 149.86 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3929,6 +4254,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ce1d7bb-fcf0-49dc-9d7b-6c6bfb439d6c")
+	)
+	(junction
+		(at 314.96 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "519a2264-e889-4a13-ba7a-20a9836bb0c8")
 	)
 	(junction
 		(at 149.86 203.2)
@@ -3997,10 +4328,22 @@
 		(uuid "819d23a9-2613-4514-a0b3-661f1f8e356d")
 	)
 	(junction
+		(at 302.26 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85cc7158-a77a-4479-b24d-d55924edc10c")
+	)
+	(junction
 		(at 142.24 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "870dc4d0-79e4-4bac-9dd2-0cb71c9ef4bc")
+	)
+	(junction
+		(at 290.83 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8946f19f-a19b-4fa9-9662-a43b3dc99e8d")
 	)
 	(junction
 		(at 55.88 167.64)
@@ -4051,6 +4394,12 @@
 		(uuid "b5792b1a-b3c3-457c-a120-0c23b4595919")
 	)
 	(junction
+		(at 326.39 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c688269c-3379-4821-8007-0230fd993661")
+	)
+	(junction
 		(at 149.86 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4067,6 +4416,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7545495-0e76-4ec9-811b-3fd7fcd4f977")
+	)
+	(junction
+		(at 303.53 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d84cf491-ddb0-4789-abbc-56496f3f73e6")
 	)
 	(junction
 		(at 52.07 212.09)
@@ -4256,7 +4611,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 137.16) (xy 295.91 137.16)
+			(xy 289.56 137.16) (xy 292.1 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4356,6 +4711,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 137.16) (xy 292.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ae8ded-d6ee-41c3-8487-8f6b4ca89d39")
+	)
+	(wire
+		(pts
 			(xy 107.95 146.05) (xy 101.6 146.05)
 		)
 		(stroke
@@ -4446,6 +4811,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 139.7) (xy 303.53 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fcaf7f-598a-4f21-996d-abd320abadec")
+	)
+	(wire
+		(pts
 			(xy 228.6 128.27) (xy 246.38 128.27)
 		)
 		(stroke
@@ -4506,6 +4881,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 142.24) (xy 345.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3996d5d4-458b-4524-be36-5253e365f344")
+	)
+	(wire
+		(pts
 			(xy 205.74 105.41) (xy 218.44 105.41)
 		)
 		(stroke
@@ -4533,6 +4918,16 @@
 			(type default)
 		)
 		(uuid "3d1baa33-0c52-4c9d-bba6-c2c81383ea1a")
+	)
+	(wire
+		(pts
+			(xy 326.39 144.78) (xy 345.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7c2430-03d2-4545-af77-bcffa5f2045d")
 	)
 	(wire
 		(pts
@@ -4626,7 +5021,17 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 139.7) (xy 295.91 139.7)
+			(xy 290.83 223.52) (xy 290.83 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485255f7-5455-4408-9c85-7653049720f6")
+	)
+	(wire
+		(pts
+			(xy 289.56 139.7) (xy 303.53 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4696,6 +5101,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 139.7) (xy 345.44 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fb3ea1-8480-4662-8349-26b15fcd3328")
+	)
+	(wire
+		(pts
 			(xy 137.16 146.05) (xy 127 146.05)
 		)
 		(stroke
@@ -4703,6 +5118,16 @@
 			(type default)
 		)
 		(uuid "5595728c-a395-47fc-9446-06ac7f38448d")
+	)
+	(wire
+		(pts
+			(xy 302.26 226.06) (xy 309.88 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569bbf20-7dd4-4e01-b9ba-0b4e8115175a")
 	)
 	(wire
 		(pts
@@ -4776,7 +5201,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 226.06) (xy 295.91 226.06)
+			(xy 289.56 226.06) (xy 302.26 226.06)
 		)
 		(stroke
 			(width 0)
@@ -4853,6 +5278,16 @@
 			(type default)
 		)
 		(uuid "677393b6-1524-4360-8e06-debfc907df66")
+	)
+	(wire
+		(pts
+			(xy 326.39 144.78) (xy 326.39 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f4ad1b-9aef-4051-b460-2edc0285e442")
 	)
 	(wire
 		(pts
@@ -5026,6 +5461,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 142.24) (xy 314.96 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0d1d61-9396-465c-aaf3-b991473de486")
+	)
+	(wire
+		(pts
 			(xy 113.03 146.05) (xy 107.95 146.05)
 		)
 		(stroke
@@ -5096,6 +5541,26 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 226.06) (xy 302.26 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e44cde-19d4-4be1-a2c9-a91be6aad928")
+	)
+	(wire
+		(pts
+			(xy 292.1 137.16) (xy 345.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df31da0-94c8-4f8c-ad46-409ea7db6e2f")
+	)
+	(wire
+		(pts
 			(xy 149.86 213.36) (xy 149.86 215.9)
 		)
 		(stroke
@@ -5103,6 +5568,16 @@
 			(type default)
 		)
 		(uuid "9f346810-0bea-4a12-9d67-a00db5b4fdfb")
+	)
+	(wire
+		(pts
+			(xy 290.83 223.52) (xy 309.88 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f95acd5-8284-4635-af06-1746b882973c")
 	)
 	(wire
 		(pts
@@ -5336,7 +5811,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 144.78) (xy 295.91 144.78)
+			(xy 289.56 144.78) (xy 326.39 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5616,7 +6091,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 223.52) (xy 295.91 223.52)
+			(xy 289.56 223.52) (xy 290.83 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5746,7 +6221,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 142.24) (xy 295.91 142.24)
+			(xy 289.56 142.24) (xy 314.96 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6436,7 +6911,7 @@
 	)
 	(hierarchical_label "~{ADC_CS}"
 		(shape output)
-		(at 295.91 223.52 0)
+		(at 309.88 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6469,7 +6944,7 @@
 	)
 	(hierarchical_label "~{DAC_CS}"
 		(shape output)
-		(at 295.91 142.24 0)
+		(at 345.44 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6480,7 +6955,7 @@
 	)
 	(hierarchical_label "~{LDAC}"
 		(shape output)
-		(at 295.91 144.78 0)
+		(at 345.44 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6491,7 +6966,7 @@
 	)
 	(hierarchical_label "DAC_MOSI"
 		(shape output)
-		(at 295.91 137.16 0)
+		(at 345.44 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6502,7 +6977,7 @@
 	)
 	(hierarchical_label "ADC_MOSI"
 		(shape output)
-		(at 295.91 226.06 0)
+		(at 309.88 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6524,7 +6999,7 @@
 	)
 	(hierarchical_label "SCKI"
 		(shape output)
-		(at 295.91 139.7 0)
+		(at 345.44 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6671,15 +7146,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "742C083101JP"
-			(at 284.48 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 284.48 142.24 0)
 			(effects
@@ -6698,8 +7164,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "CAT16-101J4LF"
-			(at 284.48 142.24 0)
+		(property "MPN" "742C083101JP"
+			(at 284.48 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "CAT16-101J4LF"
+			(at 284.48 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +7276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "FIN1028MX"
+		(property "Type" "SMT"
 			(at 259.08 129.54 0)
 			(effects
 				(font
@@ -6810,7 +7285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "FIN1028MX"
 			(at 259.08 129.54 0)
 			(effects
 				(font
@@ -6913,15 +7388,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "742C083101JP"
-			(at 284.48 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 284.48 223.52 0)
 			(effects
@@ -6940,8 +7406,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "CAT16-101J4LF"
-			(at 284.48 223.52 0)
+		(property "MPN" "742C083101JP"
+			(at 284.48 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "CAT16-101J4LF"
+			(at 284.48 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +7519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 265.43 160.02 0)
 			(effects
 				(font
@@ -7053,8 +7528,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 265.43 160.02 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 265.43 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7268,7 +7743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "FIN1028MX"
+		(property "Type" "SMT"
 			(at 259.08 175.26 0)
 			(effects
 				(font
@@ -7277,7 +7752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "FIN1028MX"
 			(at 259.08 175.26 0)
 			(effects
 				(font
@@ -7380,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "FIN1028MX"
+		(property "Type" "SMT"
 			(at 259.08 234.95 0)
 			(effects
 				(font
@@ -7389,7 +7864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "FIN1028MX"
 			(at 259.08 234.95 0)
 			(effects
 				(font
@@ -7557,15 +8032,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "742C083101JP"
-			(at 200.66 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 200.66 151.13 0)
 			(effects
@@ -7584,8 +8050,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "CAT16-101J4LF"
-			(at 200.66 151.13 0)
+		(property "MPN" "742C083101JP"
+			(at 200.66 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "CAT16-101J4LF"
+			(at 200.66 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,15 +8162,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "742C083101JP"
-			(at 203.2 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 203.2 256.54 0)
 			(effects
@@ -7714,8 +8180,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "CAT16-101J4LF"
-			(at 203.2 256.54 0)
+		(property "MPN" "742C083101JP"
+			(at 203.2 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "CAT16-101J4LF"
+			(at 203.2 256.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7886,15 +8361,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1-406541-8"
-			(at 95.25 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "Through-hole"
 			(at 95.25 53.34 0)
 			(effects
@@ -7913,7 +8379,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "1-406541-5, 2-406541-1"
+		(property "MPN" "1-406541-8"
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "1-406541-5, 2-406541-1"
 			(at 95.25 53.34 0)
 			(effects
 				(font
@@ -8023,15 +8498,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1-406541-8"
-			(at 137.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "Through-hole"
 			(at 137.16 53.34 0)
 			(effects
@@ -8050,7 +8516,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "1-406541-5, 2-406541-1"
+		(property "MPN" "1-406541-8"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "1-406541-5, 2-406541-1"
 			(at 137.16 53.34 0)
 			(effects
 				(font
@@ -8160,15 +8635,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1-406541-8"
-			(at 53.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "Through-hole"
 			(at 53.34 53.34 0)
 			(effects
@@ -8187,7 +8653,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "1-406541-5, 2-406541-1"
+		(property "MPN" "1-406541-8"
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "1-406541-5, 2-406541-1"
 			(at 53.34 53.34 0)
 			(effects
 				(font
@@ -8568,15 +9043,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74LVC2G17GV,125"
-			(at 52.07 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Texas Instruments, Diodes Inc."
 			(at 52.07 219.71 0)
 			(effects
@@ -8586,7 +9052,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
+		(property "MPN" "74LVC2G17GV,125"
+			(at 52.07 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
 			(at 52.07 219.71 0)
 			(effects
 				(font
@@ -8685,15 +9160,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74LVC2G17GV,125"
-			(at 67.31 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 67.31 248.92 0)
 			(effects
@@ -8712,7 +9178,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
+		(property "MPN" "74LVC2G17GV,125"
+			(at 67.31 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
 			(at 67.31 248.92 0)
 			(effects
 				(font
@@ -8810,7 +9285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 57.15 212.09 0)
 			(effects
 				(font
@@ -8819,8 +9294,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 57.15 212.09 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 57.15 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9093,15 +9568,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" ""
-			(at 107.95 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "469b53ea-dee9-41fa-9748-8a7cbd5f450d")
 		)
@@ -9184,7 +9650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C102J5GACTU"
+		(property "MPN" "C0603C102J5GACTU"
 			(at 101.6 152.4 0)
 			(effects
 				(font
@@ -9270,7 +9736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 34.29 212.09 0)
 			(effects
 				(font
@@ -9279,7 +9745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 34.29 212.09 0)
 			(effects
 				(font
@@ -9365,7 +9831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 27.94 212.09 0)
 			(effects
 				(font
@@ -9374,7 +9840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 27.94 212.09 0)
 			(effects
 				(font
@@ -9460,7 +9926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "FIN1047MTCX"
+		(property "Type" "SMT"
 			(at 261.62 64.77 0)
 			(effects
 				(font
@@ -9469,7 +9935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
+		(property "MPN" "FIN1047MTCX"
 			(at 261.62 64.77 0)
 			(effects
 				(font
@@ -9605,7 +10071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C102J5GACTU"
+		(property "MPN" "C0603C102J5GACTU"
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -9831,7 +10297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4703F"
+		(property "MPN" "RK73H2ATTD4703F"
 			(at 34.29 224.79 0)
 			(effects
 				(font
@@ -9982,7 +10448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 265.43 38.1 0)
 			(effects
 				(font
@@ -9991,8 +10457,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 265.43 38.1 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 265.43 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,7 +10673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 265.43 114.3 0)
 			(effects
 				(font
@@ -10216,8 +10682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 265.43 114.3 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 265.43 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10432,7 +10898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 265.43 219.71 0)
 			(effects
 				(font
@@ -10441,8 +10907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 265.43 219.71 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 265.43 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10860,8 +11326,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
-			(at 87.63 175.26 0)
+		(property "MPN" "RK73H2ATTD1002F"
+			(at 87.63 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,15 +11546,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74LVC2G17GV,125"
-			(at 120.65 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 120.65 146.05 0)
 			(effects
@@ -11107,7 +11564,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
+		(property "MPN" "74LVC2G17GV,125"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
 			(at 120.65 146.05 0)
 			(effects
 				(font
@@ -11205,7 +11671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 125.73 138.43 0)
 			(effects
 				(font
@@ -11214,8 +11680,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 125.73 138.43 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 125.73 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,15 +11971,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74LVC2G17GV,125"
-			(at 73.66 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Texas Instruments, Diodes Inc."
 			(at 73.66 167.64 0)
 			(effects
@@ -11523,7 +11980,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
+		(property "MPN" "74LVC2G17GV,125"
+			(at 73.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -11631,7 +12097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4703F"
+		(property "MPN" "RK73H2ATTD4703F"
 			(at 44.45 171.45 0)
 			(effects
 				(font
@@ -11795,15 +12261,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MMBT3904-7-F"
-			(at 92.71 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Nexperia"
 			(at 92.71 167.64 0)
 			(effects
@@ -11813,7 +12270,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "MMBT3904,215"
+		(property "MPN" "MMBT3904-7-F"
+			(at 92.71 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "MMBT3904,215"
 			(at 92.71 167.64 0)
 			(effects
 				(font
@@ -11910,8 +12376,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
-			(at 83.82 167.64 0)
+		(property "MPN" "RK73H2ATTD1002F"
+			(at 83.82 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,15 +12541,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MMBT3906-7-F"
-			(at 147.32 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Nexperia"
 			(at 147.32 193.04 0)
 			(effects
@@ -12093,7 +12550,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "MMBT3906,215"
+		(property "MPN" "MMBT3906-7-F"
+			(at 147.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "MMBT3906,215"
 			(at 147.32 193.04 0)
 			(effects
 				(font
@@ -12256,7 +12722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
+		(property "MPN" "RK73H2ATTD1002F"
 			(at 142.24 189.23 0)
 			(effects
 				(font
@@ -12355,15 +12821,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MMBT3904-7-F"
-			(at 127 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Nexperia"
 			(at 127 198.12 0)
 			(effects
@@ -12373,7 +12830,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "MMBT3904,215"
+		(property "MPN" "MMBT3904-7-F"
+			(at 127 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "MMBT3904,215"
 			(at 127 198.12 0)
 			(effects
 				(font
@@ -12535,7 +13001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
+		(property "MPN" "RK73H2ATTD1002F"
 			(at 129.54 212.09 0)
 			(effects
 				(font
@@ -12629,8 +13095,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BAS16J,115 / BAS16J,135"
-			(at 149.86 231.14 0)
+		(property "MPN" "BAS16J,115 / BAS16J,135"
+			(at 149.86 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,8 +13104,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
-			(at 149.86 231.14 0)
+		(property "MPN Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
+			(at 149.86 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12732,8 +13198,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BAS16J,115 / BAS16J,135"
-			(at 149.86 238.76 0)
+		(property "MPN" "BAS16J,115 / BAS16J,135"
+			(at 149.86 238.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12741,8 +13207,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
-			(at 149.86 238.76 0)
+		(property "MPN Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
+			(at 149.86 238.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12901,7 +13367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4641F"
+		(property "MPN" "RK73H2ATTD4641F"
 			(at 149.86 207.01 0)
 			(effects
 				(font
@@ -12996,7 +13462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4641F"
+		(property "MPN" "RK73H2ATTD4641F"
 			(at 160.02 207.01 0)
 			(effects
 				(font
@@ -13091,7 +13557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4641F"
+		(property "MPN" "RK73H2ATTD4641F"
 			(at 170.18 207.01 0)
 			(effects
 				(font
@@ -13186,7 +13652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4641F"
+		(property "MPN" "RK73H2ATTD4641F"
 			(at 149.86 219.71 0)
 			(effects
 				(font
@@ -13281,7 +13747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4641F"
+		(property "MPN" "RK73H2ATTD4641F"
 			(at 160.02 219.71 0)
 			(effects
 				(font
@@ -13376,7 +13842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4641F"
+		(property "MPN" "RK73H2ATTD4641F"
 			(at 170.18 219.71 0)
 			(effects
 				(font
@@ -13470,7 +13936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
+		(property "MPN" "RK73H2ATTD1001F"
 			(at 154.94 234.95 0)
 			(effects
 				(font
@@ -13629,8 +14095,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BAS16J,115 / BAS16J,135"
-			(at 121.92 190.5 0)
+		(property "MPN" "BAS16J,115 / BAS16J,135"
+			(at 121.92 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13638,8 +14104,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
-			(at 121.92 190.5 0)
+		(property "MPN Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
+			(at 121.92 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13733,7 +14199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTDD1001F"
+		(property "MPN" "RK73H2ATTD1001F"
 			(at 87.63 194.31 0)
 			(effects
 				(font
@@ -13827,7 +14293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C102J5GACTU"
+		(property "MPN" "C0603C102J5GACTU"
 			(at 92.71 194.31 0)
 			(effects
 				(font
@@ -13971,15 +14437,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" ""
-			(at 92.71 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "004f52f8-b19a-4ce6-bdf4-219f024f4dfc")
 		)
@@ -14058,6 +14515,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 314.96 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c343800-744c-4720-8f1a-9a685550533c")
+		(property "Reference" "JP104"
+			(at 312.42 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 312.42 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 314.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 314.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e8a12f9-5f4b-47b4-b721-efa8b597459c")
+		)
+		(pin "2"
+			(uuid "78e6e714-2456-4b02-890c-a0be777bc3b9")
+		)
+		(pin "3"
+			(uuid "13a618cd-2390-49e6-8868-19351f5861ce")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "JP104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 259.08 0)
 		(unit 1)
@@ -14117,6 +14648,474 @@
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 318.77 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d405262-a94f-47ac-8f68-33bd49a8a36b")
+		(property "Reference" "TP105"
+			(at 320.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 325.374 172.6438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 323.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 318.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 318.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 318.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "619fc88d-0335-460d-b502-620f1cd02dcf")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "TP105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 294.64 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2de6523f-6634-4d7f-a020-00161b68228a")
+		(property "Reference" "TP133"
+			(at 295.91 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 301.244 238.6838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 299.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 294.64 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 294.64 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a74f09de-c159-4e5f-9f62-bc1b152c3657")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "TP133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 290.83 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3383574d-9e3d-4712-968e-fe9a10c506a1")
+		(property "Reference" "#PWR0561"
+			(at 290.83 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 290.957 249.5042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 290.83 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15c9797a-8950-42e9-9df4-6e3aea16a296")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "#PWR0561")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 292.1 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34aba24c-7131-4860-aa0a-ad83625914de")
+		(property "Reference" "JP102"
+			(at 289.56 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 289.56 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 292.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 292.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "927c1f91-e741-4bcb-87e5-e6333045592d")
+		)
+		(pin "2"
+			(uuid "b6cd59cc-07d2-430b-bf13-12664e002c5e")
+		)
+		(pin "3"
+			(uuid "41924aff-3ee3-492d-95ee-35725e9c8d82")
+		)
+		(instances
+			(project ""
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "JP102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 326.39 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3786ccf2-4620-450a-9c86-186442881740")
+		(property "Reference" "JP105"
+			(at 323.85 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 323.85 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 326.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 326.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 326.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf353d40-1bed-4dce-a077-7c5b12e47167")
+		)
+		(pin "2"
+			(uuid "50abb507-c02c-47f8-9204-7612757e12bd")
+		)
+		(pin "3"
+			(uuid "b815621f-dd78-4fee-9581-db286ed5d15e")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "JP105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 306.07 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a595a93-40bc-4df5-964e-c911e0f986bd")
+		(property "Reference" "TP147"
+			(at 307.34 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 312.674 245.0338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 311.15 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 306.07 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 306.07 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36ecb03e-74b3-4a57-bc32-1057a50b3052")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "TP147")
 					(unit 1)
 				)
 			)
@@ -14197,15 +15196,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MMBT3904-7-F"
-			(at 44.45 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer Alt." "Nexperia"
 			(at 44.45 254 0)
 			(effects
@@ -14215,7 +15205,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "MMBT3904,215"
+		(property "MPN" "MMBT3904-7-F"
+			(at 44.45 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "MMBT3904,215"
 			(at 44.45 254 0)
 			(effects
 				(font
@@ -14237,6 +15236,80 @@
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
 					(reference "Q38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 302.26 245.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41d8690d-8db9-4e0a-a877-889fe43f28da")
+		(property "Reference" "JP107"
+			(at 299.72 243.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 299.72 246.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 302.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 302.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f59d9ed3-f754-423e-8cb3-c82db7cb2d50")
+		)
+		(pin "2"
+			(uuid "96dff415-aecf-400a-8ae0-98f8c0021d96")
+		)
+		(pin "3"
+			(uuid "7c21e011-c3f4-49a5-b71a-3580e3a5243d")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "JP107")
 					(unit 1)
 				)
 			)
@@ -14312,7 +15385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4703F"
+		(property "MPN" "RK73H2ATTD4703F"
 			(at 54.61 245.11 0)
 			(effects
 				(font
@@ -14331,6 +15404,71 @@
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
 					(reference "R289")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 326.39 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5951389c-8a5b-4e9a-9eb6-721cb693b1bb")
+		(property "Reference" "#PWR0560"
+			(at 326.39 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.517 189.8142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96281b3f-7cb4-48f2-acb1-ec9f9f2a6748")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "#PWR0560")
 					(unit 1)
 				)
 			)
@@ -14461,6 +15599,165 @@
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
 					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 303.53 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7543a64f-e7f2-4db4-9d1f-73afe3995551")
+		(property "Reference" "JP103"
+			(at 300.99 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 300.99 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 303.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 303.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 303.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c634b05-4010-444f-b074-a4443476a0f3")
+		)
+		(pin "2"
+			(uuid "29212f4e-1c6c-405e-af3f-d1c71711ca6c")
+		)
+		(pin "3"
+			(uuid "b59cb4f4-f0ef-4c67-86c6-95d19840af0f")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "JP103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 307.34 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ad8d1cb-1cc6-400b-8964-4c6322a6b0a0")
+		(property "Reference" "TP91"
+			(at 308.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 313.944 166.2938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 312.42 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 307.34 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 307.34 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91b98830-37fb-4c2d-8ab5-9db8ad0cb79a")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "TP91")
 					(unit 1)
 				)
 			)
@@ -14602,8 +15899,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1003F"
-			(at 30.48 254 0)
+		(property "MPN" "RK73H2ATTD1003F"
+			(at 30.48 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,15 +16115,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "742C083333JP"
-			(at 200.66 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 200.66 110.49 0)
 			(effects
@@ -14845,8 +16133,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "CAT16-333J4LF"
-			(at 200.66 110.49 0)
+		(property "MPN" "742C083333JP"
+			(at 200.66 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "CAT16-333J4LF"
+			(at 200.66 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14958,8 +16255,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1003F"
-			(at 39.37 257.81 0)
+		(property "MPN" "RK73H2ATTD1003F"
+			(at 39.37 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14977,6 +16274,71 @@
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
 					(reference "R290")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0c0616f-4aad-4c01-8db8-c4ecbe3e5989")
+		(property "Reference" "#PWR0557"
+			(at 292.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.227 170.7642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "670ca27f-e847-4caa-bb23-232bb1dd23e6")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "#PWR0557")
 					(unit 1)
 				)
 			)
@@ -15053,7 +16415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C104K5RACTU"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 54.61 252.73 0)
 			(effects
 				(font
@@ -15139,15 +16501,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "742C083333JP"
-			(at 200.66 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 200.66 93.98 0)
 			(effects
@@ -15166,8 +16519,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "CAT16-333J4LF"
-			(at 200.66 93.98 0)
+		(property "MPN" "742C083333JP"
+			(at 200.66 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "CAT16-333J4LF"
+			(at 200.66 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15209,11 +16571,320 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 330.2 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b67bd53d-f0ac-4a47-8563-59b12f88b01c")
+		(property "Reference" "TP119"
+			(at 331.47 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 336.804 178.9938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 335.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 330.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 330.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d707ac62-322d-4e44-a9e1-c3fd8da37723")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "TP119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 290.83 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbafcdb4-7b5f-4852-89e7-1da270ceb383")
+		(property "Reference" "JP106"
+			(at 288.29 237.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 288.29 240.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 290.83 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 290.83 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 290.83 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95738def-82d8-4c2c-afc4-c0339c72ac02")
+		)
+		(pin "2"
+			(uuid "5e0c0d3c-e345-4fe2-afc6-26c26d3c3d5b")
+		)
+		(pin "3"
+			(uuid "c7a21d38-1854-432b-90cb-dedbaecea321")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "JP106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 302.26 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc56db16-7749-474d-aba8-8a9a1fef8c0f")
+		(property "Reference" "#PWR0563"
+			(at 302.26 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 302.387 255.8542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f41935bd-8484-42c2-a3bd-65a20b3712d2")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "#PWR0563")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 295.91 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce2b90d7-3b88-49ba-a966-82f226a9e0cb")
+		(property "Reference" "TP77"
+			(at 297.18 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 302.514 159.9438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 300.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 300.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 295.91 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 295.91 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5019"
+			(at 295.91 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c39af146-85df-4789-8dea-54eb4f7d4b4c")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "TP77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 322.58 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e60456a2-76cc-4f58-b291-b15042f14567")
@@ -15273,6 +16944,136 @@
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
 					(reference "JP71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 303.53 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5c4e31a-264b-46af-a39d-c257d1b3d9ed")
+		(property "Reference" "#PWR0558"
+			(at 303.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 303.657 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e62f6f01-04eb-4b41-9d31-e63b3218e4a8")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "#PWR0558")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 314.96 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5e5e9b7-a7ce-4de1-9af2-1acb78857d0b")
+		(property "Reference" "#PWR0559"
+			(at 314.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 315.087 183.4642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a79070c-5ed7-481f-aa01-ce2bdeba609f")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-000060909f92"
+					(reference "#PWR0559")
 					(unit 1)
 				)
 			)

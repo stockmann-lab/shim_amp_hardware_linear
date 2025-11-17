@@ -1885,6 +1885,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "VD_1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VD_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VD_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "backplane-rescue:+2.5V-Martinos"
 			(power)
 			(pin_names
@@ -3228,7 +3353,7 @@
 	)
 	(text "Global shutdown\n(external)"
 		(exclude_from_sim no)
-		(at 213.36 288.29 0)
+		(at 215.9 287.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3464,7 +3589,7 @@
 	)
 	(text "Global shutdown\n(FPGA)"
 		(exclude_from_sim no)
-		(at 209.55 201.93 0)
+		(at 217.17 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3529,7 +3654,7 @@
 	)
 	(text_box "Forces all amplifiers into shutdown unless \"manual enable input\" sensor sees light"
 		(exclude_from_sim no)
-		(at 231.14 214.63 0)
+		(at 231.14 234.95 0)
 		(size 22.86 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3568,6 +3693,27 @@
 			(justify left top)
 		)
 		(uuid "7295685f-16da-4dab-8868-f3dd828ad608")
+	)
+	(text_box "FPGA_Vin <= 17V, so max. dissipation in R78 is...\n17V / (3.3K + (16.7K per channel / 8 channels)) = 3.2 mA\n3.2 mA^2 * 3.3K = 33 mW"
+		(exclude_from_sim no)
+		(at 251.46 177.8 0)
+		(size 62.23 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 147 255 229 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "acdab354-4478-48a9-b298-c7dec1e44266")
 	)
 	(text_box "Old connectors (Phoenix 1792229)"
 		(exclude_from_sim no)
@@ -3610,6 +3756,27 @@
 			(justify left top)
 		)
 		(uuid "d7ad4196-e07b-4472-855a-5f57179a0945")
+	)
+	(text_box "Shutdown_Force has pull-up to input voltage (not a logic voltage) because it takes some time for logic power supplies to turn on, when Snickerdoodle is first powered up.  This scheme holds all amplifiers in shutdown even when +3.3V isn't yet present, until the software can explicitly turn everything on when it's ready."
+		(exclude_from_sim no)
+		(at 251.46 162.56 0)
+		(size 59.69 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 147 255 229 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f2279c2e-b506-4f9f-aaf4-e498323fbfb5")
 	)
 	(junction
 		(at 104.14 191.77)
@@ -3666,6 +3833,12 @@
 		(uuid "34db2201-0cb0-40a6-80a4-59ade8e7210f")
 	)
 	(junction
+		(at 237.49 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35a3ddd0-469c-4197-b71f-bda80396308e")
+	)
+	(junction
 		(at 109.22 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3714,28 +3887,22 @@
 		(uuid "48aed586-ace2-4eca-9486-5b7cfe48384f")
 	)
 	(junction
+		(at 193.04 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bc1c85c-6def-4981-bfe7-1c45da142cdc")
+	)
+	(junction
 		(at 302.26 392.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53b415e7-1ff0-4686-98f0-2332702293ec")
 	)
 	(junction
-		(at 229.87 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56dd0a54-450b-43d9-82de-8f520f8fcfef")
-	)
-	(junction
 		(at 59.69 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ad53832-7ab9-4c3d-93df-fb27badb8738")
-	)
-	(junction
-		(at 229.87 284.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6067a181-4957-4607-a1fd-ba3cb1fc7036")
 	)
 	(junction
 		(at 175.26 26.67)
@@ -3762,6 +3929,12 @@
 		(uuid "7a261833-f6fa-4060-b776-08c4b9c456d2")
 	)
 	(junction
+		(at 229.87 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fd35abb-6f89-45b6-98bf-2736edb2fe3b")
+	)
+	(junction
 		(at 179.07 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3778,12 +3951,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b4342c5-a219-4f48-b987-bffd90495741")
-	)
-	(junction
-		(at 176.53 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90883a1e-4819-405e-ae7c-acabd0f8fc60")
 	)
 	(junction
 		(at 59.69 168.91)
@@ -3840,6 +4007,12 @@
 		(uuid "b9ef91f4-33cc-4515-8860-74a46549335d")
 	)
 	(junction
+		(at 237.49 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf8618bd-d08b-4551-af27-3fb9295fb74c")
+	)
+	(junction
 		(at 204.47 284.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3856,12 +4029,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e60adc99-4148-4572-b879-7931881b5c22")
-	)
-	(junction
-		(at 229.87 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa4f33f0-d916-4863-97db-b895bc3cc4f1")
 	)
 	(junction
 		(at 76.2 212.09)
@@ -3915,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 198.12) (xy 222.25 198.12)
+			(xy 207.01 198.12) (xy 229.87 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4285,6 +4452,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 179.07) (xy 193.04 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e3132b-0b01-49c7-833d-bac4e713655f")
+	)
+	(wire
+		(pts
 			(xy 519.43 321.31) (xy 519.43 318.77)
 		)
 		(stroke
@@ -4405,16 +4582,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 190.5) (xy 229.87 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aeef2a0-cd65-477d-8a24-69f0046afdde")
-	)
-	(wire
-		(pts
 			(xy 443.23 210.82) (xy 425.45 210.82)
 		)
 		(stroke
@@ -4422,16 +4589,6 @@
 			(type default)
 		)
 		(uuid "2b985139-5352-4692-a79c-5343db703033")
-	)
-	(wire
-		(pts
-			(xy 176.53 198.12) (xy 207.01 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b9ef1cc-d39d-4c1a-9d49-af846edc7579")
 	)
 	(wire
 		(pts
@@ -4515,7 +4672,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 195.58) (xy 151.13 195.58)
+			(xy 151.13 195.58) (xy 176.53 195.58)
 		)
 		(stroke
 			(width 0)
@@ -4622,6 +4779,16 @@
 			(type default)
 		)
 		(uuid "3e9d781a-068e-43c0-857d-bd1ed12181b6")
+	)
+	(wire
+		(pts
+			(xy 245.11 203.2) (xy 245.11 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb78319-0f34-4199-bcec-5d1b8de6732d")
 	)
 	(wire
 		(pts
@@ -5042,6 +5209,16 @@
 			(type default)
 		)
 		(uuid "5e2e2e21-7f30-4f95-a042-185057a41c25")
+	)
+	(wire
+		(pts
+			(xy 193.04 179.07) (xy 176.53 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4a9913-fd20-4584-9b44-529dfa682d56")
 	)
 	(wire
 		(pts
@@ -5605,7 +5782,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 198.12) (xy 176.53 198.12)
+			(xy 151.13 198.12) (xy 207.01 198.12)
 		)
 		(stroke
 			(width 0)
@@ -6095,16 +6272,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 198.12) (xy 229.87 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a7ec41-1ddf-4f1f-989c-b11bdb94b3d2")
-	)
-	(wire
-		(pts
 			(xy 443.23 71.12) (xy 425.45 71.12)
 		)
 		(stroke
@@ -6152,6 +6319,16 @@
 			(type default)
 		)
 		(uuid "b740f92d-340f-4433-bfbf-757cbfdcd12f")
+	)
+	(wire
+		(pts
+			(xy 176.53 179.07) (xy 176.53 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7418f28-1c86-4873-889d-e713f51afb2d")
 	)
 	(wire
 		(pts
@@ -7894,7 +8071,7 @@
 		(uuid "609e91f0-5979-419b-ab12-4b30da2b7fb6")
 	)
 	(label "Shutdown_Reset"
-		(at 173.99 195.58 180)
+		(at 203.2 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18571,71 +18748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "backplane-rescue:+3.3V-power")
-		(at 229.87 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04ced77e-2bc8-47d0-9a50-10b67b5f3c68")
-		(property "Reference" "#PWR025"
-			(at 229.87 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 230.251 178.4858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e1ee119-4fd1-4568-ba48-15e6b3f2be68")
-		)
-		(instances
-			(project "backplane"
-				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 180.34 294.64 0)
 		(mirror y)
@@ -19202,6 +19314,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 204.47 288.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dacb338-7dec-45f8-89f3-3fecef099aeb")
+		(property "Reference" "R91"
+			(at 200.66 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 204.47 288.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 206.248 288.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 204.47 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RK73H2ATTD3301F"
+			(at 204.47 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Can substitute generic resistor with same package, value, 1% tolerance"
+			(at 204.47 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 204.47 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7096c73d-ca0c-48f5-a364-5aef91e1fd1b")
+		)
+		(pin "2"
+			(uuid "cdf06ad5-5db6-4f8c-b39a-0617b99414df")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 276.86 392.43 0)
 		(unit 1)
@@ -19326,6 +19541,72 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 186.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15307c25-c35e-44c0-9945-fae5262b79d0")
+		(property "Reference" "#PWR064"
+			(at 193.04 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7485ce5d-6c2b-4a55-b95a-79e00fb37875")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -19575,110 +19856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "backplane-rescue:D_Schottky_ALT-Device")
-		(at 233.68 198.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "250092af-39eb-4375-8bc0-aef2bba04678")
-		(property "Reference" "D22"
-			(at 233.68 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMEG6010"
-			(at 236.22 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 233.68 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf"
-			(at 233.68 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 233.68 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "PMEG6010CEH,115"
-			(at 233.68 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 233.68 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMT"
-			(at 233.68 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c23190a-aede-4c31-9443-f69306b78ae6")
-		)
-		(pin "2"
-			(uuid "32b48aae-02e3-4cfb-9024-c873f5e7a15f")
-		)
-		(instances
-			(project "backplane"
-				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+VDC")
 		(at 276.86 384.81 0)
 		(unit 1)
@@ -19909,110 +20086,6 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 229.87 288.29 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c64b410-829d-487f-9c43-312ff8a60a60")
-		(property "Reference" "R83"
-			(at 233.68 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3K"
-			(at 229.87 288.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 228.092 288.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KOA Speer"
-			(at 229.87 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RK73H2ATTD3301F"
-			(at 229.87 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Can substitute generic resistor with same package, value, 1% tolerance"
-			(at 229.87 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMT"
-			(at 229.87 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "245d0483-df85-492b-b7c8-45f8bd625c4f")
-		)
-		(pin "2"
-			(uuid "9e722bad-decd-460a-b04d-849aaa0b2fc7")
-		)
-		(instances
-			(project "backplane"
-				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
-					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -20480,6 +20553,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 292.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "325c853c-2186-44ad-a4de-46621266a851")
+		(property "Reference" "#PWR063"
+			(at 204.47 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0b3c409-1b3f-415a-9a58-f45f3a85a2da")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 524.51 342.9 0)
 		(mirror x)
@@ -20645,110 +20784,6 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "backplane-rescue:D_Schottky_ALT-Device")
-		(at 229.87 208.28 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b7a8a20-d1af-4109-b283-3b95e5a5ea11")
-		(property "Reference" "D19"
-			(at 223.52 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMEG6010"
-			(at 226.06 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 229.87 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf"
-			(at 229.87 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 229.87 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "PMEG6010CEH,115"
-			(at 229.87 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 232.41 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMT"
-			(at 229.87 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2766f85-8366-4bde-b211-863c5f533c69")
-		)
-		(pin "2"
-			(uuid "f3be7fb0-a259-4026-a78e-c3dd588f90db")
-		)
-		(instances
-			(project "backplane"
-				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
-					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -21189,6 +21224,72 @@
 		)
 	)
 	(symbol
+		(lib_name "VD_1")
+		(lib_id "power:VD")
+		(at 245.11 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49703946-d964-4940-9fb2-49617076ad4b")
+		(property "Reference" "#PWR062"
+			(at 245.11 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FPGA_Vin"
+			(at 245.11 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VD\""
+			(at 245.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60f022f9-0740-4756-9a5a-30b8953edcc9")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+VDC")
 		(at 477.52 313.69 0)
 		(unit 1)
@@ -21314,72 +21415,6 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 229.87 292.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53b522bf-a6de-419a-bc20-07fe00a3f16d")
-		(property "Reference" "#PWR028"
-			(at 229.87 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.87 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77fd4f41-791d-4658-aaa5-addb38e006f9")
-		)
-		(instances
-			(project "backplane"
-				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -21747,7 +21782,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 205.74 0)
+		(at 237.49 219.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21756,7 +21791,7 @@
 		(dnp no)
 		(uuid "61970d7a-0e97-4faa-86c2-0877cfbbd1e3")
 		(property "Reference" "#PWR027"
-			(at 176.53 212.09 0)
+			(at 237.49 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21765,7 +21800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 209.55 0)
+			(at 237.49 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21773,7 +21808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 205.74 0)
+			(at 237.49 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21782,7 +21817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 205.74 0)
+			(at 237.49 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21791,7 +21826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 205.74 0)
+			(at 237.49 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22837,7 +22872,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 201.93 0)
+		(at 237.49 215.9 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22846,15 +22881,15 @@
 		(dnp no)
 		(uuid "8290c659-7dbc-46e6-a68b-f03ca555d1b6")
 		(property "Reference" "R82"
-			(at 180.34 200.66 0)
+			(at 233.68 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3.3K"
-			(at 176.53 201.93 90)
+		(property "Value" "20K"
+			(at 237.49 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22862,7 +22897,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 174.752 201.93 90)
+			(at 235.712 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22871,7 +22906,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 201.93 0)
+			(at 237.49 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22880,7 +22915,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 201.93 0)
+			(at 237.49 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22889,7 +22924,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer"
-			(at 176.53 201.93 0)
+			(at 237.49 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22897,8 +22932,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD3301F"
-			(at 176.53 201.93 0)
+		(property "Part Number" "RK73H2ATTD2002F"
+			(at 237.49 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22907,7 +22942,7 @@
 			)
 		)
 		(property "Notes" "Can substitute generic resistor with same package, value, 1% tolerance"
-			(at 176.53 201.93 0)
+			(at 237.49 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22916,7 +22951,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 176.53 201.93 0)
+			(at 237.49 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22934,6 +22969,230 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 242.57 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "841e89cf-0c17-4ce4-9c74-993c4101271e")
+		(property "Reference" "Q13"
+			(at 247.4214 210.9216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 247.4214 213.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 247.65 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 242.57 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Inc."
+			(at 242.57 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Alt." "Nexperia"
+			(at 242.57 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MMBT3904-7-F"
+			(at 242.57 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Alt." "MMBT3904,215"
+			(at 242.57 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 242.57 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5faa15eb-0670-4d6b-8927-ec9498300d2b")
+		)
+		(pin "2"
+			(uuid "2641f4e2-697b-470a-88f3-763f3c95a610")
+		)
+		(pin "3"
+			(uuid "caa6c9eb-e585-4411-bbc3-88008498208f")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 201.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8422687c-0315-4363-a4bc-63db8fbb57d7")
+		(property "Reference" "R90"
+			(at 233.68 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 237.49 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 235.712 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 237.49 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RK73H2ATTD2002F"
+			(at 237.49 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Can substitute generic resistor with same package, value, 1% tolerance"
+			(at 237.49 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 237.49 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5233487-1e24-421d-9834-1318ff471d4d")
+		)
+		(pin "2"
+			(uuid "abc6164a-5f03-4319-8de3-f74a9e3bf439")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -23128,7 +23387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "3.3K"
 			(at 245.11 189.23 90)
 			(effects
 				(font
@@ -23172,7 +23431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD2002F"
+		(property "Part Number" "RK73H2ATTD3301F"
 			(at 245.11 189.23 0)
 			(effects
 				(font
@@ -23400,71 +23659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VD")
-		(at 245.11 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94772564-17d9-4aea-b832-d1fcec8c0892")
-		(property "Reference" "#PWR024"
-			(at 245.11 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VD"
-			(at 245.11 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93561403-0147-471f-a959-7be03dc0e520")
-		)
-		(instances
-			(project "backplane"
-				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 116.84 388.62 0)
 		(mirror y)
@@ -23627,110 +23821,6 @@
 		)
 	)
 	(symbol
-		(lib_id "backplane-rescue:D_Schottky_ALT-Device")
-		(at 226.06 198.12 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f4e1b72-3778-493b-a946-cd7873ed823f")
-		(property "Reference" "D18"
-			(at 226.06 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMEG6010"
-			(at 223.52 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 226.06 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf"
-			(at 226.06 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 226.06 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "PMEG6010CEH,115"
-			(at 226.06 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 226.06 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMT"
-			(at 226.06 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0de2b25-a4ad-4697-ba43-562d7c6e4b1d")
-		)
-		(pin "2"
-			(uuid "70ce00c3-6f79-4c4f-9d50-1956b831eaa6")
-		)
-		(instances
-			(project "backplane"
-				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+VDC")
 		(at 477.52 337.82 0)
 		(unit 1)
@@ -23885,6 +23975,111 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 212.09 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a22425a1-a1d5-4d7b-a52a-47c58c82e710")
+		(property "Reference" "R13"
+			(at 231.14 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20K"
+			(at 233.68 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 233.68 213.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 233.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RK73H2ATTD2002F"
+			(at 233.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Can substitute generic resistor with same package, value, 1% tolerance"
+			(at 233.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 233.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74adc9d9-324c-491d-bad9-ea4a770e0646")
+		)
+		(pin "2"
+			(uuid "4bf538c3-7125-461d-8f70-548927c2c485")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -24052,8 +24247,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 229.87 186.69 0)
-		(mirror y)
+		(at 233.68 198.12 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24061,7 +24256,7 @@
 		(dnp no)
 		(uuid "a4e8c512-1a6b-40d2-95ed-051f34f47378")
 		(property "Reference" "R81"
-			(at 232.41 189.23 90)
+			(at 231.14 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24070,7 +24265,7 @@
 			)
 		)
 		(property "Value" "20K"
-			(at 229.87 186.69 90)
+			(at 233.68 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24078,7 +24273,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 231.648 186.69 90)
+			(at 233.68 199.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24087,7 +24282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 186.69 0)
+			(at 233.68 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24096,7 +24291,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 186.69 0)
+			(at 233.68 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24105,7 +24300,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer"
-			(at 229.87 186.69 0)
+			(at 233.68 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24114,7 +24309,7 @@
 			)
 		)
 		(property "Part Number" "RK73H2ATTD2002F"
-			(at 229.87 186.69 0)
+			(at 233.68 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24123,7 +24318,7 @@
 			)
 		)
 		(property "Notes" "Can substitute generic resistor with same package, value, 1% tolerance"
-			(at 229.87 186.69 0)
+			(at 233.68 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24132,7 +24327,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 229.87 186.69 0)
+			(at 233.68 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24540,6 +24735,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 207.01 201.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bba284b9-3a42-4c1d-b246-0d24e21a52a8")
+		(property "Reference" "R83"
+			(at 203.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 207.01 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 208.788 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 207.01 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RK73H2ATTD3301F"
+			(at 207.01 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Can substitute generic resistor with same package, value, 1% tolerance"
+			(at 207.01 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 207.01 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf2c0df6-0ad1-4691-a6ec-2a42961530d2")
+		)
+		(pin "2"
+			(uuid "cb616ba9-572b-40e8-94dd-b49582ba3f4e")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 261.62 375.92 180)
 		(unit 1)
@@ -24672,7 +24970,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 245.11 203.2 0)
+		(at 245.11 217.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24681,7 +24979,7 @@
 		(dnp no)
 		(uuid "bf83e7a3-ef05-4dc7-b680-a1e7885afc02")
 		(property "Reference" "#PWR023"
-			(at 245.11 209.55 0)
+			(at 245.11 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24690,7 +24988,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 244.983 207.5942 0)
+			(at 245.11 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24698,7 +24996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 203.2 0)
+			(at 245.11 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24707,7 +25005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 203.2 0)
+			(at 245.11 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24716,7 +25014,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 203.2 0)
+			(at 245.11 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24825,6 +25123,72 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 205.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4096a5d-5bb8-4877-ab6b-fcb0a6dc536c")
+		(property "Reference" "#PWR028"
+			(at 207.01 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4828e6f8-b93e-4e52-84e6-554a125de57b")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -25418,6 +25782,175 @@
 			(project "backplane"
 				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 205.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd2fb9b8-831a-46b6-bd44-1d5c3985a130")
+		(property "Reference" "#PWR025"
+			(at 237.49 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a0e2e25-cb99-41c6-bc65-412a57fccfbe")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddd88864-179d-4d5a-81ee-ff8d886bc24c")
+		(property "Reference" "R92"
+			(at 189.23 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 193.04 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 194.818 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 193.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RK73H2ATTD3301F"
+			(at 193.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Can substitute generic resistor with same package, value, 1% tolerance"
+			(at 193.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 193.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fe71051-21d4-4e18-9450-02a3152f1ed8")
+		)
+		(pin "2"
+			(uuid "5427ad86-ba00-4c22-b01f-04ca193d79d2")
+		)
+		(instances
+			(project "backplane"
+				(path "/4cff6540-dfbc-472e-b6ee-b480e176be3d"
+					(reference "R92")
 					(unit 1)
 				)
 			)

@@ -4008,7 +4008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4703F"
+		(property "MPN" "RK73H2ATTD4703F"
 			(at 133.35 96.52 0)
 			(effects
 				(font
@@ -4122,7 +4122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 148.59 160.02 0)
 			(effects
 				(font
@@ -4131,8 +4131,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 148.59 160.02 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 148.59 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 111.76 48.26 0)
 			(effects
 				(font
@@ -4254,8 +4254,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 111.76 48.26 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 111.76 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,15 +4462,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74LVC2G06GV,125"
-			(at 105.41 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 105.41 92.71 0)
 			(effects
@@ -4489,7 +4480,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "SN74LVC2G06DBVR / SN74LVC2G06DBVT, 74LVC2G06W6-7"
+		(property "MPN" "74LVC2G06GV,125"
+			(at 105.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "SN74LVC2G06DBVR / SN74LVC2G06DBVT, 74LVC2G06W6-7"
 			(at 105.41 92.71 0)
 			(effects
 				(font
@@ -4616,15 +4616,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74LVC2G17GV,125"
-			(at 156.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 156.21 92.71 0)
 			(effects
@@ -4643,7 +4634,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
+		(property "MPN" "74LVC2G17GV,125"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
 			(at 156.21 92.71 0)
 			(effects
 				(font
@@ -5049,15 +5049,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74LVC2G17GV,125"
-			(at 156.21 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 156.21 55.88 0)
 			(effects
@@ -5076,7 +5067,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
+		(property "MPN" "74LVC2G17GV,125"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "SN74LVC2G17DBVR / SN74LVC2G17DBVT, 74LVC2G17W6-7"
 			(at 156.21 55.88 0)
 			(effects
 				(font
@@ -5202,7 +5202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C105K4RACTU"
+		(property "Type" "SMT"
 			(at 161.29 48.26 0)
 			(effects
 				(font
@@ -5211,8 +5211,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMT"
-			(at 161.29 48.26 0)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 161.29 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,14 +5501,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 68.58 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Type" "Through-hole"
 			(at 68.58 153.67 0)
 			(effects
@@ -5728,7 +5720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTD4703F"
+		(property "MPN" "RK73H2ATTD4703F"
 			(at 133.35 59.69 0)
 			(effects
 				(font
@@ -5944,25 +5936,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74VHC02FT"
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "74LV02APWJ, SN74LVC02APWR / SN74LVC02APWT"
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74VHC02FT"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "74LV02APWJ, SN74LVC02APWR / SN74LVC02APWT"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -6120,25 +6112,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74VHC02FT"
-			(at 90.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "74LV02APWJ, SN74LVC02APWR / SN74LVC02APWT"
-			(at 90.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
+			(at 90.17 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74VHC02FT"
+			(at 90.17 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "74LV02APWJ, SN74LVC02APWR / SN74LVC02APWT"
 			(at 90.17 55.88 0)
 			(effects
 				(font
@@ -6296,25 +6288,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74VHC02FT"
-			(at 179.07 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "74LV02APWJ, SN74LVC02APWR / SN74LVC02APWT"
-			(at 179.07 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
+			(at 179.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74VHC02FT"
+			(at 179.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "74LV02APWJ, SN74LVC02APWR / SN74LVC02APWT"
 			(at 179.07 58.42 0)
 			(effects
 				(font
@@ -6472,25 +6464,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74VHC02FT"
-			(at 179.07 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "74LV02APWJ, SN74LVC02APWR / SN74LVC02APWT"
-			(at 179.07 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74VHC02FT"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "74LV02APWJ, SN74LVC02APWR / SN74LVC02APWT"
 			(at 179.07 95.25 0)
 			(effects
 				(font
@@ -6650,25 +6642,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74VHC02FT"
-			(at 143.51 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "74LV02APWJ, SN74LVC02APWR / SN74LVC02APWT"
-			(at 143.51 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
+			(at 143.51 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74VHC02FT"
+			(at 143.51 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "74LV02APWJ, SN74LVC02APWR / SN74LVC02APWT"
 			(at 143.51 177.8 0)
 			(effects
 				(font
@@ -6921,8 +6913,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
-			(at 193.04 58.42 0)
+		(property "MPN" "RK73H2ATTD1002F"
+			(at 193.04 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,8 +7037,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RK73H2ATTE1002F"
-			(at 193.04 95.25 0)
+		(property "MPN" "RK73H2ATTD1002F"
+			(at 193.04 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C104K5RACTU"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 198.12 62.23 0)
 			(effects
 				(font
@@ -7289,7 +7281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0603C104K5RACTU"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 198.12 99.06 0)
 			(effects
 				(font
@@ -7590,15 +7582,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "74LVC2G06GV,125"
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
 			(at 106.68 55.88 0)
 			(effects
@@ -7617,7 +7600,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Alt." "SN74LVC2G06DBVR / SN74LVC2G06DBVT, 74LVC2G06W6-7"
+		(property "MPN" "74LVC2G06GV,125"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "SN74LVC2G06DBVR / SN74LVC2G06DBVT, 74LVC2G06W6-7"
 			(at 106.68 55.88 0)
 			(effects
 				(font
@@ -7751,25 +7743,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BAS16J,115 / BAS16J,135"
-			(at 209.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
-			(at 209.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS16J,115 / BAS16J,135"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
 			(at 209.55 58.42 0)
 			(effects
 				(font
@@ -7891,25 +7883,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BAS16J,115 / BAS16J,135"
-			(at 209.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
-			(at 209.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
+			(at 209.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS16J,115 / BAS16J,135"
+			(at 209.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
 			(at 209.55 95.25 0)
 			(effects
 				(font
@@ -8106,14 +8098,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 68.58 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Type" "Through-hole"
@@ -8331,25 +8315,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BAS16J,115 / BAS16J,135"
-			(at 209.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
-			(at 209.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
+			(at 209.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS16J,115 / BAS16J,135"
+			(at 209.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
 			(at 209.55 33.02 0)
 			(effects
 				(font
@@ -8471,25 +8455,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BAS16J,115 / BAS16J,135"
-			(at 209.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
-			(at 209.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMT"
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS16J,115 / BAS16J,135"
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN Alt." "1N4448WSF-7 / 1N4448WSFQ-7, 1N4448WS"
 			(at 209.55 81.28 0)
 			(effects
 				(font

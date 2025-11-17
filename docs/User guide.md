@@ -36,4 +36,5 @@ After 3rd-party assembly of all SMT parts, the parts to add manually are...
 - ON Semi D44H11G **power transistor** _(1x)_
 - CTS 7-340-1PP-BA **heatsink for power transistor** _(1x)_
 - 0-ohm resistor or wire to short F1 fuse footprint
+- **0-ohm resistor to replace R13 (to avoid 3.3V problems: see bug #33)**
 See design files & BOM for component locations and details.
