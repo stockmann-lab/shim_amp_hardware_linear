@@ -9850,7 +9850,17 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "34a11d08-5c8a-464c-8b65-20e97ae93ddf")
+			(uuid "1a3077f4-ecf8-4ee5-b89b-e19f5c9389c0")
+		)
+		(fp_line
+			(start -0.225 1.975)
+			(end -0.575 1.975)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "049f1248-dcbf-4a41-b8e7-26c4f13f7b5c")
 		)
 		(fp_circle
 			(center 0 1.5)
@@ -9861,7 +9871,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "4c1ba01b-a7f2-4f3a-8d1c-aab5fb7cc4c2")
+			(uuid "720d9d1d-43aa-43fe-add1-23c4a382af96")
 		)
 		(fp_circle
 			(center 1.001683 2.254853)
@@ -9872,7 +9882,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "d52196bb-3eaf-4a42-8cf9-ad1e6b57dc5f")
+			(uuid "e6832727-083b-4ff2-84bb-385d00825dc4")
 		)
 		(fp_circle
 			(center -0.999516 2.254853)
@@ -9883,7 +9893,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "08c527eb-bb28-4cba-a24a-004b26a35c5f")
+			(uuid "52228fdf-d11f-4ebb-a413-94cd62b478e5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 5.5 90)
@@ -15009,10 +15019,46 @@
 		(layer "Edge.Cuts")
 		(uuid "fe24eb3b-6a51-4f4d-9af9-de8acaf9b723")
 	)
+	(gr_text "Trigger\nIn"
+		(at 60 144 0)
+		(layer "F.SilkS")
+		(uuid "330c18c2-d340-46d3-9040-301c8e4d5157")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "2.1x5.5mm\n9V"
+		(at 67 49 0)
+		(layer "F.SilkS")
+		(uuid "4ac1904f-517d-44d8-936b-ae50fc5a540d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "Enable\nOut"
 		(at 152.2 64.5 0)
 		(layer "F.SilkS")
 		(uuid "948f8894-4a2a-4598-9eeb-570c1488be8a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "Clock\nIn\n"
+		(at 60 84 0)
+		(layer "F.SilkS")
+		(uuid "98fb0666-7d6f-4912-be88-05ddaef28902")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -18588,9 +18634,11 @@
 	)
 	(group ""
 		(uuid "be85f9bd-cfb7-4262-ab69-2d45178b80a3")
-		(members "462b457e-6405-4e14-b1d3-06a891a581de" "78cb7611-1a67-4fdc-b7c8-a2074ca4b056"
+		(members "330c18c2-d340-46d3-9040-301c8e4d5157" "462b457e-6405-4e14-b1d3-06a891a581de"
+			"4ac1904f-517d-44d8-936b-ae50fc5a540d" "78cb7611-1a67-4fdc-b7c8-a2074ca4b056"
 			"89eed348-e99f-434b-a4a7-9268c5d69a36" "948f8894-4a2a-4598-9eeb-570c1488be8a"
-			"e014415c-c803-4f65-84e5-522754b20bce" "f3a178c4-98d2-4d0c-8edb-dfd8b7053ac0"
+			"98fb0666-7d6f-4912-be88-05ddaef28902" "e014415c-c803-4f65-84e5-522754b20bce"
+			"f3a178c4-98d2-4d0c-8edb-dfd8b7053ac0"
 		)
 	)
 	(embedded_fonts no)
