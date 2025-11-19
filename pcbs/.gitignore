@@ -26,4 +26,7 @@ fp-info-cache
 # Local settings files
 *.kicad_prl
 # Exported manufacturing files
-manufacturing/
+manufacturing/*
+# 3D files
+*.step
+*.STEP
