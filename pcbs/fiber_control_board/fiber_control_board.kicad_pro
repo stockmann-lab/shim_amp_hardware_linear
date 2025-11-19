@@ -519,7 +519,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../maunfacturing/fiber_control_board/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "fiber_control_board.step",
