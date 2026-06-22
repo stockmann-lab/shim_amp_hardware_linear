@@ -1,4 +1,5 @@
 # MGH open-source shim amplifier repo. 
+[![DOI](https://zenodo.org/badge/587958969.svg)](https://doi.org/10.5281/zenodo.20802309)
 
 This repo contains files related to the MGH "Revision D" linear amplifier development (and associated projects).  The shim amplifiers are designed to drive stable currents (up to 4A/channel or more if channels are ganged together in parallel) in shim coils and other inductive loads used for MRI research experiments.  The amplifiers are designed to operate inside the MRI shielded room without causing image degradation due to RF interference.
 
