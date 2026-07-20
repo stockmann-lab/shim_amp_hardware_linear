@@ -15019,7 +15019,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fe24eb3b-6a51-4f4d-9af9-de8acaf9b723")
 	)
-	(gr_text "Trigger\nIn"
+	(gr_text "Clock\nIn"
 		(at 60 144 0)
 		(layer "F.SilkS")
 		(uuid "330c18c2-d340-46d3-9040-301c8e4d5157")
@@ -15055,7 +15055,7 @@
 			)
 		)
 	)
-	(gr_text "Clock\nIn\n"
+	(gr_text "Trigger\nIn\n"
 		(at 60 84 0)
 		(layer "F.SilkS")
 		(uuid "98fb0666-7d6f-4912-be88-05ddaef28902")
