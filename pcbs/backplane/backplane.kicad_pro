@@ -858,8 +858,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Manufacturer"
+      "sort_asc": true,
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -920,7 +920,7 @@
         "uuid": "4cff6540-dfbc-472e-b6ee-b480e176be3d"
       }
     ],
-    "used_designators": "TP27",
+    "used_designators": "TP27,U7,U9,U11,U30-31,D18-19,D22-23,#PWR438,#PWR466-481,#PWR586-612,R60-61,R84-89,C64,C76-79,C120-131",
     "variants": []
   },
   "sheets": [
@@ -934,19 +934,11 @@
     ],
     [
       "00000000-0000-0000-0000-0000657a93e5",
-      "Activity Indicator (10 Mhz)"
-    ],
-    [
-      "00000000-0000-0000-0000-000065824fbc",
-      "Activity Indicator (Trigger)"
-    ],
-    [
-      "00000000-0000-0000-0000-0000658858e8",
-      "Activitiy Indicator (Rx)"
+      "Activity Indicator (Trigger & 10 Mhz)"
     ],
     [
       "00000000-0000-0000-0000-0000658bbc8a",
-      "Activity Indicator (Tx)"
+      "Activity Indicator (Tx & Rx)"
     ],
     [
       "00000000-0000-0000-0000-00005f1ee734",
