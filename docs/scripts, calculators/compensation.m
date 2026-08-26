@@ -11,8 +11,8 @@
 pkg load control
 
 % load parameters (user-dependent)
-Rload = 1.5; %10; % total shim coil + cable resistance (ohms)
-Lload = 8E-6; %723E-6; % total shim coil + cable inductance (H)
+Rload = 0.92; % total shim coil + cable resistance (ohms)
+Lload = 9.92E-6; % total shim coil + cable inductance (H)
 
 % low-pass filter (LPF) parameters, for simulating setpoint (SP) step response with reduced slew rate
 Rsplpf = 20E3; % series resistance (ohms)
@@ -167,6 +167,28 @@ line(plot_freq_limits, [0 0]);
 line(plot_freq_limits, [phase_margin phase_margin]);
 line([fc fc], ylim());
 line([fzerophase fzerophase], ylim());
+
+% calculate closed-loop response at specific frequencies for plotting
+plot_freq_limits = [100 10^ceil(log10(fzerophase))];	% lower freq. limit is fixed 100 Hz, upper limit is the next power of 10 above the zero-phase (gain-margin point)
+plot_freq_points = logspace(log10(plot_freq_limits(1)), log10(plot_freq_limits(2)), 200);
+H = shiftdim(freqresp(CL_sys, 2*pi*plot_freq_points));
+plot_amp_points = mag2db(abs(H));
+plot_phase_points = rad2deg(unwrap(angle(H)));
+% freq response gain plot
+figure
+subplot(2,1,1);
+semilogx(plot_freq_points, plot_amp_points)
+title("Frequency Response Gain");
+xlabel("Frequency (Hz)");
+ylabel("Gain (dB)");
+grid on
+% freq response phase plot
+subplot(2,1,2);
+semilogx(plot_freq_points, plot_phase_points)
+title("Frequency Response Phase");
+xlabel("Frequency (Hz)");
+ylabel("Phase (degrees)");
+grid on
 
 % calculate and plot step response, without then with an optional low-pass filter
 figure

@@ -9208,6 +9208,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 78.74) (xy 271.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6b7553-255d-4786-8d09-4e04bfc083b3")
+	)
+	(wire
+		(pts
 			(xy 71.12 149.86) (xy 80.01 149.86)
 		)
 		(stroke
@@ -9418,7 +9428,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 68.58) (xy 255.27 68.58)
+			(xy 271.78 68.58) (xy 264.16 68.58)
 		)
 		(stroke
 			(width 0)
@@ -11188,7 +11198,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 71.12) (xy 255.27 71.12)
+			(xy 271.78 71.12) (xy 264.16 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11205,16 +11215,6 @@
 			(type default)
 		)
 		(uuid "cc7d03b3-0874-4342-b1ce-ae1faacdf9c2")
-	)
-	(wire
-		(pts
-			(xy 271.78 78.74) (xy 255.27 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc93b55a-a948-4d5b-a19a-870620a632a7")
 	)
 	(wire
 		(pts
@@ -11375,16 +11375,6 @@
 			(type default)
 		)
 		(uuid "d89438f3-16ab-4908-8015-d6d11fb74596")
-	)
-	(wire
-		(pts
-			(xy 271.78 76.2) (xy 255.27 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8fd2fff-302b-4cda-81f8-5878d9b02238")
 	)
 	(wire
 		(pts
@@ -11845,6 +11835,16 @@
 			(type default)
 		)
 		(uuid "f308c9a3-e4ce-462a-a22a-441a9bef0f3b")
+	)
+	(wire
+		(pts
+			(xy 264.16 76.2) (xy 271.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31ccb89-4359-476b-8809-8c6e2cff156f")
 	)
 	(wire
 		(pts
@@ -13469,6 +13469,17 @@
 		)
 		(uuid "14ea23e5-2623-4b48-94a8-1d41fa52fbc1")
 	)
+	(hierarchical_label "Eth_Tx"
+		(shape output)
+		(at 264.16 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16622891-b978-4c38-b7ba-4f4d0c2e3f1f")
+	)
 	(hierarchical_label "SCK[0..7]"
 		(shape output)
 		(at 226.06 236.22 0)
@@ -13556,6 +13567,28 @@
 			(justify left)
 		)
 		(uuid "9afffe8b-99c2-449e-8288-10d360b8715a")
+	)
+	(hierarchical_label "Eth_Rx"
+		(shape input)
+		(at 264.16 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2eb03a6-acef-4cb4-b9a8-2cc8db1beaee")
+	)
+	(hierarchical_label "Eth_SD"
+		(shape input)
+		(at 264.16 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b295aca3-0ae7-428a-878b-2f61e1ace924")
 	)
 	(hierarchical_label "SCL[0..7]"
 		(shape output)

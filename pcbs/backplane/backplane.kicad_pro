@@ -758,7 +758,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -836,7 +836,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "MPN",
           "name": "MPN",
           "show": true
@@ -920,7 +920,7 @@
         "uuid": "4cff6540-dfbc-472e-b6ee-b480e176be3d"
       }
     ],
-    "used_designators": "TP27,U7,U9,U11,U30-31,D18-19,D22-23,#PWR438,#PWR466-481,#PWR586-612,R60-61,R84-89,C64,C76-79,C120-131",
+    "used_designators": "U11,U32,#PWR119,#PWR122,#PWR178,#PWR181-183,#PWR185,#PWR200-201,#PWR222,#PWR240-245,#PWR247-248,#PWR472,#PWR475-476,#PWR479-480,#PWR587-588,C25,C27,C29-30,C36-37,C65,C77-78,C121-122,C125,R12,R48-49,R51-57,R85-86,JP34,JP56,TP28,TP31-32",
     "variants": []
   },
   "sheets": [

@@ -4709,6 +4709,17 @@
 		)
 		(uuid "37c196c2-e55d-4f59-a893-f21064bb52fe")
 	)
+	(text "17 mA max."
+		(exclude_from_sim no)
+		(at 219.71 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "574d29de-d466-43b4-83f3-741bcf521874")
+	)
 	(text "S"
 		(exclude_from_sim no)
 		(at 340.36 39.37 0)
@@ -4742,6 +4753,17 @@
 			)
 		)
 		(uuid "7cb492de-25f3-4702-ae3d-ff12064fecb3")
+	)
+	(text "15 mA max."
+		(exclude_from_sim no)
+		(at 82.55 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ea286fe-faad-4269-9d1c-4e3ced5d4e39")
 	)
 	(text "SCK_LB polarity inverted by default"
 		(exclude_from_sim no)
@@ -4777,6 +4799,17 @@
 			(justify right bottom)
 		)
 		(uuid "b0df521c-778e-461b-b983-26fe811ba62c")
+	)
+	(text "17 mA max."
+		(exclude_from_sim no)
+		(at 218.44 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4b28a72-b51f-4784-a0a3-e141aa0655c0")
 	)
 	(text "A"
 		(exclude_from_sim no)
@@ -4847,6 +4880,17 @@
 			(justify right bottom)
 		)
 		(uuid "f05a37a5-ba00-4e66-9620-9890b0e0cdbc")
+	)
+	(text "17 mA max."
+		(exclude_from_sim no)
+		(at 218.44 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe5fa7b1-4f5e-455d-980b-1f45bb4c3fa0")
 	)
 	(text_box "Shutdown_Force:\n- Latches power stages off, even after released (low)\n- Temporarily resets DAC & ADC on amp control board, when high\n\nThis allows the DAC in particular to be reset, and brought back to normal operation, before the power amplifiers are enabled with Shutdown_Reset"
 		(exclude_from_sim no)
