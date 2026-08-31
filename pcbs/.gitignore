@@ -8,6 +8,8 @@
 *.sch-bak
 *-backups
 *~
+*.lck
+~*
 _autosave-*
 *.tmp
 *.log
