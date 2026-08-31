@@ -4,8 +4,9 @@
 *.000
 *.bak
 *.bck
+*.lck
 *.kicad_pcb-bak
-*.sch-bak
+*.kicad_sch-bak
 *-backups
 *~
 *.lck
@@ -13,7 +14,7 @@
 _autosave-*
 *.tmp
 *.log
-*-save.pro
+*-save.kicad_pro
 *-save.kicad_pcb
 fp-info-cache
 # Netlist files (exported from Eeschema)
@@ -27,4 +28,7 @@ fp-info-cache
 # Local settings files
 *.kicad_prl
 # Exported manufacturing files
-manufacturing/
+**/manufacturing/*
+# 3D files
+*.step
+*.STEP

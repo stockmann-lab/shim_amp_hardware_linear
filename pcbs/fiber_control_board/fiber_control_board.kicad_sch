@@ -1,0 +1,574 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2326f977-7768-44b7-b225-a4541f6ca25d")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 111.76 111.76) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043e73ba-d47b-48ef-bea6-3f2944de66fb")
+	)
+	(wire
+		(pts
+			(xy 111.76 120.65) (xy 129.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e07f3b-a628-4eef-ad3c-241fc997da5c")
+	)
+	(wire
+		(pts
+			(xy 128.27 93.98) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b88f84c-e306-47e1-a450-1014ec2323df")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370d5e55-2fd5-4eac-91ef-c11591f6d5b5")
+	)
+	(wire
+		(pts
+			(xy 111.76 80.01) (xy 128.27 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfa0401-4404-42b2-86f5-9a90b4680893")
+	)
+	(wire
+		(pts
+			(xy 128.27 111.76) (xy 128.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1e42a2-bf86-407d-ae49-0997565b0bef")
+	)
+	(wire
+		(pts
+			(xy 111.76 107.95) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df05cb2-bd9a-43f5-a623-bb5efe7b630e")
+	)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 125.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fa0488-48af-496c-909f-dcf585f92fc2")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f25a7c-d143-46b0-9597-37e43121e33c")
+	)
+	(wire
+		(pts
+			(xy 127 96.52) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b308e1-1387-4d73-bcc2-179d01281521")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a513b29d-2671-4095-9bb8-bf9ab859f667")
+	)
+	(wire
+		(pts
+			(xy 125.73 99.06) (xy 133.35 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74f6c05-052b-4929-941d-3d7324b1fc94")
+	)
+	(wire
+		(pts
+			(xy 129.54 120.65) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a834c05f-f171-4c6b-afe7-5e50e805d571")
+	)
+	(wire
+		(pts
+			(xy 125.73 92.71) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3831175-5a83-4fa1-9101-5eff0897ee54")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 129.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c112d55c-2b4a-4510-b208-0eedf426b716")
+	)
+	(wire
+		(pts
+			(xy 127 83.82) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ad57cd-16cd-4218-9ab7-1c1b6508d7fb")
+	)
+	(wire
+		(pts
+			(xy 129.54 106.68) (xy 133.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d91f69-3f2b-437c-8d90-5e2288a208a6")
+	)
+	(wire
+		(pts
+			(xy 129.54 54.61) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3f6fef-cf36-49bc-9655-e7b0c3ae9086")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4336ede-f815-43a2-b0c1-1396f6f44984")
+	)
+	(wire
+		(pts
+			(xy 128.27 104.14) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea32e751-fb90-4cc9-8840-63db8e13be08")
+	)
+	(wire
+		(pts
+			(xy 128.27 80.01) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7890581-e3ca-4927-9618-ac70afdebe75")
+	)
+	(sheet
+		(at 80.01 74.93)
+		(size 31.75 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f09b301-e5be-4619-be60-309283ea6cc6")
+		(property "Sheetname" "Trigger"
+			(at 80.01 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "trigger.kicad_sch"
+			(at 80.01 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Trig_BNC_LED" output
+			(at 111.76 80.01 0)
+			(uuid "d9936002-279c-4d2b-afd9-edab231492f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trig_LED" output
+			(at 111.76 92.71 0)
+			(uuid "92d85bc0-18e9-4473-8425-9126c01fae4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trig_Opt_LED" output
+			(at 111.76 83.82 0)
+			(uuid "7a401312-de7c-4e0d-8e71-49eb72d0f786")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fiber_control_board"
+				(path "/2326f977-7768-44b7-b225-a4541f6ca25d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 88.9)
+		(size 31.75 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b8a9015-0318-42bf-a526-612fb4daed09")
+		(property "Sheetname" "LEDs"
+			(at 133.35 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 133.35 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_LED" input
+			(at 133.35 91.44 180)
+			(uuid "bd727a0a-7a2e-4335-b83f-93cbb1955bc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Clk_BNC_LED" input
+			(at 133.35 101.6 180)
+			(uuid "2d945a5a-0271-42f5-af2f-adb26f83d84e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Clk_LED" input
+			(at 133.35 106.68 180)
+			(uuid "956b74f4-8aa9-4266-bbdd-2efb9c8163eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Clk_Opt_LED" input
+			(at 133.35 104.14 180)
+			(uuid "cfb0cb5c-48de-4794-ae84-54f74b83a5f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Trig_BNC_LED" input
+			(at 133.35 93.98 180)
+			(uuid "e29d8072-5483-4eeb-97a2-a3b7a36e1a0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Trig_LED" input
+			(at 133.35 99.06 180)
+			(uuid "0419ac2f-d549-4a7b-8cb1-aa4e011f23d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Trig_Opt_LED" input
+			(at 133.35 96.52 180)
+			(uuid "8f48e2ad-8239-458f-88b7-b8b1ff58191f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "fiber_control_board"
+				(path "/2326f977-7768-44b7-b225-a4541f6ca25d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 130.81)
+		(size 31.75 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79a2591d-e74b-4f2f-a10b-a1517e3072ac")
+		(property "Sheetname" "Enable"
+			(at 80.01 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "enable.kicad_sch"
+			(at 80.01 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fiber_control_board"
+				(path "/2326f977-7768-44b7-b225-a4541f6ca25d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 102.87)
+		(size 31.75 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cae4d7c2-11bc-4cc4-97c6-99b610208b35")
+		(property "Sheetname" "Clock"
+			(at 80.01 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clock.kicad_sch"
+			(at 80.01 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Clk_BNC_LED" output
+			(at 111.76 107.95 0)
+			(uuid "a43eadb3-bc42-438a-ba57-51598ce826f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Clk_LED" output
+			(at 111.76 120.65 0)
+			(uuid "8db735c2-4293-4fc2-8848-ab8d9e5e7ca1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Clk_Opt_LED" output
+			(at 111.76 111.76 0)
+			(uuid "89a0543e-c1d3-4cb6-9c77-51c0e43c0b0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fiber_control_board"
+				(path "/2326f977-7768-44b7-b225-a4541f6ca25d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 45.72)
+		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd521fc1-4a8e-4230-8698-8731c66c39aa")
+		(property "Sheetname" "Power"
+			(at 80.01 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 80.01 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_LED" output
+			(at 111.76 54.61 0)
+			(uuid "0a2b1bbd-4a88-4122-88e0-2a0749806bac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fiber_control_board"
+				(path "/2326f977-7768-44b7-b225-a4541f6ca25d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
