@@ -2242,17 +2242,6 @@
 		)
 		(uuid "6154e9d5-2021-4349-b46a-06910565d9f9")
 	)
-	(text "Used as jumper in layout"
-		(exclude_from_sim no)
-		(at 208.28 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8add54a8-b306-4955-839c-0cb21a6ff12f")
-	)
 	(text "Each ceramic:\n9.4uF @ 10V = 18.6uF total\n5.2uF @ 30V = 10.4uF total"
 		(exclude_from_sim no)
 		(at 247.65 55.88 0)
@@ -2776,7 +2765,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 100.33) (xy 269.24 110.49)
+			(xy 269.24 78.74) (xy 269.24 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2946,7 +2935,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 95.25) (xy 209.55 95.25)
+			(xy 209.55 95.25) (xy 236.22 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3156,16 +3145,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 100.33) (xy 262.89 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e7b643e-db84-4494-a921-dbab6b7aa34c")
-	)
-	(wire
-		(pts
 			(xy 220.98 220.98) (xy 220.98 210.82)
 		)
 		(stroke
@@ -3216,7 +3195,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 92.71) (xy 262.89 83.82)
+			(xy 262.89 83.82) (xy 262.89 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3293,16 +3272,6 @@
 			(type default)
 		)
 		(uuid "b4211f55-3c52-4c76-ad80-c36518422226")
-	)
-	(wire
-		(pts
-			(xy 236.22 95.25) (xy 227.33 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b55c9386-a430-4509-9869-f466769f6826")
 	)
 	(wire
 		(pts
@@ -3563,16 +3532,6 @@
 			(type default)
 		)
 		(uuid "f0b6a1a1-8ae0-41bb-bd2e-76027959101d")
-	)
-	(wire
-		(pts
-			(xy 269.24 92.71) (xy 269.24 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1afbd7e-2cea-4a8e-a386-e213e9f404e4")
 	)
 	(wire
 		(pts
@@ -7121,145 +7080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 223.52 95.25 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f425c9d")
-		(property "Reference" "R4"
-			(at 223.52 89.9922 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 223.52 92.3036 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 223.52 93.472 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "SMT"
-			(at 223.52 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 223.52 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CRCW12060000Z0EBC"
-			(at 223.52 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9c28596-0be9-406e-bc7f-aada87e52654")
-		)
-		(pin "2"
-			(uuid "b4ae19ed-5b53-4b5e-9e77-8b962cbf6b98")
-		)
-		(instances
-			(project "amp pwr"
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f3e42a6"
-					(reference "R4")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f5ed"
-					(reference "R14")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f634"
-					(reference "R24")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f664"
-					(reference "R34")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f6a4"
-					(reference "R44")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f6db"
-					(reference "R54")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f6f0"
-					(reference "R64")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f721"
-					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 238.76 96.52 0)
 		(unit 1)
@@ -9695,288 +9515,6 @@
 				)
 				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f721"
 					(reference "C95")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 262.89 96.52 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f425d21")
-		(property "Reference" "R9"
-			(at 264.668 95.3516 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 264.668 97.663 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 264.668 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "SMT"
-			(at 262.89 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 262.89 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CRCW06030000Z0EC"
-			(at 262.89 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eabd2791-6695-48e3-8339-98e36dcbe876")
-		)
-		(pin "2"
-			(uuid "c972561c-d326-4b4d-8db5-4ac2574f02e1")
-		)
-		(instances
-			(project "amp pwr"
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f3e42a6"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f5ed"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f634"
-					(reference "R29")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f664"
-					(reference "R39")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f6a4"
-					(reference "R49")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f6db"
-					(reference "R59")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f6f0"
-					(reference "R69")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f721"
-					(reference "R79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 269.24 96.52 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f425d27")
-		(property "Reference" "R10"
-			(at 271.018 95.3516 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 271.018 97.663 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 271.018 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "SMT"
-			(at 269.24 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 269.24 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CRCW06030000Z0EC"
-			(at 269.24 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10133895-835f-4815-a131-8f99a9b49a97")
-		)
-		(pin "2"
-			(uuid "1937df15-9cf1-414e-a6d3-2aa35a748ef3")
-		)
-		(instances
-			(project "amp pwr"
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f3e42a6"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f5ed"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f634"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f664"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f6a4"
-					(reference "R50")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f6db"
-					(reference "R60")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f6f0"
-					(reference "R70")
-					(unit 1)
-				)
-				(path "/154f9ec2-fa25-46ca-8342-fe8642bad0e8/00000000-0000-0000-0000-00005f42f721"
-					(reference "R80")
 					(unit 1)
 				)
 			)
