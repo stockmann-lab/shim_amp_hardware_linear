@@ -18253,7 +18253,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00006029848c")
 		(property "Sheetname" "Channel 1"
@@ -18409,7 +18409,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-000060909f92")
 		(property "Sheetname" "Digital Communications"
@@ -18625,7 +18625,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-0000609654e7")
 		(property "Sheetname" "Digital Controls"
@@ -18951,7 +18951,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-000061373c09")
 		(property "Sheetname" "Channel 2"
@@ -19107,7 +19107,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-000061374dc8")
 		(property "Sheetname" "Channel 3"
@@ -19263,7 +19263,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-000061375c79")
 		(property "Sheetname" "Channel 4"
@@ -19419,7 +19419,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-000061376894")
 		(property "Sheetname" "Channel 5"
@@ -19575,7 +19575,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-000061377127")
 		(property "Sheetname" "Channel 6"
@@ -19731,7 +19731,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-000061377c56")
 		(property "Sheetname" "Channel 7"
@@ -19887,7 +19887,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00006137853a")
 		(property "Sheetname" "Channel 8"
@@ -20043,7 +20043,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-0000614c90a0")
 		(property "Sheetname" "Left Temp. Sensor"
@@ -20129,7 +20129,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00006152de65")
 		(property "Sheetname" "Mid. Temp. Sensor"
@@ -20215,7 +20215,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00006153fab1")
 		(property "Sheetname" "Right Temp. Sensor"
