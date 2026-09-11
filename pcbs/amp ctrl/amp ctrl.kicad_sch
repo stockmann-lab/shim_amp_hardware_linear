@@ -4404,7 +4404,7 @@
 	)
 	(text "Optional channel paralleling:\nSEE DESIGN NOTES"
 		(exclude_from_sim no)
-		(at 254 43.18 0)
+		(at 265.43 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4595,7 +4595,7 @@
 		(uuid "003aaecc-750e-409c-ac2e-67a080e593cb")
 	)
 	(junction
-		(at 262.89 186.69)
+		(at 274.32 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04d7d724-3acb-49b9-8a13-f66e514f6893")
@@ -4625,6 +4625,12 @@
 		(uuid "0f31275d-77b3-4cd2-9969-69d118948432")
 	)
 	(junction
+		(at 257.81 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "168a7fc7-ffca-4b26-a29f-ebfb7967f4da")
+	)
+	(junction
 		(at 323.85 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4643,7 +4649,7 @@
 		(uuid "21977a50-b2d3-4f3b-936c-d1f08d13f371")
 	)
 	(junction
-		(at 262.89 214.63)
+		(at 274.32 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "226c605f-6e62-4a2c-8dfe-6103e3edc890")
@@ -4667,6 +4673,12 @@
 		(uuid "2f730590-2be9-48ad-a8ed-abce659cc1e0")
 	)
 	(junction
+		(at 257.81 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30236df2-72cf-4ee6-9cbb-e0d2890feba7")
+	)
+	(junction
 		(at 341.63 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4679,7 +4691,13 @@
 		(uuid "39f438ac-f0e7-46ad-8d1d-5742033ecb21")
 	)
 	(junction
-		(at 256.54 133.35)
+		(at 255.27 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cd33637-056e-4667-81bb-b0442be9b0de")
+	)
+	(junction
+		(at 267.97 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3eff058d-f579-4210-b7ea-527490eebcdd")
@@ -4691,7 +4709,7 @@
 		(uuid "4083ce0f-38bb-4181-b958-b01d82228d56")
 	)
 	(junction
-		(at 262.89 102.87)
+		(at 274.32 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b72155a-6db1-4433-bd36-2876511861e6")
@@ -4721,7 +4739,7 @@
 		(uuid "59404a3d-bfba-4046-8ba3-3ccf9c50fb69")
 	)
 	(junction
-		(at 262.89 130.81)
+		(at 274.32 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59820b3a-8674-449f-9e3b-807f74d4cbb2")
@@ -4763,6 +4781,12 @@
 		(uuid "7234677d-0975-4366-91e0-7fc2c3b6073d")
 	)
 	(junction
+		(at 257.81 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "783e5215-71b6-4fe0-9472-f45bfb30f859")
+	)
+	(junction
 		(at 323.85 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4775,7 +4799,7 @@
 		(uuid "7ed52bf8-34d5-4cd8-b0e9-6969fea097bd")
 	)
 	(junction
-		(at 256.54 189.23)
+		(at 267.97 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "894d0032-66d3-4abc-8df0-a7e18ba82f27")
@@ -4787,13 +4811,25 @@
 		(uuid "8a9ff8a8-913f-4053-8a8d-b98b4b79bb53")
 	)
 	(junction
-		(at 262.89 158.75)
+		(at 274.32 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ea2b1e9-8f6e-4521-bfd5-00d2478f1db2")
 	)
 	(junction
-		(at 256.54 77.47)
+		(at 255.27 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9523b02a-a660-4cdb-bb1d-5bcc4865caa1")
+	)
+	(junction
+		(at 255.27 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95efd5b2-9735-46af-bd7d-431f50c0e211")
+	)
+	(junction
+		(at 267.97 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9927ca1c-1124-4813-8567-2f434054a261")
@@ -4805,10 +4841,28 @@
 		(uuid "9b0448e9-b157-4833-9d73-e3dbd98c84eb")
 	)
 	(junction
+		(at 255.27 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c5d93ce-40fa-4a0d-9694-39803bf051b8")
+	)
+	(junction
 		(at 323.85 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e406533-eead-495f-b292-9ba8b7bc053a")
+	)
+	(junction
+		(at 255.27 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e7011f6-43a7-42e2-b999-06b9c1461439")
+	)
+	(junction
+		(at 257.81 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eabc219-b38b-4e33-97d6-8b8f3a5f4359")
 	)
 	(junction
 		(at 383.54 60.96)
@@ -4823,13 +4877,19 @@
 		(uuid "ae78ef41-40d8-49e9-9726-3f314d248739")
 	)
 	(junction
+		(at 257.81 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1363485-a987-42ef-a2bb-60ba934c38fd")
+	)
+	(junction
 		(at 142.24 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b14648f0-4b87-4721-bacb-3638d5913a6e")
 	)
 	(junction
-		(at 256.54 161.29)
+		(at 267.97 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1ec6f00-3f45-49d2-9017-423054e8be75")
@@ -4847,7 +4907,7 @@
 		(uuid "b6ee620e-106f-4a11-831b-1520737aa378")
 	)
 	(junction
-		(at 262.89 74.93)
+		(at 274.32 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bca02d4a-e42d-4ab3-ae65-e09016f4e748")
@@ -4859,7 +4919,7 @@
 		(uuid "bd614774-6f01-4820-ae91-c963ed5369c2")
 	)
 	(junction
-		(at 256.54 217.17)
+		(at 267.97 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c37432e6-a456-4a19-97fb-a981a6e700fa")
@@ -4869,6 +4929,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4d660ab-c7ee-4331-8bfb-1f19ca719a10")
+	)
+	(junction
+		(at 255.27 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c58b21cb-aa9e-4f94-be00-85a4a42eb17d")
 	)
 	(junction
 		(at 323.85 151.13)
@@ -4883,7 +4949,7 @@
 		(uuid "cbcf4b7f-f93d-458b-b7d2-ccf3350d6fea")
 	)
 	(junction
-		(at 256.54 105.41)
+		(at 267.97 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc9c518c-b3e2-40e4-b528-fe9a3c48f224")
@@ -4955,6 +5021,12 @@
 		(uuid "f93b558f-852f-44b8-8440-ccf67961ed1b")
 	)
 	(junction
+		(at 257.81 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb280629-d86c-4eec-893b-fe925057e2ea")
+	)
+	(junction
 		(at 54.61 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5010,7 +5082,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 144.78) (xy 262.89 158.75)
+			(xy 274.32 144.78) (xy 274.32 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5040,7 +5112,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 139.7) (xy 256.54 133.35)
+			(xy 267.97 139.7) (xy 267.97 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5060,7 +5132,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 245.11) (xy 256.54 245.11)
+			(xy 247.65 245.11) (xy 267.97 245.11)
 		)
 		(stroke
 			(width 0)
@@ -5130,7 +5202,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 217.17) (xy 256.54 217.17)
+			(xy 247.65 217.17) (xy 267.97 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5150,7 +5222,17 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 172.72) (xy 262.89 186.69)
+			(xy 255.27 238.76) (xy 255.27 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edaa7eb-73cc-40f2-b4bc-bdf5a2ca7a84")
+	)
+	(wire
+		(pts
+			(xy 274.32 172.72) (xy 274.32 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5160,7 +5242,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 167.64) (xy 262.89 158.75)
+			(xy 274.32 167.64) (xy 274.32 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5180,6 +5262,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 199.39) (xy 257.81 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1331154a-6277-45a7-84fb-83372bcd5d94")
+	)
+	(wire
+		(pts
 			(xy 220.98 146.05) (xy 203.2 146.05)
 		)
 		(stroke
@@ -5187,6 +5279,26 @@
 			(type default)
 		)
 		(uuid "137459f4-47a8-49e9-b8fa-c56ed2db899f")
+	)
+	(wire
+		(pts
+			(xy 257.81 107.95) (xy 257.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ca0b10-3a26-4d9f-a475-a80e29ee5a73")
+	)
+	(wire
+		(pts
+			(xy 247.65 54.61) (xy 255.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14852383-1031-495d-b424-6d5fa426a898")
 	)
 	(wire
 		(pts
@@ -5230,7 +5342,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 130.81) (xy 262.89 130.81)
+			(xy 247.65 130.81) (xy 274.32 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5410,6 +5522,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 219.71) (xy 257.81 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a31ac4-e829-49fd-bed9-7abf54d9a84c")
+	)
+	(wire
+		(pts
 			(xy 220.98 90.17) (xy 203.2 90.17)
 		)
 		(stroke
@@ -5430,7 +5552,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 242.57) (xy 262.89 242.57)
+			(xy 247.65 242.57) (xy 274.32 242.57)
 		)
 		(stroke
 			(width 0)
@@ -5440,7 +5562,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 111.76) (xy 262.89 102.87)
+			(xy 274.32 111.76) (xy 274.32 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5457,6 +5579,16 @@
 			(type default)
 		)
 		(uuid "2768a0ae-9d08-446b-9a22-412f59afd2d1")
+	)
+	(wire
+		(pts
+			(xy 255.27 227.33) (xy 255.27 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279eedf5-ba37-4efc-af63-4ce93d089a1f")
 	)
 	(wire
 		(pts
@@ -5500,6 +5632,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 80.01) (xy 247.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1c5729-27a4-490c-8c9c-e0e44093bb62")
+	)
+	(wire
+		(pts
 			(xy 162.56 114.3) (xy 138.43 114.3)
 		)
 		(stroke
@@ -5510,7 +5652,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 186.69) (xy 262.89 186.69)
+			(xy 247.65 186.69) (xy 274.32 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5537,6 +5679,26 @@
 			(type default)
 		)
 		(uuid "2e21aa1c-9945-4b44-82a8-44fcf6a503d6")
+	)
+	(wire
+		(pts
+			(xy 257.81 191.77) (xy 257.81 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302a106d-3244-4d59-8b7b-c07299d79871")
+	)
+	(wire
+		(pts
+			(xy 257.81 219.71) (xy 257.81 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310b1aa2-307d-47f3-9875-85a9c35f2a0b")
 	)
 	(wire
 		(pts
@@ -5600,7 +5762,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 77.47) (xy 256.54 77.47)
+			(xy 247.65 77.47) (xy 267.97 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5690,6 +5852,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 99.06) (xy 255.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c34351d-08ad-4023-b2ea-94331dc94b62")
+	)
+	(wire
+		(pts
 			(xy 341.63 58.42) (xy 358.14 58.42)
 		)
 		(stroke
@@ -5697,6 +5869,26 @@
 			(type default)
 		)
 		(uuid "3d2f1bfb-9d08-407c-81f6-9c1646d7ae8e")
+	)
+	(wire
+		(pts
+			(xy 247.65 82.55) (xy 255.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d3e5d64-9cad-452e-8a65-f51bfb7378b8")
+	)
+	(wire
+		(pts
+			(xy 255.27 154.94) (xy 255.27 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1a54f3-e26b-48ee-9d0b-79443ee5e3ae")
 	)
 	(wire
 		(pts
@@ -5790,7 +5982,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 82.55) (xy 256.54 77.47)
+			(xy 267.97 82.55) (xy 267.97 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5810,7 +6002,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 189.23) (xy 256.54 195.58)
+			(xy 267.97 189.23) (xy 267.97 195.58)
 		)
 		(stroke
 			(width 0)
@@ -5870,6 +6062,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 110.49) (xy 255.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a30cb71-a90e-40b1-a894-dbf35be9fb9d")
+	)
+	(wire
+		(pts
 			(xy 341.63 148.59) (xy 341.63 146.05)
 		)
 		(stroke
@@ -5890,13 +6092,23 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 105.41) (xy 256.54 105.41)
+			(xy 247.65 105.41) (xy 267.97 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d5c90bf-50cb-4ee5-a9f5-fc72f33e6b7c")
+	)
+	(wire
+		(pts
+			(xy 257.81 171.45) (xy 257.81 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3baa5b-3cb2-438d-bb9f-4932ad495701")
 	)
 	(wire
 		(pts
@@ -6070,7 +6282,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 217.17) (xy 256.54 223.52)
+			(xy 267.97 217.17) (xy 267.97 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6110,7 +6322,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 172.72) (xy 256.54 189.23)
+			(xy 267.97 172.72) (xy 267.97 189.23)
 		)
 		(stroke
 			(width 0)
@@ -6270,6 +6482,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 250.19) (xy 255.27 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f8069e-8ff8-4577-b5ca-9ef76d87550f")
+	)
+	(wire
+		(pts
 			(xy 139.7 25.4) (xy 143.51 25.4)
 		)
 		(stroke
@@ -6357,6 +6579,16 @@
 			(type default)
 		)
 		(uuid "6d7e3301-d91f-476a-9a1b-afb9ea6ca65f")
+	)
+	(wire
+		(pts
+			(xy 257.81 227.33) (xy 257.81 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e31d001-3f1b-4a35-a2d0-96e954a30a35")
 	)
 	(wire
 		(pts
@@ -6510,6 +6742,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 143.51) (xy 257.81 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800a2db3-d833-418b-8080-ad20c5e9446b")
+	)
+	(wire
+		(pts
 			(xy 139.7 25.4) (xy 139.7 38.1)
 		)
 		(stroke
@@ -6570,7 +6812,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 49.53) (xy 256.54 49.53)
+			(xy 247.65 49.53) (xy 267.97 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6750,6 +6992,26 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 115.57) (xy 257.81 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905d0dcd-3c58-4253-8ba9-d14ba617b513")
+	)
+	(wire
+		(pts
+			(xy 247.65 135.89) (xy 257.81 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a9b466-e7c9-4786-b09f-ded527173a8c")
+	)
+	(wire
+		(pts
 			(xy 44.45 81.28) (xy 44.45 77.47)
 		)
 		(stroke
@@ -6767,6 +7029,16 @@
 			(type default)
 		)
 		(uuid "9214286e-3b90-4313-a8eb-f963049d4c63")
+	)
+	(wire
+		(pts
+			(xy 255.27 171.45) (xy 255.27 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922c96b3-5189-4dae-91b7-30bdb6790f35")
 	)
 	(wire
 		(pts
@@ -6810,7 +7082,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 133.35) (xy 256.54 133.35)
+			(xy 247.65 133.35) (xy 267.97 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6880,7 +7152,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 87.63) (xy 262.89 102.87)
+			(xy 274.32 87.63) (xy 274.32 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6907,6 +7179,16 @@
 			(type default)
 		)
 		(uuid "999a7d2e-4256-4bd1-87f4-976ecf26e1a4")
+	)
+	(wire
+		(pts
+			(xy 257.81 87.63) (xy 257.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2b3724-72b1-46b0-883a-48bc34e3658d")
 	)
 	(wire
 		(pts
@@ -6950,6 +7232,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 107.95) (xy 257.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1089822-a202-428e-b0c3-11ee7f06c151")
+	)
+	(wire
+		(pts
 			(xy 220.98 204.47) (xy 203.2 204.47)
 		)
 		(stroke
@@ -6960,7 +7252,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 87.63) (xy 256.54 105.41)
+			(xy 267.97 87.63) (xy 267.97 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7010,7 +7302,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 54.61) (xy 256.54 49.53)
+			(xy 267.97 54.61) (xy 267.97 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7050,13 +7342,23 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 228.6) (xy 256.54 245.11)
+			(xy 267.97 228.6) (xy 267.97 245.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa4d9503-0e39-4c56-a14d-eb60c298b59e")
+	)
+	(wire
+		(pts
+			(xy 255.27 199.39) (xy 255.27 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5650f6-89e4-4365-9c6a-cb3b70628524")
 	)
 	(wire
 		(pts
@@ -7070,7 +7372,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 46.99) (xy 262.89 54.61)
+			(xy 274.32 46.99) (xy 274.32 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7080,13 +7382,23 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 59.69) (xy 256.54 77.47)
+			(xy 267.97 59.69) (xy 267.97 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "abbc2bdf-2016-412d-b1d0-5fdbf46ad7ab")
+	)
+	(wire
+		(pts
+			(xy 247.65 191.77) (xy 257.81 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfeb578-48ef-4250-b6a5-04db444edeba")
 	)
 	(wire
 		(pts
@@ -7110,7 +7422,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 116.84) (xy 262.89 130.81)
+			(xy 274.32 116.84) (xy 274.32 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7127,6 +7439,16 @@
 			(type default)
 		)
 		(uuid "b00151f0-8136-4e06-9337-771ca38c7807")
+	)
+	(wire
+		(pts
+			(xy 257.81 52.07) (xy 257.81 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0266b3c-262a-401a-8025-36ba283723d3")
 	)
 	(wire
 		(pts
@@ -7180,7 +7502,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 167.64) (xy 256.54 161.29)
+			(xy 267.97 167.64) (xy 267.97 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7210,6 +7532,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 127) (xy 255.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4531804-3df4-4337-ac23-aa2b1d3b92ff")
+	)
+	(wire
+		(pts
 			(xy 323.85 184.15) (xy 314.96 184.15)
 		)
 		(stroke
@@ -7230,7 +7562,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 139.7) (xy 262.89 130.81)
+			(xy 274.32 139.7) (xy 274.32 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7250,7 +7582,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 59.69) (xy 262.89 74.93)
+			(xy 274.32 59.69) (xy 274.32 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7300,7 +7632,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 186.69) (xy 262.89 195.58)
+			(xy 274.32 186.69) (xy 274.32 195.58)
 		)
 		(stroke
 			(width 0)
@@ -7330,6 +7662,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 163.83) (xy 257.81 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7ac0a0-1f2e-47d0-b980-dcaf4f90050b")
+	)
+	(wire
+		(pts
 			(xy 62.23 73.66) (xy 62.23 74.93)
 		)
 		(stroke
@@ -7347,6 +7689,16 @@
 			(type default)
 		)
 		(uuid "bfb222a2-f0b8-4188-9474-6332074b8132")
+	)
+	(wire
+		(pts
+			(xy 247.65 163.83) (xy 257.81 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc0c60d-8551-47aa-b096-9d87f234f717")
 	)
 	(wire
 		(pts
@@ -7420,7 +7772,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 116.84) (xy 256.54 133.35)
+			(xy 267.97 116.84) (xy 267.97 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7437,6 +7789,16 @@
 			(type default)
 		)
 		(uuid "c60f6365-005f-464c-83f3-3194e2015e6e")
+	)
+	(wire
+		(pts
+			(xy 255.27 87.63) (xy 255.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66f1156-f968-4b65-8395-17df7bb84b4f")
 	)
 	(wire
 		(pts
@@ -7460,6 +7822,36 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 52.07) (xy 257.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7990b66-01d7-4a47-94d4-7c210c819d6d")
+	)
+	(wire
+		(pts
+			(xy 247.65 138.43) (xy 255.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a16194-7ece-4d73-99f7-147c346cf096")
+	)
+	(wire
+		(pts
+			(xy 255.27 143.51) (xy 255.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84bc284-a932-4152-95a6-97304ab0d898")
+	)
+	(wire
+		(pts
 			(xy 220.98 138.43) (xy 205.74 138.43)
 		)
 		(stroke
@@ -7470,7 +7862,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 228.6) (xy 262.89 242.57)
+			(xy 274.32 228.6) (xy 274.32 242.57)
 		)
 		(stroke
 			(width 0)
@@ -7560,6 +7952,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 222.25) (xy 255.27 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf020e43-fb7e-49bb-8883-6bf8158c6b6d")
+	)
+	(wire
+		(pts
 			(xy 138.43 163.83) (xy 147.32 163.83)
 		)
 		(stroke
@@ -7640,7 +8042,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 189.23) (xy 256.54 189.23)
+			(xy 247.65 189.23) (xy 267.97 189.23)
 		)
 		(stroke
 			(width 0)
@@ -7670,7 +8072,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 214.63) (xy 262.89 214.63)
+			(xy 247.65 214.63) (xy 274.32 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7680,7 +8082,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 102.87) (xy 262.89 102.87)
+			(xy 247.65 102.87) (xy 274.32 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7690,7 +8092,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 111.76) (xy 256.54 105.41)
+			(xy 267.97 111.76) (xy 267.97 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7700,7 +8102,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 214.63) (xy 262.89 223.52)
+			(xy 274.32 214.63) (xy 274.32 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7740,13 +8142,23 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 144.78) (xy 256.54 161.29)
+			(xy 267.97 144.78) (xy 267.97 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db60d0ce-b6b5-454e-bf2a-b4ae4264c63a")
+	)
+	(wire
+		(pts
+			(xy 255.27 210.82) (xy 255.27 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcad51be-30fb-4652-96e8-b8ed4ed03b0a")
 	)
 	(wire
 		(pts
@@ -7767,6 +8179,16 @@
 			(type default)
 		)
 		(uuid "e08f0a39-fd54-4d42-8386-19720481925f")
+	)
+	(wire
+		(pts
+			(xy 247.65 194.31) (xy 255.27 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1047b35-38e9-48f4-8b0f-bc10f2fac805")
 	)
 	(wire
 		(pts
@@ -7800,7 +8222,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 200.66) (xy 262.89 214.63)
+			(xy 274.32 200.66) (xy 274.32 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7830,13 +8252,23 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 46.99) (xy 262.89 46.99)
+			(xy 247.65 46.99) (xy 274.32 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7026d78-05a1-49c9-89d5-2281494dc687")
+	)
+	(wire
+		(pts
+			(xy 257.81 82.55) (xy 257.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e722005e-82eb-4e2f-b69f-4ed61d046daa")
 	)
 	(wire
 		(pts
@@ -7857,6 +8289,16 @@
 			(type default)
 		)
 		(uuid "e80063c3-216b-4c9e-8e13-0484b1139cbc")
+	)
+	(wire
+		(pts
+			(xy 255.27 71.12) (xy 255.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8451d56-2368-494f-a00b-6409d907d58b")
 	)
 	(wire
 		(pts
@@ -7890,6 +8332,26 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 182.88) (xy 255.27 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb992dc9-e56f-4d78-b014-726359662f30")
+	)
+	(wire
+		(pts
+			(xy 247.65 166.37) (xy 255.27 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9b3500-494c-4ec4-86d5-9a5f46c7b8f9")
+	)
+	(wire
+		(pts
 			(xy 196.85 252.73) (xy 220.98 252.73)
 		)
 		(stroke
@@ -7900,7 +8362,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 158.75) (xy 262.89 158.75)
+			(xy 247.65 158.75) (xy 274.32 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7940,6 +8402,26 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 115.57) (xy 255.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b43f5a-9693-4d33-9bed-5da78f059816")
+	)
+	(wire
+		(pts
+			(xy 247.65 247.65) (xy 257.81 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2125dd3-46e3-4156-bcce-0a6b6fa843c1")
+	)
+	(wire
+		(pts
 			(xy 373.38 60.96) (xy 374.65 60.96)
 		)
 		(stroke
@@ -7960,7 +8442,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 200.66) (xy 256.54 217.17)
+			(xy 267.97 200.66) (xy 267.97 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7970,7 +8452,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 161.29) (xy 256.54 161.29)
+			(xy 247.65 161.29) (xy 267.97 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8000,7 +8482,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 74.93) (xy 262.89 74.93)
+			(xy 247.65 74.93) (xy 274.32 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8040,6 +8522,26 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 135.89) (xy 257.81 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b43254-634d-4bee-91c7-2b3735f4a153")
+	)
+	(wire
+		(pts
+			(xy 255.27 59.69) (xy 255.27 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb41dbeb-94b0-40fe-aa3b-24a24735ec40")
+	)
+	(wire
+		(pts
 			(xy 186.69 77.47) (xy 220.98 77.47)
 		)
 		(stroke
@@ -8050,7 +8552,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 82.55) (xy 262.89 74.93)
+			(xy 274.32 82.55) (xy 274.32 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8067,6 +8569,16 @@
 			(type default)
 		)
 		(uuid "ff2e2e32-9bb5-49aa-b568-a8b53441b531")
+	)
+	(wire
+		(pts
+			(xy 257.81 59.69) (xy 257.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd68a37-7a63-4055-a422-4c8c99ff40c2")
 	)
 	(label "Out4-"
 		(at 350.52 151.13 180)
@@ -14172,7 +14684,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 256.54 57.15 90)
+		(at 267.97 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14182,7 +14694,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061725a32")
 		(property "Reference" "JP1"
-			(at 257.7592 57.15 90)
+			(at 269.1892 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14193,7 +14705,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 257.7592 58.293 90)
+			(at 269.1892 58.293 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14205,7 +14717,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 256.54 57.15 0)
+			(at 267.97 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14216,7 +14728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 57.15 0)
+			(at 267.97 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14227,7 +14739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 57.15 0)
+			(at 267.97 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14238,7 +14750,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 256.54 57.15 0)
+			(at 267.97 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14249,7 +14761,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 256.54 57.15 0)
+			(at 267.97 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14260,7 +14772,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 256.54 57.15 90)
+			(at 267.97 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14287,7 +14799,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 262.89 57.15 90)
+		(at 274.32 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14297,7 +14809,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061726839")
 		(property "Reference" "JP8"
-			(at 264.1092 57.15 90)
+			(at 275.5392 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14308,7 +14820,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 264.1092 58.293 90)
+			(at 275.5392 58.293 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14320,7 +14832,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 262.89 57.15 0)
+			(at 274.32 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14331,7 +14843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 57.15 0)
+			(at 274.32 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14342,7 +14854,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 57.15 0)
+			(at 274.32 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14353,7 +14865,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 262.89 57.15 0)
+			(at 274.32 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14364,7 +14876,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 262.89 57.15 0)
+			(at 274.32 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14375,7 +14887,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 262.89 57.15 90)
+			(at 274.32 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14402,7 +14914,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 256.54 85.09 90)
+		(at 267.97 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14412,7 +14924,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006175b98b")
 		(property "Reference" "JP2"
-			(at 257.7592 85.09 90)
+			(at 269.1892 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14423,7 +14935,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 257.7592 86.233 90)
+			(at 269.1892 86.233 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14435,7 +14947,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 256.54 85.09 0)
+			(at 267.97 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14446,7 +14958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 85.09 0)
+			(at 267.97 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14457,7 +14969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 85.09 0)
+			(at 267.97 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14468,7 +14980,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 256.54 85.09 0)
+			(at 267.97 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14479,7 +14991,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 256.54 85.09 0)
+			(at 267.97 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14490,7 +15002,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 256.54 85.09 90)
+			(at 267.97 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14517,7 +15029,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 262.89 85.09 90)
+		(at 274.32 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14527,7 +15039,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000617a1e68")
 		(property "Reference" "JP9"
-			(at 264.1092 85.09 90)
+			(at 275.5392 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14538,7 +15050,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 264.1092 86.233 90)
+			(at 275.5392 86.233 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14550,7 +15062,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 262.89 85.09 0)
+			(at 274.32 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14561,7 +15073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 85.09 0)
+			(at 274.32 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14572,7 +15084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 85.09 0)
+			(at 274.32 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14583,7 +15095,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 262.89 85.09 0)
+			(at 274.32 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14594,7 +15106,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 262.89 85.09 0)
+			(at 274.32 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14605,7 +15117,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 262.89 85.09 90)
+			(at 274.32 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14632,7 +15144,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 256.54 114.3 90)
+		(at 267.97 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14642,7 +15154,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000617d87fd")
 		(property "Reference" "JP3"
-			(at 257.7592 114.3 90)
+			(at 269.1892 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14653,7 +15165,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 257.7592 115.443 90)
+			(at 269.1892 115.443 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14665,7 +15177,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 256.54 114.3 0)
+			(at 267.97 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14676,7 +15188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 114.3 0)
+			(at 267.97 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14687,7 +15199,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 114.3 0)
+			(at 267.97 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14698,7 +15210,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 256.54 114.3 0)
+			(at 267.97 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14709,7 +15221,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 256.54 114.3 0)
+			(at 267.97 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14720,7 +15232,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 256.54 114.3 90)
+			(at 267.97 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14747,7 +15259,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 262.89 114.3 90)
+		(at 274.32 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14757,7 +15269,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000617d8fcb")
 		(property "Reference" "JP10"
-			(at 264.1092 114.3 90)
+			(at 275.5392 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14768,7 +15280,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 264.1092 115.443 90)
+			(at 275.5392 115.443 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14780,7 +15292,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 262.89 114.3 0)
+			(at 274.32 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14791,7 +15303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 114.3 0)
+			(at 274.32 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14802,7 +15314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 114.3 0)
+			(at 274.32 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14813,7 +15325,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 262.89 114.3 0)
+			(at 274.32 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14824,7 +15336,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 262.89 114.3 0)
+			(at 274.32 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14835,7 +15347,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 262.89 114.3 90)
+			(at 274.32 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14862,7 +15374,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 256.54 142.24 90)
+		(at 267.97 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14872,7 +15384,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061813e8b")
 		(property "Reference" "JP4"
-			(at 257.7592 142.24 90)
+			(at 269.1892 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14883,7 +15395,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 257.7592 143.383 90)
+			(at 269.1892 143.383 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14895,7 +15407,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 256.54 142.24 0)
+			(at 267.97 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14906,7 +15418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 142.24 0)
+			(at 267.97 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14917,7 +15429,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 142.24 0)
+			(at 267.97 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14928,7 +15440,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 256.54 142.24 0)
+			(at 267.97 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14939,7 +15451,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 256.54 142.24 0)
+			(at 267.97 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14950,7 +15462,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 256.54 142.24 90)
+			(at 267.97 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14977,7 +15489,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 262.89 142.24 90)
+		(at 274.32 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14987,7 +15499,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061830ddd")
 		(property "Reference" "JP11"
-			(at 264.1092 142.24 90)
+			(at 275.5392 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14998,7 +15510,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 264.1092 143.383 90)
+			(at 275.5392 143.383 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15010,7 +15522,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 262.89 142.24 0)
+			(at 274.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15021,7 +15533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 142.24 0)
+			(at 274.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15032,7 +15544,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 142.24 0)
+			(at 274.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15043,7 +15555,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 262.89 142.24 0)
+			(at 274.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15054,7 +15566,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 262.89 142.24 0)
+			(at 274.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15065,7 +15577,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 262.89 142.24 90)
+			(at 274.32 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15092,7 +15604,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 256.54 170.18 90)
+		(at 267.97 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15102,7 +15614,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061851d9d")
 		(property "Reference" "JP5"
-			(at 257.7592 170.18 90)
+			(at 269.1892 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15113,7 +15625,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 257.7592 171.323 90)
+			(at 269.1892 171.323 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15125,7 +15637,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 256.54 170.18 0)
+			(at 267.97 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15136,7 +15648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 170.18 0)
+			(at 267.97 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15147,7 +15659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 170.18 0)
+			(at 267.97 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15158,7 +15670,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 256.54 170.18 0)
+			(at 267.97 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15169,7 +15681,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 256.54 170.18 0)
+			(at 267.97 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15180,7 +15692,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 256.54 170.18 90)
+			(at 267.97 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15207,7 +15719,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 262.89 170.18 90)
+		(at 274.32 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15217,7 +15729,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061851da5")
 		(property "Reference" "JP12"
-			(at 264.1092 170.18 90)
+			(at 275.5392 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15228,7 +15740,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 264.1092 171.323 90)
+			(at 275.5392 171.323 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15240,7 +15752,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 262.89 170.18 0)
+			(at 274.32 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15251,7 +15763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 170.18 0)
+			(at 274.32 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15262,7 +15774,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 170.18 0)
+			(at 274.32 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15273,7 +15785,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 262.89 170.18 0)
+			(at 274.32 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15284,7 +15796,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 262.89 170.18 0)
+			(at 274.32 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15295,7 +15807,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 262.89 170.18 90)
+			(at 274.32 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15322,7 +15834,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 256.54 198.12 90)
+		(at 267.97 198.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15332,7 +15844,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000618616a5")
 		(property "Reference" "JP6"
-			(at 257.7592 198.12 90)
+			(at 269.1892 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15343,7 +15855,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 257.7592 199.263 90)
+			(at 269.1892 199.263 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15355,7 +15867,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 256.54 198.12 0)
+			(at 267.97 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15366,7 +15878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 198.12 0)
+			(at 267.97 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15377,7 +15889,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 198.12 0)
+			(at 267.97 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15388,7 +15900,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 256.54 198.12 0)
+			(at 267.97 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15399,7 +15911,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 256.54 198.12 0)
+			(at 267.97 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15410,7 +15922,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 256.54 198.12 90)
+			(at 267.97 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15437,7 +15949,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 262.89 198.12 90)
+		(at 274.32 198.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15447,7 +15959,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000618616ad")
 		(property "Reference" "JP13"
-			(at 264.1092 198.12 90)
+			(at 275.5392 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15458,7 +15970,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 264.1092 199.263 90)
+			(at 275.5392 199.263 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15470,7 +15982,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 262.89 198.12 0)
+			(at 274.32 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15481,7 +15993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 198.12 0)
+			(at 274.32 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15492,7 +16004,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 198.12 0)
+			(at 274.32 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15503,7 +16015,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 262.89 198.12 0)
+			(at 274.32 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15514,7 +16026,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 262.89 198.12 0)
+			(at 274.32 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15525,7 +16037,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 262.89 198.12 90)
+			(at 274.32 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15552,7 +16064,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 256.54 226.06 90)
+		(at 267.97 226.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15562,7 +16074,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061871726")
 		(property "Reference" "JP7"
-			(at 257.7592 226.06 90)
+			(at 269.1892 226.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15573,7 +16085,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 257.7592 227.203 90)
+			(at 269.1892 227.203 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15585,7 +16097,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 256.54 226.06 0)
+			(at 267.97 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15596,7 +16108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 226.06 0)
+			(at 267.97 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15607,7 +16119,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 226.06 0)
+			(at 267.97 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15618,7 +16130,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 256.54 226.06 0)
+			(at 267.97 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15629,7 +16141,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 256.54 226.06 0)
+			(at 267.97 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15640,7 +16152,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 256.54 226.06 90)
+			(at 267.97 226.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15667,7 +16179,7 @@
 	)
 	(symbol
 		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
-		(at 262.89 226.06 90)
+		(at 274.32 226.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15677,7 +16189,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006187172e")
 		(property "Reference" "JP14"
-			(at 264.1092 226.06 90)
+			(at 275.5392 226.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15688,7 +16200,7 @@
 			)
 		)
 		(property "Value" "Jumper_NO_Small"
-			(at 264.1092 227.203 90)
+			(at 275.5392 227.203 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15700,7 +16212,7 @@
 			)
 		)
 		(property "Footprint" "shim:Jumper_SMT_Gap-3mm"
-			(at 262.89 226.06 0)
+			(at 274.32 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15711,7 +16223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 226.06 0)
+			(at 274.32 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15722,7 +16234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 226.06 0)
+			(at 274.32 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15733,7 +16245,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 262.89 226.06 0)
+			(at 274.32 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15744,7 +16256,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 262.89 226.06 0)
+			(at 274.32 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15755,7 +16267,7 @@
 			)
 		)
 		(property "MPN" "5100TR"
-			(at 262.89 226.06 90)
+			(at 274.32 226.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18107,6 +18619,1742 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 68.58 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "0cd45b3d-528a-47f5-98f0-db50ce17e2de")
+		(property "Reference" "JP127"
+			(at 254.0508 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 69.723 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fc58b67-2805-433d-8b20-f20dfe91dbf1")
+		)
+		(pin "2"
+			(uuid "7679e7f9-0b32-413d-baaf-e1c8473372e7")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 257.81 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "30632882-2348-47bf-8bcf-df7e57cd2f99")
+		(property "Reference" "JP120"
+			(at 259.0292 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 259.0292 86.233 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 257.81 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6177d735-de23-4c03-89ca-432306e0b6b1")
+		)
+		(pin "2"
+			(uuid "5761257e-8c98-44b0-8425-6f08ca7123be")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 208.28 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3358c5b5-92c4-4799-a40c-b3078488f2f3")
+		(property "Reference" "JP137"
+			(at 254.0508 208.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 209.423 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ec7bfaf-ab7a-42a8-890a-b4b6a1f77de2")
+		)
+		(pin "2"
+			(uuid "72efacde-1740-44ad-a8a6-bdd9f534ddbb")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 224.79 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3a4ea2d7-7336-4728-a815-92382e6a01bd")
+		(property "Reference" "JP138"
+			(at 254.0508 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 225.933 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bd0340a-8bac-433d-839c-b726a54d0a7c")
+		)
+		(pin "2"
+			(uuid "a394699a-dcd8-43c0-80fe-91b7c3aa5733")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 257.81 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "4af8bc5c-426b-44a3-8335-6bfca5155383")
+		(property "Reference" "JP121"
+			(at 259.0292 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 259.0292 114.173 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 257.81 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f925413-e05b-4a3d-a62b-2d7d67cad210")
+		)
+		(pin "2"
+			(uuid "0386fab6-01a7-4633-b4e0-4624dc9177f5")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 113.03 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "4e68cf79-cb53-493f-a1d9-d5686e03c6a5")
+		(property "Reference" "JP130"
+			(at 254.0508 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 114.173 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c075ff76-b126-4d7d-887c-d7298b27b8bd")
+		)
+		(pin "2"
+			(uuid "25d8f818-8708-454e-a049-d4dff71231b9")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 140.97 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "5546026a-9a38-4382-83ef-bcb67d42cf31")
+		(property "Reference" "JP132"
+			(at 254.0508 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 142.113 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71ce0810-6f41-4c0b-941d-d9a6bedb5689")
+		)
+		(pin "2"
+			(uuid "c6bea765-1215-40be-8291-381fdc5e2264")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 196.85 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "5d3fee7a-8e8a-47c2-b6fe-44593d37aa09")
+		(property "Reference" "JP136"
+			(at 254.0508 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 197.993 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a411100c-9c95-4adc-96a7-629a6f82bcf0")
+		)
+		(pin "2"
+			(uuid "4f0f9d52-6847-4a8c-8e78-dbe497b39c10")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 57.15 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "5e58abcd-8b90-4bd3-86fc-bac6c3393520")
+		(property "Reference" "JP126"
+			(at 254.0508 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 58.293 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77921617-ae4a-4aba-bfd4-0ecba674e4ad")
+		)
+		(pin "2"
+			(uuid "bd96f251-df79-46b5-9660-4b931d5443d9")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 257.81 224.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "73f46792-8cc0-4eda-a588-1e1c9f03e45c")
+		(property "Reference" "JP125"
+			(at 259.0292 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 259.0292 225.933 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 257.81 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a93913f4-df59-4c4f-be68-e9f61348106c")
+		)
+		(pin "2"
+			(uuid "74e4f77c-085b-4ac9-8062-637c4d6d7b97")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 257.81 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "79b68423-805d-41ce-bf1a-e52347fc44b4")
+		(property "Reference" "JP122"
+			(at 259.0292 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 259.0292 142.113 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 257.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce3fa641-aa95-4345-893a-8cf4c0b8e393")
+		)
+		(pin "2"
+			(uuid "cd880096-5218-402e-8e28-257bfb111f1c")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 257.81 168.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "92325ae9-6f22-422e-b522-683944060f51")
+		(property "Reference" "JP123"
+			(at 259.0292 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 259.0292 170.053 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 257.81 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dd9d304-9ae4-4463-8696-b16c7addc2f9")
+		)
+		(pin "2"
+			(uuid "e674a7ca-3c5a-4d3d-85c4-56081dab9e12")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 180.34 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "93cca7d9-90be-43cf-b895-0879184e91b8")
+		(property "Reference" "JP135"
+			(at 254.0508 180.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 181.483 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6afabbc8-be48-40a5-a678-d029d7e7d022")
+		)
+		(pin "2"
+			(uuid "c4de19bf-897b-422e-a89e-260a80491a04")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 168.91 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "93ffd179-4421-4790-95fe-d16e5b3d4bab")
+		(property "Reference" "JP134"
+			(at 254.0508 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 170.053 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc2e098a-f8f9-4414-8163-9a4484ed9cf7")
+		)
+		(pin "2"
+			(uuid "f452ed3c-baa1-45a3-9a0f-70eb2eae3c1f")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 257.81 196.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "99d5dd30-7d29-4002-8193-e86308731541")
+		(property "Reference" "JP124"
+			(at 259.0292 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 259.0292 197.993 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 257.81 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4262a8a-ebc6-4334-8952-58215d3ae52b")
+		)
+		(pin "2"
+			(uuid "cf80fcfb-8f47-4135-957e-f9ef308dc040")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 152.4 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "bc2eecb5-6db3-47e4-afea-f2445c394d0b")
+		(property "Reference" "JP133"
+			(at 254.0508 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 153.543 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bb0bec5-6f54-4865-8213-75be94c60efc")
+		)
+		(pin "2"
+			(uuid "fed2b3bc-4355-471e-9812-23cb2da8d316")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 236.22 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "c103661d-2eb3-437c-8c6c-4c235d5161de")
+		(property "Reference" "JP139"
+			(at 254.0508 236.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 237.363 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67eac8e8-4a2e-400d-9974-29e5d2cce036")
+		)
+		(pin "2"
+			(uuid "0a4d3bcc-b1d4-4101-ba44-744d052522bb")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 257.81 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "cab84e5e-3275-4036-a8f5-2740dedb2503")
+		(property "Reference" "JP119"
+			(at 259.0292 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 259.0292 58.293 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 257.81 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa7f4bdf-ced7-4ba7-9832-a32453900ef1")
+		)
+		(pin "2"
+			(uuid "1c8d4a5e-c0de-437c-a4b0-89b4dc8e682f")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 85.09 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "d7c64c8c-0436-42dd-a8b4-455e00fc6681")
+		(property "Reference" "JP128"
+			(at 254.0508 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 86.233 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1e8d844-3ec8-49c9-bffb-d39949782175")
+		)
+		(pin "2"
+			(uuid "4c82deec-ab0e-4af3-a94d-d17f507d9438")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 96.52 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "e77bd56c-aae6-4a98-9911-ae3b532615ff")
+		(property "Reference" "JP129"
+			(at 254.0508 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 97.663 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9099ab47-bc7b-42cf-87fe-3764824e5adb")
+		)
+		(pin "2"
+			(uuid "6f0de7d6-c527-4700-aff7-060b65753c04")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp-ctrl-rescue:Jumper_NO_Small-Device")
+		(at 255.27 124.46 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "f2d468d3-5da2-4c5d-bb52-800ff1036b9d")
+		(property "Reference" "JP131"
+			(at 254.0508 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_NO_Small"
+			(at 254.0508 125.603 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59582a88-b422-4a4a-9185-6768303a3a30")
+		)
+		(pin "2"
+			(uuid "dd39130a-e911-427d-994d-bc7a35134590")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
+					(reference "JP131")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 220.98 45.72)
 		(size 26.67 22.86)
@@ -18253,6 +20501,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Vout_cmd" bidirectional
+			(at 247.65 52.07 0)
+			(uuid "0d0a9734-f2ce-4040-8ddc-078db39a2a29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_Direct" output
+			(at 247.65 54.61 0)
+			(uuid "24d9064b-9371-4756-8729-6c21a79dba19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -18953,6 +21221,26 @@
 				(justify left)
 			)
 		)
+		(pin "Vout_cmd" bidirectional
+			(at 247.65 80.01 0)
+			(uuid "1dbdd37b-e85b-4815-91d1-ac52c1584cce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_Direct" output
+			(at 247.65 82.55 0)
+			(uuid "df68c550-095f-4d53-9fb6-55fe1aa612c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
@@ -19107,6 +21395,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Vout_cmd" bidirectional
+			(at 247.65 107.95 0)
+			(uuid "279b4fcc-1fcb-4e17-9ba4-13f1970e7f9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_Direct" output
+			(at 247.65 110.49 0)
+			(uuid "4821f517-1ed4-4e49-a161-92f6cd2acda5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -19265,6 +21573,26 @@
 				(justify left)
 			)
 		)
+		(pin "Vout_cmd" bidirectional
+			(at 247.65 135.89 0)
+			(uuid "adc1786e-ab7a-456a-976f-f409e28ef6a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_Direct" output
+			(at 247.65 138.43 0)
+			(uuid "9df5b023-d2eb-4227-8ca2-d6a764735125")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
@@ -19419,6 +21747,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Vout_cmd" bidirectional
+			(at 247.65 163.83 0)
+			(uuid "26a8293b-2f0b-4008-a2e0-453eaec7d0a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_Direct" output
+			(at 247.65 166.37 0)
+			(uuid "c05d01a3-805d-4cbc-96c1-2704f47e754f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -19577,6 +21925,26 @@
 				(justify left)
 			)
 		)
+		(pin "Vout_cmd" bidirectional
+			(at 247.65 191.77 0)
+			(uuid "df925a04-3c3a-48b6-9af6-af86668c40d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_Direct" output
+			(at 247.65 194.31 0)
+			(uuid "482fe860-f88c-4279-9179-5137b3579a8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
@@ -19733,6 +22101,26 @@
 				(justify left)
 			)
 		)
+		(pin "Vout_cmd" bidirectional
+			(at 247.65 219.71 0)
+			(uuid "adc9906c-e460-441f-b5ca-730c1c5b3b6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_Direct" output
+			(at 247.65 222.25 0)
+			(uuid "c7b322f2-1313-4a4c-ae3f-d3da641451b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "amp ctrl"
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b"
@@ -19887,6 +22275,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Vout_cmd" bidirectional
+			(at 247.65 247.65 0)
+			(uuid "2a8b0d08-4e89-4dd6-8db9-dd059dfb3132")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_Direct" output
+			(at 247.65 250.19 0)
+			(uuid "758f09a5-26a7-44e2-b591-e1547516801d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
