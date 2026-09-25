@@ -1,3 +1,8 @@
 *.lck
 *.history
 *.zip
+
+# Python
+.venv/
+__pycache__/
+*.pyc
