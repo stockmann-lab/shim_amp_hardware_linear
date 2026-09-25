@@ -8,6 +8,14 @@ Each data point is a number from 0 to 65535.  32768 corresponds to zero current,
 
 The control voltages produced by the DAC are centered at about 2.048V (= zero current), with a range of 0-4.096V (2.048V ± 2.048V) and a scaling of 0.409 V/A, or 2.445 A/V for the output current.  When the system is idle (no current commanded through any coil), you should see 2.048V (± a couple mV) at every DAC output.
 
+## Using external analog setpoints
+
+Instead of using the DAC & digital controls, analog setpoints can also be sent to each channel directly through an SMA coax connector.  There are two separate modes:
+(Components to populate are listed for channel 1 only on amp control board: see schematic for equivalents on other channels)
+- **Without level shifter:** 2.048V = 0A, input range is 0V - 4.096V.  Populate J2, R236, R237; close jumpers JP87, JP16; open jumper JP15.
+- **With level shifter:** 0V = 0A, input range is -2.048V - +2.048V.  Populate J2, R237, RN5-6, R343, C273, U73; close jumper JP16; open jumper JP15.  Signal source needs to be low-impedance, such as a 50Ω output from a function generator, to avoid creating excessive errors in offset & scaling.  If particularly low offset current is needed (under 5.6 mA), R343 can provide some adjustment range (see schematic).
+In both cases, scaling is 0.4049 V/A = 2.4697 A/V.
+
 ## Misc. details for testing & development
 
 ### Connections
@@ -20,14 +28,14 @@ When powering up an incomplete system for testing, some caveats to be aware of:
 ### Amplifier board final assembly
 
 After 3rd-party assembly of all SMT parts, the through-hole parts to add manually are...
-- Phoenix 1792229 or 1190363 **power connector** _(1x)_
+- Phoenix 1190363 **power connector** _(1x)_
 - TE Connectivity 1-406541-8, or 1-406541-5, or 2-406541-1 **RJ-45 connectors** _(3x)_
 See design files & BOM for component locations and details.
 
 ### Backplane board final assembly
 
 After 3rd-party assembly of all SMT parts, the parts to add manually are...
-- Phoenix 1792229 or 1190363 **power connectors for amplifier boards** _(1x/connected amplifier board)_
+- Phoenix 11903633 **power connectors for amplifier boards** _(1x/connected amplifier board)_
 - Amphenol-ICC RJE061881120 or RJE061881120H **RJ-45 connectors** _(3x/connected amplifier board)_
 - Samtec TFM-115-01-S-D-WT, or TFM-115-01-L-D-WT, or TFM-115-01-F-D-WT **Snickerdoodle connector** _(1x)_
 - Samtec TFM-120-01-S-D-WT, or TFM-120-01-L-D-WT, or TFM-120-01-F-D-WT **Snickerdoodle connector** _(6x)_
@@ -35,6 +43,4 @@ After 3rd-party assembly of all SMT parts, the parts to add manually are...
 - Avago AFBR-1624Z **optical transmitter** _(1x)_
 - ON Semi D44H11G **power transistor** _(1x)_
 - CTS 7-340-1PP-BA **heatsink for power transistor** _(1x)_
-- 0-ohm resistor or wire to short F1 fuse footprint
-- **0-ohm resistor to replace R13 (to avoid 3.3V problems: see bug #33)**
 See design files & BOM for component locations and details.
