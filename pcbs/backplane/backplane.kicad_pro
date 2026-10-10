@@ -861,7 +861,27 @@
       "sort_asc": true,
       "sort_field": "Value"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "RGMII": [
+        "RGMII_TX_CLK",
+        "RGMII_TX_CTL",
+        "RGMII_TX_D0",
+        "RGMII_TX_D1",
+        "RGMII_TX_D2",
+        "RGMII_TX_D3",
+        "RGMII_RX_CLK",
+        "RGMII_RX_CTL",
+        "RGMII_RX_D0",
+        "RGMII_RX_D1",
+        "RGMII_RX_D2",
+        "RGMII_RX_D3",
+        "MDC",
+        "MDIO",
+        "~{ETH_PWDN}",
+        "~{ETH_RESET}",
+        "~{ETH_OSC_PWDN}"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -920,7 +940,7 @@
         "uuid": "4cff6540-dfbc-472e-b6ee-b480e176be3d"
       }
     ],
-    "used_designators": "U11,U32,#PWR119,#PWR122,#PWR178,#PWR181-183,#PWR185,#PWR200-201,#PWR222,#PWR240-245,#PWR247-248,#PWR472,#PWR475-476,#PWR479-480,#PWR587-588,C25,C27,C29-30,C36-37,C65,C77-78,C121-122,C125,R12,R48-49,R51-57,R85-86,JP34,JP56,TP28,TP31-32",
+    "used_designators": "C78,C121,#PWR153-154,#PWR243,#PWR294",
     "variants": []
   },
   "sheets": [

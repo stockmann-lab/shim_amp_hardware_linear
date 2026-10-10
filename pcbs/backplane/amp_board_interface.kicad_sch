@@ -7414,6 +7414,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 312.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 312.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "90f8c9e9-d38a-441a-b78b-b6a946c1bde6")
 		)
@@ -7650,6 +7672,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 381 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 381 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 381 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7936,6 +7980,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 381 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 381 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1000b38b-8797-4ad2-9679-4cb7852d7f45")
 		)
@@ -8090,6 +8156,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 381 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 381 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 381 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -8284,6 +8372,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 360.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 360.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "b24cc07e-9e05-4849-a363-dd066cea9098")
 		)
@@ -8457,6 +8567,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 356.87 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 356.87 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 356.87 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8747,6 +8879,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 360.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 360.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 360.68 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9055,6 +9209,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 275.59 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 275.59 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2cab7de-215d-40ed-8f5f-6cfae5681e35")
 		)
@@ -9229,6 +9405,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 281.94 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 281.94 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "315fc64f-708c-4aa3-8215-ca89c8e2d08d")
 		)
@@ -9393,6 +9591,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 254 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 254 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 254 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -9581,6 +9801,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 95.25 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 95.25 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 95.25 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9800,6 +10042,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 137.16 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 137.16 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f8c55bc-20b8-458e-a2e9-ee04d1f7b92b")
 		)
@@ -9999,6 +10263,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 45.72 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 45.72 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 45.72 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10642,6 +10928,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 262.89 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 262.89 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ce94b00-41a8-491a-9666-1403bde2fbfd")
 		)
@@ -10905,6 +11213,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 299.72 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 299.72 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 299.72 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11312,6 +11642,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 295.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 295.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0cc83eff-e112-4530-b9f2-d0202e18fc1f")
 		)
@@ -11597,6 +11949,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 254 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 254 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50b90665-4844-4943-a827-ceab835e1f9d")
 		)
@@ -11760,6 +12134,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 389.89 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 389.89 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47dd1b0a-1004-4448-ab34-3224e3af9606")
 		)
@@ -11893,6 +12289,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 269.24 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12274,6 +12692,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 82.55 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 82.55 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3892a67a-f335-4b71-a822-2c375baa6420")
 		)
@@ -12479,6 +12919,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 88.9 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 88.9 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b8924f4c-db66-4fb1-a511-5b863f4cb4ae")
 		)
@@ -12599,6 +13061,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 35.56 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 35.56 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 35.56 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -13088,6 +13572,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 208.28 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 208.28 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "7436be4a-2d55-4d69-aa4a-d127e973979e")
 		)
@@ -13260,6 +13766,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 208.28 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 208.28 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 208.28 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -13462,6 +13990,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 107.95 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 107.95 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 107.95 198.12 90)
 			(hide yes)
 			(show_name no)
@@ -13865,6 +14415,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 186.69 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 186.69 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "ca8a9d5b-9976-4c67-a963-c6d720c38236")
 		)
@@ -14046,6 +14618,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 210.82 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 210.82 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c38f0b61-9724-4afa-a59f-5ea9e5e8c464")
 		)
@@ -14166,6 +14760,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 35.56 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 35.56 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 35.56 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -14516,6 +15132,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 35.56 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 35.56 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f20958a-d70f-4d62-bcfe-bc6e88475532")
 		)
@@ -14669,6 +15307,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 210.82 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 210.82 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 210.82 208.28 90)
 			(hide yes)
 			(show_name no)
@@ -15054,6 +15714,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 186.69 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 186.69 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "f9710eaa-a9d7-4bfa-9c78-05cc987d1d52")
 		)
@@ -15225,6 +15907,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 210.82 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 210.82 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 210.82 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -15524,6 +16228,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 34.29 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 34.29 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f955998-eb48-4aee-81d4-59466605d41a")
 		)
@@ -15696,6 +16422,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 208.28 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 208.28 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 208.28 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -16328,6 +17076,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 185.42 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 185.42 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fcd8c986-16fc-4c67-ba7b-9b5d8202a8a3")
 		)
@@ -16635,6 +17405,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Alt" ""
+			(at 185.42 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
+			(at 185.42 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b55abcb-6f00-42c9-9a49-f49a2903b9c6")
 		)
@@ -16878,6 +17670,28 @@
 			)
 		)
 		(property "Part Number Alt." ""
+			(at 35.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Alt" ""
+			(at 35.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number Alt" ""
 			(at 35.56 186.69 0)
 			(hide yes)
 			(show_name no)
