@@ -1,0 +1,218 @@
+(footprint "Conn_70AAJ-M_SIB_1x02_P2.54mm_F_bare"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Dual footprint: bare gold mating pads for 70AAJ-2-M or SIB-102. Mates with Conn_70AAJ-M_SIB_1x02_P2.54mm_M. Pin 1 RIGHT (mirrored for face-to-face stacking).")
+	(tags "connector board-to-board 70AA SIB mating pad")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "7d6a7f3b-5c1f-49a8-9476-a9e59b8fb527")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_70AAJ-M_SIB_1x02_P2.54mm_F_bare"
+		(at 0 6.8 0)
+		(layer "F.Fab")
+		(uuid "65f64197-4fd0-4172-866e-de48d43f8a14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79e237c3-d990-4d6e-8af5-cd820f83ce16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adf6a4d0-8d1a-464e-a353-2fd9e077215f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.64 -2)
+		(end 2.64 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "06571378-4b11-4353-8a2d-efccdb7d887c")
+	)
+	(fp_poly
+		(pts
+			(xy 0.87 6.085) (xy 1.27 6.685) (xy 1.67 6.085)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2222570b-9e50-4b4d-b731-b8e605107c5d")
+	)
+	(fp_line
+		(start -1.57 0.49)
+		(end -0.97 0.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0d066eca-3495-4b4f-b972-cfc1dd7cb9a3")
+	)
+	(fp_line
+		(start -1.57 3)
+		(end -0.97 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b833391c-08fa-438e-961f-00e455ea81f0")
+	)
+	(fp_line
+		(start -1.27 0.19)
+		(end -1.27 0.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "52103d40-c108-40ee-8716-74599727fd23")
+	)
+	(fp_line
+		(start -1.27 2.7)
+		(end -1.27 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "26c504b2-4a09-4a26-94f3-25e273868874")
+	)
+	(fp_line
+		(start 0.95 3)
+		(end 1.55 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "dbeeb421-b952-48c9-bc4b-0644a7220f17")
+	)
+	(fp_line
+		(start 0.97 0.49)
+		(end 1.57 0.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "541147d5-d2d6-49db-9ef5-c8cbab878f26")
+	)
+	(fp_line
+		(start 1.25 2.7)
+		(end 1.25 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "acbdd530-a2d8-4fae-a228-dc58ae9fee0c")
+	)
+	(fp_line
+		(start 1.27 0.19)
+		(end 1.27 0.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "20e8cdcf-4b5e-4ee6-9b22-8dabccc3ca74")
+	)
+	(fp_rect
+		(start -2.9 -4.24)
+		(end 2.5 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "222b6076-bee3-4828-832f-b058435bdd55")
+	)
+	(fp_text user "Courtyard is max. outline of mating connector"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "a95a6c41-46d6-4d68-9b79-3c09a6ef77d0")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "flip L-R to mate"
+		(at 0 1.6 0)
+		(layer "Cmts.User")
+		(uuid "7eb5000c-3b2b-4fdb-bdd9-5f5d6e32ca12")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.2 0)
+		(layer "F.Fab")
+		(uuid "d01eb9b8-af95-431d-a9cd-bae72d7210a5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.27 1.75)
+		(size 1.52 6.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "94d7dc3b-795f-45c5-8a35-8a1d3337154e")
+	)
+	(pad "2" smd rect
+		(at -1.27 1.75)
+		(size 1.52 6.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e51b6344-31df-468f-b912-5504480814c4")
+	)
+	(embedded_fonts no)
+)
