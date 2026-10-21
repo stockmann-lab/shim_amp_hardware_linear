@@ -219,7 +219,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 0.71)
@@ -2504,9 +2504,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "264fc19c-1f88-4b84-9e65-c53e3999ab03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f3e42a6/00000000-0000-0000-0000-00005f425c97")
 		(sheetname "/Channel 1/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3074,9 +3093,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b909f982-f63c-4cb2-9c32-983b4c86e875")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f3e42a6/00000000-0000-0000-0000-00005f425c8f")
 		(sheetname "/Channel 1/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4107,7 +4145,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -4340,7 +4378,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 -0.71)
@@ -11349,7 +11387,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 -0.71)
@@ -11582,7 +11620,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 0.71)
@@ -14815,7 +14853,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 -0.71)
@@ -15048,7 +15086,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 0.71)
@@ -18281,7 +18319,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 -0.71)
@@ -18514,7 +18552,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 0.71)
@@ -21747,7 +21785,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 -0.71)
@@ -21980,7 +22018,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 0.71)
@@ -25213,7 +25251,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 -0.71)
@@ -25446,7 +25484,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 0.71)
@@ -28679,7 +28717,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 -0.71)
@@ -28912,7 +28950,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 0.71)
@@ -32145,7 +32183,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 0.71)
@@ -57444,7 +57482,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -58945,7 +58983,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -60446,7 +60484,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -61947,7 +61985,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -63448,7 +63486,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -64949,7 +64987,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -66450,7 +66488,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -75440,9 +75478,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "293ac5f9-3f9b-4d55-8d2d-b823480eae2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f5ed/00000000-0000-0000-0000-00005f425c97")
 		(sheetname "/Channel 2/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -76010,9 +76067,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "735742b6-19cc-49a8-9c4c-fb40ba272482")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f5ed/00000000-0000-0000-0000-00005f425c8f")
 		(sheetname "/Channel 2/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -76580,9 +76656,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbdff05b-f1e7-408e-93c2-0d17ddc319ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f634/00000000-0000-0000-0000-00005f425c97")
 		(sheetname "/Channel 3/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -77150,9 +77245,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94d0f3cd-2a82-43c4-a5b3-f8e80253665b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f634/00000000-0000-0000-0000-00005f425c8f")
 		(sheetname "/Channel 3/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -77720,9 +77834,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce588ee2-2593-4c62-af3f-aed9cf2489c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f664/00000000-0000-0000-0000-00005f425c97")
 		(sheetname "/Channel 4/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78290,9 +78423,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e926272-246e-4fc4-b5c1-8c39412527f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f664/00000000-0000-0000-0000-00005f425c8f")
 		(sheetname "/Channel 4/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78860,9 +79012,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a2d82ac-17f0-4bb2-9761-6f01b32ef83b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f6a4/00000000-0000-0000-0000-00005f425c97")
 		(sheetname "/Channel 5/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79430,9 +79601,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd88af8f-2a76-464c-9fff-1fe28a6a17e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f6a4/00000000-0000-0000-0000-00005f425c8f")
 		(sheetname "/Channel 5/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -80000,9 +80190,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0f68e0e-094e-4d4a-aa5d-05b555a51b34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f6db/00000000-0000-0000-0000-00005f425c97")
 		(sheetname "/Channel 6/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -80570,9 +80779,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30bde8a6-c3ca-4087-ab51-e701a5977d2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f6db/00000000-0000-0000-0000-00005f425c8f")
 		(sheetname "/Channel 6/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -81140,9 +81368,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cd569e2-494d-45cf-99ff-7f108e1af847")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f6f0/00000000-0000-0000-0000-00005f425c97")
 		(sheetname "/Channel 7/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -81710,9 +81957,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9089c3ce-b251-439a-96c7-ed65b79dfc59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f6f0/00000000-0000-0000-0000-00005f425c8f")
 		(sheetname "/Channel 7/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -82280,9 +82546,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00815e08-59f1-4620-b89b-c6b7cda0fd93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f721/00000000-0000-0000-0000-00005f425c97")
 		(sheetname "/Channel 8/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -82850,9 +83135,28 @@
 				)
 			)
 		)
+		(property "Type" "SMT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27fb28b3-46aa-4587-a3e0-5ae0296ed285")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f42f721/00000000-0000-0000-0000-00005f425c8f")
 		(sheetname "/Channel 8/")
 		(sheetfile "channel.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "4" "7" "3" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -83769,7 +84073,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.258578 -0.71)

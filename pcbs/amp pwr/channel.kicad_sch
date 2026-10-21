@@ -7509,7 +7509,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f425cbb")
 		(property "Reference" "R2"
 			(at 207.518 115.6716 0)
@@ -8079,7 +8079,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f425cd5")
 		(property "Reference" "C3"
 			(at 227.33 114.2492 90)
@@ -8207,7 +8207,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f425cdb")
 		(property "Reference" "C4"
 			(at 228.6 214.5792 90)

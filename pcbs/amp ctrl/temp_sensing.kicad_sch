@@ -254,6 +254,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -1039,7 +1197,7 @@
 	(text_box "R = thermistor resistance (Ω), T = temperature (K), ADC = ADC reading (counts)...\n\nTemp. (K) = B/ln(R/(10K*e^(-B/298)))\nADC input (as fraction of 3.3V) = 3.3K/(3.4K+R)\n\nADC reading (counts) = 845K/(3.4K+0.0986*e^(3435/T))\nTemp. (K) = 3435/ln((845K/ADC-3.4K)/0.0986)\n\n@ 25°C: R = 10K, ADC input = 813 mV, ADC reading = 63 counts\n@ 50°C: R = 4.17K, ADC input = 1.44 V, ADC reading = 112\n@ 75°C: R = 1.93K, ADC input = 2.04 V, ADC reading = 159\n@ 100°C: R = 956Ω, ADC input = 2.50V, ADC reading = 194\n@ 125°C: R = 499Ω, ADC input = 2.79V, ADC reading = 217"
 		(exclude_from_sim no)
 		(at 106.68 133.35 0)
-		(size 83.82 27.94)
+		(size 83.82 30.5285)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1064,6 +1222,12 @@
 		(uuid "3ab910ab-8421-4a5f-9d6f-51b5708812dc")
 	)
 	(junction
+		(at 100.33 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d57c6a7-5666-4893-bd14-20764226f566")
+	)
+	(junction
 		(at 181.61 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1074,6 +1238,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a55fd764-b05b-4c8e-b6bd-19c390f7ed4d")
+	)
+	(junction
+		(at 97.79 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c73826ed-7b81-456c-9021-7db650851711")
 	)
 	(junction
 		(at 127 95.25)
@@ -1121,7 +1291,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 127 92.71)
+			(xy 91.44 101.6) (xy 97.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f30c63b-9351-4da5-9a80-269159bee79a")
+	)
+	(wire
+		(pts
+			(xy 93.98 92.71) (xy 97.79 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1169,6 +1349,26 @@
 		)
 		(uuid "5841e314-a576-42f4-8170-bcae680d85d0")
 	)
+	(wire
+		(pts
+			(xy 97.79 101.6) (xy 97.79 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647fb9a7-1328-427c-af94-b4c768e0330d")
+	)
+	(wire
+		(pts
+			(xy 100.33 95.25) (xy 127 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6793d6ff-aa88-44ce-a5f1-23f3e84e7585")
+	)
 	(polyline
 		(pts
 			(xy 151.13 120.65) (xy 151.13 106.68)
@@ -1201,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 95.25) (xy 127 95.25)
+			(xy 93.98 95.25) (xy 100.33 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1231,6 +1431,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 104.14) (xy 100.33 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22092a0-72ce-4dc2-91e4-5f0cbc249bc6")
+	)
+	(wire
+		(pts
 			(xy 181.61 77.47) (xy 181.61 76.2)
 		)
 		(stroke
@@ -1248,6 +1458,26 @@
 			(type default)
 		)
 		(uuid "bb17854b-2f96-405b-aaf1-dd098159a989")
+	)
+	(wire
+		(pts
+			(xy 91.44 104.14) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd72de0-bec7-4478-a688-0a559c159c46")
+	)
+	(wire
+		(pts
+			(xy 97.79 92.71) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4acc1d-0b24-48ab-971c-6de19a395c99")
 	)
 	(wire
 		(pts
@@ -3024,6 +3254,97 @@
 				)
 				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-00006153fab1"
 					(reference "#PWR0597")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 86.36 101.6 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "45740086-bd2c-444e-9749-bdc4d6735e06")
+		(property "Reference" "J116"
+			(at 83.82 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 83.82 104.1399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x02_P2.54mm_F_bare"
+			(at 86.36 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 86.36 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2623139-e52c-4308-b0dd-c597804fb1f0")
+		)
+		(pin "2"
+			(uuid "062e340b-af48-4728-887d-56dfca8a658d")
+		)
+		(instances
+			(project "amp ctrl"
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-0000614c90a0"
+					(reference "J116")
+					(unit 1)
+				)
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-00006152de65"
+					(reference "J117")
+					(unit 1)
+				)
+				(path "/00d85075-94bd-47a5-8ecf-5b7663485c5b/00000000-0000-0000-0000-00006153fab1"
+					(reference "J118")
 					(unit 1)
 				)
 			)
