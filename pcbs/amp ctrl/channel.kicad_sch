@@ -12351,7 +12351,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060378fc1")
 		(property "Reference" "J9"
 			(at 303.53 179.07 0)
@@ -12675,7 +12675,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060378fd8")
 		(property "Reference" "J8"
 			(at 303.53 148.59 0)
@@ -13183,7 +13183,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006037905e")
 		(property "Reference" "TP8"
@@ -14034,7 +14034,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006037912d")
 		(property "Reference" "TP9"
@@ -14141,7 +14141,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060379135")
 		(property "Reference" "TP10"
@@ -17417,7 +17417,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006078c59d")
 		(property "Reference" "JP20"
@@ -17811,7 +17811,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060822add")
 		(property "Reference" "JP15"
@@ -17919,7 +17919,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060825a8a")
 		(property "Reference" "JP16"
@@ -18027,7 +18027,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060842d26")
 		(property "Reference" "JP17"
@@ -18135,7 +18135,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006085c358")
 		(property "Reference" "JP18"
@@ -18348,7 +18348,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000608744b5")
 		(property "Reference" "JP19"
@@ -18456,7 +18456,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000608d95e5")
 		(property "Reference" "TP16"
@@ -18563,7 +18563,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000608dea4d")
 		(property "Reference" "TP17"
@@ -18775,7 +18775,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000609fd660")
 		(property "Reference" "TP41"
@@ -24476,7 +24476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "shim:SOT-563"
 			(at 177.8 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -24651,7 +24651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "shim:SOT-563"
 			(at 157.48 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -26342,7 +26342,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061fe6579")
 		(property "Reference" "JP87"
@@ -27811,7 +27811,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000623860e7")
 		(property "Reference" "JP76"
