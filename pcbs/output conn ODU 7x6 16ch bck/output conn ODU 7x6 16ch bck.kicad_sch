@@ -8733,7 +8733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shim_amp_linear:ODU-MAC_Zero_6x7_bck"
+		(property "Footprint" "shim:ODU-MAC_Zero_6x7_bck"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -8920,7 +8920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shim_amp_linear:ODU-MAC_Zero_6x7_bck"
+		(property "Footprint" "shim:ODU-MAC_Zero_6x7_bck"
 			(at 68.58 53.34 0)
 			(effects
 				(font
@@ -9107,7 +9107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shim_amp_linear:ODU-MAC_Zero_6x7_bck"
+		(property "Footprint" "shim:ODU-MAC_Zero_6x7_bck"
 			(at 106.68 53.34 0)
 			(effects
 				(font
@@ -9295,7 +9295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shim_amp_linear:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+		(property "Footprint" "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -9507,7 +9507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shim_amp_linear:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+		(property "Footprint" "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 			(at 69.85 120.65 0)
 			(effects
 				(font
@@ -11005,7 +11005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shim_amp_linear:PinHeader_2x15_P2.54mm_Vertical_Shrouded"
+		(property "Footprint" "shim:PinHeader_2x15_P2.54mm_Vertical_Shrouded"
 			(at 114.3 133.35 0)
 			(effects
 				(font

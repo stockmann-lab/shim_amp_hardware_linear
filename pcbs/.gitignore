@@ -32,3 +32,5 @@ fp-info-cache
 # 3D files
 *.step
 *.STEP
+# Local
+LOCAL/

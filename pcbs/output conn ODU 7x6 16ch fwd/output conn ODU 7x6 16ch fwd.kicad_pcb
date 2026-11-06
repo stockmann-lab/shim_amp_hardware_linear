@@ -3192,7 +3192,7 @@
 			)
 		)
 	)
-	(footprint "shim_amp_linear:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+	(footprint "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 		(layer "F.Cu")
 		(uuid "3f22d741-d2ec-42cd-9f46-0fcbedc690d8")
 		(at 139.48 161.71 -90)
@@ -4913,7 +4913,7 @@
 			)
 		)
 	)
-	(footprint "shim_amp_linear:PinHeader_2x15_P2.54mm_Vertical_Shrouded"
+	(footprint "shim:PinHeader_2x15_P2.54mm_Vertical_Shrouded"
 		(layer "F.Cu")
 		(uuid "5730a978-9784-43fd-afef-0afe4dcf0a68")
 		(at 80.84 102.72)
@@ -7387,7 +7387,7 @@
 			)
 		)
 	)
-	(footprint "shim_amp_linear:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
+	(footprint "shim:PinHeader_2x25_P2.54mm_Vertical_Shrouded"
 		(layer "F.Cu")
 		(uuid "77f544d3-f46e-4f9d-9f59-fd35f8461fa5")
 		(at 78.54 79.17 90)
@@ -12308,7 +12308,7 @@
 			)
 		)
 	)
-	(footprint "shim_amp_linear:ODU-MAC_Zero_6x7_fwd"
+	(footprint "shim:ODU-MAC_Zero_6x7_fwd"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-00005f5bd7ee")
 		(at 109 119 180)
