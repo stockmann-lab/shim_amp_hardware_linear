@@ -6,7 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Single Channel")
-		(rev "D2")
+		(date "2026-11-06")
+		(rev "E1")
 		(company "Martinos Center @ MGH")
 		(comment 1 "Don Straney")
 	)

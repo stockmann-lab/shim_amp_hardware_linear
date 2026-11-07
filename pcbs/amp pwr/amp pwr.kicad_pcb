@@ -9,8 +9,8 @@
 	(paper "B")
 	(title_block
 		(title "Shim amplifier, power board")
-		(date "2023-05-04")
-		(rev "D2")
+		(date "2026-11-06")
+		(rev "E1")
 		(company "Martinos Center @ MGH")
 		(comment 1 "Don Straney")
 	)
@@ -2363,17 +2363,6 @@
 			(uuid "4d7917b5-c13a-4c0c-8dc9-ebdfd3dcf801")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -8585,7 +8574,7 @@
 		(descr "Power Metal Strip Resistors 0.001 to 0.3, https://www.vishay.com/docs/31059/wsrhigh.pdf")
 		(tags "SMD Shunt Resistor")
 		(property "Reference" "R7"
-			(at -0.25 4.25 270)
+			(at -0.25 4.25 90)
 			(layer "F.SilkS")
 			(uuid "4cc6a576-251a-4ea8-ad63-954e3377743a")
 			(effects
@@ -8596,7 +8585,7 @@
 			)
 		)
 		(property "Value" "0.1 5W 75ppm/K"
-			(at 0 4.5 270)
+			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "61cbffd9-c294-4dbe-89a6-934a22d3511b")
 			(effects
@@ -8607,7 +8596,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/31059/wsrhigh.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28e0036d-9dd3-4e62-b8fc-4717d3d1245c")
@@ -8618,7 +8607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4028f7ad-5b4b-4504-be98-96fc1fe49eca")
@@ -8780,7 +8769,7 @@
 			(uuid "919ee11b-38bd-4fe6-bef9-5b46977f4e6c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "a037e446-bc28-4fac-91ef-211ab89a132a")
 			(effects
@@ -8807,17 +8796,6 @@
 			(uuid "31c28a05-42fc-4e4a-958c-518a4ac8cf02")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -9440,7 +9418,7 @@
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f03539d")
 		(at 100.5 140.8 180)
-		(descr "SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
+		(descr "Keystone SMT Miniature Test Point 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
 		(tags "Test Point")
 		(property "Reference" "TP1"
 			(at 0 -2.25 0)
@@ -9542,45 +9520,16 @@
 		(zone_connect 1)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 2.1 1.2)
-			(end -2.1 1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d43e8144-72fd-4ab8-89ff-6326c7f06f7f")
-		)
-		(fp_line
-			(start 2.1 -1.2)
+		(fp_rect
+			(start -2.1 -1.2)
 			(end 2.1 1.2)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.12)
+				(type default)
 			)
+			(fill no)
 			(layer "F.SilkS")
-			(uuid "5f3b3708-eb52-434e-9cec-95e6bbea87d2")
-		)
-		(fp_line
-			(start -2.1 1.2)
-			(end -2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2f054de4-fe80-46ad-a3be-943d44dd1a73")
-		)
-		(fp_line
-			(start -2.1 -1.2)
-			(end 2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "00f095f8-bb01-43ed-bd7b-3f621ef2994a")
+			(uuid "3f6d765f-93f3-4ed7-99d0-5e96fa2b3a2f")
 		)
 		(fp_line
 			(start 2.35 1.45)
@@ -9622,165 +9571,60 @@
 			(layer "F.CrtYd")
 			(uuid "36c774f8-264c-403b-9d20-553e18cb1c2c")
 		)
-		(fp_line
-			(start 1.9 0.5)
-			(end 1.9 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f41510c2-e21c-4bba-9527-e3f634eec40a")
-		)
-		(fp_line
-			(start 1.9 0.5)
-			(end -1.9 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "51ab657c-e94c-4e6b-a089-eb69c80933ec")
-		)
-		(fp_line
-			(start 1.75 -0.5)
-			(end 1.25 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "47d9ceb7-8ea2-490a-bbab-e4bc87c8b271")
-		)
-		(fp_line
-			(start 1.25 1)
-			(end 1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1798b71c-0737-44a7-9857-e53c15ab1c9b")
-		)
-		(fp_line
-			(start 1.25 0.5)
-			(end 1.75 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "31a1a06c-79fe-4b7d-a21f-accf4e2eed73")
-		)
-		(fp_line
-			(start 1.25 -0.5)
-			(end 1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a47711da-00fe-4fce-8e25-3426aaf54519")
-		)
-		(fp_line
-			(start 1.25 -1)
-			(end -1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "352b974f-9355-48f8-96b0-3e289b184e5d")
-		)
-		(fp_line
+		(fp_rect
 			(start 0 0.5)
-			(end 0 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "58f4e80e-525c-4187-9ea0-99e75d5c12ea")
-		)
-		(fp_line
-			(start 0 -1)
-			(end 0 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1bddd067-f8d0-4167-88f2-aca338fe22a5")
-		)
-		(fp_line
-			(start -1.25 1)
 			(end 1.25 1)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "32b059f7-9202-49f0-bc72-bf45c57953a9")
+			(uuid "82c08879-cb35-4ef0-af36-8522a6219d69")
 		)
-		(fp_line
+		(fp_rect
+			(start 0 -1)
+			(end 1.25 -0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "ce99a3b5-506c-415d-9673-2cb4b3d36c31")
+		)
+		(fp_rect
 			(start -1.25 0.5)
-			(end -1.25 1)
+			(end 0 1)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "94168ba1-dd93-4de7-9577-73d0d73d7c95")
+			(uuid "7ac78c2d-6d86-475d-8efc-47165971a941")
 		)
-		(fp_line
-			(start -1.25 -0.5)
-			(end -1.75 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3980712b-05ca-4b2d-b05b-40fb4f0d269c")
-		)
-		(fp_line
+		(fp_rect
 			(start -1.25 -1)
-			(end -1.25 -0.5)
+			(end 0 -0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "4d8ed287-90b2-49f5-a1e3-0e9c71ac2c42")
+			(uuid "7c913efb-bcc3-4638-8c72-2cdf170232ef")
 		)
-		(fp_line
-			(start -1.75 0.5)
-			(end -1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f0e93767-ef29-4390-9a9e-8fae2d22e8ee")
-		)
-		(fp_line
+		(fp_rect
 			(start -1.9 -0.5)
-			(end 1.9 -0.5)
+			(end 1.9 0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "7c1e5a94-2566-4437-bf2a-205fb4822cf5")
-		)
-		(fp_line
-			(start -1.9 -0.5)
-			(end -1.9 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ae9ef0fe-2bfb-4e95-92ee-f5219de02544")
+			(uuid "226b7128-bcdc-4219-832a-37155f8edd4f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -9793,18 +9637,18 @@
 				)
 			)
 		)
-		(pad "1" smd rect
+		(pad "1" smd roundrect
 			(at 0 0 180)
 			(size 3.8 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
 			(net "GNDPWR")
 			(pinfunction "1_1")
 			(pintype "passive")
-			(zone_connect 1)
 			(uuid "ca18e08a-5f5f-4915-a8a4-93f8f469c801")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5019_Minature.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -58138,7 +57982,7 @@
 		(descr "Power Metal Strip Resistors 0.001 to 0.3, https://www.vishay.com/docs/31059/wsrhigh.pdf")
 		(tags "SMD Shunt Resistor")
 		(property "Reference" "R17"
-			(at -0.25 4.25 270)
+			(at -0.25 4.25 90)
 			(layer "F.SilkS")
 			(uuid "4a1673f6-e553-4137-ae8c-682e9ef7f41a")
 			(effects
@@ -58149,7 +57993,7 @@
 			)
 		)
 		(property "Value" "0.1 5W 75ppm/K"
-			(at 0 4.5 270)
+			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "3475abc1-d290-4d9a-a67c-64f0c29068c6")
 			(effects
@@ -58160,7 +58004,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/31059/wsrhigh.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9da973c-a3ec-4e97-821b-e3f6ae072714")
@@ -58171,7 +58015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa641a07-5d2b-497f-b3a2-3b0f20ddd473")
@@ -58333,7 +58177,7 @@
 			(uuid "c3e93ab3-56ad-46b2-9cde-d996662e8a93")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "1ab08ad8-e351-4f4e-8b2e-624609c7b47b")
 			(effects
@@ -58360,17 +58204,6 @@
 			(uuid "3e1b6f23-66e5-4e51-8375-719e5709040f")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -58612,17 +58445,6 @@
 			(uuid "c91542a3-9995-44dc-962e-699bf8fa7e87")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -59639,7 +59461,7 @@
 		(descr "Power Metal Strip Resistors 0.001 to 0.3, https://www.vishay.com/docs/31059/wsrhigh.pdf")
 		(tags "SMD Shunt Resistor")
 		(property "Reference" "R27"
-			(at -0.25 4.25 270)
+			(at -0.25 4.25 90)
 			(layer "F.SilkS")
 			(uuid "10ae75ba-b89d-4ded-bb3b-11fed50a89ca")
 			(effects
@@ -59650,7 +59472,7 @@
 			)
 		)
 		(property "Value" "0.1 5W 75ppm/K"
-			(at 0 4.5 270)
+			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "6e1ca554-3f9e-46dc-a2ca-379390aa49e3")
 			(effects
@@ -59661,7 +59483,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/31059/wsrhigh.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "346cf413-b5fe-42d4-8c8c-5935a13bbe72")
@@ -59672,7 +59494,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dfbe30e5-ac5a-496a-a644-3437099a89ea")
@@ -59834,7 +59656,7 @@
 			(uuid "81bd134c-b6fb-4511-a5e7-21da3a6b1f36")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "98d52591-9020-41f7-b091-d4898e13b76f")
 			(effects
@@ -59861,17 +59683,6 @@
 			(uuid "e01a78bd-187a-4ae0-9954-0968679ae34b")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -60113,17 +59924,6 @@
 			(uuid "f7504814-1dea-482e-9f51-c7adcf5601be")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -61140,7 +60940,7 @@
 		(descr "Power Metal Strip Resistors 0.001 to 0.3, https://www.vishay.com/docs/31059/wsrhigh.pdf")
 		(tags "SMD Shunt Resistor")
 		(property "Reference" "R37"
-			(at -0.25 4.25 270)
+			(at -0.25 4.25 90)
 			(layer "F.SilkS")
 			(uuid "0403f48c-1180-4248-8e66-36051edbca9c")
 			(effects
@@ -61151,7 +60951,7 @@
 			)
 		)
 		(property "Value" "0.1 5W 75ppm/K"
-			(at 0 4.5 270)
+			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "b39f3167-659d-4c97-bbab-7fd4451e2f26")
 			(effects
@@ -61162,7 +60962,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/31059/wsrhigh.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "44da8517-ca78-4f6f-ac2f-72229b5685e3")
@@ -61173,7 +60973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "02eb3520-03fb-4b16-9e25-b8438e63e598")
@@ -61335,7 +61135,7 @@
 			(uuid "a1076465-be9d-443f-8229-a364945f8ec2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "7ae6cf2a-ef50-4526-8ca6-a2cda9bcebcb")
 			(effects
@@ -61362,17 +61162,6 @@
 			(uuid "f2dea249-eb4e-413c-880f-3cf16c7808a3")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -61614,17 +61403,6 @@
 			(uuid "6fbe3b73-32a4-4153-807d-0de0eabaa14e")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -62641,7 +62419,7 @@
 		(descr "Power Metal Strip Resistors 0.001 to 0.3, https://www.vishay.com/docs/31059/wsrhigh.pdf")
 		(tags "SMD Shunt Resistor")
 		(property "Reference" "R47"
-			(at -0.25 4.25 270)
+			(at -0.25 4.25 90)
 			(layer "F.SilkS")
 			(uuid "736d576e-4df9-4aa2-892e-6da11d8d6736")
 			(effects
@@ -62652,7 +62430,7 @@
 			)
 		)
 		(property "Value" "0.1 5W 75ppm/K"
-			(at 0 4.5 270)
+			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "85dbffde-b528-4d52-9341-bbdbebc10249")
 			(effects
@@ -62663,7 +62441,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/31059/wsrhigh.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d0feeda-1279-4888-9e1d-c9f007697de2")
@@ -62674,7 +62452,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7f60547b-cc2e-41f3-82ea-17761bae8d71")
@@ -62836,7 +62614,7 @@
 			(uuid "5beda36d-3967-41cf-862b-8575e1b4a03b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "5276504b-1b63-4031-91e2-66488387c272")
 			(effects
@@ -62863,17 +62641,6 @@
 			(uuid "09b28afe-5b8d-4337-b3a3-c05bd2cf3780")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -63115,17 +62882,6 @@
 			(uuid "5b286239-510b-4811-ac0a-d907359c2cd8")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -64142,7 +63898,7 @@
 		(descr "Power Metal Strip Resistors 0.001 to 0.3, https://www.vishay.com/docs/31059/wsrhigh.pdf")
 		(tags "SMD Shunt Resistor")
 		(property "Reference" "R57"
-			(at -0.25 4.25 270)
+			(at -0.25 4.25 90)
 			(layer "F.SilkS")
 			(uuid "72e3b1cc-7123-434f-ba9c-97dcbca9f689")
 			(effects
@@ -64153,7 +63909,7 @@
 			)
 		)
 		(property "Value" "0.1 5W 75ppm/K"
-			(at 0 4.5 270)
+			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "47a7a0bc-40b7-4fbf-8cfc-d299ac3c40bc")
 			(effects
@@ -64164,7 +63920,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/31059/wsrhigh.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97e1f56d-430a-41a4-9143-4d9ab0c950ff")
@@ -64175,7 +63931,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "296322bc-fd5a-4c8e-9958-605d3e60eaac")
@@ -64337,7 +64093,7 @@
 			(uuid "f9fed8c3-6517-47d3-b54e-00d32d5d4465")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "ae3c4096-b8e3-4905-b45f-2bc43e502670")
 			(effects
@@ -64364,17 +64120,6 @@
 			(uuid "6381ee7e-cf79-43b7-b920-357a44d44f16")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -64616,17 +64361,6 @@
 			(uuid "d8d9423c-9ecd-4348-9c0e-006826d04ef1")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -65643,7 +65377,7 @@
 		(descr "Power Metal Strip Resistors 0.001 to 0.3, https://www.vishay.com/docs/31059/wsrhigh.pdf")
 		(tags "SMD Shunt Resistor")
 		(property "Reference" "R67"
-			(at -0.25 4.25 270)
+			(at -0.25 4.25 90)
 			(layer "F.SilkS")
 			(uuid "12fc76a9-00a1-4626-8704-b34df2a447ef")
 			(effects
@@ -65654,7 +65388,7 @@
 			)
 		)
 		(property "Value" "0.1 5W 75ppm/K"
-			(at 0 4.5 270)
+			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "6e4de7d5-0205-42e2-a9a2-ede79ce363e3")
 			(effects
@@ -65665,7 +65399,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/31059/wsrhigh.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d30dd251-90cb-47b1-ac58-34192c01f15e")
@@ -65676,7 +65410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25e1fc30-4396-4857-b686-ac70db3ad8e5")
@@ -65838,7 +65572,7 @@
 			(uuid "24b5eaaa-f420-428e-baf2-dc69b0f201fa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "87c0a5c0-41b5-43ad-b722-ac35e1447f5d")
 			(effects
@@ -65865,17 +65599,6 @@
 			(uuid "d3f592e0-f4a2-42c7-9faf-320ce1840961")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -66117,17 +65840,6 @@
 			(uuid "e4b64951-0287-4ed5-81cb-1ccd2b055b85")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -66898,7 +66610,7 @@
 		(descr "Power Metal Strip Resistors 0.001 to 0.3, https://www.vishay.com/docs/31059/wsrhigh.pdf")
 		(tags "SMD Shunt Resistor")
 		(property "Reference" "R77"
-			(at -0.25 4.25 270)
+			(at -0.25 4.25 90)
 			(layer "F.SilkS")
 			(uuid "5328a949-8b55-4de8-92fa-aa4b68b9dc04")
 			(effects
@@ -66909,7 +66621,7 @@
 			)
 		)
 		(property "Value" "0.1 5W 75ppm/K"
-			(at 0 4.5 270)
+			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "b808947b-8f12-4032-88e5-ca276b81d61d")
 			(effects
@@ -66920,7 +66632,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/31059/wsrhigh.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac205bce-0eb5-4110-8594-17d5bc155bd9")
@@ -66931,7 +66643,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7b35bd6d-46d0-49cf-aaa7-17b74cc3f80f")
@@ -67093,7 +66805,7 @@
 			(uuid "c37a98c0-b735-490b-8ea0-e2597d3286c1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "cedcccce-0a96-4a99-b8e6-c74e2c11e5fb")
 			(effects
@@ -67120,17 +66832,6 @@
 			(uuid "f0334366-c372-41d0-95c3-8d568341addb")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -67372,17 +67073,6 @@
 			(uuid "b4ddb6c9-0244-43a0-9ba5-7c01413849c9")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSR2_WSR3.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${SHIM}/R_Vishay_WSR5.stp"
 			(offset
 				(xyz 0 0 0)
@@ -69280,7 +68970,7 @@
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3ef8f7")
 		(at 233.5 140.55)
-		(descr "SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
+		(descr "Keystone SMT Miniature Test Point 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
 		(tags "Test Point")
 		(property "Reference" "TP38"
 			(at 0 -2.25 0)
@@ -69381,45 +69071,16 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
+		(fp_rect
 			(start -2.1 -1.2)
-			(end 2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "74bed36c-9d5e-4fb2-bffa-01706e3d173e")
-		)
-		(fp_line
-			(start -2.1 1.2)
-			(end -2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "69a529a0-7586-4c1d-8db4-e7a0305808a9")
-		)
-		(fp_line
-			(start 2.1 -1.2)
 			(end 2.1 1.2)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.12)
+				(type default)
 			)
+			(fill no)
 			(layer "F.SilkS")
-			(uuid "cf3c8263-7333-4c81-944c-ba2d5673acd5")
-		)
-		(fp_line
-			(start 2.1 1.2)
-			(end -2.1 1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "444dd628-a50d-48a2-ba29-7e19bcc9c20c")
+			(uuid "59972f14-ff42-4e76-9330-7ed668a7e536")
 		)
 		(fp_line
 			(start -2.35 -1.45)
@@ -69461,165 +69122,60 @@
 			(layer "F.CrtYd")
 			(uuid "7e1a2fed-9504-4668-9d1a-acfb151da415")
 		)
-		(fp_line
+		(fp_rect
 			(start -1.9 -0.5)
-			(end -1.9 0.5)
+			(end 1.9 0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "11870026-bac2-4eb7-bc36-671d2b1cd1f6")
+			(uuid "6af4951b-9188-44ed-915e-27895aed6702")
 		)
-		(fp_line
-			(start -1.9 -0.5)
-			(end 1.9 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d80f6492-2f8d-488d-ac34-2ab738a2f762")
-		)
-		(fp_line
-			(start -1.75 0.5)
-			(end -1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ffce7e10-ebd3-4d5e-a3bf-106a747c301d")
-		)
-		(fp_line
+		(fp_rect
 			(start -1.25 -1)
-			(end -1.25 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "32667b7f-55f6-4175-8a39-e0b8e1b3730f")
-		)
-		(fp_line
-			(start -1.25 -0.5)
-			(end -1.75 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ced489a6-4c12-4a72-8c1c-3a13023f04c1")
-		)
-		(fp_line
-			(start -1.25 0.5)
-			(end -1.25 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "50b40867-a2f0-479f-b56f-393bededc97e")
-		)
-		(fp_line
-			(start -1.25 1)
-			(end 1.25 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "12636954-3651-49ea-8f32-58fa92f897e7")
-		)
-		(fp_line
-			(start 0 -1)
 			(end 0 -0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "dc48a2b8-b7e9-4567-a492-acc9b077797e")
+			(uuid "2c31251f-8ee2-483f-b155-dab308a37845")
 		)
-		(fp_line
-			(start 0 0.5)
+		(fp_rect
+			(start -1.25 0.5)
 			(end 0 1)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "45d3319c-2fef-4e77-b1cc-27c74ebde19e")
+			(uuid "f8bf23d5-3528-4f68-9a0c-2f3f962e690d")
 		)
-		(fp_line
-			(start 1.25 -1)
-			(end -1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1603579d-c566-45d0-b4e7-9d6545866423")
-		)
-		(fp_line
-			(start 1.25 -0.5)
-			(end 1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b76e3ce5-086b-4ab1-9459-0ed6108464ca")
-		)
-		(fp_line
-			(start 1.25 0.5)
-			(end 1.75 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "672a3902-2a82-4898-b2a0-f2cbc53c591d")
-		)
-		(fp_line
-			(start 1.25 1)
-			(end 1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3cc79dad-18c6-4ecc-b02d-99effaec8255")
-		)
-		(fp_line
-			(start 1.75 -0.5)
+		(fp_rect
+			(start 0 -1)
 			(end 1.25 -0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "80586011-9958-4c2a-8de0-1f28ab9cc4d8")
+			(uuid "a082b62d-e2a4-433d-900e-785be4868023")
 		)
-		(fp_line
-			(start 1.9 0.5)
-			(end -1.9 0.5)
+		(fp_rect
+			(start 0 0.5)
+			(end 1.25 1)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "fc1941bd-a7dd-4a6c-8810-871fc521bbe8")
-		)
-		(fp_line
-			(start 1.9 0.5)
-			(end 1.9 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "895a2e85-a889-4f76-a2d4-27f9746565c4")
+			(uuid "8e91b497-0d3b-49a7-b39b-482361440994")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -69632,17 +69188,18 @@
 				)
 			)
 		)
-		(pad "1" smd rect
+		(pad "1" smd roundrect
 			(at 0 0)
 			(size 3.8 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
 			(net "GNDPWR")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "748d35ae-8894-4e7c-8d2e-abceaa61ef4c")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5019_Minature.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -71638,7 +71195,7 @@
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3efa0f")
 		(at 300 140.55)
-		(descr "SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
+		(descr "Keystone SMT Miniature Test Point 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
 		(tags "Test Point")
 		(property "Reference" "TP62"
 			(at 0 -2.25 0)
@@ -71739,45 +71296,16 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
+		(fp_rect
 			(start -2.1 -1.2)
-			(end 2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1c053d0c-2d43-457e-bb39-4f7ce72d6259")
-		)
-		(fp_line
-			(start -2.1 1.2)
-			(end -2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5bf67ae0-6984-4ae6-9314-893e4914cd47")
-		)
-		(fp_line
-			(start 2.1 -1.2)
 			(end 2.1 1.2)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.12)
+				(type default)
 			)
+			(fill no)
 			(layer "F.SilkS")
-			(uuid "5033920d-0c5c-482c-9f1a-1ceefa77b8bd")
-		)
-		(fp_line
-			(start 2.1 1.2)
-			(end -2.1 1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7bb210b0-2dcc-445f-849a-f6229b354c3b")
+			(uuid "801079aa-dfe3-4ae1-9fa5-e3e0ed9104ae")
 		)
 		(fp_line
 			(start -2.35 -1.45)
@@ -71819,165 +71347,60 @@
 			(layer "F.CrtYd")
 			(uuid "c136abd5-95d3-4d27-8463-8cc50ce981d4")
 		)
-		(fp_line
+		(fp_rect
 			(start -1.9 -0.5)
-			(end -1.9 0.5)
+			(end 1.9 0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "84900391-eacd-42d6-845f-acef8c36b504")
+			(uuid "26aecfc3-bc0c-4b2b-bf6d-e726f4bf0e70")
 		)
-		(fp_line
-			(start -1.9 -0.5)
-			(end 1.9 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a052388b-da98-4d70-82bf-4d76a3ef3641")
-		)
-		(fp_line
-			(start -1.75 0.5)
-			(end -1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ffc471e6-26ba-4fa2-bbd6-29d61e741ffa")
-		)
-		(fp_line
+		(fp_rect
 			(start -1.25 -1)
-			(end -1.25 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e1431164-f906-466a-8191-0143091058c1")
-		)
-		(fp_line
-			(start -1.25 -0.5)
-			(end -1.75 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a3bbf538-a014-47af-b2e8-f05183b25e72")
-		)
-		(fp_line
-			(start -1.25 0.5)
-			(end -1.25 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f18c3277-d9b0-4890-8426-cfa4d7e6c9c6")
-		)
-		(fp_line
-			(start -1.25 1)
-			(end 1.25 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a4b74150-57e7-48ef-82e7-a4a5db2ba94d")
-		)
-		(fp_line
-			(start 0 -1)
 			(end 0 -0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "f95a5365-f7f8-4e3e-bf54-fe5d0f53eb08")
+			(uuid "1a06f349-bfc5-472d-b8a6-1455d077919e")
 		)
-		(fp_line
-			(start 0 0.5)
+		(fp_rect
+			(start -1.25 0.5)
 			(end 0 1)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "2075ce6b-57b2-41bb-8d90-dfc3e92e5ada")
+			(uuid "29d39f50-4b7f-4c52-a5f5-20e7622845c5")
 		)
-		(fp_line
-			(start 1.25 -1)
-			(end -1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d3d20be3-79e3-42cf-b69c-dbcaf054644a")
-		)
-		(fp_line
-			(start 1.25 -0.5)
-			(end 1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "37e7918d-f2f3-487c-9552-52f691366ca8")
-		)
-		(fp_line
-			(start 1.25 0.5)
-			(end 1.75 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "067be322-9543-4b4b-8b2c-d2bd1da296cc")
-		)
-		(fp_line
-			(start 1.25 1)
-			(end 1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7451d11e-575e-4dcc-a940-40e23769328d")
-		)
-		(fp_line
-			(start 1.75 -0.5)
+		(fp_rect
+			(start 0 -1)
 			(end 1.25 -0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "3c8f648b-b6b5-4145-bd12-ba81f75df01c")
+			(uuid "402ff17a-a3a1-4b85-a410-57a45269e99a")
 		)
-		(fp_line
-			(start 1.9 0.5)
-			(end -1.9 0.5)
+		(fp_rect
+			(start 0 0.5)
+			(end 1.25 1)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "289523e6-b428-4fa6-913a-87882a52825a")
-		)
-		(fp_line
-			(start 1.9 0.5)
-			(end 1.9 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "db83fc6e-61ee-4c9e-b921-71a0ab4b60d1")
+			(uuid "3b81125f-60ee-41c5-a18c-6f23acfbf241")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -71990,17 +71413,18 @@
 				)
 			)
 		)
-		(pad "1" smd rect
+		(pad "1" smd roundrect
 			(at 0 0)
 			(size 3.8 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
 			(net "GNDPWR")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "ba0be5f4-29be-4b47-8677-c2c3b948ce4a")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5019_Minature.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -73996,7 +73420,7 @@
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3efb27")
 		(at 366.75 140.55)
-		(descr "SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
+		(descr "Keystone SMT Miniature Test Point 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
 		(tags "Test Point")
 		(property "Reference" "TP86"
 			(at 0 -2.25 0)
@@ -74097,45 +73521,16 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
+		(fp_rect
 			(start -2.1 -1.2)
-			(end 2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8e4173f1-39d5-417f-8f5a-43ba1e40928c")
-		)
-		(fp_line
-			(start -2.1 1.2)
-			(end -2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a82de982-1282-4c3c-bbe1-f8be0eb2996f")
-		)
-		(fp_line
-			(start 2.1 -1.2)
 			(end 2.1 1.2)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.12)
+				(type default)
 			)
+			(fill no)
 			(layer "F.SilkS")
-			(uuid "2c82dfbb-afaa-442f-b594-4d08e8d18a88")
-		)
-		(fp_line
-			(start 2.1 1.2)
-			(end -2.1 1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "693f6d7f-3093-4c23-a7e8-e2af8b291cdd")
+			(uuid "254e8ecb-8227-4be6-a264-de2706c582b0")
 		)
 		(fp_line
 			(start -2.35 -1.45)
@@ -74177,165 +73572,60 @@
 			(layer "F.CrtYd")
 			(uuid "9e540184-167a-4b33-b10b-e6180c54ceb7")
 		)
-		(fp_line
+		(fp_rect
 			(start -1.9 -0.5)
-			(end -1.9 0.5)
+			(end 1.9 0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "77bb9183-2648-447c-a17a-ee6730d4c4b0")
+			(uuid "a0e916bb-249d-414c-8499-07a5a28f68db")
 		)
-		(fp_line
-			(start -1.9 -0.5)
-			(end 1.9 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d1ce15aa-2b21-44a0-91c6-6ea21ac0e783")
-		)
-		(fp_line
-			(start -1.75 0.5)
-			(end -1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b89ef9f4-a588-4456-876e-2e64998bcf6c")
-		)
-		(fp_line
+		(fp_rect
 			(start -1.25 -1)
-			(end -1.25 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "22d87e5a-ed8a-4b53-82e2-877c5af00db4")
-		)
-		(fp_line
-			(start -1.25 -0.5)
-			(end -1.75 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d2af1f79-420e-4094-a9de-78ef4741cd43")
-		)
-		(fp_line
-			(start -1.25 0.5)
-			(end -1.25 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "30764f18-8466-42a3-b957-6a36e362e01e")
-		)
-		(fp_line
-			(start -1.25 1)
-			(end 1.25 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ec90690e-c6fa-4bc5-88b8-c9a8ca9d7f8e")
-		)
-		(fp_line
-			(start 0 -1)
 			(end 0 -0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "d0a893fe-6ce0-448f-95ec-6d6d8ae17420")
+			(uuid "9125ee68-db93-45dd-acdd-a85f3380eae8")
 		)
-		(fp_line
-			(start 0 0.5)
+		(fp_rect
+			(start -1.25 0.5)
 			(end 0 1)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "f7529551-1b9b-44f9-aa64-2e0917d238e1")
+			(uuid "3a8314c5-ea3f-45e7-9fc1-a7bdc5b94a36")
 		)
-		(fp_line
-			(start 1.25 -1)
-			(end -1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "63bf971c-05dc-4483-8b04-47eed6e16c2f")
-		)
-		(fp_line
-			(start 1.25 -0.5)
-			(end 1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f56888c0-b578-48a7-9167-0ed0a92fee95")
-		)
-		(fp_line
-			(start 1.25 0.5)
-			(end 1.75 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "403c7814-67a9-4dc4-b8a3-bccc8ca0f087")
-		)
-		(fp_line
-			(start 1.25 1)
-			(end 1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0202f5c0-3139-4725-a020-8baf72455fd5")
-		)
-		(fp_line
-			(start 1.75 -0.5)
+		(fp_rect
+			(start 0 -1)
 			(end 1.25 -0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "2b7374d9-01de-47cd-b700-e3ff741af720")
+			(uuid "0b27aa45-b46c-47e1-b3fc-ce48a3ae4d21")
 		)
-		(fp_line
-			(start 1.9 0.5)
-			(end -1.9 0.5)
+		(fp_rect
+			(start 0 0.5)
+			(end 1.25 1)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "d452bae4-71cb-4721-b2ba-54da430a82f7")
-		)
-		(fp_line
-			(start 1.9 0.5)
-			(end 1.9 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "38399485-4f5f-4159-80da-0f7b114011d8")
+			(uuid "d500a86e-ea7f-431d-b169-b100fe5cd601")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -74348,17 +73638,18 @@
 				)
 			)
 		)
-		(pad "1" smd rect
+		(pad "1" smd roundrect
 			(at 0 0)
 			(size 3.8 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
 			(net "GNDPWR")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "5470d6c3-6f98-4026-b73f-f2f2a7803179")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5019_Minature.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -83610,7 +82901,7 @@
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f3f490c")
 		(at 168 140.55)
-		(descr "SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
+		(descr "Keystone SMT Miniature Test Point 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
 		(tags "Test Point")
 		(property "Reference" "TP14"
 			(at 0 -2.25 0)
@@ -83711,45 +83002,16 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
+		(fp_rect
 			(start -2.1 -1.2)
-			(end 2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e04f6120-4bad-4e8d-9f84-641900ea0feb")
-		)
-		(fp_line
-			(start -2.1 1.2)
-			(end -2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fef29bbe-7e28-42e4-8ce5-218301f475aa")
-		)
-		(fp_line
-			(start 2.1 -1.2)
 			(end 2.1 1.2)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.12)
+				(type default)
 			)
+			(fill no)
 			(layer "F.SilkS")
-			(uuid "7261bc75-005d-43e5-b829-a6c6fd0b4c28")
-		)
-		(fp_line
-			(start 2.1 1.2)
-			(end -2.1 1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4f5323f1-58e1-4132-9671-205efccf6654")
+			(uuid "504fedf8-6161-4494-9f89-d3c86508d60c")
 		)
 		(fp_line
 			(start -2.35 -1.45)
@@ -83791,165 +83053,60 @@
 			(layer "F.CrtYd")
 			(uuid "f51350eb-6dae-4f72-917e-7d7f8c07feba")
 		)
-		(fp_line
+		(fp_rect
 			(start -1.9 -0.5)
-			(end -1.9 0.5)
+			(end 1.9 0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "dde2c9cb-d9c9-4a8f-95bf-44ceec582007")
+			(uuid "0c2963ec-737f-4659-8fe7-dc0a5e194368")
 		)
-		(fp_line
-			(start -1.9 -0.5)
-			(end 1.9 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "fe7e111a-41c6-45a1-9186-560318ddc2ce")
-		)
-		(fp_line
-			(start -1.75 0.5)
-			(end -1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bc7a6946-51ce-4db9-9aa0-cbe700227b10")
-		)
-		(fp_line
+		(fp_rect
 			(start -1.25 -1)
-			(end -1.25 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5715ce84-6fa5-4e0e-a709-377c1025aba7")
-		)
-		(fp_line
-			(start -1.25 -0.5)
-			(end -1.75 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "53bf4487-e98a-45db-b625-e10700dd1625")
-		)
-		(fp_line
-			(start -1.25 0.5)
-			(end -1.25 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "27c01a35-e334-44b2-b596-cbe4c0db763a")
-		)
-		(fp_line
-			(start -1.25 1)
-			(end 1.25 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "721f0d7a-cd84-4a0b-8cdc-6f81254863c5")
-		)
-		(fp_line
-			(start 0 -1)
 			(end 0 -0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "3228b9b1-3e28-4099-9e6b-68a464384642")
+			(uuid "adb72198-059f-4d4b-9e6f-07d9196757ae")
 		)
-		(fp_line
-			(start 0 0.5)
+		(fp_rect
+			(start -1.25 0.5)
 			(end 0 1)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "ce8bcf70-b8f7-4076-9b7a-34fab86c9780")
+			(uuid "e08d9207-f986-40ee-aa16-2c4b823fd5fa")
 		)
-		(fp_line
-			(start 1.25 -1)
-			(end -1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c9c6c395-26b3-42c8-8dff-0beff3e3c0b6")
-		)
-		(fp_line
-			(start 1.25 -0.5)
-			(end 1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c2d378e1-ed1a-4aa4-8211-4cacd0fc948e")
-		)
-		(fp_line
-			(start 1.25 0.5)
-			(end 1.75 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f56b51dc-1673-4c03-bacc-8aced1741460")
-		)
-		(fp_line
-			(start 1.25 1)
-			(end 1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f5be3478-9b47-48c3-830d-c1307555a8b2")
-		)
-		(fp_line
-			(start 1.75 -0.5)
+		(fp_rect
+			(start 0 -1)
 			(end 1.25 -0.5)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "187e77f8-a04b-4578-86de-96b5cc4685d2")
+			(uuid "7d091d18-090e-4da7-8da7-02f64dda09e9")
 		)
-		(fp_line
-			(start 1.9 0.5)
-			(end -1.9 0.5)
+		(fp_rect
+			(start 0 0.5)
+			(end 1.25 1)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "9eabc185-750d-4cf2-a4a0-b59af7794653")
-		)
-		(fp_line
-			(start 1.9 0.5)
-			(end 1.9 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "dbfe94c4-c1bf-439d-90b9-cc5a284b4bb3")
+			(uuid "6b1811a3-089c-4ad4-a7bb-9895d464c31c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -83962,17 +83119,18 @@
 				)
 			)
 		)
-		(pad "1" smd rect
+		(pad "1" smd roundrect
 			(at 0 0)
 			(size 3.8 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
 			(net "GNDPWR")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "f49d94c0-594c-452a-8b42-1ecee2d872b6")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5019_Minature.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -100811,7 +99969,7 @@
 			)
 		)
 	)
-	(gr_text "Don Straney 2026-08\nMartinos Center @ MGH"
+	(gr_text "Don Straney ${ISSUE_DATE}\nMartinos Center @ MGH"
 		(at 92 113.8 90)
 		(layer "F.SilkS")
 		(uuid "ffcbea0b-d12a-4715-a0dc-b17d0ceffe7c")
@@ -100844,7 +100002,7 @@
 			)
 		)
 	)
-	(gr_text "Shim Amplifier, Power Board\nRev. D3"
+	(gr_text "Shim Amplifier, Power Board\nRev. ${REVISION}"
 		(at 86 113.3 90)
 		(layer "F.SilkS")
 		(uuid "143e00a7-aeeb-41b3-a993-18f248279aff")

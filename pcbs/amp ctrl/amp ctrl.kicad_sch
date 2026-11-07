@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Shim amplifier control board")
-		(date "2023-05-04")
-		(rev "D4")
+		(date "2026-11-06")
+		(rev "E1")
 		(company "Martinos Center @ MGH")
 		(comment 1 "Don Straney")
 	)
@@ -19450,7 +19450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x02_P2.54mm_F_bare"
+		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x02_P2.54mm_F"
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -20179,7 +20179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x02_P2.54mm_F_bare"
+		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x02_P2.54mm_F"
 			(at 92.71 73.66 0)
 			(hide yes)
 			(show_name no)

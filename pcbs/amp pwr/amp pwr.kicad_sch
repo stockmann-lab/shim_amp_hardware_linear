@@ -5,8 +5,9 @@
 	(uuid "154f9ec2-fa25-46ca-8342-fe8642bad0e8")
 	(paper "A")
 	(title_block
-		(title "Shim amp board: single-channel test (power section)")
-		(rev "D2")
+		(title "Shim amp power board")
+		(date "2026-11-06")
+		(rev "E1")
 		(company "Martinos Center @ MGH")
 		(comment 1 "Don Straney")
 	)
@@ -7949,7 +7950,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00005f3e42a6")
 		(property "Sheetname" "Channel 1"
@@ -7995,7 +7996,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00005f42f5ed")
 		(property "Sheetname" "Channel 2"
@@ -8041,7 +8042,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00005f42f634")
 		(property "Sheetname" "Channel 3"
@@ -8087,7 +8088,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00005f42f664")
 		(property "Sheetname" "Channel 4"
@@ -8133,7 +8134,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00005f42f6a4")
 		(property "Sheetname" "Channel 5"
@@ -8179,7 +8180,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00005f42f6db")
 		(property "Sheetname" "Channel 6"
@@ -8225,7 +8226,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00005f42f6f0")
 		(property "Sheetname" "Channel 7"
@@ -8271,7 +8272,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 215 255 187 1)
 		)
 		(uuid "00000000-0000-0000-0000-00005f42f721")
 		(property "Sheetname" "Channel 8"

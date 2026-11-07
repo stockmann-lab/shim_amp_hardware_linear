@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Digital Controls and Voltage Reference")
-		(date "2023-05-04")
-		(rev "D4")
+		(date "2026-11-06")
+		(rev "E1")
 		(company "Martinos Center @ MGH")
 		(comment 1 "Don Straney")
 	)

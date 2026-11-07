@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Output Channel")
-		(date "2023-05-04")
-		(rev "D4")
+		(date "2026-11-06")
+		(rev "E1")
 		(company "Martinos Center @ MGH")
 		(comment 1 "Don Straney")
 	)
@@ -28790,7 +28790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x05_P2.54mm_F_bare"
+		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x05_P2.54mm_F"
 			(at 304.8 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -28908,7 +28908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x05_P2.54mm_F_bare"
+		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x05_P2.54mm_F"
 			(at 304.8 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -29131,7 +29131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x05_P2.54mm_F_bare"
+		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x05_P2.54mm_F"
 			(at 294.64 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -29251,7 +29251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x02_P2.54mm_F_bare"
+		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x02_P2.54mm_F"
 			(at 303.53 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -29466,7 +29466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x05_P2.54mm_F_bare"
+		(property "Footprint" "shim:Conn_70AAJ-M_SIB_1x05_P2.54mm_F"
 			(at 294.64 224.79 0)
 			(hide yes)
 			(show_name no)

@@ -5,8 +5,8 @@
 	(uuid "e25c9b0c-4fbb-4277-bbd0-77bb816b5cb0")
 	(paper "A4")
 	(title_block
-		(date "2023-05-04")
-		(rev "D4")
+		(date "2026-11-06")
+		(rev "E1")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC02"
